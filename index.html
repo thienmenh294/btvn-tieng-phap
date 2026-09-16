@@ -1,0 +1,2857 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Cổng BTVN Tiếng Pháp Toàn Diện (A1 • A2)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2563EB;
+      --primary-hover: #1D4ED8;
+      --primary-light: #EFF6FF;
+      --primary-dark: #1E3A8A;
+      --accent: #F59E0B;
+      --success: #10B981;
+      --success-light: #ECFDF5;
+      --danger: #EF4444;
+      --danger-light: #FEF2F2;
+      --bg: #F8FAFC;
+      --card-bg: #FFFFFF;
+      --text-main: #0F172A;
+      --text-muted: #64748B;
+      --border: #E2E8F0;
+      --radius-sm: 8px;
+      --radius: 14px;
+      --radius-lg: 20px;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.05);
+      --shadow: 0 4px 6px -1px rgba(0,0,0,0.07);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.5;
+      padding-bottom: 120px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 16px;
+    }
+
+    /* Portal Banner */
+    .portal-banner {
+      background: linear-gradient(135deg, #0F172A 0%, #1E3A8A 50%, #2563EB 100%);
+      color: white;
+      border-radius: var(--radius-lg);
+      padding: 24px 20px;
+      box-shadow: 0 12px 28px -6px rgba(37, 99, 235, 0.35);
+      margin-bottom: 16px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .portal-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(8px);
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: 11.5px;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .portal-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 1.25;
+      margin-bottom: 6px;
+    }
+
+    .portal-subtitle {
+      font-size: 13.5px;
+      opacity: 0.9;
+      margin-bottom: 18px;
+    }
+
+    /* Student Info Box */
+    .student-info-box {
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(10px);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+      color: var(--text-main);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .info-label {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--primary-dark);
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .student-input {
+      width: 100%;
+      padding: 12px 14px;
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius-sm);
+      font-size: 15px;
+      font-family: inherit;
+      outline: none;
+      transition: all 0.2s;
+      background: white;
+    }
+
+    .student-input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+    }
+
+    .student-input.has-error {
+      border-color: var(--danger);
+      box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.2);
+      animation: shake 0.3s;
+    }
+
+    .error-name-msg {
+      display: none;
+      color: var(--danger);
+      font-size: 12px;
+      font-weight: 600;
+      margin-top: 6px;
+    }
+
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      20%, 60% { transform: translateX(-6px); }
+      40%, 80% { transform: translateX(6px); }
+    }
+
+    /* Teacher Suite Control Bar */
+    .teacher-control-bar {
+      background: #FEF3C7;
+      border: 1.5px solid #FCD34D;
+      border-radius: var(--radius);
+      padding: 12px 16px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      transition: all 0.3s ease;
+    }
+
+    .teacher-control-bar.locked {
+      background: #FFFBEB;
+      border-color: #FDE68A;
+    }
+
+    .teacher-control-bar.unlocked {
+      background: #ECFDF5;
+      border-color: #A7F3D0;
+    }
+
+    .teacher-label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13.5px;
+      font-weight: 700;
+      color: #92400E;
+    }
+
+    .teacher-control-bar.unlocked .teacher-label {
+      color: #065F46;
+    }
+
+    .teacher-lock-tag {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .teacher-lock-tag.locked {
+      background: #FEE2E2;
+      color: #991B1B;
+      border: 1px solid #FECACA;
+    }
+
+    .teacher-lock-tag.unlocked {
+      background: #D1FAE5;
+      color: #065F46;
+      border: 1px solid #A7F3D0;
+    }
+
+    .teacher-btn-group {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .btn-teacher-unlock {
+      background: linear-gradient(135deg, #B45309 0%, #D97706 100%);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 8px 16px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      box-shadow: 0 2px 5px rgba(180, 83, 9, 0.2);
+      transition: all 0.2s;
+    }
+
+    .btn-teacher-unlock:hover {
+      background: linear-gradient(135deg, #92400E 0%, #B45309 100%);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 8px rgba(180, 83, 9, 0.3);
+    }
+
+    .btn-teacher-toggle {
+      background: #047857;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 8px 14px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+
+    .btn-teacher-toggle:hover {
+      background: #065F46;
+    }
+
+    .btn-teacher-toggle.active {
+      background: #10B981;
+      box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.3);
+    }
+
+    .btn-zalo-grader {
+      background: #0068FF;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 8px 14px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+
+    .btn-zalo-grader:hover {
+      background: #0052cc;
+    }
+
+    .btn-teacher-lock {
+      background: #F1F5F9;
+      color: #475569;
+      border: 1.5px solid #CBD5E1;
+      border-radius: 8px;
+      padding: 8px 12px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+
+    .btn-teacher-lock:hover {
+      background: #E2E8F0;
+      color: #0F172A;
+    }
+
+    
+    /* Level Selector Pill Bar */
+    .level-selector-bar {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 12px;
+      background: white;
+      padding: 6px;
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .level-pill-btn {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 11px 14px;
+      border: none;
+      border-radius: var(--radius-sm);
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text-muted);
+      background: transparent;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .level-pill-btn:hover {
+      color: var(--text-main);
+      background: #F1F5F9;
+    }
+
+    .level-pill-btn.active.lvl-a1 {
+      background: linear-gradient(135deg, #1E3A8A 0%, #2563EB 100%);
+      color: white;
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+    }
+
+    .level-pill-btn.active.lvl-a2 {
+      background: linear-gradient(135deg, #7C2D12 0%, #EA580C 100%);
+      color: white;
+      box-shadow: 0 4px 12px rgba(234, 88, 12, 0.3);
+    }
+
+    .level-pill-btn .badge-count {
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: rgba(0, 0, 0, 0.08);
+      font-weight: 700;
+    }
+
+    .level-pill-btn.active .badge-count {
+      background: rgba(255, 255, 255, 0.25);
+      color: white;
+    }
+
+    /* Tab Loading Overlay */
+    .tab-loading-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.5);
+      backdrop-filter: blur(4px);
+      z-index: 99999;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      color: white;
+      font-weight: 700;
+      font-size: 15px;
+    }
+
+    .tab-loading-spinner {
+      width: 48px;
+      height: 48px;
+      border: 4px solid rgba(255, 255, 255, 0.25);
+      border-top-color: #38BDF8;
+      border-radius: 50%;
+      animation: spinOverlay 0.75s linear infinite;
+    }
+
+    @keyframes spinOverlay {
+      to { transform: rotate(360deg); }
+    }
+
+    /* Semester Tabs (A1.1, A1.2, A1.3, A2.1, A2.2, A2.3) */
+    .semester-tabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 16px;
+      background: #E2E8F0;
+      padding: 6px;
+      border-radius: var(--radius);
+      overflow-x: auto;
+    }
+
+    .sem-tab {
+      flex: 1;
+      min-width: 110px;
+      text-align: center;
+      padding: 10px 8px;
+      background: transparent;
+      border: none;
+      border-radius: var(--radius-sm);
+      font-size: 13.5px;
+      font-weight: 700;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+
+    .sem-tab:hover {
+      color: var(--text-main);
+    }
+
+    .sem-tab.active {
+      background: white;
+      color: var(--primary-dark);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    }
+
+    /* Lesson Navigation Bar */
+    .lesson-nav-bar {
+      background: white;
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+      margin-bottom: 18px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .lesson-nav-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .lesson-select {
+      flex: 1;
+      padding: 11px 14px;
+      border: 1.5px solid #CBD5E1;
+      border-radius: var(--radius-sm);
+      font-size: 14.5px;
+      font-weight: 600;
+      color: var(--text-main);
+      font-family: inherit;
+      outline: none;
+      background: #F8FAFC;
+      cursor: pointer;
+    }
+
+    .lesson-select:focus {
+      border-color: var(--primary);
+    }
+
+    .nav-arrow-btn {
+      background: #F1F5F9;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 10px 14px;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-main);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+
+    .nav-arrow-btn:hover {
+      background: #E2E8F0;
+    }
+
+    .nav-arrow-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    /* Lesson Info & Sticky Progress */
+    .lesson-info-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+      color: var(--text-muted);
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .progress-track {
+      height: 8px;
+      background: #E2E8F0;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #2563EB, #10B981);
+      width: 0%;
+      border-radius: 999px;
+      transition: width 0.3s ease;
+    }
+
+    /* Active Lesson Header Badge */
+    .current-lesson-card {
+      background: white;
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      margin-bottom: 16px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .curr-title-group h2 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 19px;
+      font-weight: 700;
+      color: var(--primary-dark);
+      margin-bottom: 4px;
+    }
+
+    .curr-meta-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-muted);
+      background: #F1F5F9;
+      padding: 3px 10px;
+      border-radius: 999px;
+    }
+
+    /* Question Cards */
+    .question-card {
+      background: var(--card-bg);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px;
+      margin-bottom: 16px;
+      box-shadow: var(--shadow-sm);
+      transition: border-color 0.2s, background-color 0.2s;
+    }
+
+    .question-card.answered {
+      border-color: #BFDBFE;
+      background: #FAFCFF;
+    }
+
+    .q-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .q-number {
+      background: var(--primary-light);
+      color: var(--primary);
+      font-weight: 800;
+      font-size: 14px;
+      width: 32px;
+      height: 32px;
+      min-width: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+    }
+
+    .question-card.answered .q-number {
+      background: var(--success-light);
+      color: var(--success);
+    }
+
+    .q-content {
+      flex: 1;
+    }
+
+    .q-type-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-muted);
+      background: #F1F5F9;
+      padding: 2px 8px;
+      border-radius: 6px;
+      margin-bottom: 4px;
+    }
+
+    .q-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text-main);
+      line-height: 1.45;
+    }
+
+    /* Audio Widget */
+    .audio-widget {
+      background: #F1F5F9;
+      border: 1px solid #E2E8F0;
+      border-radius: var(--radius-sm);
+      padding: 10px 14px;
+      margin: 10px 0 14px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .audio-play-btn {
+      background: var(--primary);
+      color: white;
+      border: none;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      flex-shrink: 0;
+      transition: transform 0.1s;
+    }
+
+    .audio-play-btn:active {
+      transform: scale(0.92);
+    }
+
+    .audio-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .audio-label {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    .audio-status {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    /* Image Widget for A1.3 */
+    .question-img-wrap {
+      margin: 10px 0 14px;
+      text-align: center;
+      background: #F8FAFC;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 10px;
+    }
+
+    .question-img {
+      max-width: 100%;
+      max-height: 280px;
+      border-radius: 6px;
+      object-fit: contain;
+      box-shadow: var(--shadow-sm);
+    }
+
+    /* Options Grid */
+    .options-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+
+    @media (min-width: 480px) {
+      .options-grid.two-cols {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .option-label {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: #F8FAFC;
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 10px 14px;
+      cursor: pointer;
+      font-size: 14.5px;
+      font-weight: 500;
+      transition: all 0.15s ease;
+      user-select: none;
+    }
+
+    .option-label:hover {
+      background: #F1F5F9;
+      border-color: #CBD5E1;
+    }
+
+    .option-label input[type="radio"] {
+      display: none;
+    }
+
+    .opt-key {
+      width: 26px;
+      height: 26px;
+      min-width: 26px;
+      border-radius: 6px;
+      background: white;
+      border: 1.5px solid #CBD5E1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-muted);
+    }
+
+    .option-label.selected {
+      background: var(--primary-light);
+      border-color: var(--primary);
+      color: var(--primary-dark);
+      font-weight: 600;
+    }
+
+    .option-label.selected .opt-key {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: white;
+    }
+
+    /* Teacher Key Highlighting in Question Cards */
+    .teacher-key-box {
+      display: none;
+      background: #ECFDF5;
+      border: 1.5px solid #86EFAC;
+      border-radius: var(--radius-sm);
+      padding: 10px 14px;
+      margin-top: 10px;
+      font-size: 13px;
+      color: #065F46;
+      animation: fadeIn 0.25s;
+    }
+
+    body.show-teacher-keys .teacher-key-box {
+      display: block;
+    }
+
+    body.show-teacher-keys .option-label.is-correct-key {
+      border-color: #10B981 !important;
+      background: #ECFDF5 !important;
+      font-weight: 700;
+    }
+
+    body.show-teacher-keys .option-label.is-correct-key .opt-key {
+      background: #10B981 !important;
+      border-color: #10B981 !important;
+      color: white !important;
+    }
+
+    /* Voice Studio (Pronunciation) */
+    .voice-studio-card {
+      background: linear-gradient(180deg, #FEFCE8 0%, #FFFBEB 100%);
+      border: 1.5px solid #FDE68A;
+      border-radius: var(--radius);
+      padding: 16px;
+      margin-top: 10px;
+    }
+
+    .target-word-display {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: white;
+      border: 1px solid #FCD34D;
+      border-radius: var(--radius-sm);
+      padding: 12px 16px;
+      margin-bottom: 14px;
+    }
+
+    .target-word-left {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .target-word-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #92400E;
+      letter-spacing: 0.5px;
+    }
+
+    .target-word-text {
+      font-family: 'Outfit', serif;
+      font-size: 24px;
+      font-weight: 700;
+      color: #78350F;
+      line-height: 1.2;
+    }
+
+    .btn-native-sample {
+      background: #F59E0B;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 8px 14px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .btn-native-sample:hover {
+      background: #D97706;
+    }
+
+    .recorder-action-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .btn-record-main {
+      background: #EF4444;
+      color: white;
+      border: none;
+      border-radius: 999px;
+      padding: 10px 18px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 4px 10px rgba(239, 68, 68, 0.3);
+    }
+
+    .btn-record-main.is-recording {
+      background: #B91C1C;
+      animation: pulseRecord 1.2s infinite ease-in-out;
+    }
+
+    @keyframes pulseRecord {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.6); }
+      50% { box-shadow: 0 0 0 10px rgba(239, 68, 68, 0); }
+    }
+
+    .record-timer {
+      font-size: 13px;
+      font-weight: 700;
+      color: #B91C1C;
+      font-variant-numeric: tabular-nums;
+      display: none;
+    }
+
+    .record-timer.active {
+      display: inline-block;
+    }
+
+    .recorded-result-box {
+      display: none;
+      margin-top: 14px;
+      background: white;
+      border: 1.5px solid #86EFAC;
+      border-radius: var(--radius-sm);
+      padding: 12px;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .recorded-result-box.has-audio {
+      display: flex;
+    }
+
+    .btn-play-student {
+      background: var(--success);
+      color: white;
+      border: none;
+      width: 38px;
+      height: 38px;
+      min-width: 38px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+    }
+
+    .student-voice-meta {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .student-voice-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: #166534;
+    }
+
+    .student-voice-sub {
+      font-size: 11.5px;
+      color: var(--text-muted);
+    }
+
+    .btn-re-record {
+      background: #F1F5F9;
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 6px 10px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    /* Bottom Sticky Action Bar */
+    .bottom-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(12px);
+      border-top: 1px solid var(--border);
+      padding: 12px 16px;
+      box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.08);
+      z-index: 50;
+    }
+
+    .bottom-inner {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      gap: 12px;
+    }
+
+    .btn-submit {
+      flex: 1;
+      background: linear-gradient(135deg, #2563EB, #1D4ED8);
+      color: white;
+      border: none;
+      border-radius: var(--radius-sm);
+      padding: 14px 18px;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35);
+      transition: all 0.2s;
+    }
+
+    .btn-submit:active {
+      transform: scale(0.98);
+    }
+
+    .btn-reset {
+      background: #F1F5F9;
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 14px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    /* Modals */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.6);
+      backdrop-filter: blur(4px);
+      z-index: 100;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+    }
+
+    .modal-overlay.active {
+      display: flex;
+    }
+
+    .modal-card {
+      background: white;
+      border-radius: var(--radius-lg);
+      max-width: 560px;
+      width: 100%;
+      max-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
+    }
+
+    .modal-header {
+      padding: 18px 20px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .modal-title {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--primary-dark);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .modal-close {
+      background: none;
+      border: none;
+      font-size: 22px;
+      color: var(--text-muted);
+      cursor: pointer;
+      padding: 4px;
+      line-height: 1;
+    }
+
+    .modal-body {
+      padding: 20px;
+      overflow-y: auto;
+      flex: 1;
+    }
+
+    .btn-download-file {
+      width: 100%;
+      background: linear-gradient(135deg, #10B981, #059669);
+      color: white;
+      border: none;
+      border-radius: var(--radius-sm);
+      padding: 14px;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      box-shadow: 0 4px 12px rgba(16, 185, 129, 0.35);
+      margin-bottom: 14px;
+    }
+
+    .btn-copy-zalo {
+      width: 100%;
+      background: #0068FF;
+      color: white;
+      border: none;
+      border-radius: var(--radius-sm);
+      padding: 13px;
+      font-size: 14.5px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      box-shadow: 0 4px 12px rgba(0, 104, 255, 0.25);
+    }
+
+    .copy-preview {
+      background: #F8FAFC;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 12px;
+      font-family: monospace, Consolas, sans-serif;
+      font-size: 12px;
+      line-height: 1.5;
+      white-space: pre-wrap;
+      color: #334155;
+      margin-top: 12px;
+      max-height: 160px;
+      overflow-y: auto;
+    }
+
+    .warning-banner {
+      background: #FEF3C7;
+      border: 1px solid #FCD34D;
+      border-radius: var(--radius-sm);
+      padding: 10px 14px;
+      margin-bottom: 14px;
+      font-size: 13px;
+      color: #92400E;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Grader Modal Styles */
+    .grader-textarea {
+      width: 100%;
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 12px;
+      font-family: monospace, Consolas, sans-serif;
+      font-size: 13px;
+      outline: none;
+      resize: vertical;
+      margin-bottom: 14px;
+    }
+
+    .grader-textarea:focus {
+      border-color: var(--primary);
+    }
+
+    .grade-stat-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .stat-card {
+      background: #F8FAFC;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 10px;
+      text-align: center;
+    }
+
+    .stat-card strong {
+      display: block;
+      font-size: 20px;
+      color: var(--primary-dark);
+    }
+
+    .stat-card span {
+      font-size: 11.5px;
+      color: var(--text-muted);
+    }
+
+    .grade-wrong-list {
+      max-height: 180px;
+      overflow-y: auto;
+      background: #FFFBEB;
+      border: 1px solid #FCD34D;
+      border-radius: var(--radius-sm);
+      padding: 12px;
+      font-size: 13px;
+      color: #78350F;
+      margin-bottom: 14px;
+    }
+
+    .grade-wrong-item {
+      padding: 4px 0;
+      border-bottom: 1px dashed #FDE68A;
+    }
+
+    .grade-wrong-item:last-child {
+      border-bottom: none;
+    }
+
+    /* Toast */
+    .toast {
+      position: fixed;
+      top: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(-100px);
+      background: #0F172A;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 600;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      z-index: 200;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      opacity: 0;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      pointer-events: none;
+    }
+
+    .toast.show {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Portal Banner -->
+    <div class="portal-banner">
+      <div class="portal-badge">🇫🇷 SƠ CẤP TIẾNG PHÁP • TRÌNH ĐỘ A1 & A2</div>
+      <h1 class="portal-title">Cổng Bài Tập Về Nhà Tổng Hợp</h1>
+      <div class="portal-subtitle">
+        Tích hợp toàn diện 6 Học kỳ: <strong>A1</strong> (A1.1 • A1.2 • A1.3) & <strong>A2</strong> (A2.1 • A2.2 • A2.3) — 108 bài tập, 4.383 câu hỏi
+      </div>
+
+      <div class="student-info-box">
+        <div class="info-label">
+          <span>👤</span>
+          <span>Họ và tên học sinh (dùng chung cho các bài):</span>
+        </div>
+        <input type="text" id="globalStudentName" class="student-input" placeholder="Ví dụ: Nguyễn Văn An" autocomplete="name">
+        <div id="nameError" class="error-name-msg">⚠️ Vui lòng nhập họ và tên của em trước khi xuất bài nhé!</div>
+      </div>
+    </div>
+
+    <!-- 👨‍🏫 TEACHER CONTROL SUITE (PASSWORD PROTECTED) -->
+    <div class="teacher-control-bar locked" id="teacherBar">
+      <div class="teacher-label">
+        <span id="teacherIcon">🔒</span>
+        <span>Khu vực Giáo viên:</span>
+        <span class="teacher-lock-tag locked" id="teacherLockTag">Đang khóa đáp án</span>
+      </div>
+      <div class="teacher-btn-group" id="teacherBtnGroup">
+        <button type="button" class="btn-teacher-unlock" id="btnTeacherUnlock" onclick="openPasswordModal()">
+          🔑 Nhập Mật Khẩu Xem Đáp Án
+        </button>
+        <div id="teacherUnlockedActions" style="display: none; align-items: center; gap: 8px; flex-wrap: wrap;">
+          <button type="button" class="btn-teacher-toggle" id="btnTeacherToggle" onclick="toggleTeacherKeys()">
+            👁️ Xem Đáp Án & Lời Giải
+          </button>
+          <button type="button" class="btn-zalo-grader" onclick="openGraderModal()">
+            ⚡ Chấm Nhanh Tin Nhắn Zalo
+          </button>
+          <button type="button" class="btn-teacher-lock" onclick="openChangePasswordModal()" title="Thay đổi mật khẩu giáo viên">
+            ⚙️ Đổi Mật Khẩu
+          </button>
+          <button type="button" class="btn-teacher-lock" onclick="lockTeacherMode()" title="Khóa lại để học sinh không nhìn thấy">
+            🔒 Khóa lại
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Level Selector Bar -->
+    <div class="level-selector-bar">
+      <button type="button" class="level-pill-btn active lvl-a1" id="lvlBtn_A1" onclick="switchLevel('A1')">
+        <span>📘</span> <strong>TRÌNH ĐỘ A1</strong> <span class="badge-count">54 bài</span>
+      </button>
+      <button type="button" class="level-pill-btn lvl-a2" id="lvlBtn_A2" onclick="switchLevel('A2')">
+        <span>📙</span> <strong>TRÌNH ĐỘ A2</strong> <span class="badge-count">54 bài</span>
+      </button>
+    </div>
+
+    <!-- Semester Selector Tabs -->
+    <div class="semester-tabs" id="semesterTabsContainer">
+      <button type="button" class="sem-tab active" id="tab_A1.1" onclick="switchSemester('A1.1')">
+        Học kỳ 1 (A1.1)
+      </button>
+      <button type="button" class="sem-tab" id="tab_A1.2" onclick="switchSemester('A1.2')">
+        Học kỳ 2 (A1.2)
+      </button>
+      <button type="button" class="sem-tab" id="tab_A1.3" onclick="switchSemester('A1.3')">
+        Học kỳ 3 (A1.3)
+      </button>
+    </div>
+
+    <!-- Lesson Navigation Bar -->
+    <div class="lesson-nav-bar">
+      <div class="lesson-nav-top">
+        <button type="button" class="nav-arrow-btn" id="btnPrevLesson" onclick="goToPrevLesson()">
+          ◀ Bài trước
+        </button>
+        <select id="lessonSelector" class="lesson-select" onchange="onLessonSelectChange(this.value)">
+          <!-- Options populated dynamically -->
+        </select>
+        <button type="button" class="nav-arrow-btn" id="btnNextLesson" onclick="goToNextLesson()">
+          Bài sau ▶
+        </button>
+      </div>
+
+      <div class="lesson-info-row">
+        <span>Tiến độ bài hiện tại:</span>
+        <strong id="lessonProgressText">0 / 40 câu (0%)</strong>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" id="lessonProgressFill"></div>
+      </div>
+    </div>
+
+    <!-- Current Lesson Title Header -->
+    <div class="current-lesson-card">
+      <div class="curr-title-group">
+        <h2 id="displayLessonTitle">Đang tải bài học...</h2>
+        <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+          <span class="curr-meta-tag" id="displaySemesterTag">Học kỳ 1</span>
+          <span class="curr-meta-tag" id="displayClassCode">Lớp: CF1111-I</span>
+          <span class="curr-meta-tag" id="displayQuestionCount">40 câu hỏi</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Question Cards Container -->
+    <div id="questionsContainer">
+      <!-- Dynamic render questions for active lesson -->
+    </div>
+  </div>
+
+  <!-- Bottom Action Bar -->
+  <div class="bottom-bar">
+    <div class="bottom-inner">
+      <button type="button" class="btn-reset" onclick="resetCurrentLesson()" title="Làm lại bài này">
+        🔄 Làm lại
+      </button>
+      <button type="button" class="btn-submit" onclick="submitCurrentLesson()">
+        <span>📤</span>
+        <span id="btnSubmitText">Xuất bài làm Bài này</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Submit Modal -->
+  <div class="modal-overlay" id="resultModal" onclick="closeModalOnBackdrop(event)">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title">
+          <span>🎉</span>
+          <span id="modalHeaderTitle">Xuất Bài Làm</span>
+        </div>
+        <button class="modal-close" onclick="closeModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div id="modalWarning"></div>
+
+        <div style="background: #F0FDF4; border: 1px solid #BBF7D0; border-radius: var(--radius-sm); padding: 12px 14px; margin-bottom: 14px;">
+          <strong style="color: #166534; font-size: 13.5px; display: block; margin-bottom: 4px;">
+            🌟 File nộp bài riêng cho bài học này:
+          </strong>
+          <span style="font-size: 12px; color: #15803D; line-height: 1.4; display: block;">
+            Khi Thầy/Cô mở file sẽ có nút nghe trực tiếp giọng thu âm từng câu và đáp án riêng của bài này.
+          </span>
+        </div>
+
+        <button type="button" class="btn-download-file" onclick="downloadCurrentLessonSubmission()">
+          <span>📥</span>
+          <span id="btnDownloadText">Tải file bài làm riêng (.html)</span>
+        </button>
+
+        <div style="margin: 12px 0 6px; text-align: center; font-size: 12px; color: var(--text-muted); font-weight: 700;">
+          HOẶC SAO CHÉP ĐOẠN TEXT GỬI KÈM ZALO:
+        </div>
+
+        <button type="button" class="btn-copy-zalo" onclick="copyResultToClipboard()">
+          <span>📋</span>
+          <span id="btnCopyText">Sao chép tin nhắn Zalo</span>
+        </button>
+
+        <div class="copy-preview" id="copyTextPreview"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 🔐 TEACHER PASSWORD MODAL -->
+  <div class="modal-overlay" id="passwordModal" onclick="closePasswordModalOnBackdrop(event)">
+    <div class="modal-card" style="max-width: 440px;">
+      <div class="modal-header">
+        <div class="modal-title">
+          <span>🔐</span>
+          <span>Xác Thực Quyền Giáo Viên</span>
+        </div>
+        <button class="modal-close" onclick="closePasswordModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size: 13.5px; color: var(--text-muted); margin-bottom: 14px; line-height: 1.5;">
+          Vui lòng nhập mật khẩu giáo viên để mở khóa tính năng <strong>Xem Đáp Án Chuẩn</strong> và <strong>Công Cụ Chấm Bài Zalo</strong>:
+        </p>
+
+        <div style="margin-bottom: 14px;">
+          <div style="display: flex; gap: 8px;">
+            <input type="password" id="teacherPasswordInput" class="student-input" placeholder="Nhập mật khẩu giáo viên..." autocomplete="current-password" onkeydown="if(event.key==='Enter') verifyTeacherPassword()">
+            <button type="button" class="btn-copy-zalo" style="width: auto; padding: 0 14px; margin: 0; background: #F1F5F9; color: var(--text-main); border: 1.5px solid var(--border);" onclick="togglePasswordVisibility()" title="Ẩn/Hiện mật khẩu">
+              <span id="eyeIcon">👁️</span>
+            </button>
+          </div>
+          <div id="pwdErrorMsg" style="display: none; color: #EF4444; font-size: 12.5px; font-weight: 700; margin-top: 8px; align-items: center; gap: 4px;">
+            <span>❌</span>
+            <span>Mật khẩu không chính xác! Vui lòng thử lại.</span>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 10px; margin-top: 18px;">
+          <button type="button" class="nav-arrow-btn" style="flex: 1; justify-content: center;" onclick="closePasswordModal()">
+            Hủy bỏ
+          </button>
+          <button type="button" class="btn-submit" style="flex: 1.4; justify-content: center; margin: 0;" onclick="verifyTeacherPassword()">
+            <span>🔓</span>
+            <span>Mở Khóa</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ⚙️ CHANGE PASSWORD MODAL (Dành cho Giáo viên) -->
+  <div class="modal-overlay" id="changePasswordModal" onclick="closeChangePasswordModalOnBackdrop(event)">
+    <div class="modal-card" style="max-width: 440px;">
+      <div class="modal-header">
+        <div class="modal-title">
+          <span>⚙️</span>
+          <span>Thay Đổi Mật Khẩu Giáo Viên</span>
+        </div>
+        <button class="modal-close" onclick="closeChangePasswordModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 14px; line-height: 1.5;">
+          Mật khẩu mới sẽ được lưu vào trình duyệt của thiết bị này để sử dụng cho các lần sau.
+        </p>
+
+        <div style="margin-bottom: 12px;">
+          <label style="font-size: 12.5px; font-weight: 700; color: var(--text-main); display: block; margin-bottom: 4px;">
+            Mật khẩu hiện tại:
+          </label>
+          <input type="password" id="currentPwdInput" class="student-input" placeholder="Nhập mật khẩu hiện tại...">
+        </div>
+
+        <div style="margin-bottom: 12px;">
+          <label style="font-size: 12.5px; font-weight: 700; color: var(--text-main); display: block; margin-bottom: 4px;">
+            Mật khẩu mới:
+          </label>
+          <input type="password" id="newPwdInput" class="student-input" placeholder="Nhập mật khẩu mới (tối thiểu 4 ký tự)...">
+        </div>
+
+        <div style="margin-bottom: 14px;">
+          <label style="font-size: 12.5px; font-weight: 700; color: var(--text-main); display: block; margin-bottom: 4px;">
+            Xác nhận mật khẩu mới:
+          </label>
+          <input type="password" id="confirmNewPwdInput" class="student-input" placeholder="Nhập lại mật khẩu mới..." onkeydown="if(event.key==='Enter') submitNewPassword()">
+          <div id="changePwdErrMsg" style="display: none; color: #EF4444; font-size: 12.5px; font-weight: 700; margin-top: 8px;">
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 10px; margin-top: 18px;">
+          <button type="button" class="nav-arrow-btn" style="flex: 1; justify-content: center;" onclick="closeChangePasswordModal()">
+            Hủy bỏ
+          </button>
+          <button type="button" class="btn-submit" style="flex: 1.4; justify-content: center; margin: 0;" onclick="submitNewPassword()">
+            <span>💾</span>
+            <span>Lưu Mật Khẩu</span>
+          </button>
+        </div>
+
+        <div style="margin-top: 14px; text-align: center;">
+          <button type="button" style="background: none; border: none; color: #64748B; font-size: 12px; text-decoration: underline; cursor: pointer;" onclick="resetPasswordToDefault()">
+            Khôi phục mật khẩu về mặc định ban đầu
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ⚡ ZALO QUICK GRADER MODAL (Cho Giáo Viên) -->
+  <div class="modal-overlay" id="graderModal" onclick="closeGraderModalOnBackdrop(event)">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title">
+          <span>⚡</span>
+          <span>Chấm Nhanh Tin Nhắn Zalo Của Học Sinh</span>
+        </div>
+        <button class="modal-close" onclick="closeGraderModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 10px;">
+          Dán đoạn tin nhắn đáp án học sinh gửi qua Zalo vào đây để máy tự động so đáp án và tính điểm cho bài <strong id="graderLessonName">...</strong>:
+        </p>
+
+        <textarea id="zaloStudentText" class="grader-textarea" rows="5" placeholder="Ví dụ dán vào đây:&#10;01.A   02.C   03.B   04.D   05.A&#10;06.B   07.D   08.A   09.C   10.B..."></textarea>
+
+        <button type="button" class="btn-submit" style="width: 100%; margin-bottom: 16px;" onclick="runZaloGrading()">
+          <span>🚀</span>
+          <span>Bắt đầu Chấm Điểm</span>
+        </button>
+
+        <div id="gradeResultBox" style="display: none;">
+          <div class="grade-stat-cards">
+            <div class="stat-card">
+              <strong id="statScore" style="color: #10B981;">0/40</strong>
+              <span>Câu đúng</span>
+            </div>
+            <div class="stat-card">
+              <strong id="statMark" style="color: #2563EB;">0</strong>
+              <span>Thang điểm 10</span>
+            </div>
+            <div class="stat-card">
+              <strong id="statWrong" style="color: #EF4444;">0</strong>
+              <span>Câu sai</span>
+            </div>
+          </div>
+
+          <div class="grade-wrong-list" id="gradeWrongBox"></div>
+
+          <button type="button" class="btn-copy-zalo" onclick="copyGradingFeedback()">
+            <span>📋</span>
+            <span>Sao chép nhận xét gửi lại Zalo cho học sinh</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast">
+    <span>✅</span>
+    <span id="toastMsg">Thành công!</span>
+  </div>
+
+  <script>
+    // Metadata các học kỳ
+    const COURSE_META = {"A1.1": {"id": "A1.1", "level": "A1", "sem_num": 1, "title": "Học kỳ 1 (A1.1)", "code": "CF1111-I"}, "A1.2": {"id": "A1.2", "level": "A1", "sem_num": 2, "title": "Học kỳ 2 (A1.2)", "code": "CF1111-II"}, "A1.3": {"id": "A1.3", "level": "A1", "sem_num": 3, "title": "Học kỳ 3 (A1.3)", "code": "CF1111-III"}, "A2.1": {"id": "A2.1", "level": "A2", "sem_num": 1, "title": "Học kỳ 1 (A2.1)", "code": "CF1216-I"}, "A2.2": {"id": "A2.2", "level": "A2", "sem_num": 2, "title": "Học kỳ 2 (A2.2)", "code": "CF1216-II"}, "A2.3": {"id": "A2.3", "level": "A2", "sem_num": 3, "title": "Học kỳ 3 (A2.3)", "code": "CF1216-III"}};
+
+    // Bộ nhớ chứa dữ liệu các học kỳ đã nạp
+    window.COURSES_DATA = window.COURSES_DATA || {};
+    const ALL_COURSES = window.COURSES_DATA;
+
+    // State
+    let currentLevel = 'A1';
+    let currentSemesterId = 'A1.1';
+    let currentLessonIndex = 0;
+
+    // Hàm nạp file dữ liệu của Tab khi người dùng bấm vào
+    function loadSemesterData(semId, callback) {
+      if (ALL_COURSES[semId]) {
+        if (callback) callback();
+        return;
+      }
+      const overlay = document.getElementById('tabLoadingOverlay');
+      const textEl = document.getElementById('tabLoadingText');
+      const meta = COURSE_META[semId] || { title: semId };
+      if (textEl) textEl.textContent = 'Đang tải bài tập: ' + meta.title + '...';
+      if (overlay) overlay.style.display = 'flex';
+
+      const cleanId = semId.replace('.', '_');
+      const scriptId = 'script_data_' + cleanId;
+      if (!document.getElementById(scriptId)) {
+        const script = document.createElement('script');
+        script.id = scriptId;
+        script.src = 'data/data_' + cleanId + '.js';
+        script.onload = () => {
+          if (overlay) overlay.style.display = 'none';
+          if (callback) callback();
+        };
+        script.onerror = () => {
+          if (overlay) overlay.style.display = 'none';
+          alert('Không thể tải bài tập của học kỳ ' + semId + '. Vui lòng kiểm tra lại kết nối mạng!');
+        };
+        document.head.appendChild(script);
+      } else {
+        // Nếu đã có thẻ script nhưng đang chờ
+        let retries = 0;
+        const checkInterval = setInterval(() => {
+          retries++;
+          if (ALL_COURSES[semId]) {
+            clearInterval(checkInterval);
+            if (overlay) overlay.style.display = 'none';
+            if (callback) callback();
+          } else if (retries > 30) {
+            clearInterval(checkInterval);
+            if (overlay) overlay.style.display = 'none';
+          }
+        }, 100);
+      }
+    }
+
+    function switchLevel(lvl, targetSem = null, targetIdx = 0) {
+      currentLevel = lvl;
+      const b1 = document.getElementById('lvlBtn_A1');
+      const b2 = document.getElementById('lvlBtn_A2');
+      if (b1 && b2) {
+        b1.className = 'level-pill-btn lvl-a1' + (lvl === 'A1' ? ' active' : '');
+        b2.className = 'level-pill-btn lvl-a2' + (lvl === 'A2' ? ' active' : '');
+      }
+
+      const semList = (lvl === 'A1') ? ['A1.1', 'A1.2', 'A1.3'] : ['A2.1', 'A2.2', 'A2.3'];
+      const nextSem = targetSem && semList.includes(targetSem) ? targetSem : semList[0];
+      
+      renderSemesterTabs();
+      switchSemester(nextSem, targetIdx);
+    }
+
+    function renderSemesterTabs() {
+      const container = document.getElementById('semesterTabsContainer');
+      if (!container) return;
+      const semList = (currentLevel === 'A1') ? ['A1.1', 'A1.2', 'A1.3'] : ['A2.1', 'A2.2', 'A2.3'];
+      let html = '';
+      semList.forEach(sid => {
+        const meta = COURSE_META[sid];
+        const title = meta ? meta.title : sid;
+        const isActive = (sid === currentSemesterId) ? 'active' : '';
+        html += `<button type="button" class="sem-tab ${isActive}" id="tab_${sid}" onclick="switchSemester('${sid}')">${title}</button>`;
+      });
+      container.innerHTML = html;
+    }
+    let answersStore = {};
+    let voicesStore = {};
+    let currentPlayingAudio = null;
+    let isTeacherUnlocked = false;
+    let isTeacherMode = false;
+    let lastGradingSummaryText = '';
+
+    // Recording State
+    let mediaRecorder = null;
+    let audioChunks = [];
+    let activeRecordQNum = null;
+    let recordTimerInterval = null;
+    let recordSeconds = 0;
+
+    window.addEventListener('DOMContentLoaded', () => {
+      loadSavedPortalState();
+      switchLevel(currentLevel, currentSemesterId, currentLessonIndex);
+    });
+
+    // -------------------------------------------------------------
+    // Teacher Authentication & Password Protection
+    // -------------------------------------------------------------
+    function openPasswordModal() {
+      const modal = document.getElementById('passwordModal');
+      const input = document.getElementById('teacherPasswordInput');
+      const err = document.getElementById('pwdErrorMsg');
+      if (err) err.style.display = 'none';
+      if (input) {
+        input.value = '';
+        input.type = 'password';
+      }
+      const eye = document.getElementById('eyeIcon');
+      if (eye) eye.textContent = '👁️';
+      modal.classList.add('active');
+      setTimeout(() => {
+        if (input) input.focus();
+      }, 100);
+    }
+
+    function closePasswordModal() {
+      const modal = document.getElementById('passwordModal');
+      modal.classList.remove('active');
+    }
+
+    function closePasswordModalOnBackdrop(e) {
+      if (e.target.id === 'passwordModal') {
+        closePasswordModal();
+      }
+    }
+
+    function togglePasswordVisibility() {
+      const input = document.getElementById('teacherPasswordInput');
+      const eye = document.getElementById('eyeIcon');
+      if (!input) return;
+      if (input.type === 'password') {
+        input.type = 'text';
+        if (eye) eye.textContent = '🙈';
+      } else {
+        input.type = 'password';
+        if (eye) eye.textContent = '👁️';
+      }
+    }
+
+    const DEFAULT_TEACHER_PWD_SHA256 = '300dba032027fd4e210feb78b7a77f94118626d037cba1aacb96a64376a2862f';
+    const DEFAULT_TEACHER_PWD_B64 = 'b64_Z2lhb3ZpZW4=';
+
+    async function hashPassword(str) {
+      const clean = (str || '').trim();
+      if (window.crypto && crypto.subtle) {
+        try {
+          const enc = new TextEncoder().encode(clean);
+          const buf = await crypto.subtle.digest('SHA-256', enc);
+          return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+        } catch(e) {}
+      }
+      try { return 'b64_' + btoa(clean); } catch(e) {}
+      return 'raw_' + clean;
+    }
+
+    async function isPasswordCorrect(pwd) {
+      const clean = (pwd || '').trim();
+      if (!clean) return false;
+      const h = await hashPassword(clean);
+      const customHash = localStorage.getItem('portal_teacher_pwd_hash');
+      if (customHash) {
+        return h === customHash;
+      }
+      return h === DEFAULT_TEACHER_PWD_SHA256 || h === DEFAULT_TEACHER_PWD_B64;
+    }
+
+    async function verifyTeacherPassword() {
+      const input = document.getElementById('teacherPasswordInput');
+      const val = (input.value || '').trim();
+      const err = document.getElementById('pwdErrorMsg');
+
+      if (!val) {
+        if (err) {
+          err.innerHTML = '<span>⚠️</span><span>Vui lòng nhập mật khẩu!</span>';
+          err.style.display = 'flex';
+        }
+        return;
+      }
+
+      const isValid = await isPasswordCorrect(val);
+
+      if (isValid) {
+        isTeacherUnlocked = true;
+        try {
+          sessionStorage.setItem('french_teacher_unlocked', 'true');
+        } catch(e) {}
+        closePasswordModal();
+        updateTeacherBarUI();
+        if (!isTeacherMode) {
+          toggleTeacherKeys();
+        }
+        showToast('🔓 Đã xác thực quyền Giáo viên thành công!');
+      } else {
+        if (err) {
+          err.innerHTML = '<span>❌</span><span>Mật khẩu không chính xác! Vui lòng thử lại.</span>';
+          err.style.display = 'flex';
+        }
+        input.classList.add('has-error');
+        setTimeout(() => input.classList.remove('has-error'), 400);
+      }
+    }
+
+    function openChangePasswordModal() {
+      const modal = document.getElementById('changePasswordModal');
+      const cur = document.getElementById('currentPwdInput');
+      const n1 = document.getElementById('newPwdInput');
+      const n2 = document.getElementById('confirmNewPwdInput');
+      const err = document.getElementById('changePwdErrMsg');
+      if (cur) cur.value = '';
+      if (n1) n1.value = '';
+      if (n2) n2.value = '';
+      if (err) err.style.display = 'none';
+      modal.classList.add('active');
+      setTimeout(() => {
+        if (cur) cur.focus();
+      }, 100);
+    }
+
+    function closeChangePasswordModal() {
+      const modal = document.getElementById('changePasswordModal');
+      modal.classList.remove('active');
+    }
+
+    function closeChangePasswordModalOnBackdrop(e) {
+      if (e.target.id === 'changePasswordModal') {
+        closeChangePasswordModal();
+      }
+    }
+
+    async function submitNewPassword() {
+      const cur = (document.getElementById('currentPwdInput').value || '').trim();
+      const n1 = (document.getElementById('newPwdInput').value || '').trim();
+      const n2 = (document.getElementById('confirmNewPwdInput').value || '').trim();
+      const err = document.getElementById('changePwdErrMsg');
+
+      if (!cur || !n1 || !n2) {
+        err.innerHTML = '⚠️ Vui lòng điền đầy đủ tất cả các trường.';
+        err.style.display = 'block';
+        return;
+      }
+
+      const curValid = await isPasswordCorrect(cur);
+      if (!curValid) {
+        err.innerHTML = '❌ Mật khẩu hiện tại không chính xác!';
+        err.style.display = 'block';
+        return;
+      }
+
+      if (n1.length < 4) {
+        err.innerHTML = '⚠️ Mật khẩu mới phải có ít nhất 4 ký tự!';
+        err.style.display = 'block';
+        return;
+      }
+
+      if (n1 !== n2) {
+        err.innerHTML = '❌ Mật khẩu mới nhập lại không khớp!';
+        err.style.display = 'block';
+        return;
+      }
+
+      const newHash = await hashPassword(n1);
+      localStorage.setItem('portal_teacher_pwd_hash', newHash);
+      closeChangePasswordModal();
+      showToast('✅ Đã đổi mật khẩu giáo viên thành công!');
+    }
+
+    function resetPasswordToDefault() {
+      if (confirm('Bạn có chắc muốn khôi phục mật khẩu giáo viên về mặc định ban đầu không?')) {
+        localStorage.removeItem('portal_teacher_pwd_hash');
+        closeChangePasswordModal();
+        showToast('Đã khôi phục mật khẩu về mặc định ban đầu');
+      }
+    }
+
+    function lockTeacherMode() {
+      isTeacherUnlocked = false;
+      try {
+        sessionStorage.removeItem('french_teacher_unlocked');
+      } catch(e) {}
+      if (isTeacherMode) {
+        isTeacherMode = false;
+        document.body.classList.remove('show-teacher-keys');
+        const btn = document.getElementById('btnTeacherToggle');
+        if (btn) {
+          btn.classList.remove('active');
+          btn.innerHTML = '👁️ Xem Đáp Án & Lời Giải';
+        }
+      }
+      updateTeacherBarUI();
+      showToast('🔒 Đã khóa lại chế độ giáo viên');
+    }
+
+    function updateTeacherBarUI() {
+      const bar = document.getElementById('teacherBar');
+      const icon = document.getElementById('teacherIcon');
+      const tag = document.getElementById('teacherLockTag');
+      const btnUnlock = document.getElementById('btnTeacherUnlock');
+      const actions = document.getElementById('teacherUnlockedActions');
+
+      if (!bar) return;
+
+      if (isTeacherUnlocked) {
+        bar.classList.remove('locked');
+        bar.classList.add('unlocked');
+        if (icon) icon.textContent = '👨‍🏫';
+        if (tag) {
+          tag.className = 'teacher-lock-tag unlocked';
+          tag.textContent = 'Đã mở khóa';
+        }
+        if (btnUnlock) btnUnlock.style.display = 'none';
+        if (actions) actions.style.display = 'inline-flex';
+      } else {
+        bar.classList.remove('unlocked');
+        bar.classList.add('locked');
+        if (icon) icon.textContent = '🔒';
+        if (tag) {
+          tag.className = 'teacher-lock-tag locked';
+          tag.textContent = 'Đang khóa đáp án';
+        }
+        if (btnUnlock) btnUnlock.style.display = 'inline-flex';
+        if (actions) actions.style.display = 'none';
+      }
+    }
+
+    // -------------------------------------------------------------
+    // Teacher Suite: Toggle Answer Key View
+    // -------------------------------------------------------------
+    function toggleTeacherKeys() {
+      if (!isTeacherUnlocked) {
+        openPasswordModal();
+        return;
+      }
+      isTeacherMode = !isTeacherMode;
+      document.body.classList.toggle('show-teacher-keys', isTeacherMode);
+
+      const btn = document.getElementById('btnTeacherToggle');
+      if (btn) {
+        if (isTeacherMode) {
+          btn.classList.add('active');
+          btn.innerHTML = '✅ Đang Hiện Đáp Án & Lời Giải';
+          showToast('Đã bật chế độ xem Đáp Án Chuẩn');
+        } else {
+          btn.classList.remove('active');
+          btn.innerHTML = '👁️ Xem Đáp Án & Lời Giải';
+          showToast('Đã tắt chế độ xem đáp án');
+        }
+      }
+    }
+
+    // -------------------------------------------------------------
+    // Teacher Suite: Zalo Quick Grader
+    // -------------------------------------------------------------
+    function openGraderModal() {
+      if (!isTeacherUnlocked) {
+        openPasswordModal();
+        return;
+      }
+      const curLesson = getCurrentLesson();
+      const sem = ALL_COURSES[currentSemesterId];
+      document.getElementById('graderLessonName').textContent = `${sem.id} - ${curLesson.title}`;
+      document.getElementById('zaloStudentText').value = '';
+      document.getElementById('gradeResultBox').style.display = 'none';
+      document.getElementById('graderModal').classList.add('active');
+    }
+
+    function closeGraderModal() {
+      document.getElementById('graderModal').classList.remove('active');
+    }
+
+    function closeGraderModalOnBackdrop(e) {
+      if (e.target.id === 'graderModal') closeGraderModal();
+    }
+
+    function runZaloGrading() {
+      const rawText = document.getElementById('zaloStudentText').value.trim();
+      if (!rawText) {
+        alert('Vui lòng dán đoạn tin nhắn đáp án của học sinh vào trước!');
+        return;
+      }
+
+      const curLesson = getCurrentLesson();
+      const sem = ALL_COURSES[currentSemesterId];
+      
+      // Parse matches: 01.A, 1.A, 01:A, etc.
+      const regex = /(?:câu\s*)?(\d{1,2})[\.\:\-\s]+([A-Da-d])\b/g;
+      const studentMap = {};
+      let match;
+      while ((match = regex.exec(rawText)) !== null) {
+        const qNum = parseInt(match[1], 10).toString();
+        const ans = match[2].toUpperCase();
+        studentMap[qNum] = ans;
+      }
+
+      const parsedCount = Object.keys(studentMap).length;
+      if (parsedCount === 0) {
+        alert('Không nhận diện được đáp án nào. Định dạng ví dụ: "01.A 02.B 03.C..."');
+        return;
+      }
+
+      // Compare with answer keys of curLesson
+      let correctCount = 0;
+      let wrongList = [];
+      const mcqQuestions = curLesson.questions.filter(q => !q.is_speaking);
+
+      mcqQuestions.forEach(q => {
+        const studentAns = studentMap[q.num];
+        const correctAns = (q.correct_ans || '').trim().toUpperCase();
+
+        if (studentAns) {
+          if (studentAns === correctAns) {
+            correctCount++;
+          } else {
+            wrongList.push({
+              num: q.num,
+              student: studentAns,
+              correct: correctAns,
+              exp: q.explanation || ''
+            });
+          }
+        } else {
+          wrongList.push({
+            num: q.num,
+            student: 'Bỏ trống',
+            correct: correctAns,
+            exp: q.explanation || ''
+          });
+        }
+      });
+
+      const totalMcq = mcqQuestions.length;
+      const scoreOn10 = ((correctCount / totalMcq) * 10).toFixed(1);
+      const pct = Math.round((correctCount / totalMcq) * 100);
+
+      // Display Stats
+      document.getElementById('statScore').textContent = `${correctCount}/${totalMcq}`;
+      document.getElementById('statMark').textContent = `${scoreOn10} / 10`;
+      document.getElementById('statWrong').textContent = `${wrongList.length} câu`;
+
+      // Render Wrong list
+      const wrongBox = document.getElementById('gradeWrongBox');
+      if (wrongList.length === 0) {
+        wrongBox.innerHTML = '<div style="color:#065F46; font-weight:700;">🎉 Xuất sắc! Học sinh làm đúng 100% tất cả các câu trắc nghiệm!</div>';
+      } else {
+        let wrongHtml = `<strong>⚠️ Danh sách các câu làm sai / chưa làm (${wrongList.length} câu):</strong><br>`;
+        wrongList.forEach(w => {
+          wrongHtml += `<div class="grade-wrong-item">• <strong>Câu ${w.num.padStart(2, '0')}</strong>: Em chọn <em>${w.student}</em> ➔ Đáp án đúng: <strong style="color:#065F46;">${w.correct}</strong> ${w.exp ? `(${w.exp})` : ''}</div>`;
+        });
+        wrongBox.innerHTML = wrongHtml;
+      }
+
+      // Build text to copy back to student
+      lastGradingSummaryText = `📊 KẾT QUẢ CHẤM BÀI: ${sem.title.toUpperCase()} - BÀI ${curLesson.num.toString().padStart(2, '0')}\\n`;
+      lastGradingSummaryText += `📖 ${curLesson.title}\\n`;
+      lastGradingSummaryText += `🎯 Điểm số: ${correctCount}/${totalMcq} câu đúng (${scoreOn10}/10 điểm - ${pct}%)\\n`;
+      lastGradingSummaryText += `────────────────────────────\\n`;
+      if (wrongList.length === 0) {
+        lastGradingSummaryText += `🎉 Tuyệt vời! Em đã trả lời chính xác toàn bộ các câu trắc nghiệm!\\n`;
+      } else {
+        lastGradingSummaryText += `📝 CÁC CÂU EM CẦN XEM LẠI:\\n`;
+        wrongList.forEach(w => {
+          lastGradingSummaryText += `• Câu ${w.num.padStart(2, '0')}: Em chọn "${w.student}" ➔ Đáp án: ${w.correct} ${w.exp ? `(${w.exp})` : ''}\\n`;
+        });
+      }
+      lastGradingSummaryText += `────────────────────────────\\n`;
+      lastGradingSummaryText += `✨ Giáo viên nhận xét: Em xem kỹ lại các câu sai để ghi nhớ từ vựng và ngữ pháp nhé!`;
+
+      document.getElementById('gradeResultBox').style.display = 'block';
+      showToast('Đã chấm bài xong!');
+    }
+
+    function copyGradingFeedback() {
+      if (!lastGradingSummaryText) return;
+      navigator.clipboard.writeText(lastGradingSummaryText).then(() => {
+        showToast('Đã sao chép nhận xét! Mở Zalo dán gửi học sinh');
+      }).catch(err => {
+        showToast('Đã sao chép!');
+      });
+    }
+
+    // -------------------------------------------------------------
+    // Navigation: Semester & Lesson Switching
+    // -------------------------------------------------------------
+    function switchSemester(semId, targetLessonIdx = 0) {
+      currentSemesterId = semId;
+      currentLevel = semId.startsWith('A2') ? 'A2' : 'A1';
+
+      const b1 = document.getElementById('lvlBtn_A1');
+      const b2 = document.getElementById('lvlBtn_A2');
+      if (b1 && b2) {
+        b1.className = 'level-pill-btn lvl-a1' + (currentLevel === 'A1' ? ' active' : '');
+        b2.className = 'level-pill-btn lvl-a2' + (currentLevel === 'A2' ? ' active' : '');
+      }
+
+      renderSemesterTabs();
+      document.querySelectorAll('.sem-tab').forEach(t => t.classList.remove('active'));
+      const activeTab = document.getElementById('tab_' + semId);
+      if (activeTab) activeTab.classList.add('active');
+
+      // Nếu tab này chưa tải dữ liệu, tự động gọi nạp ngầm
+      if (!ALL_COURSES[semId]) {
+        loadSemesterData(semId, () => {
+          renderSemesterLessonList(semId, targetLessonIdx);
+        });
+      } else {
+        renderSemesterLessonList(semId, targetLessonIdx);
+      }
+    }
+
+    function renderSemesterLessonList(semId, targetLessonIdx = 0) {
+      const semData = ALL_COURSES[semId];
+      if (!semData || !semData.lessons) return;
+
+      const selector = document.getElementById('lessonSelector');
+      selector.innerHTML = '';
+
+      semData.lessons.forEach((l, idx) => {
+        const opt = document.createElement('option');
+        opt.value = idx;
+        const padNum = l.num.toString().padStart(2, '0');
+        opt.textContent = `Bài ${padNum}: ${l.title}`;
+        selector.appendChild(opt);
+      });
+
+      if (targetLessonIdx >= semData.lessons.length) targetLessonIdx = 0;
+      loadLesson(targetLessonIdx);
+    }
+
+    function onLessonSelectChange(val) {
+      loadLesson(parseInt(val, 10));
+    }
+
+    function goToPrevLesson() {
+      if (currentLessonIndex > 0) {
+        loadLesson(currentLessonIndex - 1);
+      }
+    }
+
+    function goToNextLesson() {
+      const semData = ALL_COURSES[currentSemesterId];
+      if (currentLessonIndex < semData.lessons.length - 1) {
+        loadLesson(currentLessonIndex + 1);
+      }
+    }
+
+    function loadLesson(idx) {
+      currentLessonIndex = idx;
+      const semData = ALL_COURSES[currentSemesterId];
+      const lesson = semData.lessons[idx];
+      const selector = document.getElementById('lessonSelector');
+      selector.value = idx;
+
+      document.getElementById('btnPrevLesson').disabled = (idx === 0);
+      document.getElementById('btnNextLesson').disabled = (idx === semData.lessons.length - 1);
+
+      document.getElementById('displayLessonTitle').textContent = lesson.title;
+      document.getElementById('displaySemesterTag').textContent = semData.title;
+      document.getElementById('displayClassCode').textContent = `Mã lớp: ${semData.code}`;
+      document.getElementById('displayQuestionCount').textContent = `${lesson.questions.length} câu hỏi`;
+      document.getElementById('btnSubmitText').textContent = `Xuất bài làm Bài ${lesson.num.toString().padStart(2, '0')}`;
+
+      renderQuestions(lesson);
+      updateLessonProgress();
+      savePortalState();
+
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // -------------------------------------------------------------
+    // Render Questions for Current Lesson
+    // -------------------------------------------------------------
+    function renderQuestions(lesson) {
+      const container = document.getElementById('questionsContainer');
+      container.innerHTML = '';
+
+      const lessonAnswers = answersStore[lesson.id] || {};
+      const lessonVoices = voicesStore[lesson.id] || {};
+
+      lesson.questions.forEach(q => {
+        const card = document.createElement('div');
+        card.className = 'question-card';
+        card.id = `card_${q.num}`;
+
+        const isAnswered = (lessonAnswers[q.num] !== undefined);
+        if (isAnswered) card.classList.add('answered');
+
+        let cardHtml = `
+          <div class="q-header">
+            <div class="q-number">${q.num}</div>
+            <div class="q-content">
+              <span class="q-type-badge">${q.type}</span>
+              <div class="q-title">${q.question}</div>
+            </div>
+          </div>
+        `;
+
+        if (q.audio_data) {
+          cardHtml += `
+            <div class="audio-widget">
+              <button type="button" class="audio-play-btn" onclick="playQuestionAudio('${q.num}', this)" title="Bấm để nghe">
+                ▶
+              </button>
+              <div class="audio-info">
+                <div class="audio-label">🔊 File nghe câu ${q.num}</div>
+                <div class="audio-status">Bấm để nghe phát âm</div>
+              </div>
+              <audio id="audio_${q.num}" src="${q.audio_data}" preload="auto" playsinline webkit-playsinline onended="onAudioEnded(this)"></audio>
+            </div>
+          `;
+        }
+
+        if (q.image_data) {
+          cardHtml += `
+            <div class="question-img-wrap">
+              <img src="${q.image_data}" alt="Hình minh họa câu ${q.num}" class="question-img" loading="lazy">
+            </div>
+          `;
+        }
+
+        if (q.is_speaking) {
+          const word = q.speaking_word || '';
+          const hasVoice = (lessonVoices[q.num] !== undefined);
+          const voiceMeta = lessonVoices[q.num] || {};
+
+          cardHtml += `
+            <div class="voice-studio-card">
+              <div class="target-word-display">
+                <div class="target-word-left">
+                  <span class="target-word-label">Từ cần phát âm:</span>
+                  <span class="target-word-text">${word}</span>
+                </div>
+                <button type="button" class="btn-native-sample" onclick="playNativeSample('${word}')" title="Nghe giọng bản xứ Pháp">
+                  <span>🔊</span>
+                  <span>Nghe mẫu</span>
+                </button>
+              </div>
+
+              <div class="recorder-action-row">
+                <button type="button" class="btn-record-main" id="recBtn_${q.num}" onclick="toggleVoiceRecord('${q.num}')">
+                  <span>🎙️</span>
+                  <span id="recText_${q.num}">${hasVoice ? '🎙️ Thu âm lại' : 'Bấm để thu âm'}</span>
+                </button>
+                <span class="record-timer" id="recTimer_${q.num}">🔴 00:00</span>
+              </div>
+
+              <div class="recorded-result-box ${hasVoice ? 'has-audio' : ''}" id="resultBox_${q.num}">
+                <button type="button" class="btn-play-student" id="playBtn_${q.num}" onclick="playStudentVoice('${q.num}')" title="Nghe lại giọng vừa thu">
+                  ▶
+                </button>
+                <div class="student-voice-meta">
+                  <div class="student-voice-title">✅ Đã thu âm giọng của em</div>
+                  <div class="student-voice-sub" id="durationText_${q.num}">${hasVoice ? `Thời lượng: ${voiceMeta.duration || ''}. Bấm ▶ để nghe lại` : 'Bấm ▶ để nghe lại trước khi nộp'}</div>
+                </div>
+                <button type="button" class="btn-re-record" onclick="reRecordVoice('${q.num}')">
+                  🔄 Thu lại
+                </button>
+              </div>
+            </div>
+
+            <!-- Teacher Key Box for Speaking -->
+            <div class="teacher-key-box">
+              <strong>👨‍🏫 Đáp án chuẩn cho Giáo viên:</strong><br>
+              • Từ cần phát âm: <strong>"${word}"</strong><br>
+              ${q.explanation ? `• Giải thích / Nghĩa: <em>${q.explanation}</em>` : ''}
+            </div>
+          `;
+        } else {
+          const isTwoCols = (q.options.length === 4 && q.options.every(o => o.text.length < 25));
+          cardHtml += `<div class="options-grid ${isTwoCols ? 'two-cols' : ''}">`;
+
+          q.options.forEach(opt => {
+            const isSelected = (lessonAnswers[q.num] === opt.key);
+            const isCorrect = (q.correct_ans && q.correct_ans.trim().toUpperCase() === opt.key.toUpperCase());
+
+            cardHtml += `
+              <label class="option-label ${isSelected ? 'selected' : ''} ${isCorrect ? 'is-correct-key' : ''}" onclick="selectOption('${q.num}', '${opt.key}', this)">
+                <input type="radio" name="q_${q.num}" value="${opt.key}" ${isSelected ? 'checked' : ''}>
+                <span class="opt-key">${opt.key}</span>
+                <span class="opt-text">${opt.text}</span>
+              </label>
+            `;
+          });
+
+          cardHtml += `</div>`;
+
+          // Teacher Key Box for MCQ
+          cardHtml += `
+            <div class="teacher-key-box">
+              <strong>👨‍🏫 Đáp án chuẩn:</strong> <span style="font-size:15px; font-weight:800; color:#065F46;">${q.correct_ans}</span>
+              ${q.explanation ? ` — <em>${q.explanation}</em>` : ''}
+            </div>
+          `;
+        }
+
+        card.innerHTML = cardHtml;
+        container.appendChild(card);
+      });
+    }
+
+    // -------------------------------------------------------------
+    // Audio Player & Native French Speech Synthesis
+    // -------------------------------------------------------------
+    function playNativeSample(word) {
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance(word);
+        utterance.lang = 'fr-FR';
+        utterance.rate = 0.85;
+        window.speechSynthesis.speak(utterance);
+        showToast(`🔊 Đang phát âm mẫu: "${word}"`);
+      } else {
+        alert("Trình duyệt không hỗ trợ phát âm mẫu.");
+      }
+    }
+
+    function playQuestionAudio(qNum, btn) {
+      const audio = document.getElementById('audio_' + qNum);
+      if (!audio) return;
+
+      if (currentPlayingAudio && currentPlayingAudio !== audio) {
+        currentPlayingAudio.pause();
+        currentPlayingAudio.currentTime = 0;
+        const prevBtn = currentPlayingAudio.closest('.audio-widget')?.querySelector('.audio-play-btn');
+        if (prevBtn) prevBtn.textContent = '▶';
+        const prevStatus = currentPlayingAudio.closest('.audio-widget')?.querySelector('.audio-status');
+        if (prevStatus) prevStatus.textContent = 'Bấm để nghe phát âm';
+      }
+
+      const statusEl = btn.closest('.audio-widget').querySelector('.audio-status');
+
+      if (audio.paused) {
+        audio.play().then(() => {
+          btn.textContent = '⏸';
+          statusEl.textContent = 'Đang phát âm thanh...';
+          currentPlayingAudio = audio;
+        }).catch(err => {
+          console.error("Audio play error:", err);
+          statusEl.textContent = 'Không thể phát âm thanh trên trình duyệt';
+        });
+      } else {
+        audio.pause();
+        btn.textContent = '▶';
+        statusEl.textContent = 'Tạm dừng';
+      }
+    }
+
+    function onAudioEnded(audio) {
+      const btn = audio.closest('.audio-widget')?.querySelector('.audio-play-btn');
+      if (btn) btn.textContent = '▶';
+      const statusEl = audio.closest('.audio-widget')?.querySelector('.audio-status');
+      if (statusEl) statusEl.textContent = 'Đã nghe xong. Bấm để nghe lại';
+    }
+
+    // -------------------------------------------------------------
+    // Direct Voice Recording
+    // -------------------------------------------------------------
+    async function toggleVoiceRecord(qNum) {
+      if (activeRecordQNum === qNum) {
+        stopVoiceRecording(qNum);
+      } else {
+        if (activeRecordQNum) stopVoiceRecording(activeRecordQNum);
+        await startVoiceRecording(qNum);
+      }
+    }
+
+    async function startVoiceRecording(qNum) {
+      try {
+        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        
+        let options = { mimeType: 'audio/webm' };
+        if (!MediaRecorder.isTypeSupported('audio/webm')) {
+          if (MediaRecorder.isTypeSupported('audio/mp4')) options = { mimeType: 'audio/mp4' };
+          else if (MediaRecorder.isTypeSupported('audio/ogg')) options = { mimeType: 'audio/ogg' };
+          else options = {};
+        }
+
+        mediaRecorder = new MediaRecorder(stream, options);
+        audioChunks = [];
+        activeRecordQNum = qNum;
+        recordSeconds = 0;
+
+        mediaRecorder.ondataavailable = (e) => {
+          if (e.data.size > 0) audioChunks.push(e.data);
+        };
+
+        mediaRecorder.onstop = async () => {
+          const mime = mediaRecorder.mimeType || 'audio/webm';
+          const audioBlob = new Blob(audioChunks, { type: mime });
+          const blobUrl = URL.createObjectURL(audioBlob);
+
+          const reader = new FileReader();
+          reader.readAsDataURL(audioBlob);
+          reader.onloadend = () => {
+            const base64Data = reader.result;
+            const curLesson = getCurrentLesson();
+            if (!voicesStore[curLesson.id]) voicesStore[curLesson.id] = {};
+            if (!answersStore[curLesson.id]) answersStore[curLesson.id] = {};
+
+            voicesStore[curLesson.id][qNum] = {
+              base64: base64Data,
+              blobUrl: blobUrl,
+              duration: recordSeconds + 's'
+            };
+            answersStore[curLesson.id][qNum] = `[Đã thu âm: ${recordSeconds}s]`;
+
+            savePortalState();
+            updateLessonProgress();
+
+            document.getElementById(`resultBox_${qNum}`)?.classList.add('has-audio');
+            document.getElementById(`card_${qNum}`)?.classList.add('answered');
+            const durEl = document.getElementById(`durationText_${qNum}`);
+            if (durEl) durEl.textContent = `Thời lượng: ${recordSeconds}s. Bấm ▶ để nghe lại`;
+          };
+
+          stream.getTracks().forEach(track => track.stop());
+        };
+
+        mediaRecorder.start();
+
+        const recBtn = document.getElementById(`recBtn_${qNum}`);
+        recBtn?.classList.add('is-recording');
+        const recText = document.getElementById(`recText_${qNum}`);
+        if (recText) recText.textContent = '⏹ Dừng thu âm';
+
+        const timerEl = document.getElementById(`recTimer_${qNum}`);
+        timerEl?.classList.add('active');
+        if (timerEl) timerEl.textContent = '🔴 00:00';
+
+        recordTimerInterval = setInterval(() => {
+          recordSeconds++;
+          const mins = Math.floor(recordSeconds / 60).toString().padStart(2, '0');
+          const secs = (recordSeconds % 60).toString().padStart(2, '0');
+          if (timerEl) timerEl.textContent = `🔴 ${mins}:${secs}`;
+          if (recordSeconds >= 30) stopVoiceRecording(qNum);
+        }, 1000);
+
+      } catch (err) {
+        console.error("Mic error:", err);
+        alert("⚠️ Không thể truy cập micro. Nếu dùng điện thoại iPhone, bạn có thể gửi voice note qua tin nhắn Zalo kèm bài làm nhé!");
+      }
+    }
+
+    function stopVoiceRecording(qNum) {
+      if (mediaRecorder && mediaRecorder.state !== 'inactive') {
+        mediaRecorder.stop();
+      }
+      clearInterval(recordTimerInterval);
+      activeRecordQNum = null;
+
+      const recBtn = document.getElementById(`recBtn_${qNum}`);
+      recBtn?.classList.remove('is-recording');
+      const recText = document.getElementById(`recText_${qNum}`);
+      if (recText) recText.textContent = '🎙️ Thu âm lại';
+      const timerEl = document.getElementById(`recTimer_${qNum}`);
+      timerEl?.classList.remove('active');
+    }
+
+    let activeStudentAudio = null;
+    function playStudentVoice(qNum) {
+      const curLesson = getCurrentLesson();
+      const voiceData = voicesStore[curLesson.id]?.[qNum];
+      if (!voiceData) return;
+
+      const btn = document.getElementById(`playBtn_${qNum}`);
+
+      if (activeStudentAudio && !activeStudentAudio.paused) {
+        activeStudentAudio.pause();
+        activeStudentAudio.currentTime = 0;
+        document.querySelectorAll('.btn-play-student').forEach(b => b.textContent = '▶');
+        if (activeStudentAudio.src === (voiceData.blobUrl || voiceData.base64)) return;
+      }
+
+      const audio = new Audio(voiceData.blobUrl || voiceData.base64);
+      activeStudentAudio = audio;
+      if (btn) btn.textContent = '⏸';
+
+      audio.onended = () => {
+        if (btn) btn.textContent = '▶';
+      };
+
+      audio.play().catch(e => console.error(e));
+    }
+
+    function reRecordVoice(qNum) {
+      const curLesson = getCurrentLesson();
+      if (voicesStore[curLesson.id]) delete voicesStore[curLesson.id][qNum];
+      if (answersStore[curLesson.id]) delete answersStore[curLesson.id][qNum];
+
+      document.getElementById(`resultBox_${qNum}`)?.classList.remove('has-audio');
+      document.getElementById(`card_${qNum}`)?.classList.remove('answered');
+      const recText = document.getElementById(`recText_${qNum}`);
+      if (recText) recText.textContent = 'Bấm để thu âm';
+
+      savePortalState();
+      updateLessonProgress();
+      startVoiceRecording(qNum);
+    }
+
+    // -------------------------------------------------------------
+    // Option Selection
+    // -------------------------------------------------------------
+    function selectOption(qNum, optKey, labelEl) {
+      const curLesson = getCurrentLesson();
+      if (!answersStore[curLesson.id]) answersStore[curLesson.id] = {};
+
+      const card = document.getElementById('card_' + qNum);
+      const allLabels = card.querySelectorAll('.option-label');
+      allLabels.forEach(l => l.classList.remove('selected'));
+      labelEl.classList.add('selected');
+
+      answersStore[curLesson.id][qNum] = optKey;
+      card.classList.add('answered');
+
+      savePortalState();
+      updateLessonProgress();
+    }
+
+    function updateLessonProgress() {
+      const curLesson = getCurrentLesson();
+      const totalQ = curLesson.questions.length;
+      const lessonAns = answersStore[curLesson.id] || {};
+      const answeredCount = Object.keys(lessonAns).length;
+      const pct = Math.round((answeredCount / totalQ) * 100);
+
+      document.getElementById('lessonProgressText').textContent = `${answeredCount} / ${totalQ} câu (${pct}%)`;
+      document.getElementById('lessonProgressFill').style.width = pct + '%';
+    }
+
+    function getCurrentLesson() {
+      return ALL_COURSES[currentSemesterId].lessons[currentLessonIndex];
+    }
+
+    // -------------------------------------------------------------
+    // LocalStorage Persistence
+    // -------------------------------------------------------------
+    function savePortalState() {
+      const name = document.getElementById('globalStudentName').value;
+      if (name.trim()) {
+        document.getElementById('globalStudentName').classList.remove('has-error');
+        document.getElementById('nameError').style.display = 'none';
+      }
+      localStorage.setItem('portal_student_name', name);
+      localStorage.setItem('portal_current_sem', currentSemesterId);
+      localStorage.setItem('portal_current_lesson_idx', currentLessonIndex);
+      localStorage.setItem('portal_answers_store', JSON.stringify(answersStore));
+      
+      try {
+        localStorage.setItem('portal_voices_store', JSON.stringify(voicesStore));
+      } catch (e) {
+        console.warn("Audio storage limit exceeded");
+      }
+    }
+
+    function loadSavedPortalState() {
+      const savedName = localStorage.getItem('portal_student_name');
+      if (savedName) document.getElementById('globalStudentName').value = savedName;
+
+      const savedSem = localStorage.getItem('portal_current_sem');
+      if (savedSem && COURSE_META[savedSem]) {
+        currentSemesterId = savedSem;
+        currentLevel = savedSem.startsWith('A2') ? 'A2' : 'A1';
+      }
+
+      const savedIdx = localStorage.getItem('portal_current_lesson_idx');
+      if (savedIdx) currentLessonIndex = parseInt(savedIdx, 10) || 0;
+
+      const savedAns = localStorage.getItem('portal_answers_store');
+      if (savedAns) {
+        try { answersStore = JSON.parse(savedAns); } catch(e) {}
+      }
+
+      const savedVoices = localStorage.getItem('portal_voices_store');
+      if (savedVoices) {
+        try { voicesStore = JSON.parse(savedVoices); } catch(e) {}
+      }
+
+      try {
+        if (sessionStorage.getItem('french_teacher_unlocked') === 'true') {
+          isTeacherUnlocked = true;
+        }
+      } catch (e) {}
+      updateTeacherBarUI();
+
+      document.getElementById('globalStudentName').addEventListener('input', savePortalState);
+    }
+
+    // -------------------------------------------------------------
+    // Submit & Export for Current Lesson
+    // -------------------------------------------------------------
+    function buildZaloMessageForLesson(lesson) {
+      const name = document.getElementById('globalStudentName').value.trim() || '(Chưa điền tên)';
+      const sem = ALL_COURSES[currentSemesterId];
+      const now = new Date();
+      const timeStr = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')} - ${now.getDate().toString().padStart(2, '0')}/${(now.getMonth()+1).toString().padStart(2, '0')}/${now.getFullYear()}`;
+      
+      const lessonAns = answersStore[lesson.id] || {};
+      const lessonV = voicesStore[lesson.id] || {};
+      const answeredCount = Object.keys(lessonAns).length;
+      const totalQ = lesson.questions.length;
+
+      let msg = `🇫🇷 BÀI TẬP VỀ NHÀ: ${sem.title.toUpperCase()}\\n`;
+      msg += `📖 ${lesson.title.toUpperCase()}\\n`;
+      msg += `👤 Học sinh: ${name}\\n`;
+      msg += `📚 Mã lớp: ${sem.code}\\n`;
+      msg += `⏱️ Nộp lúc: ${timeStr}\\n`;
+      msg += `📊 Tiến độ: ${answeredCount}/${totalQ} câu hoàn thành\\n`;
+      msg += `────────────────────────────\\n`;
+      msg += `📝 [BẢNG ĐÁP ÁN BÀI ${lesson.num.toString().padStart(2, '0')}]\\n`;
+
+      const mcqQuestions = lesson.questions.filter(q => !q.is_speaking);
+      let row = [];
+      for (let i = 0; i < mcqQuestions.length; i++) {
+        const q = mcqQuestions[i];
+        const ans = lessonAns[q.num] || '_';
+        const numPad = q.num.toString().padStart(2, '0');
+        row.push(`${numPad}.${ans}`);
+
+        if (row.length === 5 || i === mcqQuestions.length - 1) {
+          msg += row.join('   ') + '\\n';
+          row = [];
+        }
+      }
+
+      const speakingQuestions = lesson.questions.filter(q => q.is_speaking);
+      if (speakingQuestions.length > 0) {
+        msg += `\\n🎙️ [PHẦN PHÁT ÂM (${speakingQuestions.length} câu)]\\n`;
+        let voiceCount = 0;
+        speakingQuestions.forEach(sq => {
+          if (lessonV[sq.num]) {
+            voiceCount++;
+            msg += `• Câu ${sq.num} ("${sq.speaking_word}"): Đã thu âm gắn trong file nộp\\n`;
+          } else {
+            msg += `• Câu ${sq.num} ("${sq.speaking_word}"): Chưa thu âm\\n`;
+          }
+        });
+        msg += `(Em gửi kèm file bài làm chi tiết hoặc gửi voice note Zalo bên dưới ạ!)\\n`;
+      }
+
+      msg += `────────────────────────────`;
+      return msg;
+    }
+
+    function submitCurrentLesson() {
+      const nameInput = document.getElementById('globalStudentName');
+      const name = nameInput.value.trim();
+      if (!name) {
+        nameInput.classList.add('has-error');
+        document.getElementById('nameError').style.display = 'block';
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        nameInput.focus();
+        showToast("⚠️ Vui lòng nhập họ và tên trước!");
+        return;
+      }
+
+      const curLesson = getCurrentLesson();
+      const sem = ALL_COURSES[currentSemesterId];
+      const lessonAns = answersStore[curLesson.id] || {};
+      const answeredCount = Object.keys(lessonAns).length;
+      const totalQ = curLesson.questions.length;
+
+      const warningEl = document.getElementById('modalWarning');
+      if (answeredCount < totalQ) {
+        const unDone = totalQ - answeredCount;
+        warningEl.innerHTML = `<div class="warning-banner"><span>⚠️</span><span><strong>Chú ý:</strong> Em còn <strong>${unDone} câu</strong> chưa làm trong Bài ${curLesson.num}. Em vẫn có thể xuất bài trước hoặc quay lại làm tiếp.</span></div>`;
+      } else {
+        warningEl.innerHTML = `<div class="warning-banner" style="background:#ECFDF5; border-color:#6EE7B7; color:#065F46;"><span>🎉</span><span>Tuyệt vời! Em đã hoàn thành đủ <strong>${totalQ}/${totalQ} câu</strong> của Bài ${curLesson.num}.</span></div>`;
+      }
+
+      document.getElementById('modalHeaderTitle').textContent = `Xuất Bài Làm: ${sem.id} - Bài ${curLesson.num.toString().padStart(2, '0')}`;
+      document.getElementById('btnDownloadText').textContent = `Tải file bài làm Bài ${curLesson.num.toString().padStart(2, '0')} (.html)`;
+      document.getElementById('copyTextPreview').textContent = buildZaloMessageForLesson(curLesson);
+      document.getElementById('resultModal').classList.add('active');
+    }
+
+    function closeModal() {
+      document.getElementById('resultModal').classList.remove('active');
+    }
+
+    function closeModalOnBackdrop(e) {
+      if (e.target.id === 'resultModal') closeModal();
+    }
+
+    function copyResultToClipboard() {
+      const text = document.getElementById('copyTextPreview').textContent;
+      navigator.clipboard.writeText(text).then(() => {
+        showToast("Đã sao chép tin nhắn Zalo!");
+        document.getElementById('btnCopyText').textContent = "✅ Đã sao chép vào bộ nhớ tạm!";
+        setTimeout(() => {
+          document.getElementById('btnCopyText').textContent = "Sao chép tin nhắn Zalo";
+        }, 3000);
+      }).catch(err => {
+        showToast("Đã sao chép!");
+      });
+    }
+
+    // -------------------------------------------------------------
+    // Standalone Teacher Submission HTML Generator (FOR CURRENT LESSON)
+    // -------------------------------------------------------------
+    function downloadCurrentLessonSubmission() {
+      const name = document.getElementById('globalStudentName').value.trim() || 'HocSinh';
+      const curLesson = getCurrentLesson();
+      const sem = ALL_COURSES[currentSemesterId];
+      const now = new Date();
+      const timeStr = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')} ngày ${now.getDate()}/${now.getMonth()+1}/${now.getFullYear()}`;
+      const lessonAns = answersStore[curLesson.id] || {};
+      const lessonVoices = voicesStore[curLesson.id] || {};
+
+      let html = `<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phiếu Bài Làm: ${name} - ${sem.id} Bài ${curLesson.num.toString().padStart(2, '0')}</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; background: #F8FAFC; color: #0F172A; margin: 0; padding: 20px; line-height: 1.5; }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { background: linear-gradient(135deg, #1E3A8A, #2563EB); color: white; border-radius: 16px; padding: 24px; margin-bottom: 20px; }
+    .header h1 { font-family: 'Outfit', sans-serif; font-size: 22px; margin: 0 0 6px; }
+    .meta-box { background: white; border-radius: 12px; padding: 14px 16px; margin-top: 14px; color: #0F172A; display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between; }
+    .card { background: white; border: 1.5px solid #E2E8F0; border-radius: 14px; padding: 16px; margin-bottom: 12px; }
+    .card.speaking-card { background: #FFFBEB; border-color: #FCD34D; }
+    .badge { display: inline-block; padding: 3px 8px; border-radius: 6px; font-size: 11px; font-weight: 700; background: #F1F5F9; color: #64748B; margin-bottom: 6px; }
+    .q-text { font-size: 15px; font-weight: 600; margin-bottom: 10px; }
+    .ans-badge { display: inline-flex; align-items: center; gap: 8px; background: #EFF6FF; border: 1.5px solid #3B82F6; color: #1E40AF; padding: 6px 12px; border-radius: 8px; font-weight: 700; font-size: 14px; }
+    .btn-audio { background: #10B981; color: white; border: none; border-radius: 999px; padding: 10px 18px; font-size: 14px; font-weight: 700; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; }
+    .btn-audio.no-audio { background: #94A3B8; cursor: not-allowed; }
+    .sample-btn { background: #F59E0B; color: white; border: none; border-radius: 6px; padding: 6px 12px; font-size: 12px; font-weight: 600; cursor: pointer; margin-left: 8px; }
+    .toggle-key-btn { background: #0F172A; color: white; border: none; border-radius: 8px; padding: 10px 16px; font-size: 13.5px; font-weight: 700; cursor: pointer; }
+    .key-info { display: none; background: #F0FDF4; border: 1px solid #86EFAC; border-radius: 8px; padding: 8px 12px; margin-top: 8px; font-size: 13px; color: #166534; }
+    body.show-keys .key-info { display: block; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div style="font-size: 12px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px; opacity: 0.8;">BÁO CÁO KẾT QUẢ BTVN • ${sem.title.toUpperCase()}</div>
+      <h1>${curLesson.title} (Mã lớp: ${sem.code})</h1>
+      <div class="meta-box">
+        <div><strong>👤 Học sinh:</strong> ${name}</div>
+        <div><strong>⏱️ Nộp lúc:</strong> ${timeStr}</div>
+        <div><strong>📊 Hoàn thành:</strong> ${Object.keys(lessonAns).length}/${curLesson.questions.length} câu</div>
+      </div>
+    </div>
+
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+      <h2 style="font-size: 18px; margin: 0; color: #1E3A8A;">Chi Tiết Bài Làm - Bài ${curLesson.num.toString().padStart(2, '0')}</h2>
+      <button type="button" class="toggle-key-btn" id="subKeyBtn" onclick="toggleTeacherSubmissionKeys()">
+        🔑 Xem Đáp Án Chuẩn (Cần Mật Khẩu)
+      </button>
+    </div>
+`;
+
+      curLesson.questions.forEach(q => {
+        const num = q.num;
+        const studentAns = lessonAns[num] || '<em style="color:#EF4444">Chưa làm</em>';
+        const correctAns = q.correct_ans || '';
+        const exp = q.explanation || '';
+
+        if (q.is_speaking) {
+          const word = q.speaking_word;
+          const rec = lessonVoices[num];
+          const hasVoice = !!rec;
+          const voiceAudioSrc = hasVoice ? rec.base64 : '';
+
+          html += `
+    <div class="card speaking-card">
+      <span class="badge" style="background: #FEF3C7; color: #92400E;">Câu ${num} • Thu âm phát âm</span>
+      <div class="q-text">Từ cần phát âm: <strong style="font-size: 20px; color: #78350F; margin-left: 6px;">"${word}"</strong></div>
+      <div style="margin-top: 10px; display: flex; align-items: center; flex-wrap: wrap; gap: 12px;">
+        ${hasVoice ? `
+        <button type="button" class="btn-audio" onclick="playAudioBase64('${num}', this)">
+          <span>🔊</span>
+          <span>▶ Nghe giọng học sinh phát âm</span>
+        </button>
+        <audio id="stud_audio_${num}" src="${voiceAudioSrc}"></audio>
+        ` : `
+        <button type="button" class="btn-audio no-audio" disabled>
+          <span>❌</span>
+          <span>Học sinh chưa thu âm câu này</span>
+        </button>
+        `}
+        <button type="button" class="sample-btn" onclick="playFrVoice('${word}')">
+          🔊 Nghe phát âm chuẩn người Pháp
+        </button>
+      </div>
+    </div>
+`;
+        } else {
+          html += `
+    <div class="card">
+      <span class="badge">Câu ${num} • ${q.type}</span>
+      <div class="q-text">${q.question}</div>
+      <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+        <div class="ans-badge">
+          <span>Đáp án học sinh chọn:</span>
+          <strong>${studentAns}</strong>
+        </div>
+      </div>
+      <div class="key-info">
+        <strong>Đáp án chuẩn:</strong> ${correctAns} ${exp ? `— <em>${exp}</em>` : ''}
+      </div>
+    </div>
+`;
+        }
+      });
+
+      html += `
+  </div>
+
+  <script>
+    let curAudio = null;
+    function playAudioBase64(id, btn) {
+      const a = document.getElementById('stud_audio_' + id);
+      if (!a) return;
+      if (curAudio && curAudio !== a) {
+        curAudio.pause();
+        curAudio.currentTime = 0;
+        document.querySelectorAll('.btn-audio').forEach(b => b.innerHTML = '<span>🔊</span><span>▶ Nghe giọng học sinh phát âm</span>');
+      }
+      if (a.paused) {
+        a.play();
+        btn.innerHTML = '<span>⏸</span><span>Tạm dừng</span>';
+        curAudio = a;
+        a.onended = () => {
+          btn.innerHTML = '<span>🔊</span><span>▶ Nghe lại giọng học sinh</span>';
+        };
+      } else {
+        a.pause();
+        btn.innerHTML = '<span>🔊</span><span>▶ Nghe giọng học sinh phát âm</span>';
+      }
+    }
+
+    function playFrVoice(word) {
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+        const u = new SpeechSynthesisUtterance(word);
+        u.lang = 'fr-FR';
+        u.rate = 0.85;
+        window.speechSynthesis.speak(u);
+      }
+    }
+
+    let isSubKeysUnlocked = false;
+    async function toggleTeacherSubmissionKeys() {
+      if (isSubKeysUnlocked) {
+        document.body.classList.toggle('show-keys');
+        const btn = document.getElementById('subKeyBtn');
+        btn.textContent = document.body.classList.contains('show-keys') ? '👁️ Đang Hiện Đáp Án Chuẩn' : '👁️ Bật/Tắt Đáp Án Chuẩn';
+        return;
+      }
+      const pwd = prompt('🔐 Nhập mật khẩu giáo viên để xem đáp án chuẩn:');
+      if (!pwd) return;
+      const clean = pwd.trim();
+      let h = '';
+      if (window.crypto && crypto.subtle) {
+        try {
+          const enc = new TextEncoder().encode(clean);
+          const buf = await crypto.subtle.digest('SHA-256', enc);
+          h = Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+        } catch(e) {}
+      }
+      const customHash = localStorage.getItem('portal_teacher_pwd_hash');
+      const targetHash = customHash || '300dba032027fd4e210feb78b7a77f94118626d037cba1aacb96a64376a2862f';
+      if (h === targetHash) {
+        isSubKeysUnlocked = true;
+        document.body.classList.add('show-keys');
+        const btn = document.getElementById('subKeyBtn');
+        btn.textContent = '👁️ Đang Hiện Đáp Án Chuẩn';
+        alert('✅ Mật khẩu chính xác! Đã mở khóa đáp án chuẩn.');
+      } else {
+        alert('❌ Mật khẩu không chính xác!');
+      }
+    }
+  <\/script>
+</body>
+</html>`;
+
+      const safeName = name.replace(/[^a-zA-Z0-9_\u00C0-\u1EF9]/g, '_');
+      const filename = `BaiLam_${sem.id}_Bai${curLesson.num.toString().padStart(2, '0')}_${safeName}.html`;
+      const blob = new Blob([html], { type: 'text/html;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+
+      showToast(`Đã tải về: ${filename}`);
+    }
+
+    function showToast(msg) {
+      const t = document.getElementById('toast');
+      document.getElementById('toastMsg').textContent = msg;
+      t.classList.add('show');
+      setTimeout(() => t.classList.remove('show'), 3500);
+    }
+
+    function resetCurrentLesson() {
+      const curLesson = getCurrentLesson();
+      if (confirm(`⚠️ Em có chắc muốn xóa hết bài làm của Bài ${curLesson.num} để làm lại từ đầu không?`)) {
+        delete answersStore[curLesson.id];
+        delete voicesStore[curLesson.id];
+        savePortalState();
+        renderQuestions(curLesson);
+        updateLessonProgress();
+        showToast("Đã đặt lại bài làm");
+      }
+    }
+  </script>
+
+  <!-- Tab Loading Overlay -->
+  <div id="tabLoadingOverlay" class="tab-loading-overlay" style="display: none;">
+    <div class="tab-loading-spinner"></div>
+    <div id="tabLoadingText">Đang tải dữ liệu bài học...</div>
+  </div>
+
+  <!-- Nạp trước Tab mặc định A1.1 -->
+  <script src="data/data_A1_1.js"></script>
+</body>
+</html>
