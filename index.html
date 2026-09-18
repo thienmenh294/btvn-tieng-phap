@@ -2052,7 +2052,8 @@
         const opt = document.createElement('option');
         opt.value = idx;
         const padNum = l.num.toString().padStart(2, '0');
-        opt.textContent = l.title.startsWith('Bài') ? l.title : `Bài ${padNum}: ${l.title}`;
+        const cleanTitle = l.title.replace(/^(?:Bài\s*\d+[\s:.-]*)+/i, '').trim();
+        opt.textContent = `Bài ${padNum} - ${cleanTitle}`;
         selector.appendChild(opt);
       });
 
@@ -2087,7 +2088,8 @@
       document.getElementById('btnPrevLesson').disabled = (idx === 0);
       document.getElementById('btnNextLesson').disabled = (idx === semData.lessons.length - 1);
 
-      document.getElementById('displayLessonTitle').textContent = lesson.title;
+      const cleanLessonTitle = lesson.title.replace(/^(?:Bài\s*\d+[\s:.-]*)+/i, '').trim();
+      document.getElementById('displayLessonTitle').textContent = `Bài ${lesson.num.toString().padStart(2, '0')} - ${cleanLessonTitle}`;
       document.getElementById('displaySemesterTag').textContent = semData.title;
       document.getElementById('displayClassCode').textContent = `Mã lớp: ${semData.code}`;
       document.getElementById('displayQuestionCount').textContent = `${lesson.questions.length} câu hỏi`;
@@ -2852,6 +2854,6 @@
   </div>
 
   <!-- Nạp trước Tab mặc định A1.1 -->
-  <script src="data/data_A1_1.js?v=20260918_01"></script>
+  <script src="data/data_A1_1.js?v=20260918_02"></script>
 </body>
 </html>
