@@ -1553,7 +1553,7 @@
       if (!document.getElementById(scriptId)) {
         const script = document.createElement('script');
         script.id = scriptId;
-        script.src = 'data/data_' + cleanId + '.js';
+        script.src = 'data/data_' + cleanId + '.js?v=' + Date.now();
         script.onload = () => {
           if (overlay) overlay.style.display = 'none';
           if (callback) callback();
@@ -2052,7 +2052,7 @@
         const opt = document.createElement('option');
         opt.value = idx;
         const padNum = l.num.toString().padStart(2, '0');
-        opt.textContent = `Bài ${padNum}: ${l.title}`;
+        opt.textContent = l.title.startsWith('Bài') ? l.title : `Bài ${padNum}: ${l.title}`;
         selector.appendChild(opt);
       });
 
@@ -2852,6 +2852,6 @@
   </div>
 
   <!-- Nạp trước Tab mặc định A1.1 -->
-  <script src="data/data_A1_1.js"></script>
+  <script src="data/data_A1_1.js?v=20260918_01"></script>
 </body>
 </html>

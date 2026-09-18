@@ -1,5 +1,20254 @@
 // Dữ liệu BTVN Tiếng Pháp - Học kỳ 1 (A2.1) (CF1216-I)
 (function() {
   window.COURSES_DATA = window.COURSES_DATA || {};
-  window.COURSES_DATA['A2.1'] = {"id": "A2.1", "level": "A2", "sem_num": 1, "title": "Học kỳ 1 (A2.1)", "code": "CF1216-I", "lessons": [{"id": "A2.1_L01", "num": 1, "filename": "Bai_01_Thông_tin_cá_nhân.md", "title": "Bài 01 - Thông tin cá nhân", "questions": [{"num": "1", "type": "Chọn câu trả lời đúng", "question": "____ chat est sur le canapé. (Con mèo ở trên ghế sô-pha.)", "options": [{"key": "A", "text": "le"}, {"key": "B", "text": "la"}, {"key": "C", "text": "les"}, {"key": "D", "text": "un"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Dùng \"le\" khi nói đến một con mèo cụ thể."}, {"num": "2", "type": "Chọn câu trả lời đúng", "question": "J’achète ____ pommes au marché. (Tôi mua táo ở chợ.)", "options": [{"key": "A", "text": "un"}, {"key": "B", "text": "une"}, {"key": "C", "text": "des"}, {"key": "D", "text": "le"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Dùng \"des\" cho danh từ số nhiều không xác định."}, {"num": "3", "type": "Chọn câu trả lời đúng", "question": "Elle lit ____ livre intéressant. (Cô ấy đọc một cuốn sách hay.)", "options": [{"key": "A", "text": "une"}, {"key": "B", "text": "un"}, {"key": "C", "text": "le"}, {"key": "D", "text": "des"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "\"Un\" dùng cho danh từ giống đực, số ít, chưa xác định."}, {"num": "4", "type": "Chọn câu trả lời đúng", "question": "Il y a ____ erreur dans ce texte. (Có một lỗi trong văn bản này.)", "options": [{"key": "A", "text": "une"}, {"key": "B", "text": "un"}, {"key": "C", "text": "des"}, {"key": "D", "text": "le"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"Une\" dùng cho danh từ giống cái, số ít, chưa xác định."}, {"num": "5", "type": "Chọn câu trả lời đúng", "question": "____ enfants jouent dans le parc. (Những đứa trẻ chơi trong công viên.)", "options": [{"key": "A", "text": "les"}, {"key": "B", "text": "un"}, {"key": "C", "text": "une"}, {"key": "D", "text": "le"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"Des\" dùng cho danh từ số nhiều không xác định."}, {"num": "6", "type": "Chọn câu trả lời đúng", "question": "Comment tu t’appelles ? — Je ____. (s'appeler)", "options": [{"key": "A", "text": "s'appelle Anna"}, {"key": "B", "text": "m’appelle Marie"}, {"key": "C", "text": "t'appelles Paul"}, {"key": "D", "text": "appelle Pierre"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Dùng \"je m'appelle\" để nói tên."}, {"num": "7", "type": "Chọn câu trả lời đúng", "question": "Il est mon frère. ____ s’appelle Julien. (Anh ấy là anh trai tôi. Anh ấy tên Julien.)", "options": [{"key": "A", "text": "Il"}, {"key": "B", "text": "Elle"}, {"key": "C", "text": "Ils"}, {"key": "D", "text": "On"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"Il\" là chủ ngữ phù hợp với động từ \"s’appelle\"."}, {"num": "8", "type": "Chọn câu trả lời đúng", "question": "Bonjour ! ____ suis Anna, enchantée. (Xin chào! Tôi là Anna, rất vui được gặp bạn.)", "options": [{"key": "A", "text": "Tu"}, {"key": "B", "text": "Je"}, {"key": "C", "text": "Elle"}, {"key": "D", "text": "Nous"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "\"Je suis\" dùng khi giới thiệu bản thân."}, {"num": "9", "type": "Chọn câu trả lời đúng", "question": "Elle est étudiante. Elle ____ en première année. (Cô ấy là sinh viên. Cô ấy học năm nhất.)", "options": [{"key": "A", "text": "être"}, {"key": "B", "text": "est"}, {"key": "C", "text": "es"}, {"key": "D", "text": "sommes"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "\"Est\" là động từ être chia ngôi \"elle\"."}, {"num": "10", "type": "Chọn câu trả lời đúng", "question": "Tu viens d’où ? Je viens ____. (Bạn đến từ đâu? Tôi đến từ …)", "options": [{"key": "A", "text": "de Lyon"}, {"key": "B", "text": "à Paris"}, {"key": "C", "text": "la France"}, {"key": "D", "text": "le Vietnam"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"de Lyon\" đúng giới từ + thành phố"}, {"num": "11", "type": "Chọn câu trả lời đúng", "question": "J’achète ____ salade au marché. (Tôi mua một cây xà lách ở chợ.)", "options": [{"key": "A", "text": "un"}, {"key": "B", "text": "une"}, {"key": "C", "text": "le"}, {"key": "D", "text": "des"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "\"Salade\" là danh từ giống cái, chưa xác định → dùng \"une\"."}, {"num": "12", "type": "Chọn câu trả lời đúng", "question": "Il regarde ____ film intéressant. (Anh ấy xem một bộ phim hay.)", "options": [{"key": "A", "text": "une"}, {"key": "B", "text": "un"}, {"key": "C", "text": "le"}, {"key": "D", "text": "des"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Dùng \"un\" vì \"film\" là giống đực và không xác định."}, {"num": "13", "type": "Chọn câu trả lời đúng", "question": "Tu connais ____ professeur dont il parle ? (Bạn có biết thầy giáo mà anh ấy đang nói đến không?)", "options": [{"key": "A", "text": "une"}, {"key": "B", "text": "le"}, {"key": "C", "text": "des"}, {"key": "D", "text": "un"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "\"Professeur\" đã được xác định (dont il parle) → dùng \"le\"."}, {"num": "14", "type": "Chọn câu trả lời đúng", "question": "Nous avons ____ chats à la maison. (Chúng tôi có nuôi mèo ở nhà.)", "options": [{"key": "A", "text": "un"}, {"key": "B", "text": "une"}, {"key": "C", "text": "le"}, {"key": "D", "text": "des"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Dùng \"des\" cho danh từ số nhiều không xác định."}, {"num": "15", "type": "Chọn câu trả lời đúng", "question": "Elle prend ____ eau minérale. (Cô ấy uống nước khoáng.)", "options": [{"key": "A", "text": "un"}, {"key": "B", "text": "une"}, {"key": "C", "text": "de l’"}, {"key": "D", "text": "des"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "\"Eau\" là danh từ bắt đầu bằng nguyên âm → dùng \"de l’\"."}, {"num": "16", "type": "Chọn câu trả lời đúng", "question": "C’est ____ stylo. (Đây là cây bút của tôi.)", "options": [{"key": "A", "text": "mon"}, {"key": "B", "text": "ma"}, {"key": "C", "text": "mes"}, {"key": "D", "text": "leur"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"Mon\" là tính từ sở hữu dùng cho danh từ giống đực, ngôi \"je\"."}, {"num": "17", "type": "Chọn câu trả lời đúng", "question": "Elle a oublié ____ sac à dos à la maison. (Cô ấy quên balô ở nhà.)", "options": [{"key": "A", "text": "son"}, {"key": "B", "text": "sa"}, {"key": "C", "text": "ses"}, {"key": "D", "text": "leur"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"Sac à dos\" là giống đực → dùng \"son\"."}, {"num": "18", "type": "Chọn câu trả lời đúng", "question": "Ce sont ____ lunettes. (Đây là mắt kính của cô ấy.)", "options": [{"key": "A", "text": "mon"}, {"key": "B", "text": "mes"}, {"key": "C", "text": "sa"}, {"key": "D", "text": "ses"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "\"Lunettes\" là danh từ số nhiều → dùng \"ses\"."}, {"num": "19", "type": "Chọn câu trả lời đúng", "question": "Tu as vu ____ clés ? (Bạn có thấy chìa khóa của tôi không?)", "options": [{"key": "A", "text": "ma"}, {"key": "B", "text": "mes"}, {"key": "C", "text": "mon"}, {"key": "D", "text": "sa"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "\"Mes\" là tính từ sở hữu số nhiều cho ngôi \"je\"."}, {"num": "20", "type": "Chọn câu trả lời đúng", "question": "Il cherche ____ téléphone. (Anh ấy tìm điện thoại của anh ấy.)", "options": [{"key": "A", "text": "son"}, {"key": "B", "text": "sa"}, {"key": "C", "text": "ses"}, {"key": "D", "text": "le"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"Téléphone\" là danh từ giống đực → dùng \"son\"."}, {"num": "21", "type": "Chọn câu trả lời đúng", "question": "Je vois ___ enfants dans le jardin. (Tôi thấy những đứa trẻ trong vườn.)", "options": [{"key": "A", "text": "un"}, {"key": "B", "text": "une"}, {"key": "C", "text": "des"}, {"key": "D", "text": "le"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Enfants” số nhiều, không xác định → des."}, {"num": "22", "type": "Chọn câu trả lời đúng", "question": "Tu veux ___ café ou ___ thé ? (Bạn muốn cà phê hay trà?)", "options": [{"key": "A", "text": "un / un"}, {"key": "B", "text": "une / une"}, {"key": "C", "text": "le / la"}, {"key": "D", "text": "des / des"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Café, thé” đều giống đực số ít → un."}, {"num": "23", "type": "Chọn câu trả lời đúng", "question": "C’est ___ livre que je préfère. (Đây là cuốn sách mà tôi thích nhất.)", "options": [{"key": "A", "text": "un"}, {"key": "B", "text": "une"}, {"key": "C", "text": "le"}, {"key": "D", "text": "des"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Xác định cụ thể → le."}, {"num": "24", "type": "Chọn câu trả lời đúng", "question": "Ils ont adopté ___ chien et ___ chat. (Họ đã nhận nuôi một con chó và một con mèo.)", "options": [{"key": "A", "text": "un / un"}, {"key": "B", "text": "une / un"}, {"key": "C", "text": "un / une"}, {"key": "D", "text": "le / la"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Chien, chat” giống đực số ít chưa xác định → un."}, {"num": "25", "type": "Chọn câu trả lời đúng", "question": "Tu as ___ idée géniale ! (Bạn có một ý tưởng tuyệt vời!)", "options": [{"key": "A", "text": "un"}, {"key": "B", "text": "une"}, {"key": "C", "text": "le"}, {"key": "D", "text": "des"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Idée” giống cái số ít → une."}, {"num": "26", "type": "Chọn câu trả lời đúng", "question": "Nous sommes français. Nous ____ de Lyon. (Chúng tôi là người Pháp. Chúng tôi đến từ Lyon.)", "options": [{"key": "A", "text": "vient"}, {"key": "B", "text": "viens"}, {"key": "C", "text": "venons"}, {"key": "D", "text": "venez"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Ngôi “nous” → động từ venir chia = venons."}, {"num": "27", "type": "Chọn câu trả lời đúng", "question": "Vous travaillez où ? ____ travaille dans une école. (Bạn làm việc ở đâu? Tôi làm việc trong một trường học.)", "options": [{"key": "A", "text": "Tu"}, {"key": "B", "text": "Je"}, {"key": "C", "text": "Il"}, {"key": "D", "text": "Elle"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Trả lời về bản thân → Je travaille …."}, {"num": "28", "type": "Chọn câu trả lời đúng", "question": "Il est espagnol. Il vient ____. (Anh ấy là người Tây Ban Nha. Anh ấy đến từ Tây Ban Nha.)", "options": [{"key": "A", "text": "d’Espagne"}, {"key": "B", "text": "à Espagne"}, {"key": "C", "text": "en Espagne"}, {"key": "D", "text": "du Espagne"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Espagne” bắt đầu bằng nguyên âm → dùng d’."}, {"num": "29", "type": "Chọn câu trả lời đúng", "question": "Enchanté, moi c’est Paul. Et toi ? Tu t’appelles ____ ? (Rất vui, tôi là Paul. Còn bạn? Bạn tên là gì?)", "options": [{"key": "A", "text": "comment"}, {"key": "B", "text": "qui"}, {"key": "C", "text": "quoi"}, {"key": "D", "text": "où"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Hỏi tên → chuẩn là Tu t’appelles comment ?."}, {"num": "30", "type": "Chọn câu trả lời đúng", "question": "Elle est italienne. Elle ____ Rome. (Cô ấy là người Ý. Cô ấy đến từ Rome.)", "options": [{"key": "A", "text": "suis"}, {"key": "B", "text": "est"}, {"key": "C", "text": "es"}, {"key": "D", "text": "est de"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Nói xuất xứ → Elle est de Rome."}, {"num": "31", "type": "Chọn câu trả lời đúng", "question": "Tu connais ___ professeur de français ? (Bạn có biết thầy giáo tiếng Pháp không?)", "options": [{"key": "A", "text": "une"}, {"key": "B", "text": "le"}, {"key": "C", "text": "des"}, {"key": "D", "text": "un"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Đã xác định rõ → dùng le."}, {"num": "32", "type": "Chọn câu trả lời đúng", "question": "Elle veut acheter ___ robe bleue. (Cô ấy muốn mua một chiếc váy màu xanh.)", "options": [{"key": "A", "text": "un"}, {"key": "B", "text": "une"}, {"key": "C", "text": "le"}, {"key": "D", "text": "des"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Robe” giống cái số ít → une."}, {"num": "33", "type": "Chọn câu trả lời đúng", "question": "J’adore ___ chocolat noir. (Tôi rất thích sô-cô-la đen.)", "options": [{"key": "A", "text": "un"}, {"key": "B", "text": "une"}, {"key": "C", "text": "le"}, {"key": "D", "text": "des"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Thói quen/sở thích nói chung → dùng le."}, {"num": "34", "type": "Chọn câu trả lời đúng", "question": "Nous avons vu ___ film hier soir. (Chúng tôi đã xem một bộ phim tối qua.)", "options": [{"key": "A", "text": "un"}, {"key": "B", "text": "une"}, {"key": "C", "text": "le"}, {"key": "D", "text": "des"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Film” giống đực số ít chưa xác định → un."}, {"num": "35", "type": "Chọn câu trả lời đúng", "question": "Elle a ___ idée très originale. (Cô ấy có một ý tưởng rất độc đáo.)", "options": [{"key": "A", "text": "une"}, {"key": "B", "text": "un"}, {"key": "C", "text": "le"}, {"key": "D", "text": "des"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Idée” giống cái số ít → une."}, {"num": "36", "type": "Chọn câu trả lời đúng", "question": "Nous aimons ___ appartement. (Chúng tôi thích căn hộ này.)", "options": [{"key": "A", "text": "un"}, {"key": "B", "text": "une"}, {"key": "C", "text": "le"}, {"key": "D", "text": "l’"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“Appartement” bắt đầu bằng nguyên âm → dùng l’."}, {"num": "37", "type": "Chọn câu trả lời đúng", "question": "J’ai perdu ___ montre ce matin. (Tôi đã làm mất chiếc đồng hồ sáng nay.)", "options": [{"key": "A", "text": "mon"}, {"key": "B", "text": "ma"}, {"key": "C", "text": "mes"}, {"key": "D", "text": "leur"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Montre” giống cái số ít, sở hữu ngôi je → ma."}, {"num": "38", "type": "Chọn câu trả lời đúng", "question": "Vous avez rangé ___ affaires dans le placard ? (Bạn đã cất đồ đạc vào tủ chưa?)", "options": [{"key": "A", "text": "votre"}, {"key": "B", "text": "vos"}, {"key": "C", "text": "leurs"}, {"key": "D", "text": "ses"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Affaires” số nhiều, ngôi vous → vos."}, {"num": "39", "type": "Chọn câu trả lời đúng", "question": "Ils n’aiment pas ___ nouvelle voisine. (Họ không thích cô hàng xóm mới.)", "options": [{"key": "A", "text": "leur"}, {"key": "B", "text": "ses"}, {"key": "C", "text": "notre"}, {"key": "D", "text": "sa"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Hàng xóm thuộc về họ → dùng leur."}, {"num": "40", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "audios/A2_Bai_01_Cau_40_120140.mp3", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "41", "type": "Trả lời bằng ghi âm", "question": "Hãy tự giới thiệu bản thân (tên, tuổi, quốc tịch, nơi ở, nơi học hoặc làm việc, sở thích)", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}]}, {"id": "A2.1_L02", "num": 2, "filename": "Bai_02_Không_gian_sống.md", "title": "Bài 02 - Không gian sống", "questions": [{"num": "1", "type": "Chọn câu trả lời đúng", "question": "Le chat est ___ la table. (Con mèo ở dưới bàn.)", "options": [{"key": "A", "text": "sous"}, {"key": "B", "text": "sur"}, {"key": "C", "text": "dans"}, {"key": "D", "text": "devant"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "images/A2_Bai_02_Cau_01_120201.png", "correct_ans": "A", "explanation": "\"Sous\" có nghĩa là ở dưới một vật thể."}, {"num": "2", "type": "Chọn câu trả lời đúng", "question": "Le livre est ___ le bureau. (Cuốn sách ở trên bàn làm việc.)", "options": [{"key": "A", "text": "sous"}, {"key": "B", "text": "sur"}, {"key": "C", "text": "dans"}, {"key": "D", "text": "entre"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "images/A2_Bai_02_Cau_02_120202.png", "correct_ans": "B", "explanation": "\"Sur\" có nghĩa là ở trên bề mặt."}, {"num": "3", "type": "Chọn câu trả lời đúng", "question": "Il y a une voiture ___ la maison. (Có một chiếc ô tô trước ngôi nhà.)", "options": [{"key": "A", "text": "devant"}, {"key": "B", "text": "derrière"}, {"key": "C", "text": "entre"}, {"key": "D", "text": "sous"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "images/A2_Bai_02_Cau_03_120203.png", "correct_ans": "A", "explanation": "\"Devant\" có nghĩa là ở phía trước."}, {"num": "4", "type": "Chọn câu trả lời đúng", "question": "Le chien est ___ la porte. (Con chó ở sau cánh cửa.)", "options": [{"key": "A", "text": "derrière"}, {"key": "B", "text": "devant"}, {"key": "C", "text": "entre"}, {"key": "D", "text": "sous"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "images/A2_Bai_02_Cau_04_120204.png", "correct_ans": "A", "explanation": "\"Derrière\" có nghĩa là ở phía sau."}, {"num": "5", "type": "Chọn câu trả lời đúng", "question": "Le chat est ___ les deux chaises. (Con mèo ở giữa hai cái ghế.)", "options": [{"key": "A", "text": "entre"}, {"key": "B", "text": "sur"}, {"key": "C", "text": "sous"}, {"key": "D", "text": "contre"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "images/A2_Bai_02_Cau_05_120205.png", "correct_ans": "A", "explanation": "\"Entre\" có nghĩa là ở giữa hai vật."}, {"num": "6", "type": "Chọn câu trả lời đúng", "question": "Nous habitons ___ un appartement en centre-ville. (Chúng tôi sống trong một căn hộ ở trung tâm thành phố.)", "options": [{"key": "A", "text": "sur"}, {"key": "B", "text": "dans"}, {"key": "C", "text": "à"}, {"key": "D", "text": "par"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "\"Dans\" dùng để chỉ ở bên trong một không gian."}, {"num": "7", "type": "Chọn câu trả lời đúng", "question": "Mon immeuble est ___ supermarché. (Tòa nhà của tôi ở cạnh siêu thị.)", "options": [{"key": "A", "text": "devant"}, {"key": "B", "text": "dans"}, {"key": "C", "text": "sous"}, {"key": "D", "text": "à côté du"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "\"À côté de\" nghĩa là ở bên cạnh."}, {"num": "8", "type": "Chọn câu trả lời đúng", "question": "Il y a trois pièces ___ mon appartement. (Có ba phòng trong căn hộ của tôi.)", "options": [{"key": "A", "text": "sur"}, {"key": "B", "text": "à"}, {"key": "C", "text": "dans"}, {"key": "D", "text": "devant"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "\"Dans\" nghĩa là bên trong."}, {"num": "9", "type": "Chọn câu trả lời đúng", "question": "J’ai une belle vue ___ la mer. (Tôi có một tầm nhìn đẹp ra biển.)", "options": [{"key": "A", "text": "sur"}, {"key": "B", "text": "sous"}, {"key": "C", "text": "entre"}, {"key": "D", "text": "dans"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"Sur\" dùng để nói \"nhìn ra\" (vue sur___)."}, {"num": "10", "type": "Chọn câu trả lời đúng", "question": "Ma chambre est ___ salon. (Phòng ngủ của tôi ở cạnh phòng khách.)", "options": [{"key": "A", "text": "dans"}, {"key": "B", "text": "sur"}, {"key": "C", "text": "à côté du"}, {"key": "D", "text": "entre"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "\"À côté de\" chỉ vị trí bên cạnh phòng khách."}, {"num": "11", "type": "Chọn câu trả lời đúng", "question": "Le livre est ___ le sac. (Cuốn sách ở trong cặp.)", "options": [{"key": "A", "text": "dans"}, {"key": "B", "text": "sur"}, {"key": "C", "text": "devant"}, {"key": "D", "text": "sous"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "images/A2_Bai_02_Cau_11_120206.png", "correct_ans": "A", "explanation": "\"Dans\" có nghĩa là bên trong một vật."}, {"num": "12", "type": "Chọn câu trả lời đúng", "question": "L’école est ___ côté de la bibliothèque. (Trường học ở bên cạnh thư viện.)", "options": [{"key": "A", "text": "à"}, {"key": "B", "text": "de"}, {"key": "C", "text": "sur"}, {"key": "D", "text": "avec"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"À\" trong cụm \"à côté de\" chỉ vị trí bên cạnh."}, {"num": "13", "type": "Chọn câu trả lời đúng", "question": "Le chien est ___ de la voiture. (Con chó ở gần chiếc ô tô.)", "options": [{"key": "A", "text": "près"}, {"key": "B", "text": "à"}, {"key": "C", "text": "loin"}, {"key": "D", "text": "contre"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "images/A2_Bai_02_Cau_13_120207.png", "correct_ans": "A", "explanation": "\"Près\" có nghĩa là ở gần."}, {"num": "14", "type": "Chọn câu trả lời đúng", "question": "Le cinéma est ___ de l’école. (Rạp chiếu phim ở xa trường học.)", "options": [{"key": "A", "text": "loin"}, {"key": "B", "text": "sur"}, {"key": "C", "text": "devant"}, {"key": "D", "text": "entre"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"Loin\" có nghĩa là ở xa."}, {"num": "15", "type": "Chọn câu trả lời đúng", "question": "Le tableau est accroché ___ mur. (Bức tranh được treo trên tường.)", "options": [{"key": "A", "text": "au"}, {"key": "B", "text": "sur"}, {"key": "C", "text": "dans"}, {"key": "D", "text": "entre"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"Au\" là rút gọn của \"à le\", dùng với danh từ giống đực."}, {"num": "16", "type": "Chọn câu trả lời đúng", "question": "Cet endroit est très ___. (Nơi này rất yên tĩnh.)", "options": [{"key": "A", "text": "bruyante"}, {"key": "B", "text": "calme"}, {"key": "C", "text": "animée"}, {"key": "D", "text": "rapide"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "\"Calme\" là tính từ giống đực mô tả nơi yên tĩnh."}, {"num": "17", "type": "Chọn câu trả lời đúng", "question": "Il y a ___ arbres dans ce parc. (Có những cái cây trong công viên này.)", "options": [{"key": "A", "text": "un"}, {"key": "B", "text": "le"}, {"key": "C", "text": "la"}, {"key": "D", "text": "des"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "\"Des\" dùng cho danh từ số nhiều không xác định."}, {"num": "18", "type": "Chọn câu trả lời đúng", "question": "Le musée est un lieu très ___. (Bảo tàng là một nơi rất thú vị.)", "options": [{"key": "A", "text": "intéressant"}, {"key": "B", "text": "bruyant"}, {"key": "C", "text": "fermée"}, {"key": "D", "text": "rapide"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"Intéressant\" mô tả một nơi hấp dẫn, lôi cuốn."}, {"num": "19", "type": "Chọn câu trả lời đúng", "question": "La place centrale est toujours ___. (Quảng trường trung tâm lúc nào cũng nhộn nhịp.)", "options": [{"key": "A", "text": "calme"}, {"key": "B", "text": "animée"}, {"key": "C", "text": "sombre"}, {"key": "D", "text": "propre"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "\"Animée\" mô tả nơi sôi động, có nhiều hoạt động."}, {"num": "20", "type": "Chọn câu trả lời đúng", "question": "C’est un quartier ___. Il y a beaucoup de voitures. (Đó là một khu phố ồn ào. Có rất nhiều xe cộ.)", "options": [{"key": "A", "text": "bruyant"}, {"key": "B", "text": "désert"}, {"key": "C", "text": "propre"}, {"key": "D", "text": "tranquille"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"Bruyant\" dùng để mô tả khu vực ồn ào."}, {"num": "21", "type": "Chọn câu trả lời đúng", "question": "La lampe est ___ la table de nuit. (Cái đèn ở trên bàn đầu giường.)", "options": [{"key": "A", "text": "sous"}, {"key": "B", "text": "sur"}, {"key": "C", "text": "derrière"}, {"key": "D", "text": "dans"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "\"Sur\" nghĩa là ở trên bề mặt."}, {"num": "22", "type": "Chọn câu trả lời đúng", "question": "Le chat dort ___ le canapé. (Con mèo ngủ trên ghế sô-pha.)", "options": [{"key": "A", "text": "sur"}, {"key": "B", "text": "entre"}, {"key": "C", "text": "à"}, {"key": "D", "text": "devant"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "images/A2_Bai_02_Cau_22_120208.png", "correct_ans": "A", "explanation": "\"Sous\" nghĩa là ở phía dưới vật gì đó."}, {"num": "23", "type": "Chọn câu trả lời đúng", "question": "Le vélo est garé ___ la maison. (Chiếc xe đạp đỗ trước ngôi nhà.)", "options": [{"key": "A", "text": "derrière"}, {"key": "B", "text": "entre"}, {"key": "C", "text": "devant"}, {"key": "D", "text": "sur"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "images/A2_Bai_02_Cau_23_120209.png", "correct_ans": "C", "explanation": "\"Devant\" nghĩa là ở phía trước."}, {"num": "24", "type": "Chọn câu trả lời đúng", "question": "Le tableau est ___ la fenêtre. (Bức tranh ở cạnh cửa sổ.)", "options": [{"key": "A", "text": "à côté de"}, {"key": "B", "text": "dans"}, {"key": "C", "text": "loin de"}, {"key": "D", "text": "entre"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "images/A2_Bai_02_Cau_24_120210.png", "correct_ans": "A", "explanation": "\"À côté de\" nghĩa là bên cạnh."}, {"num": "25", "type": "Chọn câu trả lời đúng", "question": "Le chat se cache ___ la table et le mur. (Con mèo trốn giữa bàn và tường.)", "options": [{"key": "A", "text": "derrière"}, {"key": "B", "text": "devant"}, {"key": "C", "text": "à côté de"}, {"key": "D", "text": "entre"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "\"Entre\" nghĩa là ở giữa hai vật."}, {"num": "26", "type": "Chọn câu trả lời đúng", "question": "Il y a une grande table ___ la salle à manger. (Có một cái bàn lớn trong phòng ăn.)", "options": [{"key": "A", "text": "dans"}, {"key": "B", "text": "sous"}, {"key": "C", "text": "entre"}, {"key": "D", "text": "devant"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"Dans\" nghĩa là bên trong căn phòng đó."}, {"num": "27", "type": "Chọn câu trả lời đúng", "question": "Le lit est ___ la fenêtre. (Chiếc giường ở gần cửa sổ.)", "options": [{"key": "A", "text": "dans"}, {"key": "B", "text": "sur"}, {"key": "C", "text": "entre"}, {"key": "D", "text": "près de"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "\"Près de\" chỉ vị trí gần."}, {"num": "28", "type": "Chọn câu trả lời đúng", "question": "L’appartement est situé ___ cinquième étage. (Căn hộ ở tầng 5.)", "options": [{"key": "A", "text": "au"}, {"key": "B", "text": "à"}, {"key": "C", "text": "en"}, {"key": "D", "text": "sur"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"Au cinquième étage\" là cách nói đúng với tầng nhà."}, {"num": "29", "type": "Chọn câu trả lời đúng", "question": "Ils ont une maison ___ jardin. (Họ có một ngôi nhà có vườn.)", "options": [{"key": "A", "text": "dans"}, {"key": "B", "text": "avec"}, {"key": "C", "text": "sous"}, {"key": "D", "text": "à"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "\"Avec\" dùng để nói \"có\" một đặc điểm đi kèm (maison avec jardin)."}, {"num": "30", "type": "Chọn câu trả lời đúng", "question": "Le canapé est ___ le mur. (Ghế sô-pha áp vào tường.)", "options": [{"key": "A", "text": "contre"}, {"key": "B", "text": "à"}, {"key": "C", "text": "sur"}, {"key": "D", "text": "entre"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"Contre\" nghĩa là sát vào, tựa vào tường."}, {"num": "31", "type": "Chọn câu trả lời đúng", "question": "Le livre est ___ l’étagère. (Cuốn sách ở trên giá sách.)", "options": [{"key": "A", "text": "sur"}, {"key": "B", "text": "sous"}, {"key": "C", "text": "contre"}, {"key": "D", "text": "à"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"Sur\" nghĩa là trên bề mặt."}, {"num": "32", "type": "Chọn câu trả lời đúng", "question": "L’éléphant est ___ la chaise. (Con voi ở sau chiếc ghế.)", "options": [{"key": "A", "text": "devant"}, {"key": "B", "text": "sur"}, {"key": "C", "text": "entre"}, {"key": "D", "text": "derrière"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "images/A2_Bai_02_Cau_32_120211.png", "correct_ans": "D", "explanation": "\"Derrière\" nghĩa là phía sau."}, {"num": "33", "type": "Chọn câu trả lời đúng", "question": "Le lit est ___ la fenêtre. (Chiếc giường ở gần cửa sổ.)", "options": [{"key": "A", "text": "loin de"}, {"key": "B", "text": "près de"}, {"key": "C", "text": "dans"}, {"key": "D", "text": "au-dessus de"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "images/A2_Bai_02_Cau_33_120212.png", "correct_ans": "B", "explanation": "\"Près de\" nghĩa là gần."}, {"num": "34", "type": "Chọn câu trả lời đúng", "question": "Le bus s’arrête ___ l’école. (Xe buýt dừng trước trường học.)", "options": [{"key": "A", "text": "sous"}, {"key": "B", "text": "derrière"}, {"key": "C", "text": "devant"}, {"key": "D", "text": "sur"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "\"Devant\" là phía trước địa điểm."}, {"num": "35", "type": "Chọn câu trả lời đúng", "question": "Il y a un tapis ___ la table basse. (Có một tấm thảm dưới bàn trà.)", "options": [{"key": "A", "text": "sous"}, {"key": "B", "text": "sur"}, {"key": "C", "text": "dans"}, {"key": "D", "text": "devant"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"Sous\" dùng cho vị trí phía dưới."}, {"num": "36", "type": "Chọn câu trả lời đúng", "question": "Il y a un marché ___ dans ce village. (Có một chợ địa phương trong ngôi làng này.)", "options": [{"key": "A", "text": "propre"}, {"key": "B", "text": "rapide"}, {"key": "C", "text": "local"}, {"key": "D", "text": "ancien"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "\"Local\" mô tả chợ mang tính địa phương."}, {"num": "37", "type": "Chọn câu trả lời đúng", "question": "Le parc est très ___. (Công viên rất yên tĩnh.)", "options": [{"key": "A", "text": "bruyant"}, {"key": "B", "text": "animé"}, {"key": "C", "text": "sale"}, {"key": "D", "text": "tranquille"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "\"Tranquille\" dùng khi nói đến nơi yên tĩnh, thư giãn."}, {"num": "38", "type": "Chọn câu trả lời đúng", "question": "Les rues sont ___. (Những con phố thì bẩn.)", "options": [{"key": "A", "text": "sales"}, {"key": "B", "text": "propres"}, {"key": "C", "text": "calmes"}, {"key": "D", "text": "vertes"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"Sales\" là tính từ số nhiều giống cái cho “rues”."}, {"num": "39", "type": "Chọn câu trả lời đúng", "question": "Ce lieu est très ___. (Nơi này rất vắng vẻ.)", "options": [{"key": "A", "text": "vivant"}, {"key": "B", "text": "propre"}, {"key": "C", "text": "désert"}, {"key": "D", "text": "sombre"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "\"Désert\" nghĩa là vắng vẻ, không có người."}, {"num": "40", "type": "Chọn câu trả lời đúng", "question": "Mon village est ___ mais agréable. (Ngôi làng của tôi nhỏ nhưng dễ chịu.)", "options": [{"key": "A", "text": "bruyant"}, {"key": "B", "text": "petit"}, {"key": "C", "text": "sale"}, {"key": "D", "text": "vaste"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "\"Petit\" mô tả kích thước của làng (village)."}, {"num": "41", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "42", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "audios/A2_Bai_02_Cau_42_120242.mp3", "image_data": "", "correct_ans": "", "explanation": ""}]}, {"id": "A2.1_L03", "num": 3, "filename": "Bai_03_Ôn_tập_1.md", "title": "Bài 03 - Ôn tập 1", "questions": [{"num": "1", "type": "Chọn câu trả lời đúng", "question": "Je vais acheter ___ journal au kiosque. (Tôi sẽ mua một tờ báo ở sạp báo.)", "options": [{"key": "A", "text": "le"}, {"key": "B", "text": "un"}, {"key": "C", "text": "des"}, {"key": "D", "text": "du"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Journal” chưa xác định, bất kỳ tờ nào → un journal."}, {"num": "2", "type": "Chọn câu trả lời đúng", "question": "___ amis de Paul sont très sympas. (Những người bạn của Paul rất dễ thương.)", "options": [{"key": "A", "text": "Les"}, {"key": "B", "text": "Le"}, {"key": "C", "text": "Des"}, {"key": "D", "text": "Un"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Bạn bè của Paul đã xác định → les amis."}, {"num": "3", "type": "Chọn câu trả lời đúng", "question": "Il y a ___ enfants dans le jardin. (Có những đứa trẻ trong vườn.)", "options": [{"key": "A", "text": "le"}, {"key": "B", "text": "des"}, {"key": "C", "text": "un"}, {"key": "D", "text": "les"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Trẻ em không xác định, số nhiều → des enfants."}, {"num": "4", "type": "Chọn câu trả lời đúng", "question": "Ils ont regardé ___ film français hier soir. (Họ đã xem một bộ phim Pháp tối qua.)", "options": [{"key": "A", "text": "le"}, {"key": "B", "text": "un"}, {"key": "C", "text": "des"}, {"key": "D", "text": "une"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Film” không xác định, bổ sung “français” → un film."}, {"num": "5", "type": "Chọn câu trả lời đúng", "question": "Je prends ___ café tous les matins. (Tôi uống cà phê mỗi sáng.)", "options": [{"key": "A", "text": "du"}, {"key": "B", "text": "un"}, {"key": "C", "text": "le"}, {"key": "D", "text": "des"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Café” chất không đếm được → du café."}, {"num": "6", "type": "Chọn câu trả lời đúng", "question": "J’achète ___ pomme et ___ banane. (Tôi mua một quả táo và một quả chuối.)", "options": [{"key": "A", "text": "la / la"}, {"key": "B", "text": "une / une"}, {"key": "C", "text": "des / des"}, {"key": "D", "text": "un / un"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Pomme” & “banane” giống cái, số ít chưa xác định → une."}, {"num": "7", "type": "Chọn câu trả lời đúng", "question": "Elle porte ___ robe bleue aujourd’hui. (Hôm nay cô ấy mặc một chiếc váy xanh.)", "options": [{"key": "A", "text": "une"}, {"key": "B", "text": "un"}, {"key": "C", "text": "des"}, {"key": "D", "text": "la"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Robe” giống cái, chưa xác định → une robe."}, {"num": "8", "type": "Chọn câu trả lời đúng", "question": "___ soleil brille très fort aujourd’hui. (Mặt trời chiếu sáng rất mạnh hôm nay.)", "options": [{"key": "A", "text": "Un"}, {"key": "B", "text": "Du"}, {"key": "C", "text": "Des"}, {"key": "D", "text": "Le"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“Soleil” chỉ một mặt trời duy nhất → le soleil."}, {"num": "9", "type": "Chọn câu trả lời đúng", "question": "Marie a ___ idée intéressante. (Marie có một ý tưởng hay.)", "options": [{"key": "A", "text": "l’"}, {"key": "B", "text": "la"}, {"key": "C", "text": "des"}, {"key": "D", "text": "une"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“Idée” giống cái, chưa xác định → une idée."}, {"num": "10", "type": "Chọn câu trả lời đúng", "question": "___ voiture rouge est à mon frère. (Chiếc xe hơi màu đỏ là của anh trai tôi.)", "options": [{"key": "A", "text": "Le"}, {"key": "B", "text": "Des"}, {"key": "C", "text": "Une"}, {"key": "D", "text": "La"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Nói đến xe cụ thể → la voiture rouge."}, {"num": "11", "type": "Viết câu trả lời", "question": "Viết câu trả lời : Tu travailles où?", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "12", "type": "Viết câu trả lời", "question": "Viết câu trả lời : Tu parles quelles langues?", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "13", "type": "Viết câu trả lời", "question": "Viết câu trả lời : Qu’est-ce que tu aimes faire pendant ton temps libre?", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "14", "type": "Viết câu trả lời", "question": "Viết câu trả lời : Quels sont tes loisirs?", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "15", "type": "Chọn câu trả lời đúng", "question": "Nous regardons ______ film ce soir. (Tối nay chúng tôi xem một bộ phim.)", "options": [{"key": "A", "text": "un"}, {"key": "B", "text": "le"}, {"key": "C", "text": "des"}, {"key": "D", "text": "une"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Film” giống đực, chưa xác định → un film."}, {"num": "16", "type": "Chọn câu trả lời đúng", "question": "______ enfants jouent dans le jardin. (Những đứa trẻ đang chơi trong vườn.)", "options": [{"key": "A", "text": "Les"}, {"key": "B", "text": "Des"}, {"key": "C", "text": "Un"}, {"key": "D", "text": "Le"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Nhóm trẻ xác định → les enfants."}, {"num": "17", "type": "Chọn câu trả lời đúng", "question": "Je préfère ______ chocolat noir. (Tôi thích sô-cô-la đen.)", "options": [{"key": "A", "text": "le"}, {"key": "B", "text": "un"}, {"key": "C", "text": "du"}, {"key": "D", "text": "des"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Thói quen/sở thích nói chung → dùng le."}, {"num": "18", "type": "Chọn câu trả lời đúng", "question": "Il a acheté ______ voiture rouge. (Anh ấy đã mua một chiếc xe màu đỏ.)", "options": [{"key": "A", "text": "une"}, {"key": "B", "text": "la"}, {"key": "C", "text": "des"}, {"key": "D", "text": "un"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Voiture” giống cái, chưa xác định → une voiture."}, {"num": "19", "type": "Chọn câu trả lời đúng", "question": "Tu as ______ amis en France ? (Bạn có bạn bè ở Pháp không?)", "options": [{"key": "A", "text": "des"}, {"key": "B", "text": "les"}, {"key": "C", "text": "un"}, {"key": "D", "text": "le"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Amis” số nhiều, không xác định → des amis."}, {"num": "20", "type": "Chọn câu trả lời đúng", "question": "______ éléphant est un animal très intelligent. (Con voi là loài động vật rất thông minh.)", "options": [{"key": "A", "text": "Le"}, {"key": "B", "text": "L'"}, {"key": "C", "text": "La"}, {"key": "D", "text": "Les"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Éléphant” bắt đầu bằng nguyên âm → dùng l’."}, {"num": "21", "type": "Chọn câu trả lời đúng", "question": "Elle boit souvent ______ café le matin. (Cô ấy thường uống cà phê vào buổi sáng.)", "options": [{"key": "A", "text": "un"}, {"key": "B", "text": "le"}, {"key": "C", "text": "du"}, {"key": "D", "text": "de"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Café” là chất, không đếm được → dùng du café."}, {"num": "22", "type": "Chọn câu trả lời đúng", "question": "J’achète ______ pommes au marché. (Tôi mua những quả táo ở chợ.)", "options": [{"key": "A", "text": "une"}, {"key": "B", "text": "le"}, {"key": "C", "text": "un"}, {"key": "D", "text": "des"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“Pommes” số nhiều, không xác định → des pommes."}, {"num": "23", "type": "Viết câu trả lời", "question": "Viết câu trả lời : Comment tu t’appelles?", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "24", "type": "Viết câu trả lời", "question": "Viết câu trả lời : Tu as quel âge?", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "25", "type": "Viết câu trả lời", "question": "Viết câu trả lời : Quelle est ta nationalité?", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "26", "type": "Viết câu trả lời", "question": "Viết câu trả lời : Tu habites où?", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "27", "type": "Chọn câu trả lời đúng", "question": "Je me __________. Je m’appelle Julie et j’ai 25 ans. (Tôi tự giới thiệu. Tôi tên là Julie và tôi 25 tuổi.)", "options": [{"key": "A", "text": "salue"}, {"key": "B", "text": "présente"}, {"key": "C", "text": "montre"}, {"key": "D", "text": "parle"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Se présenter” = giới thiệu bản thân → je me présente."}, {"num": "28", "type": "Chọn câu trả lời đúng", "question": "Il habite ___ une grande maison à la campagne. (Anh ấy sống trong một ngôi nhà lớn ở nông thôn.)", "options": [{"key": "A", "text": "chez"}, {"key": "B", "text": "dans"}, {"key": "C", "text": "entre"}, {"key": "D", "text": "sur"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Habiter dans une maison” → dans."}, {"num": "29", "type": "Chọn câu trả lời đúng", "question": "Elle parle souvent ___ ses problèmes personnels. (Cô ấy thường nói về những vấn đề cá nhân của mình.)", "options": [{"key": "A", "text": "de"}, {"key": "B", "text": "à"}, {"key": "C", "text": "avec"}, {"key": "D", "text": "en"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Parler de qch” = nói về điều gì đó."}, {"num": "30", "type": "Chọn câu trả lời đúng", "question": "___ chambre est lumineuse et confortable. (Phòng ngủ sáng sủa và thoải mái.)", "options": [{"key": "A", "text": "Des"}, {"key": "B", "text": "Une"}, {"key": "C", "text": "La"}, {"key": "D", "text": "Du"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Chỉ một phòng xác định → la chambre."}, {"num": "31", "type": "Chọn câu trả lời đúng", "question": "L’armoire est ___ le lit et la fenêtre. (Cái tủ ở giữa giường và cửa sổ.)", "options": [{"key": "A", "text": "sous"}, {"key": "B", "text": "devant"}, {"key": "C", "text": "à"}, {"key": "D", "text": "entre"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“Entre … et …” = ở giữa … và …"}, {"num": "32", "type": "Chọn câu trả lời đúng", "question": "Elle veut acheter ___ table pour la cuisine. (Cô ấy muốn mua một cái bàn cho nhà bếp.)", "options": [{"key": "A", "text": "une"}, {"key": "B", "text": "la"}, {"key": "C", "text": "des"}, {"key": "D", "text": "un"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Table” giống cái, chưa xác định → une table."}, {"num": "33", "type": "Chọn câu trả lời đúng", "question": "Mon frère travaille dans ___ hôpital. (Anh trai tôi làm việc trong một bệnh viện.)", "options": [{"key": "A", "text": "l’"}, {"key": "B", "text": "le"}, {"key": "C", "text": "un"}, {"key": "D", "text": "du"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Hôpital” bắt đầu bằng nguyên âm → dùng l’."}, {"num": "34", "type": "Chọn câu trả lời đúng", "question": "Nous avons visité ___ château ancien. (Chúng tôi đã tham quan một lâu đài cổ.)", "options": [{"key": "A", "text": "un"}, {"key": "B", "text": "le"}, {"key": "C", "text": "des"}, {"key": "D", "text": "du"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Lâu đài chưa xác định → un château."}, {"num": "35", "type": "Chọn câu trả lời đúng", "question": "Je cherche ___ appartement près du métro. (Tôi tìm một căn hộ gần tàu điện ngầm.)", "options": [{"key": "A", "text": "du"}, {"key": "B", "text": "un"}, {"key": "C", "text": "des"}, {"key": "D", "text": "le"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Chưa xác định → un appartement."}, {"num": "36", "type": "Chọn câu trả lời đúng", "question": "Elle adore ___ animaux. (Cô ấy rất thích động vật.)", "options": [{"key": "A", "text": "les"}, {"key": "B", "text": "un"}, {"key": "C", "text": "le"}, {"key": "D", "text": "des"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Nói chung về động vật → dùng les animaux."}, {"num": "37", "type": "Chọn câu trả lời đúng", "question": "Ils prennent souvent ___ pain au petit déjeuner. (Họ thường ăn bánh mì vào bữa sáng.)", "options": [{"key": "A", "text": "un"}, {"key": "B", "text": "du"}, {"key": "C", "text": "le"}, {"key": "D", "text": "des"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Pain” chất không đếm được → du pain."}, {"num": "38", "type": "Chọn câu trả lời đúng", "question": "Elle va acheter ___ oranges et ___ bananes. (Cô ấy sẽ mua cam và chuối.)", "options": [{"key": "A", "text": "un / une"}, {"key": "B", "text": "les / les"}, {"key": "C", "text": "des / des"}, {"key": "D", "text": "du / du"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Trái cây số nhiều không xác định → des oranges et des bananes."}, {"num": "39", "type": "Chọn câu trả lời đúng", "question": "Il met ___ lait dans son café. (Anh ấy cho sữa vào cà phê.)", "options": [{"key": "A", "text": "de"}, {"key": "B", "text": "du"}, {"key": "C", "text": "le"}, {"key": "D", "text": "un"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Lait” chất không đếm được → du lait."}, {"num": "40", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "audios/A2_Bai_03_Cau_40_120340.mp3", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "41", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}]}, {"id": "A2.1_L04", "num": 4, "filename": "Bai_04_Miêu_tả_người_và_đồ_vật.md", "title": "Bài 04 - Miêu tả người và đồ vật", "questions": [{"num": "1", "type": "Chọn câu trả lời đúng", "question": "C’est une ___ voiture. (Đó là một chiếc xe đẹp.)", "options": [{"key": "A", "text": "belle"}, {"key": "B", "text": "rouge"}, {"key": "C", "text": "rapide"}, {"key": "D", "text": "élégant"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Voiture” giống cái → belle voiture."}, {"num": "2", "type": "Chọn câu trả lời đúng", "question": "Il a une maison ___. (Anh ấy có một ngôi nhà màu trắng.)", "options": [{"key": "A", "text": "joli"}, {"key": "B", "text": "petit"}, {"key": "C", "text": "blanche"}, {"key": "D", "text": "grande"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Maison” giống cái → maison blanche."}, {"num": "3", "type": "Chọn câu trả lời đúng", "question": "Marie porte une robe ___. (Marie mặc một chiếc váy đỏ.)", "options": [{"key": "A", "text": "belle"}, {"key": "B", "text": "rouge"}, {"key": "C", "text": "grande"}, {"key": "D", "text": "élégant"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Màu sắc đặt sau danh từ → robe rouge."}, {"num": "4", "type": "Chọn câu trả lời đúng", "question": "Paul est un garçon ___. (Paul là một cậu bé thông minh.)", "options": [{"key": "A", "text": "intelligent"}, {"key": "B", "text": "petite"}, {"key": "C", "text": "belle"}, {"key": "D", "text": "mince"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Garçon” giống đực → un garçon intelligent."}, {"num": "5", "type": "Chọn câu trả lời đúng", "question": "J’ai acheté un sac ___ et pratique. (Tôi đã mua một cái túi màu đen và tiện lợi.)", "options": [{"key": "A", "text": "rouge"}, {"key": "B", "text": "petit"}, {"key": "C", "text": "noir"}, {"key": "D", "text": "grande"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Màu sắc đặt sau danh từ → sac noir."}, {"num": "6", "type": "Chọn câu trả lời đúng", "question": "Choisissez la bonne phrase. (Chọn câu đúng.)", "options": [{"key": "A", "text": "C’est une gentille fille petite."}, {"key": "B", "text": "C’est une petite fille gentille."}, {"key": "C", "text": "C’est une fille petite gentille."}, {"key": "D", "text": "C’est gentille petite fille."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Tính từ “petite” (trước danh từ), “gentille” (sau danh từ)."}, {"num": "7", "type": "Chọn câu trả lời đúng", "question": "C’est une table ___. (Đó là một cái bàn tròn.)", "options": [{"key": "A", "text": "beau"}, {"key": "B", "text": "ronde"}, {"key": "C", "text": "noir"}, {"key": "D", "text": "petit"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Table” giống cái → table ronde."}, {"num": "8", "type": "Chọn câu trả lời đúng", "question": "Il a un ___ appartement. (Anh ấy có một căn hộ lớn.)", "options": [{"key": "A", "text": "grand"}, {"key": "B", "text": "bleu"}, {"key": "C", "text": "propre"}, {"key": "D", "text": "moderne"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Một số tính từ (grand, petit, beau…) đặt trước danh từ."}, {"num": "9", "type": "Chọn câu trả lời đúng", "question": "Ma sœur a une jupe ___. (Em gái tôi có một cái váy ngắn.)", "options": [{"key": "A", "text": "ancienne"}, {"key": "B", "text": "jolie"}, {"key": "C", "text": "courte"}, {"key": "D", "text": "verte"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Jupe” giống cái → jupe courte."}, {"num": "10", "type": "Chọn câu trả lời đúng", "question": "C’est un ___ homme. (Đó là một người đàn ông trẻ.)", "options": [{"key": "A", "text": "content"}, {"key": "B", "text": "intelligent"}, {"key": "C", "text": "fort"}, {"key": "D", "text": "jeune"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Tính từ “jeune” thường đặt trước danh từ."}, {"num": "11", "type": "Chọn câu trả lời đúng", "question": "Elle a un sac ___ en cuir. (Cô ấy có một chiếc túi da màu đen.)", "options": [{"key": "A", "text": "beau"}, {"key": "B", "text": "petit"}, {"key": "C", "text": "noir"}, {"key": "D", "text": "joli"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Màu sắc đặt sau danh từ → sac noir."}, {"num": "12", "type": "Chọn câu trả lời đúng", "question": "C’est un homme ___. (Đó là một người đàn ông tốt bụng.)", "options": [{"key": "A", "text": "gentil"}, {"key": "B", "text": "gentille"}, {"key": "C", "text": "gentils"}, {"key": "D", "text": "gentilles"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Homme” giống đực số ít → gentil."}, {"num": "13", "type": "Chọn câu trả lời đúng", "question": "Quelle phrase est correcte ? (Câu nào đúng?)", "options": [{"key": "A", "text": "Une voiture rouge rapide"}, {"key": "B", "text": "Une rouge voiture rapide"}, {"key": "C", "text": "Une rapide rouge voiture"}, {"key": "D", "text": "Une voiture rapide rouge"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Thứ tự tự nhiên: danh từ + màu + đặc tính → voiture rouge rapide."}, {"num": "14", "type": "Chọn câu trả lời đúng", "question": "Quel adjectif est toujours placé avant le nom ? (Tính từ nào luôn đặt trước danh từ?)", "options": [{"key": "A", "text": "vert"}, {"key": "B", "text": "moderne"}, {"key": "C", "text": "beau"}, {"key": "D", "text": "intelligent"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Beau” nằm trong nhóm đặc biệt (BAGS) → đứng trước danh từ."}, {"num": "15", "type": "Chọn câu trả lời đúng", "question": "Quel mot est incorrect ? (Từ nào sai?)", "options": [{"key": "A", "text": "des hommes intelligents"}, {"key": "B", "text": "une robe bleue"}, {"key": "C", "text": "un fille gentil"}, {"key": "D", "text": "des enfants sages"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Fille” giống cái → phải viết une fille gentille."}, {"num": "16", "type": "Chọn câu trả lời đúng", "question": "Elle a un visage ___. (Cô ấy có một khuôn mặt tròn.)", "options": [{"key": "A", "text": "rond"}, {"key": "B", "text": "ronds"}, {"key": "C", "text": "ronde"}, {"key": "D", "text": "rondes"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Visage” giống đực số ít → un visage rond."}, {"num": "17", "type": "Chọn câu trả lời đúng", "question": "Quelle phrase est correcte ? (Câu nào đúng?)", "options": [{"key": "A", "text": "Paul a un sac élégant noir."}, {"key": "B", "text": "Paul a un noir sac élégant."}, {"key": "C", "text": "Paul a un sac noir élégant."}, {"key": "D", "text": "Paul a élégant un sac noir."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Thứ tự: danh từ + màu + đặc tính → sac noir élégant."}, {"num": "18", "type": "Chọn câu trả lời đúng", "question": "J’ai vu une fille ___. (Tôi đã thấy một cô gái xinh đẹp.)", "options": [{"key": "A", "text": "jolie"}, {"key": "B", "text": "jolie fille"}, {"key": "C", "text": "fille jolie"}, {"key": "D", "text": "jolies"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Sau động từ → chỉ dùng tính từ jolie."}, {"num": "19", "type": "Chọn câu trả lời đúng", "question": "Il habite dans un appartement ___. (Anh ấy sống trong một căn hộ hiện đại.)", "options": [{"key": "A", "text": "moderne appartement"}, {"key": "B", "text": "appartement moderne"}, {"key": "C", "text": "modernes"}, {"key": "D", "text": "moderne"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Sau danh từ là một tính từ → un appartement moderne."}, {"num": "20", "type": "Chọn câu trả lời đúng", "question": "Quelle phrase est correcte ? (Câu nào đúng?)", "options": [{"key": "A", "text": "Un petit chien noir."}, {"key": "B", "text": "Un petit noir chien."}, {"key": "C", "text": "Un noir petit chien."}, {"key": "D", "text": "Un chien petit noir."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Thứ tự: nhỏ (petit) trước, màu (noir) sau → Un petit chien noir."}, {"num": "21", "type": "Chọn câu trả lời đúng", "question": "Quel adjectif est au féminin pluriel ? (Tính từ nào ở dạng giống cái số nhiều?)", "options": [{"key": "A", "text": "petites"}, {"key": "B", "text": "petite"}, {"key": "C", "text": "petits"}, {"key": "D", "text": "petit"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Petites” = giống cái + số nhiều."}, {"num": "22", "type": "Chọn câu trả lời đúng", "question": "Quel mot est incorrect ? (Từ nào sai?)", "options": [{"key": "A", "text": "une maison blanche"}, {"key": "B", "text": "une fille gentille"}, {"key": "C", "text": "des robes rouges"}, {"key": "D", "text": "un homme intelligents"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“Homme” số ít → phải là un homme intelligent."}, {"num": "23", "type": "Chọn câu trả lời đúng", "question": "Quel mot est correct ? (Từ nào đúng?)", "options": [{"key": "A", "text": "des petites voitures rouges"}, {"key": "B", "text": "des petites rouge voitures"}, {"key": "C", "text": "des voitures petites rouges"}, {"key": "D", "text": "des rouges petites voitures"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Trật tự đúng: déterminant + adj taille (petites) + nom + couleur (rouges)."}, {"num": "24", "type": "Chọn câu trả lời đúng", "question": "Complétez : Elle porte une robe ___ (Cô ấy mặc một chiếc váy màu xanh.)", "options": [{"key": "A", "text": "bleu"}, {"key": "B", "text": "bleue"}, {"key": "C", "text": "bleues"}, {"key": "D", "text": "bleus"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Robe” giống cái số ít → bleue."}, {"num": "25", "type": "Chọn câu trả lời đúng", "question": "Remettez les mots en ordre : belle / une / fille / c’est (Sắp xếp đúng câu: Đó là một cô gái xinh đẹp.)", "options": [{"key": "A", "text": "C’est une belle fille."}, {"key": "B", "text": "Une fille belle c’est."}, {"key": "C", "text": "Belle c’est une fille."}, {"key": "D", "text": "C’est fille une belle."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Trật tự tự nhiên: C’est une belle fille."}, {"num": "26", "type": "Chọn câu trả lời đúng", "question": "Quel mot est correct ? (Từ nào đúng?)", "options": [{"key": "A", "text": "Il a un bleu sac petit."}, {"key": "B", "text": "Il a sac petit bleu."}, {"key": "C", "text": "Il a un petit sac bleu."}, {"key": "D", "text": "Il a un sac bleu petit."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Trật tự: adj “petit” trước, màu sau → un petit sac bleu."}, {"num": "27", "type": "Chọn câu trả lời đúng", "question": "Complétez avec l’accord correct : un homme ___ (một người đàn ông tốt bụng)", "options": [{"key": "A", "text": "gentil"}, {"key": "B", "text": "gentils"}, {"key": "C", "text": "gentille"}, {"key": "D", "text": "gentilles"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Homme” giống đực số ít → gentil."}, {"num": "28", "type": "Chọn câu trả lời đúng", "question": "Complétez : C’est une ___ maison (Đó là một ngôi nhà lớn.)", "options": [{"key": "A", "text": "grands"}, {"key": "B", "text": "grande"}, {"key": "C", "text": "grand"}, {"key": "D", "text": "grandes"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Maison” giống cái số ít → grande."}, {"num": "29", "type": "Chọn câu trả lời đúng", "question": "Quel mot est correct ? (Từ nào đúng?)", "options": [{"key": "A", "text": "Un manteau noir épais."}, {"key": "B", "text": "Un manteau épais noir."}, {"key": "C", "text": "Un noir manteau épais."}, {"key": "D", "text": "Un épais noir manteau."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Thứ tự: nom + couleur + qualité → manteau noir épais."}, {"num": "30", "type": "Chọn câu trả lời đúng", "question": "Quel mot est incorrect ? (Từ nào sai?)", "options": [{"key": "A", "text": "des chaises confortables"}, {"key": "B", "text": "un livre intéressant"}, {"key": "C", "text": "un sac bleu"}, {"key": "D", "text": "une fille jolies"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“Fille” số ít → phải là une fille jolie."}, {"num": "31", "type": "Chọn câu trả lời đúng", "question": "Complétez : des ___ chaussures (Những đôi giày đẹp.)", "options": [{"key": "A", "text": "beau"}, {"key": "B", "text": "beaux"}, {"key": "C", "text": "belle"}, {"key": "D", "text": "belles"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“Chaussures” giống cái số nhiều → belles."}, {"num": "32", "type": "Chọn câu trả lời đúng", "question": "Complétez : C’est un film ___. (Đó là một bộ phim hay.)", "options": [{"key": "A", "text": "intéressante"}, {"key": "B", "text": "intéressantes"}, {"key": "C", "text": "intéressants"}, {"key": "D", "text": "intéressant"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“Film” giống đực số ít → intéressant."}, {"num": "33", "type": "Chọn câu trả lời đúng", "question": "Quel mot est incorrect ? (Từ nào sai?)", "options": [{"key": "A", "text": "un chat mignon"}, {"key": "B", "text": "un homme heureux"}, {"key": "C", "text": "des enfants curieux"}, {"key": "D", "text": "une femme gentils"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“Femme” giống cái số ít → phải là gentille."}, {"num": "34", "type": "Chọn câu trả lời đúng", "question": "Complétez : Il y a une ___ chaise dans la salle. (Có một cái ghế lớn trong phòng.)", "options": [{"key": "A", "text": "grand"}, {"key": "B", "text": "grands"}, {"key": "C", "text": "grande"}, {"key": "D", "text": "grandes"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Chaise” giống cái số ít → grande."}, {"num": "35", "type": "Chọn câu trả lời đúng", "question": "Quelle phrase est correcte ? (Câu nào đúng?)", "options": [{"key": "A", "text": "Une belle maison moderne"}, {"key": "B", "text": "Une maison moderne belle"}, {"key": "C", "text": "Une maison belle moderne"}, {"key": "D", "text": "Une moderne maison belle"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Trật tự: adj BAGS (belle) trước, adj khác (moderne) sau."}, {"num": "36", "type": "Chọn câu trả lời đúng", "question": "Quel adjectif peut se placer avant le nom ? (Tính từ nào có thể đặt trước danh từ?)", "options": [{"key": "A", "text": "intéressant"}, {"key": "B", "text": "beau"}, {"key": "C", "text": "sportif"}, {"key": "D", "text": "vert"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Beau” thuộc nhóm BAGS → trước danh từ."}, {"num": "37", "type": "Chọn câu trả lời đúng", "question": "Complétez : C’est un chien ___ (méchant). (Đó là một con chó hung dữ.)", "options": [{"key": "A", "text": "méchant"}, {"key": "B", "text": "méchants"}, {"key": "C", "text": "méchante"}, {"key": "D", "text": "méchantes"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Chien” giống đực số ít → méchant."}, {"num": "38", "type": "Chọn câu trả lời đúng", "question": "Quel mot est correct ? (Từ nào đúng?)", "options": [{"key": "A", "text": "un homme drôle"}, {"key": "B", "text": "un fille intelligent"}, {"key": "C", "text": "une chats noir"}, {"key": "D", "text": "des robes rouge"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Câu A đúng; các câu khác sai giống/số."}, {"num": "39", "type": "Chọn câu trả lời đúng", "question": "Complétez : Ce sont des amis ___. (loyal) (Họ là những người bạn trung thành.)", "options": [{"key": "A", "text": "loyaux"}, {"key": "B", "text": "loyal"}, {"key": "C", "text": "loyale"}, {"key": "D", "text": "loyales"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Amis” giống đực số nhiều → loyaux."}, {"num": "40", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "audios/A2_Bai_04_Cau_40_120440.mp3", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "41", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "audios/A2_Bai_04_Cau_41_120441.mp3", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "42", "type": "Chọn câu trả lời đúng", "question": "Dựa vào hình ảnh, viết 3–5 câu để miêu tả người có dùng các tính từ đã học.", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "images/A2_Bai_04_Cau_42_120442.png", "correct_ans": "", "explanation": ""}]}, {"id": "A2.1_L05", "num": 5, "filename": "Bai_05_Thói_quen_hằng_ngày.md", "title": "Bài 05 - Thói quen hằng ngày", "questions": [{"num": "1", "type": "Chọn câu trả lời đúng", "question": "___ élève a son cahier. (Mỗi học sinh đều có vở của mình.)", "options": [{"key": "A", "text": "Quelque"}, {"key": "B", "text": "Chaque"}, {"key": "C", "text": "Certains"}, {"key": "D", "text": "Tout"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Chaque” + nom singulier."}, {"num": "2", "type": "Chọn câu trả lời đúng", "question": "Choisissez la bonne phrase : (Chọn câu đúng.)", "options": [{"key": "A", "text": "Tous les garçons sont là."}, {"key": "B", "text": "Tout les garçons sont là."}, {"key": "C", "text": "Tous les garçon sont là."}, {"key": "D", "text": "Tout garçon sont là."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Tous + les + nom pluriel” → Tous les garçons."}, {"num": "3", "type": "Chọn câu trả lời đúng", "question": "Il y a ___ problème avec ce plan. (Không có vấn đề nào với kế hoạch này.)", "options": [{"key": "A", "text": "quelque"}, {"key": "B", "text": "chaque"}, {"key": "C", "text": "aucun"}, {"key": "D", "text": "tous"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Aucun + nom singulier” → aucun problème."}, {"num": "4", "type": "Chọn câu trả lời đúng", "question": "___ les invités sont arrivés à l’heure. (Tất cả khách mời đều đến đúng giờ.)", "options": [{"key": "A", "text": "Aucun"}, {"key": "B", "text": "Tous"}, {"key": "C", "text": "Chacun"}, {"key": "D", "text": "Tout"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Les invités” = danh từ giống đực số nhiều → tous"}, {"num": "5", "type": "Chọn câu trả lời đúng", "question": "___ personne ne sait la réponse. (Không ai biết câu trả lời.)", "options": [{"key": "A", "text": "Certaines"}, {"key": "B", "text": "Chaque"}, {"key": "C", "text": "Toutes"}, {"key": "D", "text": "Aucune"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“Aucune personne” = không một ai."}, {"num": "6", "type": "Chọn câu trả lời đúng", "question": "___ enfant a reçu un cadeau différent. (Mỗi đứa trẻ nhận một món quà khác nhau.)", "options": [{"key": "A", "text": "Tout"}, {"key": "B", "text": "Chaque"}, {"key": "C", "text": "Tous"}, {"key": "D", "text": "Quelque"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Chaque + nom singulier”."}, {"num": "7", "type": "Chọn câu trả lời đúng", "question": "Choisissez la phrase correcte : (Chọn câu đúng.)", "options": [{"key": "A", "text": "Chaque étudiants ont réussi."}, {"key": "B", "text": "Aucun les étudiants n'ont réussi."}, {"key": "C", "text": "Tous les étudiants ont réussi."}, {"key": "D", "text": "Tout les étudiants ont réussi."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Tous les + pluriel” → Tous les étudiants."}, {"num": "8", "type": "Chọn câu trả lời đúng", "question": "___ personne n’a compris la question. (Không ai hiểu câu hỏi.)", "options": [{"key": "A", "text": "Toutes"}, {"key": "B", "text": "Aucune"}, {"key": "C", "text": "Quelque"}, {"key": "D", "text": "Chacune"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Aucune personne” = không một ai."}, {"num": "9", "type": "Chọn câu trả lời đúng", "question": "Il n’y a ___ solution facile. (Không có giải pháp dễ dàng.)", "options": [{"key": "A", "text": "quelques"}, {"key": "B", "text": "chaque"}, {"key": "C", "text": "aucune"}, {"key": "D", "text": "toute"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Aucune solution” = không giải pháp nào."}, {"num": "10", "type": "Chọn câu trả lời đúng", "question": "Quelle phrase est correcte ? (Câu nào đúng?)", "options": [{"key": "A", "text": "Chaque fille a une robe."}, {"key": "B", "text": "Tous fille est ici."}, {"key": "C", "text": "Aucun filles ne sont là."}, {"key": "D", "text": "Tout les filles sont parties."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Chaque + singulier” → Chaque fille."}, {"num": "11", "type": "Chọn câu trả lời đúng", "question": "Je bois ___ café chaque matin. (Tôi uống một ly cà phê mỗi sáng.)", "options": [{"key": "A", "text": "quelque"}, {"key": "B", "text": "tout"}, {"key": "C", "text": "aucun"}, {"key": "D", "text": "un"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Ở đây là 1 đơn vị cà phê → un café."}, {"num": "12", "type": "Chọn câu trả lời đúng", "question": "___ jour, il prend le métro pour aller au travail. (Mỗi ngày anh ấy đều đi làm bằng tàu điện ngầm.)", "options": [{"key": "A", "text": "Tous"}, {"key": "B", "text": "Chaque"}, {"key": "C", "text": "Quelque"}, {"key": "D", "text": "Aucun"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Chaque + nom singulier” → Chaque jour."}, {"num": "13", "type": "Chọn câu trả lời đúng", "question": "Choisissez la bonne phrase : (Chọn câu đúng.)", "options": [{"key": "A", "text": "Tous matin, je me lève à 7h."}, {"key": "B", "text": "Chaque matins, je me lève à 7h."}, {"key": "C", "text": "Chaque matin, je me lève à 7h."}, {"key": "D", "text": "Tout matin, je me lève à 7h."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Chaque + singulier” → Chaque matin."}, {"num": "14", "type": "Chọn câu trả lời đúng", "question": "Elle mange ___ fruit après le déjeuner. (Cô ấy ăn một quả trái cây sau bữa trưa.)", "options": [{"key": "A", "text": "chaque"}, {"key": "B", "text": "quelque"}, {"key": "C", "text": "aucun"}, {"key": "D", "text": "un"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "1 đơn vị quả → un fruit."}, {"num": "15", "type": "Chọn câu trả lời đúng", "question": "___ les soirs, je regarde un film ou je lis un livre. (Mỗi tối tôi xem phim hoặc đọc sách.)", "options": [{"key": "A", "text": "Quelque"}, {"key": "B", "text": "Tout"}, {"key": "C", "text": "Tous"}, {"key": "D", "text": "Chaque"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Tous les soirs” = mỗi buổi tối."}, {"num": "16", "type": "Chọn câu trả lời đúng", "question": "___ personne ne peut entrer sans badge. (Không ai có thể vào nếu không có thẻ.)", "options": [{"key": "A", "text": "Aucune"}, {"key": "B", "text": "Quelque"}, {"key": "C", "text": "Chaque"}, {"key": "D", "text": "Toutes"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Aucune personne” = không một ai."}, {"num": "17", "type": "Chọn câu trả lời đúng", "question": "Je fais ___ les tâches ménagères le samedi. (Tôi làm tất cả việc nhà vào thứ bảy.)", "options": [{"key": "A", "text": "toutes"}, {"key": "B", "text": "tout"}, {"key": "C", "text": "chaque"}, {"key": "D", "text": "aucune"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Toutes les tâches” = tất cả công việc."}, {"num": "18", "type": "Chọn câu trả lời đúng", "question": "___ soir, elle lit un chapitre de roman. (Mỗi tối cô ấy đọc một chương tiểu thuyết.)", "options": [{"key": "A", "text": "Chaque"}, {"key": "B", "text": "Tous"}, {"key": "C", "text": "Aucun"}, {"key": "D", "text": "Quelque"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Chaque + nom singulier” → Chaque soir."}, {"num": "19", "type": "Chọn câu trả lời đúng", "question": "Choisissez la phrase correcte : (Chọn câu đúng.)", "options": [{"key": "A", "text": "Chaque jours, je bois un jus d’orange."}, {"key": "B", "text": "Tous jour, je fais du sport."}, {"key": "C", "text": "Tous les jours, je vais au travail."}, {"key": "D", "text": "Tout les jours, je lis le journal."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Tous les jours” = mỗi ngày."}, {"num": "20", "type": "Chọn câu trả lời đúng", "question": "Il ne fait ___ activité physique. (Anh ấy không tập luyện thể chất.)", "options": [{"key": "A", "text": "aucune"}, {"key": "B", "text": "chaque"}, {"key": "C", "text": "toute"}, {"key": "D", "text": "quelques"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Aucune activité” = không hoạt động nào."}, {"num": "21", "type": "Chọn câu trả lời đúng", "question": "___ matin, je fais du yoga. (Mỗi buổi sáng tôi tập yoga.)", "options": [{"key": "A", "text": "Chaque"}, {"key": "B", "text": "Tous"}, {"key": "C", "text": "Tout"}, {"key": "D", "text": "Certaines"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Chaque + nom singulier” → chaque matin."}, {"num": "22", "type": "Chọn câu trả lời đúng", "question": "___ les étudiants ont un devoir à rendre. (Tất cả sinh viên đều có bài tập phải nộp.)", "options": [{"key": "A", "text": "Chacun"}, {"key": "B", "text": "Tous"}, {"key": "C", "text": "Chaque"}, {"key": "D", "text": "Certains"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Tous les étudiants” = tất cả sinh viên."}, {"num": "23", "type": "Chọn câu trả lời đúng", "question": "___ les semaines, nous faisons les courses. (Mỗi tuần chúng tôi đi mua sắm.)", "options": [{"key": "A", "text": "Toutes"}, {"key": "B", "text": "Chaque"}, {"key": "C", "text": "Chacun"}, {"key": "D", "text": "Certains"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Toutes les semaines” = mỗi tuần."}, {"num": "24", "type": "Chọn câu trả lời đúng", "question": "___ personne a un rôle important dans l’équipe. (Mỗi người đều có một vai trò quan trọng trong đội.)", "options": [{"key": "A", "text": "Chaque"}, {"key": "B", "text": "Tous"}, {"key": "C", "text": "Chacun"}, {"key": "D", "text": "Toutes"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Chaque personne” = mỗi người."}, {"num": "25", "type": "Chọn câu trả lời đúng", "question": "___ d’entre vous doit répondre à cette question. (Mỗi người trong các bạn phải trả lời câu hỏi này.)", "options": [{"key": "A", "text": "Chacun"}, {"key": "B", "text": "Tous"}, {"key": "C", "text": "Tout"}, {"key": "D", "text": "Chaque"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Chacun d’entre vous” = mỗi người trong số các bạn."}, {"num": "26", "type": "Chọn câu trả lời đúng", "question": "Elle a acheté ___ robe bleue hier. (Cô ấy đã mua một chiếc váy xanh hôm qua.)", "options": [{"key": "A", "text": "la"}, {"key": "B", "text": "une"}, {"key": "C", "text": "des"}, {"key": "D", "text": "les"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Robe” giống cái, chưa xác định → une robe."}, {"num": "27", "type": "Chọn câu trả lời đúng", "question": "Tu t’appelles comment ? (Bạn tên là gì?)", "options": [{"key": "A", "text": "Je suis 25 ans"}, {"key": "B", "text": "J’habite à Paris"}, {"key": "C", "text": "Je m’appelle Sophie"}, {"key": "D", "text": "Je parle français"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Câu trả lời chuẩn cho “Tu t’appelles comment ?” → Je m’appelle…."}, {"num": "28", "type": "Chọn câu trả lời đúng", "question": "C’est ___ ordinateur portable. (Đây là máy tính xách tay của tôi.)", "options": [{"key": "A", "text": "mon"}, {"key": "B", "text": "ma"}, {"key": "C", "text": "mes"}, {"key": "D", "text": "le"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Ordinateur” giống đực số ít → mon ordinateur."}, {"num": "29", "type": "Chọn câu trả lời đúng", "question": "La lampe est ___ la table. (Cái đèn ở trên bàn.)", "options": [{"key": "A", "text": "sur"}, {"key": "B", "text": "sous"}, {"key": "C", "text": "à"}, {"key": "D", "text": "dans"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Sur la table” = trên bàn."}, {"num": "30", "type": "Chọn câu trả lời đúng", "question": "J’habite ___ appartement dans le centre-ville. (Tôi sống trong một căn hộ ở trung tâm thành phố.)", "options": [{"key": "A", "text": "un"}, {"key": "B", "text": "le"}, {"key": "C", "text": "du"}, {"key": "D", "text": "ce"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Un appartement” = một căn hộ (không xác định)."}, {"num": "31", "type": "Chọn câu trả lời đúng", "question": "Ma chambre est ___ et lumineuse. (Phòng của tôi nhỏ và sáng sủa.)", "options": [{"key": "A", "text": "petit"}, {"key": "B", "text": "petite"}, {"key": "C", "text": "petits"}, {"key": "D", "text": "petites"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Chambre” giống cái số ít → petite chambre."}, {"num": "32", "type": "Chọn câu trả lời đúng", "question": "Quelle est la bonne position de l’adjectif ? (Vị trí đúng của tính từ?)", "options": [{"key": "A", "text": "une maison belle"}, {"key": "B", "text": "une belle maison"}, {"key": "C", "text": "belle une maison"}, {"key": "D", "text": "maison belle une"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Tính từ “belle” đặt trước danh từ."}, {"num": "33", "type": "Viết câu trả lời", "question": "Viết câu trả lời : À quelle heure tu te lèves ?", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "34", "type": "Viết câu trả lời", "question": "Viết câu trả lời : Qu’est-ce que tu fais le matin ?", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "35", "type": "Viết câu trả lời", "question": "Viết câu trả lời : À quelle heure tu vas à l’école ou au travail ?", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "36", "type": "Viết câu trả lời", "question": "Viết câu trả lời : Que fais-tu pendant la journée ?", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "37", "type": "Viết câu trả lời", "question": "Viết câu trả lời : Qu’est-ce que tu fais après l’école / le travail ?", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "38", "type": "Viết câu trả lời", "question": "Viết câu trả lời : Tu te couches à quelle heure ?", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "39", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "audios/A2_Bai_05_Cau_39_120539.mp3", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "40", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}]}, {"id": "A2.1_L06", "num": 6, "filename": "Bai_06_Kiểm_tra_giữa_kỳ_1.1.md", "title": "Bài 06 - Kiểm tra giữa kỳ 1.1", "questions": [{"num": "1", "type": "Chọn câu trả lời đúng", "question": "Ils cherchent ___ maison avec un jardin. (Họ tìm một ngôi nhà có vườn.)", "options": [{"key": "A", "text": "une"}, {"key": "B", "text": "la"}, {"key": "C", "text": "des"}, {"key": "D", "text": "du"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Maison” giống cái, chưa xác định → une maison."}, {"num": "2", "type": "Chọn câu trả lời đúng", "question": "Nous avons loué ___ appartement au centre-ville. (Chúng tôi thuê một căn hộ ở trung tâm thành phố.)", "options": [{"key": "A", "text": "un"}, {"key": "B", "text": "des"}, {"key": "C", "text": "le"}, {"key": "D", "text": "du"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Appartement” giống đực, chưa xác định → un appartement."}, {"num": "3", "type": "Chọn câu trả lời đúng", "question": "J’adore ___ fleurs au printemps. (Tôi thích hoa vào mùa xuân.)", "options": [{"key": "A", "text": "des"}, {"key": "B", "text": "une"}, {"key": "C", "text": "la"}, {"key": "D", "text": "les"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Thói quen, sở thích chung → les fleurs."}, {"num": "4", "type": "Chọn câu trả lời đúng", "question": "Il habite ___ Paris. (Anh ấy sống ở Paris.)", "options": [{"key": "A", "text": "dans"}, {"key": "B", "text": "à"}, {"key": "C", "text": "en"}, {"key": "D", "text": "chez"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Thành phố → dùng à Paris."}, {"num": "5", "type": "Chọn câu trả lời đúng", "question": "Quelle est la phrase correcte ? (Câu nào đúng?)", "options": [{"key": "A", "text": "Elle est allée au marché."}, {"key": "B", "text": "Elle a allait au marché."}, {"key": "C", "text": "Elle aller au marché."}, {"key": "D", "text": "Elle a allée au marché."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Passé composé với “aller” → trợ động từ être."}, {"num": "6", "type": "Chọn câu trả lời đúng", "question": "Repérez l’erreur : Le chat est dans la table. (Xác định từ sai.)", "options": [{"key": "A", "text": "Le"}, {"key": "B", "text": "la"}, {"key": "C", "text": "dans"}, {"key": "D", "text": "chat"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Nói đúng: sur la table, không dùng “dans”."}, {"num": "7", "type": "Chọn câu trả lời đúng", "question": "Que veut dire “chaud” ? (“Chaud” nghĩa là gì?)", "options": [{"key": "A", "text": "Nhanh"}, {"key": "B", "text": "Chậm"}, {"key": "C", "text": "Nóng"}, {"key": "D", "text": "Lạnh"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Chaud” = nóng."}, {"num": "8", "type": "Chọn câu trả lời đúng", "question": "Combien d’animaux a Marie ? (Marie có bao nhiêu con vật?)", "options": [{"key": "A", "text": "3"}, {"key": "B", "text": "1"}, {"key": "C", "text": "2"}, {"key": "D", "text": "4"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "images/A2_Bai_06_Cau_08_120608.png", "correct_ans": "A", "explanation": "Theo ngữ cảnh câu hỏi → đáp án: 3."}, {"num": "9", "type": "Chọn câu trả lời đúng", "question": "Je suis fatigué, ___ je vais me coucher. (Tôi mệt, nên tôi sẽ đi ngủ.)", "options": [{"key": "A", "text": "mais"}, {"key": "B", "text": "ou"}, {"key": "C", "text": "donc"}, {"key": "D", "text": "car"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Biểu thị kết quả → donc."}, {"num": "10", "type": "Chọn câu trả lời đúng", "question": "Reconstituez : / va / Elle / marché / au (Sắp xếp lại câu)", "options": [{"key": "A", "text": "Elle va au marché."}, {"key": "B", "text": "Va au marché elle."}, {"key": "C", "text": "Elle marché va au."}, {"key": "D", "text": "Elle au va marché."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Trật tự đúng: Elle va au marché."}, {"num": "11", "type": "Chọn câu trả lời đúng", "question": "Nous allons ___ cinéma ce soir. (Tối nay chúng tôi đi xem phim.)", "options": [{"key": "A", "text": "au"}, {"key": "B", "text": "aux"}, {"key": "C", "text": "en"}, {"key": "D", "text": "à la"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Cinéma” giống đực, dùng au cinéma."}, {"num": "12", "type": "Chọn câu trả lời đúng", "question": "Quel mot est mal utilisé ? (Từ nào dùng sai trong: Elle bois de l'eau.)", "options": [{"key": "A", "text": "bois"}, {"key": "B", "text": "Elle"}, {"key": "C", "text": "eau"}, {"key": "D", "text": "une"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Động từ chia sai → phải là elle boit."}, {"num": "13", "type": "Chọn câu trả lời đúng", "question": "Je ___ un croissant chaque matin. (Tôi ăn một chiếc bánh sừng bò mỗi sáng.)", "options": [{"key": "A", "text": "mange"}, {"key": "B", "text": "manges"}, {"key": "C", "text": "mangent"}, {"key": "D", "text": "manger"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Je” → chia động từ mange."}, {"num": "14", "type": "Chọn câu trả lời đúng", "question": "Quelle phrase est correcte ? (Câu nào đúng?)", "options": [{"key": "A", "text": "Ils sont partis hier soir."}, {"key": "B", "text": "Elle est fait une promenade à pied."}, {"key": "C", "text": "Tu es mange un sandwich."}, {"key": "D", "text": "Nous avons allé au musée."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Passé composé đúng: Ils sont partis."}, {"num": "15", "type": "Chọn câu trả lời đúng", "question": "Choisissez l’opposé de 'grand'. (Chọn từ trái nghĩa với “grand”.)", "options": [{"key": "A", "text": "gros"}, {"key": "B", "text": "petit"}, {"key": "C", "text": "court"}, {"key": "D", "text": "mince"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Grand” ↔ “petit”."}, {"num": "16", "type": "Chọn câu trả lời đúng", "question": "Ils ___ une grande maison à la campagne. (Họ có một ngôi nhà lớn ở nông thôn.)", "options": [{"key": "A", "text": "a"}, {"key": "B", "text": "avez"}, {"key": "C", "text": "avons"}, {"key": "D", "text": "ont"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“Ils” → chia động từ ont."}, {"num": "17", "type": "Chọn câu trả lời đúng", "question": "___ est mon frère. (Anh ấy là anh trai tôi.)", "options": [{"key": "A", "text": "Il"}, {"key": "B", "text": "Elle"}, {"key": "C", "text": "Ils"}, {"key": "D", "text": "Tu"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Đại từ chủ ngữ đúng: Il."}, {"num": "18", "type": "Chọn câu trả lời đúng", "question": "Nous ___ au marché le dimanche. (Chúng tôi đi chợ vào chủ nhật.)", "options": [{"key": "A", "text": "va"}, {"key": "B", "text": "allez"}, {"key": "C", "text": "allons"}, {"key": "D", "text": "vais"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Nous” → chia động từ allons."}, {"num": "19", "type": "Chọn câu trả lời đúng", "question": "Quel est le féminin de 'acteur' ? (Dạng giống cái của “acteur” là gì?)", "options": [{"key": "A", "text": "acteurette"}, {"key": "B", "text": "acteuse"}, {"key": "C", "text": "actrice"}, {"key": "D", "text": "acteure"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Acteur” → actrice."}, {"num": "20", "type": "Chọn câu trả lời đúng", "question": "Quel jour vient après jeudi ? (Ngày nào sau thứ năm?)", "options": [{"key": "A", "text": "vendredi"}, {"key": "B", "text": "samedi"}, {"key": "C", "text": "dimanche"}, {"key": "D", "text": "mercredi"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Thứ tự ngày trong tuần → sau jeudi là vendredi."}, {"num": "21", "type": "Chọn câu trả lời đúng", "question": "Quelle est la bonne question pour demander le prix ? (Câu nào để hỏi giá tiền?)", "options": [{"key": "A", "text": "Combien ça coûte ?"}, {"key": "B", "text": "Où est le prix ?"}, {"key": "C", "text": "Pourquoi cher ?"}, {"key": "D", "text": "Comment payer ?"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Câu hỏi: Combien ça coûte ?"}, {"num": "22", "type": "Chọn câu trả lời đúng", "question": "Quel mot est mal écrit ? (Từ nào viết sai chính tả?)", "options": [{"key": "A", "text": "appartement"}, {"key": "B", "text": "restorant"}, {"key": "C", "text": "hôpital"}, {"key": "D", "text": "bibliothèque"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Đúng là restaurant, không phải restorant."}, {"num": "23", "type": "Chọn câu trả lời đúng", "question": "Choisissez le synonyme de 'content'. (Đồng nghĩa với “content” là gì?)", "options": [{"key": "A", "text": "triste"}, {"key": "B", "text": "heureux"}, {"key": "C", "text": "fatigué"}, {"key": "D", "text": "fâché"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Content” = “heureux”."}, {"num": "24", "type": "Chọn câu trả lời đúng", "question": "Quel est le contraire de 'facile' ? (Trái nghĩa của “facile” là gì?)", "options": [{"key": "A", "text": "rapide"}, {"key": "B", "text": "lent"}, {"key": "C", "text": "difficile"}, {"key": "D", "text": "joli"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Facile” trái nghĩa với “difficile”."}, {"num": "25", "type": "Chọn câu trả lời đúng", "question": "Quelle phrase est correcte ? (Câu nào đúng?)", "options": [{"key": "A", "text": "Je suis allée au cinéma hier soir."}, {"key": "B", "text": "Je allé suis au cinéma hier soir."}, {"key": "C", "text": "J’ai allée au cinéma hier soir."}, {"key": "D", "text": "Je suis allée au cinéma hier. soir"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Passé composé với aller → dùng être."}, {"num": "26", "type": "Chọn câu trả lời đúng", "question": "Dans quel pays parle-t-on français ? (Ở nước nào người ta nói tiếng Pháp?)", "options": [{"key": "A", "text": "Espagne"}, {"key": "B", "text": "Maroc"}, {"key": "C", "text": "Brésil"}, {"key": "D", "text": "Italie"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Maroc là quốc gia nói tiếng Pháp."}, {"num": "27", "type": "Chọn câu trả lời đúng", "question": "Quel mot est féminin ? (Từ nào giống cái?)", "options": [{"key": "A", "text": "maison"}, {"key": "B", "text": "livre"}, {"key": "C", "text": "stylo"}, {"key": "D", "text": "bureau"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Maison” là giống cái."}, {"num": "28", "type": "Chọn câu trả lời đúng", "question": "Il fait ___ aujourd’hui. (Hôm nay trời …)", "options": [{"key": "A", "text": "sale"}, {"key": "B", "text": "lent"}, {"key": "C", "text": "vide"}, {"key": "D", "text": "froid"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Biểu thị thời tiết: Il fait froid."}, {"num": "29", "type": "Chọn câu trả lời đúng", "question": "Nous ___ en train de manger. (Chúng tôi đang ăn.)", "options": [{"key": "A", "text": "suis"}, {"key": "B", "text": "est"}, {"key": "C", "text": "êtes"}, {"key": "D", "text": "sommes"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“Nous” → chia động từ sommes."}, {"num": "30", "type": "Chọn câu trả lời đúng", "question": "Quelle phrase est correcte ? (Câu nào đúng?)", "options": [{"key": "A", "text": "Je m'appelle Marc."}, {"key": "B", "text": "Je s’appelle Marc."}, {"key": "C", "text": "Je m’appelles Marc."}, {"key": "D", "text": "Je me appelle Marc."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Đúng: Je m’appelle Marc."}, {"num": "31", "type": "Chọn câu trả lời đúng", "question": "Quel mot ne va pas avec les autres ? (Từ nào không cùng nhóm?)", "options": [{"key": "A", "text": "feutre"}, {"key": "B", "text": "stylo"}, {"key": "C", "text": "chaise"}, {"key": "D", "text": "crayon"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "3 từ kia là bút viết, “chaise” là ghế → khác nhóm."}, {"num": "32", "type": "Chọn câu trả lời đúng", "question": "Est-ce que tu ___ français ? (Bạn có nói tiếng Pháp không?)", "options": [{"key": "A", "text": "parles"}, {"key": "B", "text": "parlez"}, {"key": "C", "text": "parler"}, {"key": "D", "text": "parle"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Tu” → chia động từ parles."}, {"num": "33", "type": "Chọn câu trả lời đúng", "question": "Quelle est la bonne réponse – Merci ! (Đáp lại “Merci !”)", "options": [{"key": "A", "text": "Bonjour !"}, {"key": "B", "text": "Au revoir !"}, {"key": "C", "text": "De rien !"}, {"key": "D", "text": "Pardon !"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "De rien ! - Không có chi."}, {"num": "34", "type": "Chọn câu trả lời đúng", "question": "Quelle heure est-il ? – Il est ___ heures. (Bây giờ là mấy giờ?)", "options": [{"key": "A", "text": "huit"}, {"key": "B", "text": "neuf"}, {"key": "C", "text": "deux"}, {"key": "D", "text": "trois"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "images/A2_Bai_06_Cau_34_120634.png", "correct_ans": "D", "explanation": "3h: Il est trois heures."}, {"num": "35", "type": "Chọn câu trả lời đúng", "question": "Quelle phrase est correcte ? (Câu nào đúng?)", "options": [{"key": "A", "text": "Nous allons visiter Paris demain."}, {"key": "B", "text": "Nous visitons aller Paris demain."}, {"key": "C", "text": "Nous aller visiter Paris demain."}, {"key": "D", "text": "Nous allons à visiter Paris demain."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Cấu trúc futur proche: aller + infinitif."}, {"num": "36", "type": "Chọn câu trả lời đúng", "question": "Quel mot est mal orthographié ? (Từ nào viết sai chính tả?)", "options": [{"key": "A", "text": "maison"}, {"key": "B", "text": "voiture"}, {"key": "C", "text": "fleur"}, {"key": "D", "text": "garaje"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Đúng là garage, không phải garaje."}, {"num": "37", "type": "Chọn câu trả lời đúng", "question": "Quel mot ne va pas avec les autres ? (Từ nào không cùng nhóm?)", "options": [{"key": "A", "text": "banane"}, {"key": "B", "text": "tomate"}, {"key": "C", "text": "stylo"}, {"key": "D", "text": "pomme"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Stylo” là đồ dùng học tập, không phải trái cây."}, {"num": "38", "type": "Chọn câu trả lời đúng", "question": "Quelle phrase est correcte ? (Câu nào đúng?)", "options": [{"key": "A", "text": "Ils ont pris le bus pour aller à l’école."}, {"key": "B", "text": "Ils sont pris le bus pour aller à l’école."}, {"key": "C", "text": "Ils ont pris le bus aller à l’école."}, {"key": "D", "text": "Ils ont pris bus pour aller à l’école."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Passé composé với prendre → dùng avoir."}, {"num": "39", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "audios/A2_Bai_06_Cau_39_120639.mp3", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "40", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}]}, {"id": "A2.1_L07", "num": 7, "filename": "Bai_07_Kỷ_niệm_cá_nhân.md", "title": "Bài 07 - Kỷ niệm cá nhân", "questions": [{"num": "1", "type": "Chọn câu trả lời đúng", "question": "Je vais au travail ___. (Tôi đi làm mỗi ngày.)", "options": [{"key": "A", "text": "hier"}, {"key": "B", "text": "demain"}, {"key": "C", "text": "tous les jours"}, {"key": "D", "text": "souvent"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Thói quen → tous les jours."}, {"num": "2", "type": "Chọn câu trả lời đúng", "question": "Elle est née ___ 1998. (Cô ấy sinh năm 1998.)", "options": [{"key": "A", "text": "en"}, {"key": "B", "text": "à"}, {"key": "C", "text": "au"}, {"key": "D", "text": "dans"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Năm → en + année."}, {"num": "3", "type": "Chọn câu trả lời đúng", "question": "___, on est allé à la plage avec mes cousins. (Mùa hè năm ngoái, chúng tôi đi biển.)", "options": [{"key": "A", "text": "Maintenant"}, {"key": "B", "text": "Bientôt"}, {"key": "C", "text": "Souvent"}, {"key": "D", "text": "L’été dernier"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Quá khứ cụ thể → l’été dernier."}, {"num": "4", "type": "Chọn câu trả lời đúng", "question": "Il prend le bus ___ matin. (Anh ấy đi xe buýt mỗi sáng.)", "options": [{"key": "A", "text": "dernier"}, {"key": "B", "text": "chaque"}, {"key": "C", "text": "parfois"}, {"key": "D", "text": "ce"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Thói quen → chaque matin."}, {"num": "5", "type": "Chọn câu trả lời đúng", "question": "Nous avons visité Paris ___ avril. (Chúng tôi thăm Paris vào tháng 4.)", "options": [{"key": "A", "text": "en"}, {"key": "B", "text": "au"}, {"key": "C", "text": "le"}, {"key": "D", "text": "à"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Tháng → en avril."}, {"num": "6", "type": "Chọn câu trả lời đúng", "question": "Ils ont déménagé ___ deux semaines. (Họ đã chuyển nhà cách đây 2 tuần.)", "options": [{"key": "A", "text": "depuis"}, {"key": "B", "text": "pour"}, {"key": "C", "text": "il y a"}, {"key": "D", "text": "dans"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Quá khứ đã hoàn thành → il y a."}, {"num": "7", "type": "Chọn câu trả lời đúng", "question": "Je vais partir en vacances ___. (Tôi sắp đi nghỉ.)", "options": [{"key": "A", "text": "bientôt"}, {"key": "B", "text": "hier"}, {"key": "C", "text": "déjà"}, {"key": "D", "text": "pendant"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Tương lai gần → bientôt."}, {"num": "8", "type": "Chọn câu trả lời đúng", "question": "___, je faisais souvent du vélo avec mes amis. (Khi còn nhỏ, tôi thường đi xe đạp với bạn bè.)", "options": [{"key": "A", "text": "L’année prochaine"}, {"key": "B", "text": "Quand j’étais petit"}, {"key": "C", "text": "Ce soir"}, {"key": "D", "text": "Pendant deux jours"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Thói quen trong quá khứ → Quand j’étais petit."}, {"num": "9", "type": "Chọn câu trả lời đúng", "question": "Tu as fini tes devoirs ___ ? (Bạn làm xong bài tập tối qua chưa?)", "options": [{"key": "A", "text": "hier soir"}, {"key": "B", "text": "ce soir"}, {"key": "C", "text": "demain matin"}, {"key": "D", "text": "pendant deux jours"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Quá khứ cụ thể → hier soir."}, {"num": "10", "type": "Chọn câu trả lời đúng", "question": "Je vais au marché ___ samedi matin. (Tôi đi chợ vào sáng thứ bảy hằng tuần.)", "options": [{"key": "A", "text": "tous"}, {"key": "B", "text": "le"}, {"key": "C", "text": "en"}, {"key": "D", "text": "au"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Thói quen hàng tuần → le samedi matin."}, {"num": "11", "type": "Chọn câu trả lời đúng", "question": "Je vis en France ___ 5 ans. (Tôi sống ở Pháp đã 5 năm.)", "options": [{"key": "A", "text": "il y a"}, {"key": "B", "text": "pendant"}, {"key": "C", "text": "depuis"}, {"key": "D", "text": "en"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Hành động bắt đầu và còn tiếp tục → depuis."}, {"num": "12", "type": "Chọn câu trả lời đúng", "question": "Elle a habité à Lyon ___ deux ans. (Cô ấy từng sống ở Lyon trong 2 năm.)", "options": [{"key": "A", "text": "depuis"}, {"key": "B", "text": "pendant"}, {"key": "C", "text": "pour"}, {"key": "D", "text": "il y a"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Khoảng thời gian trọn vẹn → pendant deux ans."}, {"num": "13", "type": "Chọn câu trả lời đúng", "question": "Nous sommes arrivés à Paris ___ une semaine. (Chúng tôi đến Paris cách đây 1 tuần.)", "options": [{"key": "A", "text": "depuis"}, {"key": "B", "text": "pendant"}, {"key": "C", "text": "il y a"}, {"key": "D", "text": "dans"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Mốc thời gian trong quá khứ → il y a."}, {"num": "14", "type": "Chọn câu trả lời đúng", "question": "Il travaille ici ___ janvier. (Anh ấy làm việc ở đây từ tháng Giêng.)", "options": [{"key": "A", "text": "il y a"}, {"key": "B", "text": "en"}, {"key": "C", "text": "pendant"}, {"key": "D", "text": "depuis"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Mốc bắt đầu + còn tiếp tục → depuis janvier."}, {"num": "15", "type": "Chọn câu trả lời đúng", "question": "Il a étudié ___ trois mois, puis il a arrêté. (Anh ấy đã học trong 3 tháng rồi dừng lại.)", "options": [{"key": "A", "text": "depuis"}, {"key": "B", "text": "pendant"}, {"key": "C", "text": "pour"}, {"key": "D", "text": "en"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Khoảng thời gian đã hoàn thành → pendant trois mois."}, {"num": "16", "type": "Chọn câu trả lời đúng", "question": "Tu es arrivé en France ___ ? (Bạn đến Pháp cách đây bao lâu?)", "options": [{"key": "A", "text": "depuis"}, {"key": "B", "text": "pendant"}, {"key": "C", "text": "il y a combien de temps"}, {"key": "D", "text": "pour"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Hỏi mốc quá khứ → il y a combien de temps ?."}, {"num": "17", "type": "Chọn câu trả lời đúng", "question": "___ combien de temps tu as voyagé en Italie ? (Bạn đã đi Ý trong bao lâu?)", "options": [{"key": "A", "text": "Pendant"}, {"key": "B", "text": "Depuis"}, {"key": "C", "text": "Il y a"}, {"key": "D", "text": "Depuis quand"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Hỏi về thời lượng → pendant combien de temps."}, {"num": "18", "type": "Chọn câu trả lời đúng", "question": "Elle apprend le français ___ 2022. (Cô ấy học tiếng Pháp từ 2022 đến nay.)", "options": [{"key": "A", "text": "en"}, {"key": "B", "text": "pendant"}, {"key": "C", "text": "depuis"}, {"key": "D", "text": "il y a"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Hành động tiếp diễn → depuis 2022."}, {"num": "19", "type": "Chọn câu trả lời đúng", "question": "Il va rester à Toulouse ___ une semaine. (Anh ấy sẽ ở Toulouse trong một tuần.)", "options": [{"key": "A", "text": "depuis"}, {"key": "B", "text": "pendant"}, {"key": "C", "text": "il y a"}, {"key": "D", "text": "jusqu’à"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Thời lượng dự kiến → pendant une semaine."}, {"num": "20", "type": "Chọn câu trả lời đúng", "question": "___ hiver, il fait très froid dans cette région. (Vào mùa đông, trời rất lạnh ở vùng này.)", "options": [{"key": "A", "text": "Depuis"}, {"key": "B", "text": "En"}, {"key": "C", "text": "Il y a"}, {"key": "D", "text": "Pendant"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Mùa trong năm → en hiver."}, {"num": "21", "type": "Chọn câu trả lời đúng", "question": "Nous avons étudié ___ deux heures hier. (Hôm qua chúng tôi đã học trong 2 giờ.)", "options": [{"key": "A", "text": "depuis"}, {"key": "B", "text": "pendant"}, {"key": "C", "text": "il y a"}, {"key": "D", "text": "pour"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Hành động hoàn tất trong quá khứ → pendant."}, {"num": "22", "type": "Chọn câu trả lời đúng", "question": "Il habite ici ___ 2019. (Anh ấy sống ở đây từ 2019 đến nay.)", "options": [{"key": "A", "text": "depuis"}, {"key": "B", "text": "pendant"}, {"key": "C", "text": "en"}, {"key": "D", "text": "il y a"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Hành động bắt đầu và tiếp diễn → depuis 2019."}, {"num": "23", "type": "Chọn câu trả lời đúng", "question": "Je suis parti en vacances ___ une semaine. (Tôi đã đi nghỉ trong 1 tuần.)", "options": [{"key": "A", "text": "depuis"}, {"key": "B", "text": "pour"}, {"key": "C", "text": "pendant"}, {"key": "D", "text": "il y a"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Khoảng thời gian trọn vẹn → pendant une semaine."}, {"num": "24", "type": "Chọn câu trả lời đúng", "question": "___ combien de temps as-tu attendu ? (Bạn đã chờ trong bao lâu?)", "options": [{"key": "A", "text": "Pendant"}, {"key": "B", "text": "Depuis"}, {"key": "C", "text": "En"}, {"key": "D", "text": "Il y a"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Hỏi về thời lượng → Pendant combien de temps."}, {"num": "25", "type": "Chọn câu trả lời đúng", "question": "Elle a commencé son stage ___ trois jours. (Cô ấy bắt đầu thực tập cách đây 3 ngày.)", "options": [{"key": "A", "text": "pendant"}, {"key": "B", "text": "en"}, {"key": "C", "text": "depuis"}, {"key": "D", "text": "il y a"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Quá khứ mốc → il y a trois jours."}, {"num": "26", "type": "Chọn câu trả lời đúng", "question": "___ l’été, il travaille dans un café. (Trong mùa hè, anh ấy làm việc ở quán cà phê.)", "options": [{"key": "A", "text": "Pendant"}, {"key": "B", "text": "En"}, {"key": "C", "text": "Depuis"}, {"key": "D", "text": "Il y a"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Toàn bộ mùa hè → pendant l’été."}, {"num": "27", "type": "Chọn câu trả lời đúng", "question": "Il est resté à Marseille ___ un an. (Anh ấy đã ở Marseille trong 1 năm.)", "options": [{"key": "A", "text": "depuis"}, {"key": "B", "text": "pendant"}, {"key": "C", "text": "il y a"}, {"key": "D", "text": "en"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Thời lượng trọn vẹn → pendant un an."}, {"num": "28", "type": "Chọn câu trả lời đúng", "question": "___ combien de temps tu fais du sport ? (Bạn tập thể thao được bao lâu rồi?)", "options": [{"key": "A", "text": "Depuis"}, {"key": "B", "text": "Pendant"}, {"key": "C", "text": "Il y a"}, {"key": "D", "text": "En"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Hành động tiếp diễn → Depuis combien de temps."}, {"num": "29", "type": "Chọn câu trả lời đúng", "question": "Elle a déménagé ___ deux mois. (Cô ấy đã chuyển nhà cách đây 2 tháng.)", "options": [{"key": "A", "text": "depuis"}, {"key": "B", "text": "en"}, {"key": "C", "text": "il y a"}, {"key": "D", "text": "pendant"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Hành động đã xảy ra → il y a deux mois."}, {"num": "30", "type": "Chọn câu trả lời đúng", "question": "Elle a appris le français ___ six mois. (Cô ấy đã học tiếng Pháp trong 6 tháng.)", "options": [{"key": "A", "text": "depuis"}, {"key": "B", "text": "pendant"}, {"key": "C", "text": "en"}, {"key": "D", "text": "il y a"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Thời lượng trọn vẹn → pendant six mois."}, {"num": "31", "type": "Chọn câu trả lời đúng", "question": "Je suis arrivé à la gare ___ dix minutes. (Tôi đã đến ga cách đây 10 phút.)", "options": [{"key": "A", "text": "depuis"}, {"key": "B", "text": "pendant"}, {"key": "C", "text": "il y a"}, {"key": "D", "text": "en"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Mốc quá khứ → il y a dix minutes."}, {"num": "32", "type": "Chọn câu trả lời đúng", "question": "Je mange ___ pomme tous les matins. (Mỗi sáng tôi ăn một quả táo.)", "options": [{"key": "A", "text": "un"}, {"key": "B", "text": "une"}, {"key": "C", "text": "le"}, {"key": "D", "text": "la"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Pomme” giống cái số ít → une pomme."}, {"num": "33", "type": "Chọn câu trả lời đúng", "question": "Le livre est ___ la table. (Cuốn sách ở trên bàn.)", "options": [{"key": "A", "text": "dans"}, {"key": "B", "text": "entre"}, {"key": "C", "text": "à"}, {"key": "D", "text": "sur"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Mẫu đúng: sur la table."}, {"num": "34", "type": "Chọn câu trả lời đúng", "question": "C’est un homme ___. (Đó là một người đàn ông thông minh.)", "options": [{"key": "A", "text": "intelligent"}, {"key": "B", "text": "intelligents"}, {"key": "C", "text": "intelligente"}, {"key": "D", "text": "belle"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Homme” giống đực số ít → intelligent."}, {"num": "35", "type": "Chọn câu trả lời đúng", "question": "Elle met ___ robe rouge pour la fête. (Cô ấy mặc một chiếc váy đỏ cho bữa tiệc.)", "options": [{"key": "A", "text": "une"}, {"key": "B", "text": "la"}, {"key": "C", "text": "des"}, {"key": "D", "text": "un"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Váy chưa xác định → une robe."}, {"num": "36", "type": "Chọn câu trả lời đúng", "question": "Il y a ___ livres intéressants dans cette bibliothèque. (Có nhiều sách hay trong thư viện này.)", "options": [{"key": "A", "text": "chaque"}, {"key": "B", "text": "aucun"}, {"key": "C", "text": "plusieurs"}, {"key": "D", "text": "tout"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Diễn tả số lượng không xác định → plusieurs."}, {"num": "37", "type": "Chọn câu trả lời đúng", "question": "___ enfants jouent dans le parc. (Những đứa trẻ đang chơi trong công viên.)", "options": [{"key": "A", "text": "Un"}, {"key": "B", "text": "Une"}, {"key": "C", "text": "Les"}, {"key": "D", "text": "Des"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Enfants” đã xác định → les enfants."}, {"num": "38", "type": "Chọn câu trả lời đúng", "question": "La boulangerie est ___ l’école. (Tiệm bánh đối diện trường học.)", "options": [{"key": "A", "text": "sous"}, {"key": "B", "text": "sur"}, {"key": "C", "text": "en face de"}, {"key": "D", "text": "dans"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Vị trí → en face de l’école."}, {"num": "39", "type": "Chọn câu trả lời đúng", "question": "J’ai un ___ à te raconter. (Tôi có một vấn đề nhỏ muốn kể với bạn.)", "options": [{"key": "A", "text": "problème petit"}, {"key": "B", "text": "petit problème"}, {"key": "C", "text": "problème petit"}, {"key": "D", "text": "petits problème"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Tính từ “petit” đặt trước danh từ."}, {"num": "40", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "audios/A2_Bai_07_Cau_40_120740.mp3", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "41", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}]}, {"id": "A2.1_L08", "num": 8, "filename": "Bai_08_Sở_thích.md", "title": "Bài 08 - Sở thích", "questions": [{"num": "1", "type": "Chọn câu trả lời đúng", "question": "Elle travaille ici ___ 2015. (Cô ấy làm việc ở đây từ 2015.)", "options": [{"key": "A", "text": "depuis"}, {"key": "B", "text": "en"}, {"key": "C", "text": "pendant"}, {"key": "D", "text": "il y a"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Hành động bắt đầu và còn tiếp diễn → depuis 2015."}, {"num": "2", "type": "Chọn câu trả lời đúng", "question": "Je ___ mange ___ viande. (Tôi không ăn thịt.)", "options": [{"key": "A", "text": "ne… pas"}, {"key": "B", "text": "ne… pas de"}, {"key": "C", "text": "n’… rien"}, {"key": "D", "text": "ne… jamais"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Với danh từ không xác định sau phủ định → pas de viande."}, {"num": "3", "type": "Chọn câu trả lời đúng", "question": "Il ___ aime ___ café. (Anh ấy không thích cà phê.)", "options": [{"key": "A", "text": "n’… pas le"}, {"key": "B", "text": "ne… plus"}, {"key": "C", "text": "ne… jamais"}, {"key": "D", "text": "ne… rien"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Phủ định sở thích → n’aime pas le café."}, {"num": "4", "type": "Chọn câu trả lời đúng", "question": "Nous ___ regardons ___ télé le soir. (Chúng tôi không xem tivi buổi tối.)", "options": [{"key": "A", "text": "ne… pas la"}, {"key": "B", "text": "ne… jamais"}, {"key": "C", "text": "ne… rien"}, {"key": "D", "text": "n’… pas de"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Phủ định với danh từ xác định → pas la télé."}, {"num": "5", "type": "Chọn câu trả lời đúng", "question": "Elle ___ mange ___ légumes. (Cô ấy không bao giờ ăn rau.)", "options": [{"key": "A", "text": "ne… pas des"}, {"key": "B", "text": "ne… plus les"}, {"key": "C", "text": "ne… rien"}, {"key": "D", "text": "ne… jamais de"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Với phủ định “jamais” + danh từ không xác định → jamais de légumes."}, {"num": "6", "type": "Chọn câu trả lời đúng", "question": "Tu ___ fais ___ sport ? (Bạn không tập thể thao à?)", "options": [{"key": "A", "text": "n’… jamais de"}, {"key": "B", "text": "ne… pas de"}, {"key": "C", "text": "ne… plus"}, {"key": "D", "text": "ne… pas les"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Phủ định với hoạt động chung → pas de sport."}, {"num": "7", "type": "Chọn câu trả lời đúng", "question": "Câu nào đúng để nói “Tôi không thích cà phê” ?", "options": [{"key": "A", "text": "J’aime pas café."}, {"key": "B", "text": "Je n’aime pas le café."}, {"key": "C", "text": "Je aime pas le café."}, {"key": "D", "text": "J’aime café pas."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Cấu trúc phủ định chuẩn: Je n’aime pas le café."}, {"num": "8", "type": "Chọn câu trả lời đúng", "question": "Câu nào đúng để nói “Tôi thích âm nhạc” ?", "options": [{"key": "A", "text": "Je la musique aime."}, {"key": "B", "text": "Je aime musique."}, {"key": "C", "text": "J’aime la musique."}, {"key": "D", "text": "J’aime musique la."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Câu khẳng định chuẩn: J’aime la musique."}, {"num": "9", "type": "Chọn câu trả lời đúng", "question": "Il aime le chocolat. (phủ định)", "options": [{"key": "A", "text": "Il n’aime pas le chocolat."}, {"key": "B", "text": "Il ne aime pas chocolat."}, {"key": "C", "text": "Il pas aime chocolat."}, {"key": "D", "text": "Il aime pas le chocolat."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Cấu trúc đúng: Il n’aime pas le chocolat."}, {"num": "10", "type": "Chọn câu trả lời đúng", "question": "Nous regardons la télé. (phủ định)", "options": [{"key": "A", "text": "Nous regardons pas la télé."}, {"key": "B", "text": "Nous ne regardons pas la télé."}, {"key": "C", "text": "Nous ne pas regardons la télé."}, {"key": "D", "text": "Nous pas regardons."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Dùng ne… pas quanh động từ."}, {"num": "11", "type": "Chọn câu trả lời đúng", "question": "Ils vont au cinéma. (phủ định)", "options": [{"key": "A", "text": "Ils ne vont pas cinéma."}, {"key": "B", "text": "Ils vont pas cinéma."}, {"key": "C", "text": "Ils ne vont pas au cinéma."}, {"key": "D", "text": "Ils vont ne pas au cinéma."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Dùng ne… pas quanh động từ + giữ giới từ → au cinéma."}, {"num": "12", "type": "Chọn câu trả lời đúng", "question": "Câu nào diễn tả “Tôi không thích môn toán” ?", "options": [{"key": "A", "text": "Je n’aime les maths."}, {"key": "B", "text": "J’aime pas maths."}, {"key": "C", "text": "Je n’aime pas les maths."}, {"key": "D", "text": "Je ne maths pas."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Câu chuẩn: Je n’aime pas les maths."}, {"num": "13", "type": "Chọn câu trả lời đúng", "question": "Câu nào diễn tả “Tôi thích nghe nhạc” ?", "options": [{"key": "A", "text": "J’écoute la musique."}, {"key": "B", "text": "J’aime écouter de la musique."}, {"key": "C", "text": "J’aime la danse."}, {"key": "D", "text": "Je déteste écouter."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Câu chuẩn: J’aime + infinitif → “écouter de la musique”."}, {"num": "14", "type": "Chọn câu trả lời đúng", "question": "Je ___ le poisson. (Tôi không thích cá.)", "options": [{"key": "A", "text": "aime pas"}, {"key": "B", "text": "n’aime pas"}, {"key": "C", "text": "n’aime"}, {"key": "D", "text": "aime"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Phủ định chuẩn: Je n’aime pas le poisson."}, {"num": "15", "type": "Chọn câu trả lời đúng", "question": "Tu aimes les épinards ? → Non, ___ (Bạn có thích rau chân vịt không? – Không, tôi không thích.)", "options": [{"key": "A", "text": "j’aime pas"}, {"key": "B", "text": "je n’aime pas les"}, {"key": "C", "text": "je déteste pas"}, {"key": "D", "text": "je n’aime pas ça"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Đáp ngắn gọn tự nhiên → Je n’aime pas ça."}, {"num": "16", "type": "Chọn câu trả lời đúng", "question": "Il ___ jamais de sport. (Anh ấy không bao giờ chơi thể thao.)", "options": [{"key": "A", "text": "ne fait"}, {"key": "B", "text": "n’aime"}, {"key": "C", "text": "fait pas"}, {"key": "D", "text": "ne fait pas"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Cấu trúc đúng: Il ne fait jamais de sport."}, {"num": "17", "type": "Chọn câu trả lời đúng", "question": "Nous ___ la télé le soir. (phủ định)", "options": [{"key": "A", "text": "ne regarde pas"}, {"key": "B", "text": "regardons pas"}, {"key": "C", "text": "ne regardons pas"}, {"key": "D", "text": "nous pas regardons"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Chủ ngữ “nous” → ne regardons pas."}, {"num": "18", "type": "Chọn câu trả lời đúng", "question": "Elle aime le chocolat ? (Cô ấy có thích sô-cô-la không?)", "options": [{"key": "A", "text": "Oui, elle adore ça."}, {"key": "B", "text": "Non, elle déteste pas."}, {"key": "C", "text": "Oui, elle pas aime."}, {"key": "D", "text": "Non, elle pas ça."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Câu trả lời khẳng định chuẩn: Oui, elle adore ça."}, {"num": "19", "type": "Chọn câu trả lời đúng", "question": "Je ___ jamais en retard. (Tôi không bao giờ đến muộn.)", "options": [{"key": "A", "text": "ne suis"}, {"key": "B", "text": "suis jamais"}, {"key": "C", "text": "ne vais pas"}, {"key": "D", "text": "ne suis pas"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Cấu trúc đúng: Je ne suis jamais en retard."}, {"num": "20", "type": "Chọn câu trả lời đúng", "question": "Vous ___ le café ? – Non, je déteste ça. (Bạn có thích cà phê không? – Không, tôi ghét nó.)", "options": [{"key": "A", "text": "bois"}, {"key": "B", "text": "aimez"}, {"key": "C", "text": "mangez"}, {"key": "D", "text": "buvez"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Câu hỏi: Vous aimez le café ? → trả lời phủ định: “Non, je déteste ça”."}, {"num": "21", "type": "Chọn câu trả lời đúng", "question": "Ils ___ la musique classique. (Họ không thích nhạc cổ điển.)", "options": [{"key": "A", "text": "n’aiment"}, {"key": "B", "text": "n’aime pas"}, {"key": "C", "text": "aiment pas"}, {"key": "D", "text": "n’aiment pas"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Phủ định chuẩn với “ils” → n’aiment pas."}, {"num": "22", "type": "Chọn câu trả lời đúng", "question": "Tu ___ les films d’horreur ? – Oui, j’adore ! (Bạn có thích phim kinh dị không? – Có, mình rất thích!)", "options": [{"key": "A", "text": "aimes"}, {"key": "B", "text": "aimes pas"}, {"key": "C", "text": "aime"}, {"key": "D", "text": "as"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Chủ ngữ “tu” → tu aimes…."}, {"num": "23", "type": "Chọn câu trả lời đúng", "question": "Je ___ pas le fromage. (Tôi không thích phô mai.)", "options": [{"key": "A", "text": "aime"}, {"key": "B", "text": "déteste"}, {"key": "C", "text": "n’aime"}, {"key": "D", "text": "mange"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Phủ định chuẩn: Je n’aime pas…."}, {"num": "24", "type": "Chọn câu trả lời đúng", "question": "Elle ___ jamais de chocolat. (Cô ấy không bao giờ ăn sôcôla.)", "options": [{"key": "A", "text": "ne mangé"}, {"key": "B", "text": "ne manges"}, {"key": "C", "text": "ne mange"}, {"key": "D", "text": "ne mange pas"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Phủ định với “jamais”: Elle ne mange jamais…."}, {"num": "25", "type": "Chọn câu trả lời đúng", "question": "Je n’aime pas ___ pommes. (Tôi không thích táo.)", "options": [{"key": "A", "text": "les"}, {"key": "B", "text": "des"}, {"key": "C", "text": "une"}, {"key": "D", "text": "de la"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Với danh từ xác định → les pommes."}, {"num": "26", "type": "Chọn câu trả lời đúng", "question": "Nous ___ les devoirs le week-end. (Chúng tôi không làm bài tập cuối tuần.)", "options": [{"key": "A", "text": "faisons pas"}, {"key": "B", "text": "fait pas"}, {"key": "C", "text": "ne faisons pas"}, {"key": "D", "text": "ne faire"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Phủ định chuẩn: Nous ne faisons pas…."}, {"num": "27", "type": "Chọn câu trả lời đúng", "question": "Tu ___ les légumes ? – Non, je ___ pas ça. (Bạn có thích rau không? – Không, mình không thích.)", "options": [{"key": "A", "text": "aime / n’aime"}, {"key": "B", "text": "aimes / n’aime"}, {"key": "C", "text": "aimes / n’aime pas"}, {"key": "D", "text": "aimes / n’aimes"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Đúng: Tu aimes… ? – Non, je n’aime pas ça."}, {"num": "28", "type": "Chọn câu trả lời đúng", "question": "Ils n’adorent ___ le sport. (Họ không hề thích thể thao.)", "options": [{"key": "A", "text": "pas"}, {"key": "B", "text": "plus"}, {"key": "C", "text": "rien"}, {"key": "D", "text": "jamais"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Phủ định chuẩn: n’adorent pas."}, {"num": "29", "type": "Chọn câu trả lời đúng", "question": "Vous aimez la pluie ? – ___ (Bạn có thích mưa không? – Không, tôi không thích.)", "options": [{"key": "A", "text": "Oui, je déteste."}, {"key": "B", "text": "Non, j’aime pas beaucoup."}, {"key": "C", "text": "Oui, je n’aime pas."}, {"key": "D", "text": "Non, je n’aime pas ça."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Câu trả lời tự nhiên: Non, je n’aime pas ça."}, {"num": "30", "type": "Chọn câu trả lời đúng", "question": "J’aime ___ les chiens. (Tôi rất thích chó.)", "options": [{"key": "A", "text": "pas"}, {"key": "B", "text": "rien"}, {"key": "C", "text": "beaucoup"}, {"key": "D", "text": "jamais"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Trạng từ cường độ → J’aime beaucoup…."}, {"num": "31", "type": "Chọn câu trả lời đúng", "question": "Elle déteste ___ légumes. (Cô ấy ghét rau.)", "options": [{"key": "A", "text": "de"}, {"key": "B", "text": "des"}, {"key": "C", "text": "les"}, {"key": "D", "text": "du"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Danh từ chung → les légumes."}, {"num": "32", "type": "Chọn câu trả lời đúng", "question": "Il ___ pas le café, mais il ___ le thé. (Anh ấy không thích cà phê, nhưng thích trà.)", "options": [{"key": "A", "text": "n’aime / aime"}, {"key": "B", "text": "aime / n’aime"}, {"key": "C", "text": "ne boit / boit"}, {"key": "D", "text": "boit pas / préfère"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Đúng: Il n’aime pas le café, mais il aime le thé."}, {"num": "33", "type": "Chọn câu trả lời đúng", "question": "Tu ___ jamais de jus le matin ? (Bạn không bao giờ uống nước hoa quả vào buổi sáng à?)", "options": [{"key": "A", "text": "ne boit"}, {"key": "B", "text": "ne bois"}, {"key": "C", "text": "bois"}, {"key": "D", "text": "ne buvais"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Tu” → ne bois jamais."}, {"num": "34", "type": "Chọn câu trả lời đúng", "question": "Elle a une voiture ___. (Cô ấy có một chiếc xe hơi màu đỏ.)", "options": [{"key": "A", "text": "rouge"}, {"key": "B", "text": "rouges"}, {"key": "C", "text": "rougees"}, {"key": "D", "text": "roux"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Voiture” giống cái số ít → rouge."}, {"num": "35", "type": "Chọn câu trả lời đúng", "question": "Mon père est très ___. (Bố tôi rất hiền lành.)", "options": [{"key": "A", "text": "gentille"}, {"key": "B", "text": "gentil"}, {"key": "C", "text": "gentils"}, {"key": "D", "text": "gentilles"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Père” giống đực số ít → gentil."}, {"num": "36", "type": "Chọn câu trả lời đúng", "question": "Paul et Léa sont ___. (Paul và Léa thông minh.)", "options": [{"key": "A", "text": "intelligent"}, {"key": "B", "text": "intelligente"}, {"key": "C", "text": "intelligents"}, {"key": "D", "text": "intelligentes"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Số nhiều hỗn hợp → intelligents."}, {"num": "37", "type": "Chọn câu trả lời đúng", "question": "Marie est une élève très ___. (Marie là học sinh rất chăm chỉ.)", "options": [{"key": "A", "text": "sérieux"}, {"key": "B", "text": "sérieuxse"}, {"key": "C", "text": "serieuse"}, {"key": "D", "text": "sérieuse"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“Élève” giống cái số ít → sérieuse."}, {"num": "38", "type": "Chọn câu trả lời đúng", "question": "Nous avons des amis ___. (Chúng tôi có những người bạn dễ mến.)", "options": [{"key": "A", "text": "sympathique"}, {"key": "B", "text": "sympathiques"}, {"key": "C", "text": "sympathiquez"}, {"key": "D", "text": "sympathics"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Amis” số nhiều → sympathiques."}, {"num": "39", "type": "Viết câu trả lời", "question": "Viết 2 câu nói bạn thích gì (J’aime___ / J’adore___)", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "40", "type": "Viết câu trả lời", "question": "Viết 2 câu nói bạn không thích gì (Je n’aime pas___ / Je déteste___)", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "41", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "audios/A2_Bai_08_Cau_41_120841.mp3", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "42", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "audios/A2_Bai_08_Cau_42_120842.mp3", "image_data": "", "correct_ans": "", "explanation": ""}]}, {"id": "A2.1_L09", "num": 9, "filename": "Bai_09_Ôn_tập_2.md", "title": "Bài 09 - Ôn tập 2", "questions": [{"num": "1", "type": "Chọn câu trả lời đúng", "question": "Je travaille ___ 8h à 17h. (Tôi làm việc từ 8h đến 17h.)", "options": [{"key": "A", "text": "de"}, {"key": "B", "text": "pendant"}, {"key": "C", "text": "depuis"}, {"key": "D", "text": "en"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Khoảng thời gian trong ngày: de… à…."}, {"num": "2", "type": "Chọn câu trả lời đúng", "question": "Il habite à Paris ___ 2015. (Anh ấy sống ở Paris từ năm 2015.)", "options": [{"key": "A", "text": "pendant"}, {"key": "B", "text": "depuis"}, {"key": "C", "text": "en"}, {"key": "D", "text": "il y a"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Hành động bắt đầu và còn tiếp diễn: depuis 2015."}, {"num": "3", "type": "Chọn câu trả lời đúng", "question": "Elle est partie ___ deux jours. (Cô ấy đã đi cách đây hai ngày.)", "options": [{"key": "A", "text": "en"}, {"key": "B", "text": "pendant"}, {"key": "C", "text": "il y a"}, {"key": "D", "text": "depuis"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Quá khứ mốc: il y a deux jours."}, {"num": "4", "type": "Chọn câu trả lời đúng", "question": "Nous allons en vacances ___ juillet. (Chúng tôi đi nghỉ vào tháng Bảy.)", "options": [{"key": "A", "text": "au"}, {"key": "B", "text": "à"}, {"key": "C", "text": "depuis"}, {"key": "D", "text": "en"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Tháng: dùng en juillet."}, {"num": "5", "type": "Chọn câu trả lời đúng", "question": "Quand j’étais petit, je ___ du piano. (Khi tôi còn nhỏ, tôi thường chơi piano.)", "options": [{"key": "A", "text": "ai joué"}, {"key": "B", "text": "jouais"}, {"key": "C", "text": "joue"}, {"key": "D", "text": "joué"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Quá khứ thói quen → imparfait."}, {"num": "6", "type": "Chọn câu trả lời đúng", "question": "Je ___ pas le poisson. (Tôi không thích cá.)", "options": [{"key": "A", "text": "n’aime"}, {"key": "B", "text": "aime pas"}, {"key": "C", "text": "j’aime pas"}, {"key": "D", "text": "ne pas"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Phủ định chuẩn: Je n’aime pas…."}, {"num": "7", "type": "Chọn câu trả lời đúng", "question": "Tu aimes les épinards ? – Non, je ___ ça. (Bạn thích rau chân vịt không? – Không, tôi không thích.)", "options": [{"key": "A", "text": "n’aime"}, {"key": "B", "text": "n’aime pas"}, {"key": "C", "text": "aime pas"}, {"key": "D", "text": "déteste pas"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Trả lời tự nhiên: Je n’aime pas ça."}, {"num": "8", "type": "Chọn câu trả lời đúng", "question": "Il ne ___ jamais de café. (Anh ấy không bao giờ uống cà phê.)", "options": [{"key": "A", "text": "bois"}, {"key": "B", "text": "boit"}, {"key": "C", "text": "buvez"}, {"key": "D", "text": "boire"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Chủ ngữ “il” → il boit."}, {"num": "9", "type": "Chọn câu trả lời đúng", "question": "Elle adore le football. → (phủ định)", "options": [{"key": "A", "text": "Ils pas aiment le football."}, {"key": "B", "text": "Ils n’aiment pas le football."}, {"key": "C", "text": "Ils aiment pas football."}, {"key": "D", "text": "Ils aiment ne pas le football."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Phủ định chuẩn: Ils n’aiment pas…."}, {"num": "10", "type": "Chọn câu trả lời đúng", "question": "Nous ___ les devoirs. (Chúng tôi không thích bài tập.)", "options": [{"key": "A", "text": "n’aimons pas"}, {"key": "B", "text": "ne aime pas"}, {"key": "C", "text": "aimons pas"}, {"key": "D", "text": "n’aiment pas"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Với “nous”: nous n’aimons pas…."}, {"num": "11", "type": "Chọn câu trả lời đúng", "question": "Je vais au travail ___ bus. (Tôi đi làm bằng xe buýt.)", "options": [{"key": "A", "text": "en"}, {"key": "B", "text": "à"}, {"key": "C", "text": "par"}, {"key": "D", "text": "de"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Phương tiện chung → en bus."}, {"num": "12", "type": "Chọn câu trả lời đúng", "question": "Tu es en vacances ___ combien de temps ? (Bạn đi nghỉ trong bao lâu?)", "options": [{"key": "A", "text": "pour"}, {"key": "B", "text": "depuis"}, {"key": "C", "text": "pendant"}, {"key": "D", "text": "il y a"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Hỏi thời lượng → pendant combien de temps."}, {"num": "13", "type": "Chọn câu trả lời đúng", "question": "Nous habitons ici ___ deux ans. (Chúng tôi sống ở đây đã 2 năm.)", "options": [{"key": "A", "text": "il y a"}, {"key": "B", "text": "pour"}, {"key": "C", "text": "depuis"}, {"key": "D", "text": "en"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Hành động còn tiếp tục → depuis deux ans."}, {"num": "14", "type": "Chọn câu trả lời đúng", "question": "Elle est née ___ 1998. (Cô ấy sinh năm 1998.)", "options": [{"key": "A", "text": "en"}, {"key": "B", "text": "depuis"}, {"key": "C", "text": "pour"}, {"key": "D", "text": "pendant"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Năm: dùng en 1998."}, {"num": "15", "type": "Chọn câu trả lời đúng", "question": "___ j’étais jeune, j’aimais les dessins animés. (Khi tôi còn nhỏ, tôi thích xem phim hoạt hình.)", "options": [{"key": "A", "text": "Pendant"}, {"key": "B", "text": "Quand"}, {"key": "C", "text": "Si"}, {"key": "D", "text": "Parce que"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Thời điểm trong quá khứ → Quand j’étais jeune."}, {"num": "16", "type": "Chọn câu trả lời đúng", "question": "Je n’aime pas ___ fruits exotiques. (Tôi không thích trái cây nhiệt đới.)", "options": [{"key": "A", "text": "des"}, {"key": "B", "text": "de"}, {"key": "C", "text": "les"}, {"key": "D", "text": "du"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Danh từ xác định → les fruits exotiques."}, {"num": "17", "type": "Chọn câu trả lời đúng", "question": "Vous ___ le sport ? (Bạn có thích thể thao không?)", "options": [{"key": "A", "text": "aimez"}, {"key": "B", "text": "jouez"}, {"key": "C", "text": "faites"}, {"key": "D", "text": "êtes"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Câu hỏi đúng: Vous aimez le sport ?."}, {"num": "18", "type": "Chọn câu trả lời đúng", "question": "Ils ne ___ jamais de devoirs le week-end. (Họ không bao giờ làm bài tập cuối tuần.)", "options": [{"key": "A", "text": "faisaient"}, {"key": "B", "text": "fait"}, {"key": "C", "text": "font"}, {"key": "D", "text": "fais"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“ils” → ils font… → phủ định: ne font jamais."}, {"num": "19", "type": "Chọn câu trả lời đúng", "question": "Je ___ le fromage, surtout le camembert ! (Tôi ghét phô mai, đặc biệt là camembert!)", "options": [{"key": "A", "text": "aime"}, {"key": "B", "text": "mange"}, {"key": "C", "text": "déteste"}, {"key": "D", "text": "goûte"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Biểu đạt sự ghét → je déteste."}, {"num": "20", "type": "Chọn câu trả lời đúng", "question": "Tu ___ bien la cuisine italienne ? (Bạn có thích ẩm thực Ý không?)", "options": [{"key": "A", "text": "aimes"}, {"key": "B", "text": "connais"}, {"key": "C", "text": "veux"}, {"key": "D", "text": "manges"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Tu aimes… ?. = Bạn có thích ....?"}, {"num": "21", "type": "Chọn câu trả lời đúng", "question": "Il travaille ___ cinq heures sans pause. (Anh ấy làm việc trong 5 giờ không nghỉ.)", "options": [{"key": "A", "text": "depuis"}, {"key": "B", "text": "pendant"}, {"key": "C", "text": "en"}, {"key": "D", "text": "à"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Thời lượng trọn vẹn → pendant cinq heures."}, {"num": "22", "type": "Chọn câu trả lời đúng", "question": "Tu es arrivé ___ combien de temps ? (Bạn đến cách đây bao lâu?)", "options": [{"key": "A", "text": "depuis"}, {"key": "B", "text": "pour"}, {"key": "C", "text": "pendant"}, {"key": "D", "text": "il y a"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Diễn tả quá khứ mốc → il y a…."}, {"num": "23", "type": "Chọn câu trả lời đúng", "question": "Nous avons visité le musée ___ deux heures. (Chúng tôi đã tham quan viện bảo tàng trong 2 giờ.)", "options": [{"key": "A", "text": "pendant"}, {"key": "B", "text": "pour"}, {"key": "C", "text": "il y a"}, {"key": "D", "text": "depuis"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Thời lượng → pendant deux heures."}, {"num": "24", "type": "Chọn câu trả lời đúng", "question": "Elle ne mange ___ de viande. (Cô ấy không ăn thịt.)", "options": [{"key": "A", "text": "jamais"}, {"key": "B", "text": "pas"}, {"key": "C", "text": "plus"}, {"key": "D", "text": "rien"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Phủ định với danh từ: ne… pas de viande."}, {"num": "25", "type": "Chọn câu trả lời đúng", "question": "Je ___ jamais en retard. (Tôi không bao giờ đến muộn.)", "options": [{"key": "A", "text": "ne vais"}, {"key": "B", "text": "suis"}, {"key": "C", "text": "ne suis"}, {"key": "D", "text": "ne vais pas"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Phủ định đúng: Je ne suis jamais…."}, {"num": "26", "type": "Chọn câu trả lời đúng", "question": "Vous aimez la musique classique ? – Oui, ___ ! (Bạn thích nhạc cổ điển không? – Có, rất thích!)", "options": [{"key": "A", "text": "jamais"}, {"key": "B", "text": "pas"}, {"key": "C", "text": "beaucoup"}, {"key": "D", "text": "rien"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Trả lời khẳng định: Oui, beaucoup !."}, {"num": "27", "type": "Chọn câu trả lời đúng", "question": "Je ___ les films d’horreur. ! (Tôi không thích phim kinh dị.)", "options": [{"key": "A", "text": "aime pas"}, {"key": "B", "text": "n’aime pas"}, {"key": "C", "text": "ne aimes pas"}, {"key": "D", "text": "déteste pas"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Cấu trúc chuẩn: Je n’aime pas…."}, {"num": "28", "type": "Chọn câu trả lời đúng", "question": "Quand j’étais petit, je ___ du violon. (Khi còn nhỏ, tôi chơi đàn violin.)", "options": [{"key": "A", "text": "jouais"}, {"key": "B", "text": "ai joué"}, {"key": "C", "text": "joue"}, {"key": "D", "text": "jouer"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Thói quen quá khứ → imparfait."}, {"num": "29", "type": "Chọn câu trả lời đúng", "question": "Tu vas à la salle de sport ___ semaine ? (Bạn đi tập gym mỗi tuần à?)", "options": [{"key": "A", "text": "tous"}, {"key": "B", "text": "toute"}, {"key": "C", "text": "la"}, {"key": "D", "text": "chaque"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Diễn tả đều đặn: chaque semaine."}, {"num": "30", "type": "Chọn câu trả lời đúng", "question": "Il adore les croissants ? – Non, il ___ ça. (Anh ấy có thích bánh sừng bò không? – Không, anh ấy ghét.)", "options": [{"key": "A", "text": "déteste"}, {"key": "B", "text": "mange"}, {"key": "C", "text": "veut"}, {"key": "D", "text": "préfère"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Phủ định sở thích → il déteste ça."}, {"num": "31", "type": "Chọn câu trả lời đúng", "question": "___ deux semaines, j’ai commencé un nouveau travail. (Tôi đã bắt đầu công việc mới cách đây 2 tuần.)", "options": [{"key": "A", "text": "Depuis"}, {"key": "B", "text": "Pendant"}, {"key": "C", "text": "Il y a"}, {"key": "D", "text": "En"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Quá khứ mốc → il y a deux semaines."}, {"num": "32", "type": "Chọn câu trả lời đúng", "question": "Il travaille ___ lundi à vendredi. (Anh ấy làm việc từ thứ 2 đến thứ 6.)", "options": [{"key": "A", "text": "en"}, {"key": "B", "text": "de"}, {"key": "C", "text": "depuis"}, {"key": "D", "text": "pendant"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Cấu trúc: de… à…."}, {"num": "33", "type": "Chọn câu trả lời đúng", "question": "Nous allons en vacances ___ août. (Chúng tôi đi nghỉ vào tháng 8.)", "options": [{"key": "A", "text": "à"}, {"key": "B", "text": "en"}, {"key": "C", "text": "au"}, {"key": "D", "text": "dans"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Tháng → en août."}, {"num": "34", "type": "Chọn câu trả lời đúng", "question": "Je ___ la viande. Je suis végétarien. (Tôi không ăn thịt. Tôi ăn chay.)", "options": [{"key": "A", "text": "ne mange"}, {"key": "B", "text": "n’aime"}, {"key": "C", "text": "mange pas"}, {"key": "D", "text": "ne mange pas"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Phủ định chuẩn: Je ne mange pas la viande."}, {"num": "35", "type": "Chọn câu trả lời đúng", "question": "Tu ___ les légumes ? – Non, je n’aime pas ça. (Bạn có thích rau không? – Không.)", "options": [{"key": "A", "text": "aimes"}, {"key": "B", "text": "manges"}, {"key": "C", "text": "cuisines"}, {"key": "D", "text": "bois"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Câu hỏi đúng: Tu aimes… ?."}, {"num": "36", "type": "Chọn câu trả lời đúng", "question": "Mon frère ___ les films d’action. (Anh trai tôi thích phim hành động.)", "options": [{"key": "A", "text": "préfère"}, {"key": "B", "text": "regarde"}, {"key": "C", "text": "évite"}, {"key": "D", "text": "adore"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Động từ sở thích → il adore…."}, {"num": "37", "type": "Chọn câu trả lời đúng", "question": "Elle ne va ___ au cinéma. (Cô ấy không bao giờ đi xem phim.)", "options": [{"key": "A", "text": "pas"}, {"key": "B", "text": "jamais"}, {"key": "C", "text": "rien"}, {"key": "D", "text": "plus"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Diễn tả “không bao giờ” → ne… jamais."}, {"num": "38", "type": "Trả lời bằng ghi âm", "question": "Nói 2 câu về bạn thích gì (J’aime___ / J’adore___)", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "39", "type": "Trả lời bằng ghi âm", "question": "Nói 2 câu về bạn không thích gì (Je n’aime pas___ / Je déteste___)", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "40", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "audios/A2_Bai_09_Cau_40_120940.mp3", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "41", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}]}, {"id": "A2.1_L10", "num": 10, "filename": "Bai_10_Kể_về_kỳ_nghỉ.md", "title": "Bài 10 - Kể về kỳ nghỉ", "questions": [{"num": "1", "type": "Chọn câu trả lời đúng", "question": "Hier, je ___ au marché. (Hôm qua tôi đi chợ.)", "options": [{"key": "A", "text": "allais"}, {"key": "B", "text": "suis allés"}, {"key": "C", "text": "ai allé"}, {"key": "D", "text": "suis allé"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“Aller” → trợ động từ être ở passé composé, ngôi 1 số ít → je suis allé(e)."}, {"num": "2", "type": "Chọn câu trả lời đúng", "question": "Elle ___ Paul hier soir. (Cô ấy đã gặp Paul tối qua.)", "options": [{"key": "A", "text": "a rencontré"}, {"key": "B", "text": "était rencontrée"}, {"key": "C", "text": "a rencontrée"}, {"key": "D", "text": "rencontrait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Passé composé: elle a rencontré."}, {"num": "3", "type": "Chọn câu trả lời đúng", "question": "Elle ___ en faisant du vélo. (Cô ấy đã ngã khi đi xe đạp.)", "options": [{"key": "A", "text": "tombait"}, {"key": "B", "text": "est tombé"}, {"key": "C", "text": "est tombée"}, {"key": "D", "text": "a tombée"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Tomber” → être ở passé composé, accord với “elle” → est tombée."}, {"num": "4", "type": "Chọn câu trả lời đúng", "question": "L’année dernière, nous ___ la France. (Năm ngoái chúng tôi đã thăm nước Pháp.)", "options": [{"key": "A", "text": "avons visité"}, {"key": "B", "text": "avons visite"}, {"key": "C", "text": "étions visités"}, {"key": "D", "text": "visitions"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Passé composé đúng: nous avons visité."}, {"num": "5", "type": "Chọn câu trả lời đúng", "question": "Elle ___ un message ce matin. (Cô ấy đã để lại một tin nhắn sáng nay.)", "options": [{"key": "A", "text": "laissait"}, {"key": "B", "text": "a laissé"}, {"key": "C", "text": "laissa"}, {"key": "D", "text": "laisse"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Passé composé: elle a laissé."}, {"num": "6", "type": "Chọn câu trả lời đúng", "question": "Vous ___ les chats ? – Non, je préfère les chiens. (Bạn có thích mèo không?)", "options": [{"key": "A", "text": "aimez"}, {"key": "B", "text": "avez"}, {"key": "C", "text": "voulez"}, {"key": "D", "text": "mangez"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Hỏi sở thích → vous aimez… ?"}, {"num": "7", "type": "Chọn câu trả lời đúng", "question": "Il est allé en France ___ deux mois. (Anh ấy đã đi Pháp cách đây 2 tháng.)", "options": [{"key": "A", "text": "depuis"}, {"key": "B", "text": "pendant"}, {"key": "C", "text": "pour"}, {"key": "D", "text": "il y a"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Quá khứ mốc: il y a deux mois."}, {"num": "8", "type": "Chọn câu trả lời đúng", "question": "Nous ___ à la mer cet été. (Mùa hè này chúng tôi đã đi biển.)", "options": [{"key": "A", "text": "avons allé"}, {"key": "B", "text": "sommes allés"}, {"key": "C", "text": "allions"}, {"key": "D", "text": "sommes allé"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Aller” → être, ngôi 1 số nhiều → sommes allés."}, {"num": "9", "type": "Chọn câu trả lời đúng", "question": "Il ___ ses valises hier soir. (Anh ấy đã sắp xếp hành lý tối qua.)", "options": [{"key": "A", "text": "a fait"}, {"key": "B", "text": "a fais"}, {"key": "C", "text": "fait"}, {"key": "D", "text": "fait eu"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Cấu trúc cố định: faire ses valises → passé composé."}, {"num": "10", "type": "Chọn câu trả lời đúng", "question": "Tu ___ la Tour Eiffel ? (Bạn có thấy tháp Eiffel không?)", "options": [{"key": "A", "text": "as regardé"}, {"key": "B", "text": "as été"}, {"key": "C", "text": "as visité"}, {"key": "D", "text": "as vu"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“Voir” → passé composé: tu as vu."}, {"num": "11", "type": "Chọn câu trả lời đúng", "question": "Elles ___ du vélo pendant les vacances. (Các cô ấy đã đạp xe trong kỳ nghỉ.)", "options": [{"key": "A", "text": "sont fait"}, {"key": "B", "text": "ont fait"}, {"key": "C", "text": "faisaient"}, {"key": "D", "text": "fais"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Faire” → toujours với avoir ở passé composé."}, {"num": "12", "type": "Chọn câu trả lời đúng", "question": "Nous ___ au Portugal en juillet. (Chúng tôi đã đi Bồ Đào Nha vào tháng 7.)", "options": [{"key": "A", "text": "sommes allés"}, {"key": "B", "text": "allions"}, {"key": "C", "text": "allons"}, {"key": "D", "text": "allé"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Aller” → être, ngôi 1 số nhiều."}, {"num": "13", "type": "Chọn câu trả lời đúng", "question": "Je ___ un super film pendant le vol. (Tôi đã xem một bộ phim hay trên máy bay.)", "options": [{"key": "A", "text": "ai regardé"}, {"key": "B", "text": "regarde"}, {"key": "C", "text": "regardais"}, {"key": "D", "text": "regardé"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Passé composé: j’ai regardé."}, {"num": "14", "type": "Chọn câu trả lời đúng", "question": "Ils ___ la semaine dernière. (Họ đã rời đi tuần trước.)", "options": [{"key": "A", "text": "sont allé"}, {"key": "B", "text": "ont parti"}, {"key": "C", "text": "partis"}, {"key": "D", "text": "sont partis"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“Partir” → être, ngôi 3 số nhiều → sont partis."}, {"num": "15", "type": "Chọn câu trả lời đúng", "question": "Vous ___ vos photos ? (Bạn đã chụp ảnh chưa?)", "options": [{"key": "A", "text": "pris"}, {"key": "B", "text": "avez pris"}, {"key": "C", "text": "prenez"}, {"key": "D", "text": "avez prisé"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Passé composé: vous avez pris."}, {"num": "16", "type": "Chọn câu trả lời đúng", "question": "On ___ bien mangé pendant les vacances ! (Chúng tôi đã ăn rất ngon trong kỳ nghỉ!)", "options": [{"key": "A", "text": "a"}, {"key": "B", "text": "est"}, {"key": "C", "text": "avons"}, {"key": "D", "text": "sommes"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“On” chia như “il” → on a mangé."}, {"num": "17", "type": "Chọn câu trả lời đúng", "question": "Elle ___ beaucoup de photos. (Cô ấy đã chụp nhiều ảnh.)", "options": [{"key": "A", "text": "a pris"}, {"key": "B", "text": "est pris"}, {"key": "C", "text": "prend"}, {"key": "D", "text": "prends"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Passé composé: elle a pris."}, {"num": "18", "type": "Chọn câu trả lời đúng", "question": "Je ___ en Italie pendant deux semaines. (Tôi đã đi Ý trong 2 tuần.)", "options": [{"key": "A", "text": "allais"}, {"key": "B", "text": "vais"}, {"key": "C", "text": "suis allé(e)"}, {"key": "D", "text": "allé"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Aller” → être, ngôi 1 số ít → suis allé(e)."}, {"num": "19", "type": "Chọn câu trả lời đúng", "question": "Mes parents ___ une maison au bord de la mer. (Bố mẹ tôi đã thuê một ngôi nhà bên bờ biển.)", "options": [{"key": "A", "text": "ont loué"}, {"key": "B", "text": "ont loués"}, {"key": "C", "text": "ont louer"}, {"key": "D", "text": "louaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Passé composé: ils ont loué."}, {"num": "20", "type": "Chọn câu trả lời đúng", "question": "Nous ___ beaucoup de monuments. (Chúng tôi đã thăm nhiều di tích.)", "options": [{"key": "A", "text": "avons visiter"}, {"key": "B", "text": "sommes visité"}, {"key": "C", "text": "avons visité"}, {"key": "D", "text": "avons visitez"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Passé composé đúng: avons visité."}, {"num": "21", "type": "Chọn câu trả lời đúng", "question": "Tu ___ des photos ? (Bạn có chụp ảnh không?)", "options": [{"key": "A", "text": "as fait"}, {"key": "B", "text": "as pris"}, {"key": "C", "text": "fais"}, {"key": "D", "text": "pris"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Động từ “prendre des photos” → passé composé: tu as pris."}, {"num": "22", "type": "Chọn câu trả lời đúng", "question": "Ils ___ en retard à l’aéroport. (Họ đã đến muộn ở sân bay.)", "options": [{"key": "A", "text": "ont arrivé"}, {"key": "B", "text": "sont arrivés"}, {"key": "C", "text": "étaient arrivé"}, {"key": "D", "text": "arrivent"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Arriver” → trợ động từ être."}, {"num": "23", "type": "Chọn câu trả lời đúng", "question": "Elle ___ une crêpe au Nutella. (Cô ấy đã ăn một chiếc crêpe Nutella.)", "options": [{"key": "A", "text": "mange"}, {"key": "B", "text": "a mangé"}, {"key": "C", "text": "mangée"}, {"key": "D", "text": "mangé"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Passé composé: elle a mangé."}, {"num": "24", "type": "Chọn câu trả lời đúng", "question": "Vous ___ dans un camping ? (Bạn đã ngủ ở khu cắm trại à?)", "options": [{"key": "A", "text": "êtes dormi"}, {"key": "B", "text": "avez dormi"}, {"key": "C", "text": "dormiez"}, {"key": "D", "text": "dormis"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Dormir” → trợ động từ avoir."}, {"num": "25", "type": "Chọn câu trả lời đúng", "question": "On ___ à la plage tous les jours. (Chúng tôi đã đi biển mỗi ngày.)", "options": [{"key": "A", "text": "allait"}, {"key": "B", "text": "allions"}, {"key": "C", "text": "est allé"}, {"key": "D", "text": "sont allés"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“On” thường chia như “il”: on est allé."}, {"num": "26", "type": "Chọn câu trả lời đúng", "question": "J’___ des amis français pendant mon voyage. (Tôi đã gặp bạn Pháp trong chuyến đi.)", "options": [{"key": "A", "text": "ai rencontre"}, {"key": "B", "text": "ai rencontré"}, {"key": "C", "text": "rencontré"}, {"key": "D", "text": "rencontrais"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Passé composé: j’ai rencontré."}, {"num": "27", "type": "Chọn câu trả lời đúng", "question": "Ils ___ du surf à Biarritz. (Họ đã lướt sóng ở Biarritz.)", "options": [{"key": "A", "text": "font"}, {"key": "B", "text": "faisaient"}, {"key": "C", "text": "ont fait"}, {"key": "D", "text": "fait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Faire du surf” → passé composé: ils ont fait."}, {"num": "28", "type": "Chọn câu trả lời đúng", "question": "Nous ___ dans un hôtel près de la mer. (Chúng tôi đã ngủ ở khách sạn gần biển.)", "options": [{"key": "A", "text": "avons dormi"}, {"key": "B", "text": "avons dormir"}, {"key": "C", "text": "sommes dormis"}, {"key": "D", "text": "dormé"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Dormir” → passé composé với avoir."}, {"num": "29", "type": "Chọn câu trả lời đúng", "question": "Elles ___ à la montagne pour skier. (Các cô ấy đã đi núi để trượt tuyết.)", "options": [{"key": "A", "text": "ont allé"}, {"key": "B", "text": "sont allés"}, {"key": "C", "text": "sont allées"}, {"key": "D", "text": "vont allé"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Aller” → trợ động từ être, giống cái số nhiều → sont allées."}, {"num": "30", "type": "Chọn câu trả lời đúng", "question": "Il ___ un livre très intéressant pendant les vacances. (Anh ấy đã đọc một quyển sách rất hay trong kỳ nghỉ.)", "options": [{"key": "A", "text": "a lire"}, {"key": "B", "text": "lu"}, {"key": "C", "text": "a lu"}, {"key": "D", "text": "lisait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Passé composé: il a lu."}, {"num": "31", "type": "Chọn câu trả lời đúng", "question": "Tu ___ ton passeport à l’hôtel ? (Bạn có quên hộ chiếu ở khách sạn không?)", "options": [{"key": "A", "text": "as oublié"}, {"key": "B", "text": "es oublié"}, {"key": "C", "text": "oublié"}, {"key": "D", "text": "as oublie"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Passé composé: tu as oublié."}, {"num": "32", "type": "Chọn câu trả lời đúng", "question": "On ___ le musée lundi matin. (Chúng tôi đã thăm bảo tàng sáng thứ hai.)", "options": [{"key": "A", "text": "avons visité"}, {"key": "B", "text": "a visité"}, {"key": "C", "text": "visité"}, {"key": "D", "text": "est visité"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“On” → chia như “il”: on a visité."}, {"num": "33", "type": "Chọn câu trả lời đúng", "question": "Mes amis ___ une excursion en bateau. (Bạn bè tôi đã đi dạo thuyền.)", "options": [{"key": "A", "text": "ont fait"}, {"key": "B", "text": "ont fais"}, {"key": "C", "text": "ont faite"}, {"key": "D", "text": "faisaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Passé composé: ils ont fait."}, {"num": "34", "type": "Chọn câu trả lời đúng", "question": "Elle ___ un souvenir pour sa sœur. (Cô ấy đã mua một món quà lưu niệm cho em gái.)", "options": [{"key": "A", "text": "achetée"}, {"key": "B", "text": "a acheté"}, {"key": "C", "text": "achetait"}, {"key": "D", "text": "a achetés"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Passé composé: elle a acheté."}, {"num": "35", "type": "Chọn câu trả lời đúng", "question": "Vous ___ quand au Maroc ? (Bạn đã đi Maroc khi nào?)", "options": [{"key": "A", "text": "êtes parti"}, {"key": "B", "text": "êtes partis"}, {"key": "C", "text": "avez parté"}, {"key": "D", "text": "partiez"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Partir” → être, ngôi 2 số nhiều → êtes partis."}, {"num": "36", "type": "Chọn câu trả lời đúng", "question": "Je ___ mon sac à dos dans le train. (Tôi đã làm mất ba lô trên tàu.)", "options": [{"key": "A", "text": "perdais"}, {"key": "B", "text": "ai perdu"}, {"key": "C", "text": "suis perdu"}, {"key": "D", "text": "perds"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Passé composé: j’ai perdu."}, {"num": "37", "type": "Chọn câu trả lời đúng", "question": "Ils ___ des châteaux de sable tous les jours. (Họ đã xây lâu đài cát mỗi ngày.)", "options": [{"key": "A", "text": "ont construire"}, {"key": "B", "text": "sont construit"}, {"key": "C", "text": "ont construit"}, {"key": "D", "text": "construisaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Passé composé: ils ont construit."}, {"num": "38", "type": "Chọn câu trả lời đúng", "question": "Nous ___ un bon restaurant à Nice. (Chúng tôi đã tìm thấy một nhà hàng ngon ở Nice.)", "options": [{"key": "A", "text": "trouvons"}, {"key": "B", "text": "avons trouvé"}, {"key": "C", "text": "avons trouvés"}, {"key": "D", "text": "trouvait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Passé composé: nous avons trouvé."}, {"num": "39", "type": "Chọn câu trả lời đúng", "question": "Tu ___ la valise avant de partir ? (Bạn đã chuẩn bị hành lý trước khi đi chưa?)", "options": [{"key": "A", "text": "as préparé"}, {"key": "B", "text": "préparais"}, {"key": "C", "text": "es préparé"}, {"key": "D", "text": "prépare"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Passé composé: tu as préparé."}, {"num": "40", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "41", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}]}, {"id": "A2.1_L11", "num": 11, "filename": "Bai_11_Ký_ức_tuổi_thơ.md", "title": "Bài 11 - Ký ức tuổi thơ", "questions": [{"num": "1", "type": "Chọn câu trả lời đúng", "question": "Quand j’étais petit, je ___ du piano chaque jour. (Khi còn nhỏ, tôi chơi piano mỗi ngày.)", "options": [{"key": "A", "text": "jouais"}, {"key": "B", "text": "jouait"}, {"key": "C", "text": "jouions"}, {"key": "D", "text": "jouaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Je” → je jouais."}, {"num": "2", "type": "Chọn câu trả lời đúng", "question": "Nous ___ très fatigués après le voyage. (Chúng tôi rất mệt sau chuyến đi.)", "options": [{"key": "A", "text": "étais"}, {"key": "B", "text": "étions"}, {"key": "C", "text": "étiez"}, {"key": "D", "text": "étaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Nous” → nous étions."}, {"num": "3", "type": "Chọn câu trả lời đúng", "question": "Pendant qu’il ___, je ___ des notes. (Trong khi anh ấy nói, tôi ghi chép.)", "options": [{"key": "A", "text": "parlait / prenais"}, {"key": "B", "text": "parlais / prenais"}, {"key": "C", "text": "parlions / prenais"}, {"key": "D", "text": "parlaient / prenais"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Il parlait” & “je prenais” → imparfait."}, {"num": "4", "type": "Chọn câu trả lời đúng", "question": "Je ___ un livre tous les soirs. (Tôi thường đọc sách mỗi tối.)", "options": [{"key": "A", "text": "lisait"}, {"key": "B", "text": "lisions"}, {"key": "C", "text": "lisais"}, {"key": "D", "text": "lisaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Je” → je lisais."}, {"num": "5", "type": "Chọn câu trả lời đúng", "question": "Vous ___ toujours une bonne note. (Các bạn luôn đạt điểm tốt.)", "options": [{"key": "A", "text": "avais"}, {"key": "B", "text": "avaient"}, {"key": "C", "text": "aviez"}, {"key": "D", "text": "avions"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Vous” → vous aviez."}, {"num": "6", "type": "Chọn câu trả lời đúng", "question": "Il ___ minuit quand je rentrais chez moi. (Đã nửa đêm khi tôi về nhà.)", "options": [{"key": "A", "text": "était"}, {"key": "B", "text": "étais"}, {"key": "C", "text": "étions"}, {"key": "D", "text": "étaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Il était minuit” → mô tả thời gian."}, {"num": "7", "type": "Chọn câu trả lời đúng", "question": "Il ___ souvent fatigué. (Anh ấy thường mệt mỏi.)", "options": [{"key": "A", "text": "étais"}, {"key": "B", "text": "étions"}, {"key": "C", "text": "était"}, {"key": "D", "text": "étaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Il” → il était."}, {"num": "8", "type": "Chọn câu trả lời đúng", "question": "Nous ___ à la plage tous les étés. (Mỗi mùa hè chúng tôi đi biển.)", "options": [{"key": "A", "text": "allaient"}, {"key": "B", "text": "allions"}, {"key": "C", "text": "alliez"}, {"key": "D", "text": "allais"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Nous” → nous allions."}, {"num": "9", "type": "Chọn câu trả lời đúng", "question": "Quand il était jeune, il ___ du violon. (Khi còn trẻ, anh ấy chơi violin.)", "options": [{"key": "A", "text": "jouais"}, {"key": "B", "text": "jouait"}, {"key": "C", "text": "jouions"}, {"key": "D", "text": "jouaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Il” → il jouait."}, {"num": "10", "type": "Chọn câu trả lời đúng", "question": "Je ___ mes devoirs quand mon frère regardait la télé. (Tôi làm bài khi anh trai xem TV.)", "options": [{"key": "A", "text": "faisait"}, {"key": "B", "text": "faisais"}, {"key": "C", "text": "faisions"}, {"key": "D", "text": "faisaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Je” → je faisais."}, {"num": "11", "type": "Chọn câu trả lời đúng", "question": "Quand j’étais enfant, j' ___ dans un village. (Tôi từng sống ở làng.)", "options": [{"key": "A", "text": "habitait"}, {"key": "B", "text": "habitions"}, {"key": "C", "text": "habitais"}, {"key": "D", "text": "habitaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Je” → j’habitais."}, {"num": "12", "type": "Chọn câu trả lời đúng", "question": "Quand j’étais petit, je ___ souvent au parc. (Khi còn nhỏ tôi thường chơi ở công viên.)", "options": [{"key": "A", "text": "jouait"}, {"key": "B", "text": "jouions"}, {"key": "C", "text": "jouais"}, {"key": "D", "text": "jouaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Je” → je jouais."}, {"num": "13", "type": "Chọn câu trả lời đúng", "question": "Il ___ très timide à l’école. (Anh ấy rất nhút nhát ở trường.)", "options": [{"key": "A", "text": "était"}, {"key": "B", "text": "étaient"}, {"key": "C", "text": "étais"}, {"key": "D", "text": "étions"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Il” → il était."}, {"num": "14", "type": "Chọn câu trả lời đúng", "question": "Nous ___ des dessins animés tous les samedis. (Chúng tôi xem hoạt hình mỗi thứ 7.)", "options": [{"key": "A", "text": "regardais"}, {"key": "B", "text": "regardions"}, {"key": "C", "text": "regardaient"}, {"key": "D", "text": "regardait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Nous” → nous regardions."}, {"num": "15", "type": "Chọn câu trả lời đúng", "question": "Elle ___ chez ses grands-parents en été. (Cô ấy thường đến nhà ông bà vào mùa hè.)", "options": [{"key": "A", "text": "allais"}, {"key": "B", "text": "allait"}, {"key": "C", "text": "allions"}, {"key": "D", "text": "allaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Elle” → elle allait."}, {"num": "16", "type": "Chọn câu trả lời đúng", "question": "Tu ___ souvent du chocolat ? (Bạn thường ăn socola chứ?)", "options": [{"key": "A", "text": "mangeait"}, {"key": "B", "text": "mangeais"}, {"key": "C", "text": "mangions"}, {"key": "D", "text": "mangeaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Tu” → tu mangeais."}, {"num": "17", "type": "Chọn câu trả lời đúng", "question": "Quand nous étions enfants, nous ___ beaucoup de jeux. (Khi còn nhỏ chúng tôi nghĩ ra nhiều trò chơi.)", "options": [{"key": "A", "text": "inventions"}, {"key": "B", "text": "inventait"}, {"key": "C", "text": "inventais"}, {"key": "D", "text": "inventaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Nous” → nous inventions."}, {"num": "18", "type": "Chọn câu trả lời đúng", "question": "Les élèves ___ quand le professeur est entré. (Học sinh đang nói chuyện khi thầy vào lớp.)", "options": [{"key": "A", "text": "parlait"}, {"key": "B", "text": "parlaient"}, {"key": "C", "text": "parlions"}, {"key": "D", "text": "parlais"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Ils” → ils parlaient."}, {"num": "19", "type": "Chọn câu trả lời đúng", "question": "Il ___ souvent triste sans raison. (Anh ấy thường buồn không lý do.)", "options": [{"key": "A", "text": "semblait"}, {"key": "B", "text": "semblais"}, {"key": "C", "text": "semblaient"}, {"key": "D", "text": "semblions"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Il” → il semblait."}, {"num": "20", "type": "Chọn câu trả lời đúng", "question": "On ___ dans un petit appartement. (Chúng tôi sống trong một căn hộ nhỏ.)", "options": [{"key": "A", "text": "habitais"}, {"key": "B", "text": "habitait"}, {"key": "C", "text": "habitions"}, {"key": "D", "text": "habitaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“On” thường chia ngôi 3 số ít → on habitait."}, {"num": "21", "type": "Chọn câu trả lời đúng", "question": "Vous ___ timides au collège ? (Các bạn nhút nhát hồi cấp 2 à?)", "options": [{"key": "A", "text": "étions"}, {"key": "B", "text": "étais"}, {"key": "C", "text": "étiez"}, {"key": "D", "text": "était"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Vous” → động từ être chia ở ngôi 2 số nhiều → vous étiez."}, {"num": "22", "type": "Chọn câu trả lời đúng", "question": "Quand j’étais petit, j' ___ chez ma grand-mère tous les week-ends. (Hồi nhỏ tôi thường đến nhà bà.)", "options": [{"key": "A", "text": "allions"}, {"key": "B", "text": "allais"}, {"key": "C", "text": "allaient"}, {"key": "D", "text": "allait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Hành động lặp lại trong quá khứ → j'allais."}, {"num": "23", "type": "Chọn câu trả lời đúng", "question": "Nous ___ un petit chien quand nous habitions à la campagne. (Chúng tôi có một con chó nhỏ khi ở quê.)", "options": [{"key": "A", "text": "avais"}, {"key": "B", "text": "avaient"}, {"key": "C", "text": "avions"}, {"key": "D", "text": "aviez"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Chủ ngữ “nous” → động từ avoir chia imparfait: nous avions."}, {"num": "24", "type": "Chọn câu trả lời đúng", "question": "Il ___ toujours très tard le soir. (Anh ấy thường ngủ muộn vào buổi tối.)", "options": [{"key": "A", "text": "se couchais"}, {"key": "B", "text": "se couchions"}, {"key": "C", "text": "se couchait"}, {"key": "D", "text": "se couchaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Thói quen của “il” → il se couchait."}, {"num": "25", "type": "Chọn câu trả lời đúng", "question": "Avant, je ___ toujours mon vélo pour aller à l’école. (Trước đây tôi đi học bằng xe đạp.)", "options": [{"key": "A", "text": "prenait"}, {"key": "B", "text": "prenais"}, {"key": "C", "text": "prenaient"}, {"key": "D", "text": "prenions"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Chủ ngữ “je” → động từ prendre chia imparfait: je prenais."}, {"num": "26", "type": "Chọn câu trả lời đúng", "question": "Je ___ mes devoirs pendant que mon frère jouait dehors. (Tôi làm bài trong khi anh trai chơi ở ngoài.)", "options": [{"key": "A", "text": "faisions"}, {"key": "B", "text": "faisais"}, {"key": "C", "text": "faisait"}, {"key": "D", "text": "faisaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Hành động kéo dài → je faisais."}, {"num": "27", "type": "Chọn câu trả lời đúng", "question": "Pendant qu’il ___, elle préparait le dîner. (Trong khi anh ấy đọc, cô ấy nấu ăn.)", "options": [{"key": "A", "text": "lisions"}, {"key": "B", "text": "lisaient"}, {"key": "C", "text": "lisait"}, {"key": "D", "text": "lisais"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Il” → động từ lire chia imparfait: il lisait."}, {"num": "28", "type": "Chọn câu trả lời đúng", "question": "Ils ___ dehors quand il pleuvait. (Bọn trẻ chơi ở ngoài khi trời mưa.)", "options": [{"key": "A", "text": "jouait"}, {"key": "B", "text": "jouaient"}, {"key": "C", "text": "jouions"}, {"key": "D", "text": "jouais"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Chủ ngữ “ils” → động từ jouer chia imparfait: ils jouaient."}, {"num": "29", "type": "Chọn câu trả lời đúng", "question": "Elle écoutait la radio pendant que je ___ la vaisselle. (Cô ấy nghe radio khi tôi rửa bát.)", "options": [{"key": "A", "text": "faisait"}, {"key": "B", "text": "faisions"}, {"key": "C", "text": "faisaient"}, {"key": "D", "text": "faisais"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Chủ ngữ “je” → động từ faire chia imparfait: je faisais."}, {"num": "30", "type": "Chọn câu trả lời đúng", "question": "J' ___ très timide, mais maintenant je suis plus sociable. (Hồi trước tôi rất nhút nhát.)", "options": [{"key": "A", "text": "étais"}, {"key": "B", "text": "étions"}, {"key": "C", "text": "étiez"}, {"key": "D", "text": "était"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Chủ ngữ “je” → động từ être chia imparfait: j’étais."}, {"num": "31", "type": "Chọn câu trả lời đúng", "question": "Quand j’étais au collège, mes amis et moi ___ au foot tous les jours. (Hồi học cấp 2, chúng tôi đá bóng.)", "options": [{"key": "A", "text": "jouaient"}, {"key": "B", "text": "jouions"}, {"key": "C", "text": "jouais"}, {"key": "D", "text": "jouait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Chủ ngữ “nous” → nous jouions."}, {"num": "32", "type": "Chọn câu trả lời đúng", "question": "Avant, il ___ toujours la même chemise bleue. (Trước đây anh ấy mặc cùng áo xanh.)", "options": [{"key": "A", "text": "portait"}, {"key": "B", "text": "portaient"}, {"key": "C", "text": "portais"}, {"key": "D", "text": "portions"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Chủ ngữ “il” → động từ porter chia imparfait: il portait."}, {"num": "33", "type": "Chọn câu trả lời đúng", "question": "Quand elle était jeune, elle ___ souvent des gâteaux. (Khi còn trẻ cô ấy thường làm bánh.)", "options": [{"key": "A", "text": "faisaient"}, {"key": "B", "text": "faisait"}, {"key": "C", "text": "faisais"}, {"key": "D", "text": "faisions"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Chủ ngữ “elle” → động từ faire chia imparfait: elle faisait."}, {"num": "34", "type": "Chọn câu trả lời đúng", "question": "Chaque été, nous ___ chez nos grands-parents à la campagne. (Mỗi hè chúng tôi về thăm ông bà.)", "options": [{"key": "A", "text": "allait"}, {"key": "B", "text": "allais"}, {"key": "C", "text": "allions"}, {"key": "D", "text": "allaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Chủ ngữ “nous” → động từ aller chia imparfait: nous allions."}, {"num": "35", "type": "Chọn câu trả lời đúng", "question": "Il ___ souvent très tard pendant ses années d’université. (Thời sinh viên anh ấy thường thức khuya.)", "options": [{"key": "A", "text": "se couchait"}, {"key": "B", "text": "se couchais"}, {"key": "C", "text": "se couchaient"}, {"key": "D", "text": "se couchions"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Chủ ngữ “il” → động từ se coucher chia imparfait: il se couchait."}, {"num": "36", "type": "Chọn câu trả lời đúng", "question": "Quand j’étais enfant, je ___ toujours au même endroit. (Hồi nhỏ tôi luôn ngồi cùng chỗ.)", "options": [{"key": "A", "text": "m’asseyait"}, {"key": "B", "text": "m’asseyais"}, {"key": "C", "text": "nous asseyions"}, {"key": "D", "text": "s’asseyaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Chủ ngữ “je” → động từ s’asseoir chia imparfait: je m’asseyais."}, {"num": "37", "type": "Chọn câu trả lời đúng", "question": "Mes parents ___ un restaurant quand ils étaient jeunes. (Bố mẹ tôi có một nhà hàng hồi trẻ.)", "options": [{"key": "A", "text": "avais"}, {"key": "B", "text": "avaient"}, {"key": "C", "text": "avait"}, {"key": "D", "text": "aviez"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Chủ ngữ “mes parents” (số nhiều) → ils avaient."}, {"num": "38", "type": "Viết câu trả lời", "question": "Viết câu ở thì passé composé với từ gợi ý : nous/rester/chez nous", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "39", "type": "Viết câu trả lời", "question": "Viết câu ở thì passé composé với từ gợi ý : nous/rencontrer/des amis", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "40", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "audios/A2_Bai_11_Cau_40_121140.mp3", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "41", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}]}, {"id": "A2.1_L12", "num": 12, "filename": "Bai_12_Kiểm_tra_giữa_kỳ_1.2.md", "title": "Bài 12 - Kiểm tra giữa kỳ 1.2", "questions": [{"num": "1", "type": "Chọn câu trả lời đúng", "question": "Ils ___ la voiture pour aller à la plage. (Họ đã lấy xe đi biển.)", "options": [{"key": "A", "text": "ont pris"}, {"key": "B", "text": "ont prendu"}, {"key": "C", "text": "ont prenaient"}, {"key": "D", "text": "prenaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Passé composé, động từ prendre → ont pris."}, {"num": "2", "type": "Chọn câu trả lời đúng", "question": "Elle ___ une belle jupe au marché. (Cô ấy đã mua một chiếc váy đẹp ở chợ.)", "options": [{"key": "A", "text": "a achetée"}, {"key": "B", "text": "a acheté"}, {"key": "C", "text": "achetait"}, {"key": "D", "text": "acheta"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Passé composé, COD “jupe” theo sau → không cần accord → a acheté."}, {"num": "3", "type": "Chọn câu trả lời đúng", "question": "J' ___ mes clés dans la chambre d’hôtel. (Tôi đã để quên chìa khóa trong phòng khách sạn.)", "options": [{"key": "A", "text": "ai laissé"}, {"key": "B", "text": "suis laissé"}, {"key": "C", "text": "laisse"}, {"key": "D", "text": "ai laissée"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Passé composé, laisser → j’ai laissé."}, {"num": "4", "type": "Chọn câu trả lời đúng", "question": "Nous ___ une promenade en bateau. (Chúng tôi đã đi dạo bằng thuyền.)", "options": [{"key": "A", "text": "avons fait"}, {"key": "B", "text": "avons fais"}, {"key": "C", "text": "faisons"}, {"key": "D", "text": "faisaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Passé composé, faire → avons fait."}, {"num": "5", "type": "Chọn câu trả lời đúng", "question": "Vous ___ une glace hier soir ? (Các bạn có ăn kem tối qua không?)", "options": [{"key": "A", "text": "avez mangez"}, {"key": "B", "text": "mangez"}, {"key": "C", "text": "avez mangé"}, {"key": "D", "text": "mangiez"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Passé composé, manger → vous avez mangé."}, {"num": "6", "type": "Chọn câu trả lời đúng", "question": "Elles ___ tard à la gare. (Các cô ấy đã đến trễ ở ga.)", "options": [{"key": "A", "text": "ont arrivées"}, {"key": "B", "text": "sont arrivés"}, {"key": "C", "text": "sont arrivées"}, {"key": "D", "text": "arrivaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Verbe arriver dùng trợ động từ être → elles sont arrivées."}, {"num": "7", "type": "Chọn câu trả lời đúng", "question": "Il ___ ses amis au café. (Anh ấy đã gặp lại bạn ở quán cà phê.)", "options": [{"key": "A", "text": "a retrouvés"}, {"key": "B", "text": "a retrouvé"}, {"key": "C", "text": "retrouve"}, {"key": "D", "text": "retrouvait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Passé composé, retrouver → il a retrouvé (COD sau → không accord)."}, {"num": "8", "type": "Chọn câu trả lời đúng", "question": "On ___ au marché tous les matins. (Người ta đi chợ mỗi sáng.)", "options": [{"key": "A", "text": "va"}, {"key": "B", "text": "est allé"}, {"key": "C", "text": "allait"}, {"key": "D", "text": "allait allé"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Thói quen → imparfait → on allait."}, {"num": "9", "type": "Chọn câu trả lời đúng", "question": "Il travaille ici ___ deux ans. (Anh ấy làm việc ở đây được 2 năm rồi.)", "options": [{"key": "A", "text": "pendant"}, {"key": "B", "text": "il y a"}, {"key": "C", "text": "pour"}, {"key": "D", "text": "depuis"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Cấu trúc “travailler ici depuis deux ans” → hành động kéo dài."}, {"num": "10", "type": "Chọn câu trả lời đúng", "question": "Elle a étudié à Paris ___ un an. (Cô ấy học ở Paris trong 1 năm.)", "options": [{"key": "A", "text": "il y a"}, {"key": "B", "text": "depuis"}, {"key": "C", "text": "pendant"}, {"key": "D", "text": "pour"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“pendant + durée” → hành động giới hạn thời gian."}, {"num": "11", "type": "Chọn câu trả lời đúng", "question": "Il est arrivé ___ deux semaines. (Anh ấy đến cách đây 2 tuần.)", "options": [{"key": "A", "text": "pendant"}, {"key": "B", "text": "il y a"}, {"key": "C", "text": "depuis"}, {"key": "D", "text": "dans"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“il y a + durée” → quá khứ."}, {"num": "12", "type": "Chọn câu trả lời đúng", "question": "Je ___ le chocolat. Je préfère la vanille. (Tôi không thích socola. Tôi thích vani hơn.)", "options": [{"key": "A", "text": "ne déteste pas"}, {"key": "B", "text": "aime"}, {"key": "C", "text": "n’aime pas"}, {"key": "D", "text": "n’aime plus"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Phủ định đơn giản → je n’aime pas."}, {"num": "13", "type": "Chọn câu trả lời đúng", "question": "Tu veux du café ? – Non, merci, je ___ jamais. (Bạn có muốn cà phê không? – Không, cảm ơn, tôi không bao giờ uống.)", "options": [{"key": "A", "text": "ne bois pas"}, {"key": "B", "text": "n’en bois"}, {"key": "C", "text": "ne bois"}, {"key": "D", "text": "ne bois jamais"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Phủ định tần suất → je ne bois jamais."}, {"num": "14", "type": "Chọn câu trả lời đúng", "question": "Elle ___ en Italie pendant ses vacances. (Cô ấy đã đi Ý vào kỳ nghỉ.)", "options": [{"key": "A", "text": "est"}, {"key": "B", "text": "a"}, {"key": "C", "text": "est allée"}, {"key": "D", "text": "avait été"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Passé composé với être → elle est allée."}, {"num": "15", "type": "Chọn câu trả lời đúng", "question": "L’année dernière, nous ___ un voyage en Grèce. (Năm ngoái chúng tôi đã đi du lịch Hy Lạp.)", "options": [{"key": "A", "text": "avons fait"}, {"key": "B", "text": "faisions"}, {"key": "C", "text": "faisons"}, {"key": "D", "text": "ferions"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Passé composé → nous avons fait."}, {"num": "16", "type": "Chọn câu trả lời đúng", "question": "Quand j’étais enfant, je ___ des bandes dessinées. (Khi còn nhỏ tôi thường đọc truyện tranh.)", "options": [{"key": "A", "text": "lisais"}, {"key": "B", "text": "ai lu"}, {"key": "C", "text": "lirai"}, {"key": "D", "text": "lis"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Thói quen quá khứ → imparfait → je lisais."}, {"num": "17", "type": "Chọn câu trả lời đúng", "question": "Il faisait très froid et tout le monde ___ des manteaux. (Trời rất lạnh và mọi người mặc áo khoác.)", "options": [{"key": "A", "text": "portait"}, {"key": "B", "text": "a porté"}, {"key": "C", "text": "porte"}, {"key": "D", "text": "porterait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Mô tả → imparfait → tout le monde portait."}, {"num": "18", "type": "Chọn câu trả lời đúng", "question": "Je ne mange ___ de viande. (Tôi không ăn thịt.)", "options": [{"key": "A", "text": "aucune"}, {"key": "B", "text": "jamais"}, {"key": "C", "text": "plus"}, {"key": "D", "text": "pas"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Phủ định với ne… pas → je ne mange pas de viande."}, {"num": "19", "type": "Chọn câu trả lời đúng", "question": "Nous sommes partis en vacances ___ deux semaines. (Chúng tôi đi nghỉ trong 2 tuần.)", "options": [{"key": "A", "text": "depuis"}, {"key": "B", "text": "pour"}, {"key": "C", "text": "il y a"}, {"key": "D", "text": "pendant"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“pendant + durée” → chỉ khoảng thời gian."}, {"num": "20", "type": "Chọn câu trả lời đúng", "question": "Quand j’étais petit, je ___ au parc tous les dimanches. (Khi còn nhỏ tôi đi công viên mỗi Chủ nhật.)", "options": [{"key": "A", "text": "vais"}, {"key": "B", "text": "irai"}, {"key": "C", "text": "suis allé"}, {"key": "D", "text": "allais"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Thói quen trong quá khứ → imparfait → j’allais."}, {"num": "21", "type": "Chọn câu trả lời đúng", "question": "Il ___ très chaud hier. (Hôm qua trời rất nóng.)", "options": [{"key": "A", "text": "fait"}, {"key": "B", "text": "faisait"}, {"key": "C", "text": "fera"}, {"key": "D", "text": "a fait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Mô tả thời tiết quá khứ → imparfait."}, {"num": "22", "type": "Chọn câu trả lời đúng", "question": "Nous ___ nos devoirs avant de sortir. (Chúng tôi đã làm bài tập trước khi ra ngoài.)", "options": [{"key": "A", "text": "ferons"}, {"key": "B", "text": "faisons"}, {"key": "C", "text": "faisions"}, {"key": "D", "text": "avons fait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Hành động đã hoàn tất → passé composé."}, {"num": "23", "type": "Chọn câu trả lời đúng", "question": "Il travaille ici ___ 2018. (Anh ấy làm ở đây từ năm 2018 đến nay.)", "options": [{"key": "A", "text": "pendant"}, {"key": "B", "text": "il y a"}, {"key": "C", "text": "dans"}, {"key": "D", "text": "depuis"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Depuis + date = hành động bắt đầu và kéo dài đến hiện tại."}, {"num": "24", "type": "Chọn câu trả lời đúng", "question": "Ils ont vécu à Lyon ___ 10 ans. (Họ đã sống ở Lyon trong 10 năm.)", "options": [{"key": "A", "text": "depuis"}, {"key": "B", "text": "pour"}, {"key": "C", "text": "il y a"}, {"key": "D", "text": "pendant"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Pendant + durée = khoảng thời gian trọn vẹn trong quá khứ."}, {"num": "25", "type": "Chọn câu trả lời đúng", "question": "J' ___ ce film hier soir. (Tối qua tôi đã xem phim này.)", "options": [{"key": "A", "text": "ai"}, {"key": "B", "text": "avais vu"}, {"key": "C", "text": "ai vu"}, {"key": "D", "text": "ai été"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Passé composé → j’ai vu."}, {"num": "26", "type": "Chọn câu trả lời đúng", "question": "Quand elle était jeune, elle ___ souvent au théâtre. (Khi còn trẻ, cô ấy thường đi xem kịch.)", "options": [{"key": "A", "text": "est allée"}, {"key": "B", "text": "va"}, {"key": "C", "text": "ira"}, {"key": "D", "text": "allait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Thói quen quá khứ → imparfait."}, {"num": "27", "type": "Chọn câu trả lời đúng", "question": "Je ___ ce genre de musique. (Tôi không bao giờ nghe loại nhạc này.)", "options": [{"key": "A", "text": "n'écoute jamais"}, {"key": "B", "text": "n’écoute pas"}, {"key": "C", "text": "n'écoutais"}, {"key": "D", "text": "n'écoute"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Câu phủ định với “jamais” → Je n’écoute jamais."}, {"num": "28", "type": "Chọn câu trả lời đúng", "question": "Tu ___ au cinéma hier ? (Hôm qua bạn có đi xem phim không?)", "options": [{"key": "A", "text": "es"}, {"key": "B", "text": "as allé"}, {"key": "C", "text": "es allé"}, {"key": "D", "text": "as"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Passé composé với être → tu es allé."}, {"num": "29", "type": "Chọn câu trả lời đúng", "question": "Il ___ toujours ses devoirs le soir. (Anh ấy luôn làm bài tập vào buổi tối.)", "options": [{"key": "A", "text": "fera"}, {"key": "B", "text": "a fait"}, {"key": "C", "text": "faisait"}, {"key": "D", "text": "fait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Thói quen → imparfait."}, {"num": "30", "type": "Chọn câu trả lời đúng", "question": "Je ___ pas envie de sortir ce soir. (Tôi không muốn ra ngoài tối nay.)", "options": [{"key": "A", "text": "n’ai"}, {"key": "B", "text": "ne"}, {"key": "C", "text": "n’ai jamais"}, {"key": "D", "text": "ai"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Phủ định đúng: Je n’ai pas envie."}, {"num": "31", "type": "Chọn câu trả lời đúng", "question": "Nous habitons ici ___ 5 ans. (Chúng tôi sống ở đây được 5 năm rồi.)", "options": [{"key": "A", "text": "il y a"}, {"key": "B", "text": "dans"}, {"key": "C", "text": "depuis"}, {"key": "D", "text": "pendant"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Depuis + durée = hành động kéo dài đến hiện tại."}, {"num": "32", "type": "Chọn câu trả lời đúng", "question": "Vous ___ partis tôt ce matin. (Các bạn đã đi sớm sáng nay.)", "options": [{"key": "A", "text": "avez parti"}, {"key": "B", "text": "partiez"}, {"key": "C", "text": "êtes partis"}, {"key": "D", "text": "êtes"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Passé composé với être → vous êtes partis."}, {"num": "33", "type": "Chọn câu trả lời đúng", "question": "Elles ___ au musée samedi dernier. (Các cô ấy đã đi bảo tàng thứ 7 tuần trước.)", "options": [{"key": "A", "text": "ont allé"}, {"key": "B", "text": "étaient allé"}, {"key": "C", "text": "sont"}, {"key": "D", "text": "sont allées"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Passé composé với être → elles sont allées."}, {"num": "34", "type": "Chọn câu trả lời đúng", "question": "Nous ___ souvent au parc quand nous étions petits. (Hồi nhỏ chúng tôi thường đi công viên.)", "options": [{"key": "A", "text": "allions"}, {"key": "B", "text": "sommes allés"}, {"key": "C", "text": "irons"}, {"key": "D", "text": "allons"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Thói quen quá khứ → imparfait."}, {"num": "35", "type": "Chọn câu trả lời đúng", "question": "Il ___ ses devoirs à temps. (Nó không bao giờ nộp bài tập đúng hạn.)", "options": [{"key": "A", "text": "ne rendait jamais"}, {"key": "B", "text": "ne rend"}, {"key": "C", "text": "ne rend jamais"}, {"key": "D", "text": "ne rendait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Thói quen phủ định → imparfait → il ne rendait jamais."}, {"num": "36", "type": "Chọn câu trả lời đúng", "question": "Elle habite ici ___ trois mois. (Cô ấy sống ở đây được 3 tháng.)", "options": [{"key": "A", "text": "il y a"}, {"key": "B", "text": "pendant"}, {"key": "C", "text": "depuis"}, {"key": "D", "text": "dans"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Depuis + durée = kéo dài đến hiện tại."}, {"num": "37", "type": "Chọn câu trả lời đúng", "question": "Vous ___ vos valises avant de partir. (Các bạn đã chuẩn bị hành lý trước khi đi.)", "options": [{"key": "A", "text": "allez faire"}, {"key": "B", "text": "faites"}, {"key": "C", "text": "faisiez"}, {"key": "D", "text": "avez fait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Hành động đã hoàn tất → passé composé."}, {"num": "38", "type": "Chọn câu trả lời đúng", "question": "Il ___ à la plage chaque été quand il était enfant. (Hồi nhỏ anh ấy đi biển mỗi hè.)", "options": [{"key": "A", "text": "allait"}, {"key": "B", "text": "va"}, {"key": "C", "text": "ira"}, {"key": "D", "text": "est allé"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Thói quen quá khứ → imparfait."}, {"num": "39", "type": "Chọn câu trả lời đúng", "question": "Je n’___ pas le poisson. (Tôi không thích cá.)", "options": [{"key": "A", "text": "aimes"}, {"key": "B", "text": "aimez"}, {"key": "C", "text": "aime pas"}, {"key": "D", "text": "aime"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Câu phủ định đúng: Je n’aime pas le poisson."}, {"num": "40", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "audios/A2_Bai_12_Cau_40_121240.mp3", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "41", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}]}, {"id": "A2.1_L13", "num": 13, "filename": "Bai_13_Kể_chuyện_và_bối_cảnh.md", "title": "Bài 13 - Kể chuyện và bối cảnh", "questions": [{"num": "1", "type": "Chọn câu trả lời đúng", "question": "Quand elle ___ à l’université, elle étudiait la biologie. (Khi cô ấy học đại học…)", "options": [{"key": "A", "text": "a été"}, {"key": "B", "text": "était"}, {"key": "C", "text": "avait été"}, {"key": "D", "text": "fut"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Bối cảnh mô tả → imparfait."}, {"num": "2", "type": "Chọn câu trả lời đúng", "question": "Nous ___ notre première maison en 2010. (Chúng tôi đã mua nhà năm 2010.)", "options": [{"key": "A", "text": "achetions"}, {"key": "B", "text": "avons achèter"}, {"key": "C", "text": "avons acheté"}, {"key": "D", "text": "avions acheté"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Sự kiện cụ thể, hoàn tất → passé composé."}, {"num": "3", "type": "Chọn câu trả lời đúng", "question": "Ils ___ leurs études à Lyon avant de déménager à Paris. (Họ đã kết thúc việc học trước khi chuyển đi.)", "options": [{"key": "A", "text": "avaient terminé"}, {"key": "B", "text": "ont terminé"}, {"key": "C", "text": "terminaient"}, {"key": "D", "text": "avaient finissés"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Hành động dứt điểm → passé composé."}, {"num": "4", "type": "Chọn câu trả lời đúng", "question": "Quand j’étais jeune, je ___ jouer au piano tous les jours. (Hồi nhỏ tôi thích chơi piano.)", "options": [{"key": "A", "text": "avais aimé"}, {"key": "B", "text": "aimais"}, {"key": "C", "text": "aimait"}, {"key": "D", "text": "ai aimé"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Thói quen quá khứ → imparfait."}, {"num": "5", "type": "Chọn câu trả lời đúng", "question": "Quand j’étais jeune, je ___ beaucoup de livres. (Tôi đọc nhiều sách.)", "options": [{"key": "A", "text": "lisait"}, {"key": "B", "text": "lisais"}, {"key": "C", "text": "avais lu"}, {"key": "D", "text": "ai lu"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Thói quen quá khứ → imparfait."}, {"num": "6", "type": "Chọn câu trả lời đúng", "question": "En 2009, ils ___ une entreprise ensemble. (Năm 2009, họ lập công ty.)", "options": [{"key": "A", "text": "créaient"}, {"key": "B", "text": "avaient créé"}, {"key": "C", "text": "ont créé"}, {"key": "D", "text": "ont créés"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Sự kiện cụ thể → passé composé."}, {"num": "7", "type": "Chọn câu trả lời đúng", "question": "Elle ___ à Paris quand elle a rencontré Marc. (Cô ấy đang sống ở Paris khi gặp Marc.)", "options": [{"key": "A", "text": "vivait"}, {"key": "B", "text": "avait vécu"}, {"key": "C", "text": "vivaient"}, {"key": "D", "text": "a vécu"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Bối cảnh kéo dài → imparfait."}, {"num": "8", "type": "Chọn câu trả lời đúng", "question": "Il ___ ingénieur avant de devenir professeur. (Anh ấy là kỹ sư trước khi thành giáo sư.)", "options": [{"key": "A", "text": "avait été"}, {"key": "B", "text": "était"}, {"key": "C", "text": "fut"}, {"key": "D", "text": "a été"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Trạng thái mô tả → imparfait."}, {"num": "9", "type": "Chọn câu trả lời đúng", "question": "Quand il était petit, il ___ souvent des châteaux de sable. (Hồi nhỏ anh ấy thường xây lâu đài cát.)", "options": [{"key": "A", "text": "faisaient"}, {"key": "B", "text": "a fait"}, {"key": "C", "text": "faisait"}, {"key": "D", "text": "avaient fait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Thói quen quá khứ → imparfait."}, {"num": "10", "type": "Chọn câu trả lời đúng", "question": "Ils ___ dans la même ville pendant toute leur enfance. (Họ sống cùng thành phố thời thơ ấu.)", "options": [{"key": "A", "text": "avaient vécu"}, {"key": "B", "text": "vivaient"}, {"key": "C", "text": "ont vécu"}, {"key": "D", "text": "vécurent"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Hành động kéo dài → imparfait."}, {"num": "11", "type": "Chọn câu trả lời đúng", "question": "Je ___ mon diplôme l’année dernière. (Năm ngoái tôi lấy bằng.)", "options": [{"key": "A", "text": "obtenais"}, {"key": "B", "text": "avais obtenu"}, {"key": "C", "text": "ai obtenu"}, {"key": "D", "text": "eus obtenu"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Sự kiện rõ ràng, hoàn tất → passé composé."}, {"num": "12", "type": "Chọn câu trả lời đúng", "question": "Quand nous ___ jeunes, nous allions souvent au parc. (Khi còn nhỏ, chúng tôi thường đi công viên.)", "options": [{"key": "A", "text": "avons été"}, {"key": "B", "text": "étions"}, {"key": "C", "text": "avions été"}, {"key": "D", "text": "étions allés"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Mô tả trạng thái → imparfait."}, {"num": "13", "type": "Chọn câu trả lời đúng", "question": "Il ___ très timide quand il était adolescent. (Anh ấy rất nhút nhát.)", "options": [{"key": "A", "text": "a été"}, {"key": "B", "text": "fut"}, {"key": "C", "text": "était"}, {"key": "D", "text": "avait été"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Tính cách quá khứ → imparfait."}, {"num": "14", "type": "Chọn câu trả lời đúng", "question": "Hier, nous ___ un film très intéressant. (Hôm qua chúng tôi xem phim.)", "options": [{"key": "A", "text": "regardions"}, {"key": "B", "text": "avons regardés"}, {"key": "C", "text": "avons regardé"}, {"key": "D", "text": "avions regardé"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Sự kiện rõ, kết thúc → passé composé."}, {"num": "15", "type": "Chọn câu trả lời đúng", "question": "Quand il ___ enfant, il adorait les animaux. (Khi còn nhỏ, anh ấy thích động vật.)", "options": [{"key": "A", "text": "a été"}, {"key": "B", "text": "fut"}, {"key": "C", "text": "était"}, {"key": "D", "text": "avait été"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Mô tả bối cảnh → imparfait."}, {"num": "16", "type": "Chọn câu trả lời đúng", "question": "Pendant que je ___ mes devoirs, il regardait la télé. (Trong khi tôi làm bài tập, anh ấy xem TV.)", "options": [{"key": "A", "text": "faisait"}, {"key": "B", "text": "ai fait"}, {"key": "C", "text": "faisais"}, {"key": "D", "text": "avions fait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Hành động song song → imparfait."}, {"num": "17", "type": "Chọn câu trả lời đúng", "question": "La semaine dernière, elle ___ à un concert de jazz. (Tuần trước cô ấy đi nghe hòa nhạc.)", "options": [{"key": "A", "text": "allait"}, {"key": "B", "text": "était allée"}, {"key": "C", "text": "est allée"}, {"key": "D", "text": "ont été"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Sự kiện cụ thể → passé composé."}, {"num": "18", "type": "Chọn câu trả lời đúng", "question": "Tous les matins, il ___ du café avant de partir. (Mỗi sáng anh ấy uống cà phê.)", "options": [{"key": "A", "text": "a bu"}, {"key": "B", "text": "buvait"}, {"key": "C", "text": "avaient bu"}, {"key": "D", "text": "buvaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Thói quen → imparfait."}, {"num": "19", "type": "Chọn câu trả lời đúng", "question": "Quand il était petit, Paul ___ toujours avec son grand-père. (Hồi nhỏ Paul chơi với ông.)", "options": [{"key": "A", "text": "jouait"}, {"key": "B", "text": "jouaient"}, {"key": "C", "text": "avait joué"}, {"key": "D", "text": "a joué"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Thói quen quá khứ → imparfait."}, {"num": "20", "type": "Chọn câu trả lời đúng", "question": "En 2005, nous ___ à Paris pour la première fois. (Năm 2005 chúng tôi đi Paris lần đầu.)", "options": [{"key": "A", "text": "sommes allés"}, {"key": "B", "text": "allions"}, {"key": "C", "text": "avions été"}, {"key": "D", "text": "étions allés"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Hành động cụ thể, đã hoàn tất → passé composé."}, {"num": "21", "type": "Chọn câu trả lời đúng", "question": "Hier, elle ___ un long email à sa mère. (Hôm qua cô ấy viết email cho mẹ.)", "options": [{"key": "A", "text": "écrivait"}, {"key": "B", "text": "avait écrit"}, {"key": "C", "text": "a écrit"}, {"key": "D", "text": "écrivait souvent"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Sự kiện cụ thể, hoàn tất → passé composé."}, {"num": "22", "type": "Chọn câu trả lời đúng", "question": "Il ___ très timide quand il était au lycée. (Anh ấy rất nhút nhát hồi cấp 3.)", "options": [{"key": "A", "text": "était"}, {"key": "B", "text": "a été"}, {"key": "C", "text": "avait été"}, {"key": "D", "text": "fut"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Mô tả trạng thái quá khứ → imparfait."}, {"num": "23", "type": "Chọn câu trả lời đúng", "question": "En 2010, elle ___ son diplôme de médecine. (Năm 2010 cô ấy lấy bằng y khoa.)", "options": [{"key": "A", "text": "obtenait"}, {"key": "B", "text": "avait obtenu"}, {"key": "C", "text": "a obtenu"}, {"key": "D", "text": "obtint"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Hành động hoàn tất, rõ thời điểm → passé composé."}, {"num": "24", "type": "Chọn câu trả lời đúng", "question": "Quand il vivait à Lyon, il ___ souvent au parc. (Hồi sống ở Lyon, anh ấy thường đi công viên.)", "options": [{"key": "A", "text": "allait"}, {"key": "B", "text": "a été"}, {"key": "C", "text": "est allé"}, {"key": "D", "text": "avait été"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Thói quen quá khứ → imparfait."}, {"num": "25", "type": "Chọn câu trả lời đúng", "question": "Quand j’étais à l’université, je ___ beaucoup de livres. (Khi học đại học, tôi đọc nhiều sách.)", "options": [{"key": "A", "text": "lisais"}, {"key": "B", "text": "avais lu"}, {"key": "C", "text": "ai lu"}, {"key": "D", "text": "lisait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Thói quen quá khứ → imparfait."}, {"num": "26", "type": "Chọn câu trả lời đúng", "question": "L’année dernière, nous ___ en Italie pendant deux semaines. (Năm ngoái chúng tôi đi Ý 2 tuần.)", "options": [{"key": "A", "text": "allions"}, {"key": "B", "text": "sommes allés"}, {"key": "C", "text": "étions allés"}, {"key": "D", "text": "avions été"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Sự kiện rõ, hoàn tất → passé composé."}, {"num": "27", "type": "Chọn câu trả lời đúng", "question": "Quand elle ___ enfant, elle jouait du piano tous les jours. (Khi còn nhỏ cô ấy chơi piano mỗi ngày.)", "options": [{"key": "A", "text": "était"}, {"key": "B", "text": "avait été"}, {"key": "C", "text": "fut"}, {"key": "D", "text": "a été"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Mô tả bối cảnh → imparfait."}, {"num": "28", "type": "Chọn câu trả lời đúng", "question": "Il ___ son permis de conduire en 2015. (Anh ấy lấy bằng lái năm 2015.)", "options": [{"key": "A", "text": "a obtenu"}, {"key": "B", "text": "obtenait"}, {"key": "C", "text": "avait obtenu"}, {"key": "D", "text": "obtint"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Sự kiện cụ thể → passé composé."}, {"num": "29", "type": "Chọn câu trả lời đúng", "question": "Nous ___ dans cette maison depuis dix ans quand nous avons déménagé. (Chúng tôi đã sống ở đây 10 năm khi chuyển đi.)", "options": [{"key": "A", "text": "vivions"}, {"key": "B", "text": "avions vécu"}, {"key": "C", "text": "avons vécu"}, {"key": "D", "text": "vécurent"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Hành động kéo dài trong quá khứ → imparfait."}, {"num": "30", "type": "Chọn câu trả lời đúng", "question": "Il ___ très tard hier soir. (Tối qua anh ấy về rất muộn.)", "options": [{"key": "A", "text": "est rentré"}, {"key": "B", "text": "rentrait"}, {"key": "C", "text": "avait rentré"}, {"key": "D", "text": "fut rentré"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Hành động cụ thể → passé composé."}, {"num": "31", "type": "Chọn câu trả lời đúng", "question": "Quand elle était jeune, elle ___ beaucoup de romans. (Khi còn trẻ cô ấy đọc nhiều tiểu thuyết.)", "options": [{"key": "A", "text": "lisait"}, {"key": "B", "text": "lisais"}, {"key": "C", "text": "avait lu"}, {"key": "D", "text": "a lu"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Thói quen quá khứ → imparfait."}, {"num": "32", "type": "Chọn câu trả lời đúng", "question": "Nous ___ à Marseille pendant les vacances de 2022. (Kỳ nghỉ 2022 chúng tôi đi Marseille.)", "options": [{"key": "A", "text": "allions"}, {"key": "B", "text": "étions allés"}, {"key": "C", "text": "sommes allés"}, {"key": "D", "text": "avions été"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Sự kiện cụ thể, rõ thời điểm → passé composé."}, {"num": "33", "type": "Chọn câu trả lời đúng", "question": "Chaque hiver, quand ils étaient jeunes, ils ___ du ski à Chamonix. (Mỗi mùa đông hồi nhỏ họ đi trượt tuyết ở Chamonix.)", "options": [{"key": "A", "text": "faisaient"}, {"key": "B", "text": "avaient fait"}, {"key": "C", "text": "ont fait"}, {"key": "D", "text": "firent"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Thói quen → imparfait."}, {"num": "34", "type": "Chọn câu trả lời đúng", "question": "En 2019, elle ___ en Espagne pour ses études. (Năm 2019 cô ấy đi du học ở Tây Ban Nha.)", "options": [{"key": "A", "text": "était partie"}, {"key": "B", "text": "partait"}, {"key": "C", "text": "est partie"}, {"key": "D", "text": "avait été"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Sự kiện cụ thể → passé composé."}, {"num": "35", "type": "Chọn câu trả lời đúng", "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : je / petit / quand / dans le jardin / jouais / j’ / étais / tous les jours", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": "Quand j’étais petit, je jouais dans le jardin tous les jours."}, {"num": "36", "type": "Chọn câu trả lời đúng", "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : préparait / chocolat / mère / des gâteaux / souvent / Ma", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": "Ma mère préparait souvent des gâteaux au chocolat."}, {"num": "37", "type": "Chọn câu trả lời đúng", "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : je / en 2015 / université / suis / à l’ / entré / médecine / de", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": "En 2015, je suis entré à l’université de médecine."}, {"num": "38", "type": "Chọn câu trả lời đúng", "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : à l’hôpital / un stage / pendant mes études / j’ai / fait", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": "Pendant mes études, j’ai fait un stage à l’hôpital."}, {"num": "39", "type": "Chọn câu trả lời đúng", "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : en 2020 / mon premier emploi / j’ai / obtenu / dans une entreprise", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": "En 2020, j’ai obtenu mon premier emploi dans une entreprise."}, {"num": "40", "type": "Chọn câu trả lời đúng", "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : dans un café / serveur / comme / travaillais / je / avant cela", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": "Avant cela, je travaillais comme serveur dans un café."}, {"num": "41", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "audios/A2_Bai_13_Cau_41_121341.mp3", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "42", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}]}, {"id": "A2.1_L14", "num": 14, "filename": "Bai_14_Cuộc_sống_thường_ngày.md", "title": "Bài 14 - Cuộc sống thường ngày", "questions": [{"num": "1", "type": "Chọn câu trả lời đúng", "question": "À Marseille, on mange une soupe de poissons qui s'appelle « la bouillabaisse ».", "options": [{"key": "A", "text": "On = nous"}, {"key": "B", "text": "On = quelqu’un"}, {"key": "C", "text": "On = les gens"}, {"key": "D", "text": "On = il"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Nói thói quen chung → mọi người."}, {"num": "2", "type": "Chọn câu trả lời đúng", "question": "Hier matin, dans le bus, on m’a volé mon portefeuille.", "options": [{"key": "A", "text": "On = nous"}, {"key": "B", "text": "On = quelqu’un"}, {"key": "C", "text": "On = les gens"}, {"key": "D", "text": "On = tu"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Hành động của một người không xác định."}, {"num": "3", "type": "Chọn câu trả lời đúng", "question": "Cet été, avec ma mère, on va voyager en Afrique.", "options": [{"key": "A", "text": "On = ils"}, {"key": "B", "text": "On = nous"}, {"key": "C", "text": "On = quelqu’un"}, {"key": "D", "text": "On = les gens"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "« On » thay cho « nous » (tôi + mẹ tôi)."}, {"num": "4", "type": "Chọn câu trả lời đúng", "question": "Salut Marie ! On est arrivé le plus vite possible, on ne t’a pas fait trop attendre ?", "options": [{"key": "A", "text": "On = les gens"}, {"key": "B", "text": "On = quelqu’un"}, {"key": "C", "text": "On = nous"}, {"key": "D", "text": "On = vous"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Dùng như « nous » → chúng tôi."}, {"num": "5", "type": "Chọn câu trả lời đúng", "question": "On t’a dit qu’il fait froid ici, même en été ?", "options": [{"key": "A", "text": "On = nous"}, {"key": "B", "text": "On = quelqu’un"}, {"key": "C", "text": "On = les gens"}, {"key": "D", "text": "On = il"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Không rõ ai đã nói → một người nào đó."}, {"num": "6", "type": "Viết câu trả lời", "question": "Viết lại câu dùng đại từ “on” - Les gens disent que ce film est excellent.", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "7", "type": "Viết câu trả lời", "question": "Viết lại câu dùng đại từ “on” - Nous va souvent à la plage le week-end.", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "8", "type": "Viết câu trả lời", "question": "Viết lại câu dùng đại từ “on” - Tout le monde parle français ici.", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "9", "type": "Viết câu trả lời", "question": "Viết lại câu dùng đại từ “on” - Mes parents et moi prenons toujours un dessert.", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "10", "type": "Viết câu trả lời", "question": "Viết lại câu dùng đại từ “on” - Les touristes visitent le musée chaque jour.", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "11", "type": "Chọn câu trả lời đúng", "question": "Pour entrer dans un aéroport, on doit passer le contrôle de sécurité.", "options": [{"key": "A", "text": "On = nous"}, {"key": "B", "text": "On = quelqu’un"}, {"key": "C", "text": "On = les gens"}, {"key": "D", "text": "On = tu"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Tất cả mọi người. (les gens)"}, {"num": "12", "type": "Chọn câu trả lời đúng", "question": "Pardon Madame, à quelle heure est-ce qu’on arrive à Paris ?", "options": [{"key": "A", "text": "On = quelqu’un"}, {"key": "B", "text": "On = les gens"}, {"key": "C", "text": "On = nous"}, {"key": "D", "text": "On = il"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "« On » thay cho « nous » = chúng tôi (hành khách)."}, {"num": "13", "type": "Chọn câu trả lời đúng", "question": "Pour aller à Paris depuis l’aéroport, on peut prendre le bus, le RER ou un taxi.", "options": [{"key": "A", "text": "On = nous"}, {"key": "B", "text": "On = quelqu’un"}, {"key": "C", "text": "On = les gens"}, {"key": "D", "text": "On = ils"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "« On » = mọi người, cách chung để diễn đạt."}, {"num": "14", "type": "Chọn câu trả lời đúng", "question": "Aujourd’hui, on ______ le 16 mai.", "options": [{"key": "A", "text": "est"}, {"key": "B", "text": "suis"}, {"key": "C", "text": "étaient"}, {"key": "D", "text": "sera"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Động từ être chia ngôi il/elle/on → est."}, {"num": "15", "type": "Chọn câu trả lời đúng", "question": "On ______ à la plage demain matin.", "options": [{"key": "A", "text": "allons"}, {"key": "B", "text": "va"}, {"key": "C", "text": "allait"}, {"key": "D", "text": "iront"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Động từ aller, ngôi on → va (tương lai gần)."}, {"num": "16", "type": "Chọn câu trả lời đúng", "question": "On ______ très contents de vous voir.", "options": [{"key": "A", "text": "sommes"}, {"key": "B", "text": "est"}, {"key": "C", "text": "étions"}, {"key": "D", "text": "serez"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Dù nghĩa = nous, động từ vẫn chia như il/elle → est."}, {"num": "17", "type": "Chọn câu trả lời đúng", "question": "On se ______ ce soir.", "options": [{"key": "A", "text": "s’appelle"}, {"key": "B", "text": "s’appellent"}, {"key": "C", "text": "appelait"}, {"key": "D", "text": "appelleront"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "« On » số ít, động từ phản thân chia il/elle → s’appelle."}, {"num": "18", "type": "Chọn câu trả lời đúng", "question": "Arthur et moi, on se ______ depuis l’enfance.", "options": [{"key": "A", "text": "connaissons"}, {"key": "B", "text": "connaît"}, {"key": "C", "text": "connaissaient"}, {"key": "D", "text": "connaîtra"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Động từ connaître, chia il/elle/on → connaît."}, {"num": "19", "type": "Chọn câu trả lời đúng", "question": "On se ______ pourquoi il fait ça.", "options": [{"key": "A", "text": "demande"}, {"key": "B", "text": "demandons"}, {"key": "C", "text": "demandaient"}, {"key": "D", "text": "demandera"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Động từ demander, chia il/elle/on → demande."}, {"num": "20", "type": "Chọn câu trả lời đúng", "question": "Ma mère et moi, on se ______ très bien.", "options": [{"key": "A", "text": "s’entend"}, {"key": "B", "text": "s’entends"}, {"key": "C", "text": "entendons"}, {"key": "D", "text": "entend"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "« On » ngôi 3 số ít → s’entend."}, {"num": "21", "type": "Chọn câu trả lời đúng", "question": "Avec mon père, on ______ au cinéma tous les vendredis.", "options": [{"key": "A", "text": "allons"}, {"key": "B", "text": "va"}, {"key": "C", "text": "allait"}, {"key": "D", "text": "irons"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Động từ aller, ngôi on → va (hiện tại)."}, {"num": "22", "type": "Chọn câu trả lời đúng", "question": "Vous savez, vous ? Non, on ne ______ pas.", "options": [{"key": "A", "text": "sait"}, {"key": "B", "text": "savons"}, {"key": "C", "text": "saurait"}, {"key": "D", "text": "savait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Động từ savoir, chia il/elle/on → sait."}, {"num": "23", "type": "Chọn câu trả lời đúng", "question": "Si tu veux, on ______ jouer avec toi.", "options": [{"key": "A", "text": "pouvons"}, {"key": "B", "text": "peut"}, {"key": "C", "text": "pouvait"}, {"key": "D", "text": "pourront"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Động từ pouvoir, ngôi il/elle/on → peut."}, {"num": "24", "type": "Chọn câu trả lời đúng", "question": "En France, on ___ les courses dans des marchés en plein air.", "options": [{"key": "A", "text": "fais"}, {"key": "B", "text": "fait"}, {"key": "C", "text": "faisons"}, {"key": "D", "text": "font"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "On chia như il/elle → fait."}, {"num": "25", "type": "Chọn câu trả lời đúng", "question": "D’habitude, Michael et moi, on ___ tôt.", "options": [{"key": "A", "text": "se lève"}, {"key": "B", "text": "se levons"}, {"key": "C", "text": "se lèvent"}, {"key": "D", "text": "se levait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "On (thay “nous”) nhưng động từ chia ngôi il/elle/on → se lève."}, {"num": "26", "type": "Chọn câu trả lời đúng", "question": "À la campagne, on ___ plus.", "options": [{"key": "A", "text": "se parle"}, {"key": "B", "text": "se parlez"}, {"key": "C", "text": "se parlons"}, {"key": "D", "text": "se parlent"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Se parler với on → se parle."}, {"num": "27", "type": "Chọn câu trả lời đúng", "question": "Ma sœur et moi, on ___ souvent ensemble.", "options": [{"key": "A", "text": "voyagent"}, {"key": "B", "text": "voyage"}, {"key": "C", "text": "voyages"}, {"key": "D", "text": "voyageait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Voyager với on → voyage."}, {"num": "28", "type": "Chọn câu trả lời đúng", "question": "On ___ de plus en plus à la maison.", "options": [{"key": "A", "text": "travaille"}, {"key": "B", "text": "travaillons"}, {"key": "C", "text": "travaillent"}, {"key": "D", "text": "travail"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Travailler với on → travaille."}, {"num": "29", "type": "Viết câu trả lời", "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : un chien / s’appelait / Max / avions / Nous / qui", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "30", "type": "Viết câu trả lời", "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : en vacances / chaque été / partions / Nous / à la montagne", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "31", "type": "Viết câu trả lời", "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : à 7 heures / je / chaque matin / le bus / prenais", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "32", "type": "Viết câu trả lời", "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : étaient / stricts / mais / passionnés / mes professeurs", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "33", "type": "Viết câu trả lời", "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : à 9h / je / chaque jour / commençais / à 18h / finissais / je", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "34", "type": "Viết câu trả lời", "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : j’ai / à Paris / déménagé / une nouvelle opportunité / pour / l’année dernière", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "35", "type": "Trả lời bằng ghi âm", "question": "Que fait-on le dimanche en général dans ton pays ?", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "36", "type": "Trả lời bằng ghi âm", "question": "Que fait-on quand il fait chaud ?", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "37", "type": "Trả lời bằng ghi âm", "question": "Que mange-t-on pendant le Têt ?", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "38", "type": "Trả lời bằng ghi âm", "question": "Que fait-on à l’école ?", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "39", "type": "Trả lời bằng ghi âm", "question": "Que fait-on quand on est malade ?", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "40", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "41", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}]}, {"id": "A2.1_L15", "num": 15, "filename": "Bai_15_Ôn_tập_3.md", "title": "Bài 15 - Ôn tập 3", "questions": [{"num": "1", "type": "Chọn câu trả lời đúng", "question": "___ chat est sur la table. (Con mèo ở trên bàn)", "options": [{"key": "A", "text": "Un"}, {"key": "B", "text": "Du"}, {"key": "C", "text": "Le"}, {"key": "D", "text": "Des"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Con mèo xác định → article défini Le."}, {"num": "2", "type": "Chọn câu trả lời đúng", "question": "Le livre est ___ la table. (Quyển sách ở dưới bàn)", "options": [{"key": "A", "text": "dans"}, {"key": "B", "text": "pour"}, {"key": "C", "text": "avec"}, {"key": "D", "text": "sous"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Diễn tả vị trí → sous la table."}, {"num": "3", "type": "Chọn câu trả lời đúng", "question": "C’est une ___ maison. (Đây là một ngôi nhà xinh đẹp)", "options": [{"key": "A", "text": "maison jolie"}, {"key": "B", "text": "beau"}, {"key": "C", "text": "jolie"}, {"key": "D", "text": "joliment"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Une jolie maison → tính từ trước danh từ."}, {"num": "4", "type": "Chọn câu trả lời đúng", "question": "___ personne ne veut venir. (Không ai muốn đến)", "options": [{"key": "A", "text": "Toute"}, {"key": "B", "text": "Quelque"}, {"key": "C", "text": "Chaque"}, {"key": "D", "text": "Aucune"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Phủ định toàn bộ → Aucune personne…."}, {"num": "5", "type": "Chọn câu trả lời đúng", "question": "Je suis parti ___ matin. (Tôi đã đi vào sáng nay)", "options": [{"key": "A", "text": "cette"}, {"key": "B", "text": "cet"}, {"key": "C", "text": "ces"}, {"key": "D", "text": "ce"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Biểu thị thời gian: ce matin."}, {"num": "6", "type": "Chọn câu trả lời đúng", "question": "Je ___ mange pas de viande. (Tôi không ăn thịt)", "options": [{"key": "A", "text": "ne"}, {"key": "B", "text": "n'"}, {"key": "C", "text": "non"}, {"key": "D", "text": "pas"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Phủ định: Je ne mange pas…."}, {"num": "7", "type": "Chọn câu trả lời đúng", "question": "Hier, il ___ un gâteau. (Hôm qua, anh ấy làm bánh)", "options": [{"key": "A", "text": "a fait"}, {"key": "B", "text": "faisait"}, {"key": "C", "text": "fait"}, {"key": "D", "text": "fais"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Hành động đã hoàn tất hôm qua → passé composé."}, {"num": "8", "type": "Chọn câu trả lời đúng", "question": "Quand j’étais petit, je ___ beaucoup. (Khi còn nhỏ, tôi đọc rất nhiều)", "options": [{"key": "A", "text": "lisais"}, {"key": "B", "text": "ai lu"}, {"key": "C", "text": "lit"}, {"key": "D", "text": "lirai"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Thói quen trong quá khứ → imparfait."}, {"num": "9", "type": "Chọn câu trả lời đúng", "question": "Quand j’étais petit, je/j' ___ au parc, mais hier, je/j’___ à la maison. (Ngày xưa tôi hay đi công viên, nhưng hôm qua tôi ở nhà)", "options": [{"key": "A", "text": "allais / suis resté"}, {"key": "B", "text": "suis allé / reste"}, {"key": "C", "text": "vais / suis resté"}, {"key": "D", "text": "allais / suis restée"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Imparfait (thói quen) + passé composé (hành động cụ thể)."}, {"num": "10", "type": "Chọn câu trả lời đúng", "question": "___ va au marché ce matin ? (Ai đi chợ sáng nay?)", "options": [{"key": "A", "text": "On"}, {"key": "B", "text": "Nous"}, {"key": "C", "text": "Ils"}, {"key": "D", "text": "Tu"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Câu hỏi chung → On va au marché."}, {"num": "11", "type": "Chọn câu trả lời đúng", "question": "___ enfants jouent dans le jardin. (Những đứa trẻ chơi trong vườn)", "options": [{"key": "A", "text": "Un"}, {"key": "B", "text": "Les"}, {"key": "C", "text": "Le"}, {"key": "D", "text": "Des"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Số nhiều xác định → Les enfants."}, {"num": "12", "type": "Chọn câu trả lời đúng", "question": "La boulangerie est ___ l’école. (Tiệm bánh ở gần trường)", "options": [{"key": "A", "text": "pour"}, {"key": "B", "text": "avec"}, {"key": "C", "text": "près de"}, {"key": "D", "text": "dans"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Vị trí → près de l’école."}, {"num": "13", "type": "Chọn câu trả lời đúng", "question": "C’est un homme ___. (Đó là một người đàn ông thông minh)", "options": [{"key": "A", "text": "intelligents"}, {"key": "B", "text": "intelligemment"}, {"key": "C", "text": "intelligente"}, {"key": "D", "text": "intelligent"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Tính từ giống đực, số ít."}, {"num": "14", "type": "Chọn câu trả lời đúng", "question": "___ élèves sont absents aujourd’hui. (Một vài học sinh vắng mặt hôm nay)", "options": [{"key": "A", "text": "Aucun"}, {"key": "B", "text": "Chaque"}, {"key": "C", "text": "Toute"}, {"key": "D", "text": "Quelques"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Quelques élèves…."}, {"num": "15", "type": "Chọn câu trả lời đúng", "question": "Je pars ___ soir. (Tối nay tôi đi)", "options": [{"key": "A", "text": "ces"}, {"key": "B", "text": "ce"}, {"key": "C", "text": "cet"}, {"key": "D", "text": "cette"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Thời điểm cụ thể: ce soir."}, {"num": "16", "type": "Chọn câu trả lời đúng", "question": "Elle ne ___ jamais de viande. (Cô ấy không bao giờ ăn thịt)", "options": [{"key": "A", "text": "mange"}, {"key": "B", "text": "manges"}, {"key": "C", "text": "mangé"}, {"key": "D", "text": "mangeait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Ngôi elle → mange."}, {"num": "17", "type": "Chọn câu trả lời đúng", "question": "Ils ___ au Portugal l’été dernier. (Họ đã đi Bồ Đào Nha mùa hè năm ngoái)", "options": [{"key": "A", "text": "sont allés"}, {"key": "B", "text": "allaient"}, {"key": "C", "text": "vont"}, {"key": "D", "text": "allaient être"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Hành động đã hoàn tất → passé composé."}, {"num": "18", "type": "Chọn câu trả lời đúng", "question": "Quand j’étais à Paris, je/j' ___ souvent au café. (Khi ở Paris, tôi thường đi quán cà phê)", "options": [{"key": "A", "text": "allais"}, {"key": "B", "text": "suis allé"}, {"key": "C", "text": "vais"}, {"key": "D", "text": "allé"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Thói quen quá khứ → imparfait."}, {"num": "19", "type": "Chọn câu trả lời đúng", "question": "Quand j’étais jeune, je/j' ___ du piano. Hier, je/j’___ de la guitare. (Ngày xưa tôi chơi piano. Hôm qua tôi chơi guitar.)", "options": [{"key": "A", "text": "jouais / ai joué"}, {"key": "B", "text": "joue / ai joué"}, {"key": "C", "text": "ai joué / joue"}, {"key": "D", "text": "jouais / jouais"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Imparfait (thói quen) + passé composé (hành động cụ thể)."}, {"num": "20", "type": "Chọn câu trả lời đúng", "question": "___ peut entrer sans frapper ? (Ai cũng có thể vào mà không cần gõ cửa)", "options": [{"key": "A", "text": "On"}, {"key": "B", "text": "Tu"}, {"key": "C", "text": "Il"}, {"key": "D", "text": "Elle"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Chủ ngữ chung → On peut entrer…."}, {"num": "21", "type": "Chọn câu trả lời đúng", "question": "Tu veux ___ pomme ? (Bạn có muốn một quả táo không?)", "options": [{"key": "A", "text": "une"}, {"key": "B", "text": "la"}, {"key": "C", "text": "des"}, {"key": "D", "text": "le"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Dùng une vì “pomme” là giống cái, số ít, không xác định."}, {"num": "22", "type": "Chọn câu trả lời đúng", "question": "Le chat est ___ canapé. (Con mèo ở trên ghế sô-pha)", "options": [{"key": "A", "text": "dans"}, {"key": "B", "text": "sur le"}, {"key": "C", "text": "à la"}, {"key": "D", "text": "chez"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Cụm chuẩn: sur le canapé."}, {"num": "23", "type": "Chọn câu trả lời đúng", "question": "C’est une robe ___. (Đây là một chiếc váy màu đỏ)", "options": [{"key": "A", "text": "rouge"}, {"key": "B", "text": "rougement"}, {"key": "C", "text": "rougée"}, {"key": "D", "text": "rouges"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Tính từ màu không đổi ở giống đực số ít → rouge."}, {"num": "24", "type": "Chọn câu trả lời đúng", "question": "___ étudiants sont arrivés en retard. (Một số sinh viên đến muộn)", "options": [{"key": "A", "text": "Chaque"}, {"key": "B", "text": "Aucun"}, {"key": "C", "text": "Certains"}, {"key": "D", "text": "Toute"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Certains diễn tả “một số”."}, {"num": "25", "type": "Chọn câu trả lời đúng", "question": "Je suis né ___ 2001. (Tôi sinh năm 2001)", "options": [{"key": "A", "text": "en"}, {"key": "B", "text": "à"}, {"key": "C", "text": "dans"}, {"key": "D", "text": "depuis"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Chỉ năm → dùng en."}, {"num": "26", "type": "Chọn câu trả lời đúng", "question": "Nous ne ___ plus ici. (Chúng tôi không còn sống ở đây nữa)", "options": [{"key": "A", "text": "vivons"}, {"key": "B", "text": "vivait"}, {"key": "C", "text": "vivre"}, {"key": "D", "text": "vécu"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Ngôi nous hiện tại → vivons."}, {"num": "27", "type": "Chọn câu trả lời đúng", "question": "Il ___ tombé hier soir. (Anh ấy đã ngã tối qua)", "options": [{"key": "A", "text": "est"}, {"key": "B", "text": "a"}, {"key": "C", "text": "était"}, {"key": "D", "text": "avait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Il est tombé → passé composé với être."}, {"num": "28", "type": "Chọn câu trả lời đúng", "question": "Quand elle était petite, elle ___ du piano. (Khi còn nhỏ, cô ấy chơi piano)", "options": [{"key": "A", "text": "jouait"}, {"key": "B", "text": "a joué"}, {"key": "C", "text": "joue"}, {"key": "D", "text": "jouera"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Thói quen trong quá khứ → imparfait."}, {"num": "29", "type": "Chọn câu trả lời đúng", "question": "Quand j’étais enfant, je ___ à la plage. Ce week-end, j’___ chez moi. (Ngày xưa tôi đi biển, cuối tuần này tôi ở nhà)", "options": [{"key": "A", "text": "allais / suis resté"}, {"key": "B", "text": "vais / suis resté"}, {"key": "C", "text": "suis allé / reste"}, {"key": "D", "text": "allais / restais"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Imparfait cho thói quen + passé composé cho hành động cụ thể."}, {"num": "30", "type": "Chọn câu trả lời đúng", "question": "___ doit toujours dire la vérité. (… phải luôn nói sự thật)", "options": [{"key": "A", "text": "On"}, {"key": "B", "text": "Il"}, {"key": "C", "text": "Vous"}, {"key": "D", "text": "Ils"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "On diễn tả chung chung “người ta”."}, {"num": "31", "type": "Chọn câu trả lời đúng", "question": "Je prends ___ café chaque matin. (Tôi uống một ly cà phê mỗi sáng)", "options": [{"key": "A", "text": "le"}, {"key": "B", "text": "des"}, {"key": "C", "text": "du"}, {"key": "D", "text": "un"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Un café = một ly cà phê."}, {"num": "32", "type": "Chọn câu trả lời đúng", "question": "Le stylo est ___ la trousse. (Cây bút ở trong hộp bút)", "options": [{"key": "A", "text": "chez"}, {"key": "B", "text": "sur"}, {"key": "C", "text": "à"}, {"key": "D", "text": "dans"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Vị trí đúng: dans la trousse."}, {"num": "33", "type": "Chọn câu trả lời đúng", "question": "Elle porte une robe ___. (Cô ấy mặc một chiếc váy màu xanh da trời)", "options": [{"key": "A", "text": "bleue"}, {"key": "B", "text": "bleument"}, {"key": "C", "text": "bleu"}, {"key": "D", "text": "bleus"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Tính từ giống cái số ít → bleue."}, {"num": "34", "type": "Chọn câu trả lời đúng", "question": "___ livres sont intéressants. (Những quyển sách này rất hay)", "options": [{"key": "A", "text": "Ces"}, {"key": "B", "text": "Chaque"}, {"key": "C", "text": "Quelque"}, {"key": "D", "text": "Toute"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Ces dùng cho số nhiều xác định."}, {"num": "35", "type": "Chọn câu trả lời đúng", "question": "Il travaille ___ nuit. (Anh ấy làm việc ca đêm)", "options": [{"key": "A", "text": "à la"}, {"key": "B", "text": "en"}, {"key": "C", "text": "le"}, {"key": "D", "text": "la"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Biểu thức cố định: la nuit."}, {"num": "36", "type": "Chọn câu trả lời đúng", "question": "On ne ___ rien compris. (Người ta chẳng hiểu gì cả)", "options": [{"key": "A", "text": "a"}, {"key": "B", "text": "avons"}, {"key": "C", "text": "fait"}, {"key": "D", "text": "est"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Passé composé: on n’a rien compris."}, {"num": "37", "type": "Chọn câu trả lời đúng", "question": "Nous ___ arrivés à 8h hier. (Chúng tôi đã đến lúc 8h hôm qua)", "options": [{"key": "A", "text": "sommes"}, {"key": "B", "text": "avons"}, {"key": "C", "text": "étions"}, {"key": "D", "text": "serons"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Passé composé với être cho động từ arriver."}, {"num": "38", "type": "Chọn câu trả lời đúng", "question": "Quand j’étais jeune, je ___ très curieux. (Khi còn trẻ, tôi rất tò mò)", "options": [{"key": "A", "text": "étais"}, {"key": "B", "text": "suis"}, {"key": "C", "text": "ai été"}, {"key": "D", "text": "serai"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Mô tả trạng thái quá khứ → imparfait."}, {"num": "39", "type": "Chọn câu trả lời đúng", "question": "Avant, je ___ au sport le matin. Aujourd’hui, je ___ plus. (Trước đây tôi tập thể thao buổi sáng. Giờ thì tôi không nữa)", "options": [{"key": "A", "text": "faisais / ne fais"}, {"key": "B", "text": "ai fait / ne fais"}, {"key": "C", "text": "faisais / ne fais pas"}, {"key": "D", "text": "fais / n’ai fait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Quá khứ = imparfait (faisais), hiện tại phủ định = ne fais plus."}, {"num": "40", "type": "Chọn câu trả lời đúng", "question": "___ pense que c’est une bonne idée. (… nghĩ rằng đó là một ý hay)", "options": [{"key": "A", "text": "On"}, {"key": "B", "text": "Tu"}, {"key": "C", "text": "Il"}, {"key": "D", "text": "Elle"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Chủ ngữ chung: On pense…."}, {"num": "41", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "42", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}]}, {"id": "A2.1_L16", "num": 16, "filename": "Bai_16_Gia_đình_và_hoạt_động.md", "title": "Bài 16 - Gia đình và hoạt động", "questions": [{"num": "1", "type": "Chọn câu trả lời đúng", "question": "Tu parles à ta sœur ? – Oui, ___ (Bạn có nói chuyện với chị gái không? – Vâng, tôi nói chuyện với chị ấy.)", "options": [{"key": "A", "text": "je lui parle"}, {"key": "B", "text": "je en parle"}, {"key": "C", "text": "je l’y parle"}, {"key": "D", "text": "je la parle"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“à ta sœur” → pronom COI lui."}, {"num": "2", "type": "Chọn câu trả lời đúng", "question": "Tu regardes le match à la télé ? – Oui, ___ (Bạn xem trận đấu trên TV à? – Vâng, tôi xem.)", "options": [{"key": "A", "text": "je l’y regarde"}, {"key": "B", "text": "je y regarde"}, {"key": "C", "text": "je lui regarde"}, {"key": "D", "text": "je le regarde"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "COD le match → je le regarde."}, {"num": "3", "type": "Chọn câu trả lời đúng", "question": "Vous connaissez ces filles ? – Oui, ___ (Các bạn có quen những cô gái này không? – Có.)", "options": [{"key": "A", "text": "nous les connaissons"}, {"key": "B", "text": "nous leur connaissons"}, {"key": "C", "text": "nous y connaissons"}, {"key": "D", "text": "nous les savons"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "COD ces filles → les."}, {"num": "4", "type": "Chọn câu trả lời đúng", "question": "Il lit le journal chaque matin. (Anh ấy đọc báo mỗi sáng.)", "options": [{"key": "A", "text": "il l’y lit"}, {"key": "B", "text": "il le lit"}, {"key": "C", "text": "il y lit"}, {"key": "D", "text": "il lui lit"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "COD le journal → le."}, {"num": "5", "type": "Chọn câu trả lời đúng", "question": "Tu as vu les enfants ? – Oui, ___ (Bạn có thấy bọn trẻ không? – Có, tôi đã thấy.)", "options": [{"key": "A", "text": "je leur ai vus"}, {"key": "B", "text": "je les ai vu"}, {"key": "C", "text": "je leur ai vu"}, {"key": "D", "text": "je les ai vus"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "COD les enfants → les. Hòa hợp với vus."}, {"num": "6", "type": "Chọn câu trả lời đúng", "question": "Il finit son café ? – Non, ___ (Anh ấy uống xong cà phê chưa? – Chưa.)", "options": [{"key": "A", "text": "Non, il ne le finit pas."}, {"key": "B", "text": "Non, il ne lui finit pas."}, {"key": "C", "text": "Non, il le ne finit pas."}, {"key": "D", "text": "Non, il n’en finit pas."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "COD le café → le."}, {"num": "7", "type": "Chọn câu trả lời đúng", "question": "Elle écoute cette chanson ? – Oui, ___ (Cô ấy nghe bài hát này à? – Có.)", "options": [{"key": "A", "text": "elle l’écoute"}, {"key": "B", "text": "elle y écoute"}, {"key": "C", "text": "elle la écoute"}, {"key": "D", "text": "elle l’y écoute"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "COD cette chanson giống cái → la, trước nguyên âm → l’."}, {"num": "8", "type": "Chọn câu trả lời đúng", "question": "Tu prends la valise ? – Oui, ___ (Bạn lấy vali chứ? – Có.)", "options": [{"key": "A", "text": "je la prends"}, {"key": "B", "text": "je le prends"}, {"key": "C", "text": "je lui prends"}, {"key": "D", "text": "je y prends"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "COD la valise giống cái → la."}, {"num": "9", "type": "Chọn câu trả lời đúng", "question": "Vous regardez les films français ? – Oui, ___ (Các bạn xem phim Pháp à? – Vâng, chúng tôi xem.)", "options": [{"key": "A", "text": "nous les regardons"}, {"key": "B", "text": "nous les voyons"}, {"key": "C", "text": "nous y regardons"}, {"key": "D", "text": "nous les écoutons"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "COD les films → les."}, {"num": "10", "type": "Chọn câu trả lời đúng", "question": "Il aime cette actrice ? – Oui, ___ (Anh ấy thích nữ diễn viên này à? – Vâng.)", "options": [{"key": "A", "text": "il l’aime"}, {"key": "B", "text": "il lui aime"}, {"key": "C", "text": "il y aime"}, {"key": "D", "text": "il la aime"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "COD cette actrice giống cái → la → l’aime."}, {"num": "11", "type": "Chọn câu trả lời đúng", "question": "Tu m’aimes ? – Oui, ___ (Bạn yêu tôi chứ? – Vâng, tôi yêu bạn.)", "options": [{"key": "A", "text": "je t’aime"}, {"key": "B", "text": "je l’aime"}, {"key": "C", "text": "je l’y aime"}, {"key": "D", "text": "je te m’aime"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "COD me → te → t’aime."}, {"num": "12", "type": "Chọn câu trả lời đúng", "question": "Vous nous entendez ? – Oui, ___ (Các bạn có nghe chúng tôi không? – Có, chúng tôi nghe rõ.)", "options": [{"key": "A", "text": "nous vous écoutons"}, {"key": "B", "text": "nous les entendons"}, {"key": "C", "text": "nous vous entendons"}, {"key": "D", "text": "nous les écoutons"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "COD vous → nous vous entendons."}, {"num": "13", "type": "Viết câu trả lời", "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : cherche / Il / une heure / depuis / me", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": "Il me cherche depuis une heure."}, {"num": "14", "type": "Viết câu trả lời", "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : nous / Tu / ce soir / appelles ?", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": "Tu nous appelles ce soir ?"}, {"num": "15", "type": "Viết câu trả lời", "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : invite / vous / Elle / la fête / à ?", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": "Elle vous invite à la fête ?"}, {"num": "16", "type": "Viết câu trả lời", "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : demain / Il / te / va / voir.", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": "Il va te voir demain."}, {"num": "17", "type": "Viết câu trả lời", "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : me / Est-ce que / tu / comprends ?", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": "Est-ce que tu me comprends ?"}, {"num": "18", "type": "Viết câu trả lời", "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : ici / Vous / attendez / nous ?", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": "Vous nous attendez ici ?"}, {"num": "19", "type": "Viết câu trả lời", "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : souvent / Elle / pas / vous / voit / ne.", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": "Elle ne vous voit pas souvent."}, {"num": "20", "type": "Viết câu trả lời", "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : regardes / comme ça / Tu / me ?", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": "Tu me regardes comme ça ?"}, {"num": "21", "type": "Chọn câu trả lời đúng", "question": "Tu vois souvent ton frère ? – Oui, ___ (Bạn thường gặp em trai mình chứ? – Vâng.)", "options": [{"key": "A", "text": "Oui, je lui vois souvent."}, {"key": "B", "text": "Oui, je la vois souvent."}, {"key": "C", "text": "Oui, je le vois souvent."}, {"key": "D", "text": "Oui, je le lui vois souvent."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "COD ton frère giống đực → le."}, {"num": "22", "type": "Chọn câu trả lời đúng", "question": "Vous invitez vos cousins ? – Oui, ___ (Các bạn mời các anh em họ à? – Vâng.)", "options": [{"key": "A", "text": "nous en invitons"}, {"key": "B", "text": "nous y invitons"}, {"key": "C", "text": "nous leur invitons"}, {"key": "D", "text": "nous les invitons"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "COD vos cousins → les."}, {"num": "23", "type": "Chọn câu trả lời đúng", "question": "Tu aides ta sœur ? – Oui, ___ (Bạn giúp chị gái à? – Vâng.)", "options": [{"key": "A", "text": "je la lui aide"}, {"key": "B", "text": "je lui aide"}, {"key": "C", "text": "je y aide"}, {"key": "D", "text": "je l’aide"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "COD ta sœur giống cái → la → l’aide."}, {"num": "24", "type": "Chọn câu trả lời đúng", "question": "Que fait ta famille le dimanche ? (Gia đình bạn làm gì vào chủ nhật?)", "options": [{"key": "A", "text": "Elle fait une promenade."}, {"key": "B", "text": "Ils faisaient une promenade."}, {"key": "C", "text": "Elle faire une promenade."}, {"key": "D", "text": "Ils va faire une promenade."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Đúng ngữ pháp: Elle fait…."}, {"num": "25", "type": "Chọn câu trả lời đúng", "question": "Ton frère et toi, vous ___ au foot le samedi ? (Anh em cậu đá bóng thứ Bảy à?)", "options": [{"key": "A", "text": "jouent"}, {"key": "B", "text": "jouait"}, {"key": "C", "text": "jouons"}, {"key": "D", "text": "jouez"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Chủ ngữ vous → vous jouez."}, {"num": "26", "type": "Chọn câu trả lời đúng", "question": "Hier, j’___ un gâteau avec ma mère. (Hôm qua tôi đã làm bánh với mẹ.)", "options": [{"key": "A", "text": "faire"}, {"key": "B", "text": "faisais"}, {"key": "C", "text": "ai fait"}, {"key": "D", "text": "fais"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Hành động hoàn tất hôm qua → passé composé."}, {"num": "27", "type": "Chọn câu trả lời đúng", "question": "Tu ___ tes grands-parents souvent ? (Bạn có hay thăm ông bà không?)", "options": [{"key": "A", "text": "voit"}, {"key": "B", "text": "vois"}, {"key": "C", "text": "voies"}, {"key": "D", "text": "voient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Ngôi tu → tu vois."}, {"num": "28", "type": "Chọn câu trả lời đúng", "question": "Nous ___ nos amis au parc dimanche dernier. (Chủ nhật trước chúng tôi gặp bạn ở công viên.)", "options": [{"key": "A", "text": "voient"}, {"key": "B", "text": "avons vu"}, {"key": "C", "text": "verrons"}, {"key": "D", "text": "voyons"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Hành động đã hoàn tất (dimanche dernier) → passé composé."}, {"num": "29", "type": "Chọn câu trả lời đúng", "question": "Elle ___ ses devoirs avec son père. (Cô ấy làm bài tập với bố.)", "options": [{"key": "A", "text": "fait"}, {"key": "B", "text": "faites"}, {"key": "C", "text": "faisait"}, {"key": "D", "text": "fais"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Ngôi elle → elle fait."}, {"num": "30", "type": "Chọn câu trả lời đúng", "question": "Ils ___ leur grand-mère pendant les vacances. (Họ thăm bà vào kỳ nghỉ.)", "options": [{"key": "A", "text": "visitent"}, {"key": "B", "text": "visiter"}, {"key": "C", "text": "visite"}, {"key": "D", "text": "visitaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Ngôi ils → ils visitent."}, {"num": "31", "type": "Chọn câu trả lời đúng", "question": "Tu vois tes cousines ce week-end ? – Oui, ___ (Bạn gặp các chị họ cuối tuần này à?)", "options": [{"key": "A", "text": "je lui vois"}, {"key": "B", "text": "je leur vois"}, {"key": "C", "text": "je les vois"}, {"key": "D", "text": "je la vois"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "COD tes cousines → les."}, {"num": "32", "type": "Chọn câu trả lời đúng", "question": "Il aide son frère à faire ses devoirs ? – Oui, ___ (Anh ấy giúp em làm bài à?)", "options": [{"key": "A", "text": "il l’y aide"}, {"key": "B", "text": "il l’aide"}, {"key": "C", "text": "il lui aide"}, {"key": "D", "text": "il le lui aide"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "COD son frère → l’aide."}, {"num": "33", "type": "Chọn câu trả lời đúng", "question": "Vous allez appeler vos parents ? – Oui, ___ (Các bạn sẽ gọi bố mẹ à?)", "options": [{"key": "A", "text": "nous allons les appelez"}, {"key": "B", "text": "nous allons les appeler"}, {"key": "C", "text": "nous les allons appeler"}, {"key": "D", "text": "nous allons leur appeler"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "COD vos parents → les, cấu trúc futur proche → aller + infinitif."}, {"num": "34", "type": "Chọn câu trả lời đúng", "question": "Ma sœur ___ avec moi pendant le week-end. (Chị tôi đã ở với tôi cuối tuần.)", "options": [{"key": "A", "text": "restera"}, {"key": "B", "text": "reste"}, {"key": "C", "text": "est restée"}, {"key": "D", "text": "restait"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Hành động cụ thể quá khứ → passé composé (être)."}, {"num": "35", "type": "Chọn câu trả lời đúng", "question": "Mes parents ___ souvent à mes grands-parents. (Bố mẹ tôi thường gọi điện cho ông bà.)", "options": [{"key": "A", "text": "ont téléphoné"}, {"key": "B", "text": "téléphone"}, {"key": "C", "text": "téléphonent"}, {"key": "D", "text": "téléphonaient"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Thói quen hiện tại → présent."}, {"num": "36", "type": "Chọn câu trả lời đúng", "question": "Ton père prépare le dîner ? – Oui, ___ (Bố bạn nấu bữa tối à? – Vâng.)", "options": [{"key": "A", "text": "il le prépare"}, {"key": "B", "text": "il la prépare"}, {"key": "C", "text": "il y prépare"}, {"key": "D", "text": "il en prépare"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "COD le dîner → le."}, {"num": "37", "type": "Chọn câu trả lời đúng", "question": "Vous attendez votre sœur ? – Oui, ___ (Bạn chờ em gái à? – Vâng.)", "options": [{"key": "A", "text": "nous y attendons"}, {"key": "B", "text": "nous leur attendons"}, {"key": "C", "text": "nous l’attendons"}, {"key": "D", "text": "nous la attendons"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "COD votre sœur → la → l’attendons."}, {"num": "38", "type": "Chọn câu trả lời đúng", "question": "Il raconte ses vacances à ses amis ? – Oui, ___ (Anh ấy kể kỳ nghỉ cho bạn bè à? – Vâng.)", "options": [{"key": "A", "text": "il leur raconte"}, {"key": "B", "text": "il les raconte"}, {"key": "C", "text": "il y raconte"}, {"key": "D", "text": "il lui raconte"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "COI à ses amis → leur."}, {"num": "39", "type": "Chọn câu trả lời đúng", "question": "Tu invites ton oncle pour Noël ? – Oui, ___ (Bạn mời chú à? – Vâng.)", "options": [{"key": "A", "text": "je lui invite"}, {"key": "B", "text": "je l’y invite"}, {"key": "C", "text": "je l’invite"}, {"key": "D", "text": "je le lui invite"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "COD ton oncle → l’invite."}, {"num": "40", "type": "Chọn câu trả lời đúng", "question": "Ils retrouvent leurs amis au café ? – Oui, ___ (Họ gặp lại bạn ở quán cà phê à? – Vâng.)", "options": [{"key": "A", "text": "ils y retrouvent"}, {"key": "B", "text": "ils leur retrouvent"}, {"key": "C", "text": "ils les revoient"}, {"key": "D", "text": "ils les retrouvent"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "COD leurs amis → les."}, {"num": "41", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "audios/A2_Bai_16_Cau_41_121641.mp3", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "42", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}]}, {"id": "A2.1_L17", "num": 17, "filename": "Bai_17_Sức_khỏe.md", "title": "Bài 17 - Sức khỏe", "questions": [{"num": "1", "type": "Chọn câu trả lời đúng", "question": "Il écrit à Julie ?", "options": [{"key": "A", "text": "Oui, il lui écrit."}, {"key": "B", "text": "Oui, il y écrit."}, {"key": "C", "text": "Oui, il l’écrit."}, {"key": "D", "text": "Oui, il la écrit."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"À Julie\" là COI → dùng \"lui\"."}, {"num": "2", "type": "Chọn câu trả lời đúng", "question": "Tu expliques aux enfants ?", "options": [{"key": "A", "text": "Oui, je leur explique."}, {"key": "B", "text": "Oui, je y explique."}, {"key": "C", "text": "Oui, je les explique."}, {"key": "D", "text": "Oui, je l’explique."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"Aux enfants\" là COI → dùng \"leur\"."}, {"num": "3", "type": "Chọn câu trả lời đúng", "question": "Elle parle à son père ?", "options": [{"key": "A", "text": "Oui, elle le parle."}, {"key": "B", "text": "Oui, elle les parle."}, {"key": "C", "text": "Oui, elle l’y parle."}, {"key": "D", "text": "Oui, elle lui parle."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "\"À son père\" là COI → dùng \"lui\"."}, {"num": "4", "type": "Chọn câu trả lời đúng", "question": "Vous téléphonez à vos cousines ?", "options": [{"key": "A", "text": "Oui, nous la téléphonons."}, {"key": "B", "text": "Oui, nous y téléphonons."}, {"key": "C", "text": "Oui, nous les téléphonons."}, {"key": "D", "text": "Oui, nous leur téléphonons."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "\"À vos cousines\" là COI → dùng \"leur\"."}, {"num": "5", "type": "Chọn câu trả lời đúng", "question": "Je réponds à ma sœur ?", "options": [{"key": "A", "text": "Oui, tu lui réponds."}, {"key": "B", "text": "Oui, tu y réponds."}, {"key": "C", "text": "Oui, tu la réponds."}, {"key": "D", "text": "Oui, tu le réponds."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"À ma sœur\" là COI → dùng \"lui\"."}, {"num": "6", "type": "Chọn câu trả lời đúng", "question": "Tu me parles ?", "options": [{"key": "A", "text": "Oui, je lui parle."}, {"key": "B", "text": "Oui, je te parles."}, {"key": "C", "text": "Oui, je te parle."}, {"key": "D", "text": "Oui, je t’y parle."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "\"me\" → COI → đổi thành \"te\"."}, {"num": "7", "type": "Chọn câu trả lời đúng", "question": "Il t’envoie un message ?", "options": [{"key": "A", "text": "Oui, il me l’envoie."}, {"key": "B", "text": "Oui, il te l’envoie."}, {"key": "C", "text": "Oui, il lui l’envoie."}, {"key": "D", "text": "Oui, il l’envoie."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"me\" là COI, \"le message\" là COD → \"me l’\"."}, {"num": "8", "type": "Chọn câu trả lời đúng", "question": "Vous nous expliquez le problème ?", "options": [{"key": "A", "text": "Oui, je l’explique."}, {"key": "B", "text": "Oui, je leur explique."}, {"key": "C", "text": "Oui, je vous explique."}, {"key": "D", "text": "Oui, je vous l’explique."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "COD “le problème” → l’: vous l’explique."}, {"num": "9", "type": "Chọn câu trả lời đúng", "question": "Tu m’écris souvent ?", "options": [{"key": "A", "text": "Oui, je lui écris chaque jour."}, {"key": "B", "text": "Oui, je t’écris chaque jour."}, {"key": "C", "text": "Oui, je te écris chaque jour."}, {"key": "D", "text": "Oui, je t’y écris chaque jour."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"m’\" → COI → thành \"t’\" nếu người nói đổi."}, {"num": "10", "type": "Chọn câu trả lời đúng", "question": "Elle vous parle ?", "options": [{"key": "A", "text": "Oui, elle nous parlez souvent."}, {"key": "B", "text": "Oui, elle leur parle souvent."}, {"key": "C", "text": "Oui, elle nous parle souvent."}, {"key": "D", "text": "Oui, elle y parle souvent."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "\"vous\" → COI → chuyển thành \"nous\" nếu người trả lời là “nous”."}, {"num": "11", "type": "Chọn câu trả lời đúng", "question": "Tu téléphones à ta mère ?", "options": [{"key": "A", "text": "Oui, je la téléphone."}, {"key": "B", "text": "Oui, je lui téléphone."}, {"key": "C", "text": "Oui, je l’y téléphone."}, {"key": "D", "text": "Oui, je le téléphone."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "\"À ta mère\" là COI → dùng \"lui\"."}, {"num": "12", "type": "Chọn câu trả lời đúng", "question": "Vous parlez à votre médecin ?", "options": [{"key": "A", "text": "Oui, nous les parlons."}, {"key": "B", "text": "Oui, nous le parlons."}, {"key": "C", "text": "Oui, nous lui parlez."}, {"key": "D", "text": "Oui, nous lui parlons."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "\"À votre médecin\" là COI → dùng \"lui\"."}, {"num": "13", "type": "Chọn câu trả lời đúng", "question": "Elle donne des conseils à ses enfants ?", "options": [{"key": "A", "text": "Oui, elle leur donne des conseils."}, {"key": "B", "text": "Oui, elle les donne des conseils."}, {"key": "C", "text": "Oui, elle lui donne des conseils."}, {"key": "D", "text": "Oui, elle leur donne les."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"À ses enfants\" = COI số nhiều → dùng \"leur\"."}, {"num": "14", "type": "Chọn câu trả lời đúng", "question": "Il téléphone à ses collègues tous les matins ?", "options": [{"key": "A", "text": "Oui, il leur téléphone."}, {"key": "B", "text": "Oui, il les téléphone."}, {"key": "C", "text": "Oui, il lui téléphone."}, {"key": "D", "text": "Oui, il les parle."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"À ses collègues\" = COI số nhiều → dùng \"leur\"."}, {"num": "15", "type": "Chọn câu trả lời đúng", "question": "Tu parles souvent à ton kiné ?", "options": [{"key": "A", "text": "Oui, je leur parle souvent."}, {"key": "B", "text": "Oui, je lui parle souvent."}, {"key": "C", "text": "Oui, je l’y parle souvent."}, {"key": "D", "text": "Oui, je le parle souvent."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "\"À ton kiné\" = COI → dùng \"lui\"."}, {"num": "16", "type": "Chọn câu trả lời đúng", "question": "Le médecin te donne un médicament ?", "options": [{"key": "A", "text": "Oui, il le me donne."}, {"key": "B", "text": "Oui, il la me donne."}, {"key": "C", "text": "Oui, il me le donne."}, {"key": "D", "text": "Oui, il me la donne."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "\"me\" là COI, \"un médicament\" là COD → trật tự: me + le."}, {"num": "17", "type": "Chọn câu trả lời đúng", "question": "Tu as mal à la tête ?", "options": [{"key": "A", "text": "Oui, je suis malade la tête."}, {"key": "B", "text": "Oui, j’ai mal le tête."}, {"key": "C", "text": "Oui, je suis mal à la tête."}, {"key": "D", "text": "Oui, j’ai mal à la tête."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "Cấu trúc đúng: avoir mal à + phần cơ thể."}, {"num": "18", "type": "Chọn câu trả lời đúng", "question": "Elle se sent bien aujourd’hui ?", "options": [{"key": "A", "text": "Oui, elle se sent bien."}, {"key": "B", "text": "Oui, elle est bien sentie."}, {"key": "C", "text": "Oui, elle s’est bien sentie."}, {"key": "D", "text": "Oui, elle sent se bien."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Thì hiện tại: elle se sent bien (se sentir)."}, {"num": "19", "type": "Chọn câu trả lời đúng", "question": "Vous téléphonez à vos grands-parents ?", "options": [{"key": "A", "text": "Oui, nous leur téléphonons."}, {"key": "B", "text": "Oui, nous la téléphonons."}, {"key": "C", "text": "Oui, nous les téléphonons."}, {"key": "D", "text": "Oui, nous lui téléphonons."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"À vos grands-parents\" = COI số nhiều → dùng \"leur\"."}, {"num": "20", "type": "Chọn câu trả lời đúng", "question": "Tu donnes des nouvelles à tes amis ?", "options": [{"key": "A", "text": "Oui, je les donne des nouvelles."}, {"key": "B", "text": "Oui, je leur donnes."}, {"key": "C", "text": "Oui, je leur donne les nouvelles."}, {"key": "D", "text": "Oui, je leur donne des nouvelles."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "\"À tes amis\" = COI → dùng \"leur\"."}, {"num": "21", "type": "Chọn câu trả lời đúng", "question": "Tu écris à ton médecin ?", "options": [{"key": "A", "text": "Oui, je leur écris."}, {"key": "B", "text": "Oui, je la écris."}, {"key": "C", "text": "Oui, je l’écris."}, {"key": "D", "text": "Oui, je lui écris."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“à ton médecin” = COI → lui."}, {"num": "22", "type": "Chọn câu trả lời đúng", "question": "Il parle à son psychologue ?", "options": [{"key": "A", "text": "Oui, il leur parle."}, {"key": "B", "text": "Oui, il l’y parle."}, {"key": "C", "text": "Oui, il le parle."}, {"key": "D", "text": "Oui, il lui parle."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "parler à qqn → COI → lui."}, {"num": "23", "type": "Chọn câu trả lời đúng", "question": "Vous répondez au pharmacien ?", "options": [{"key": "A", "text": "Oui, nous y répondons."}, {"key": "B", "text": "Oui, nous lui répondons."}, {"key": "C", "text": "Oui, nous le répondons."}, {"key": "D", "text": "Oui, nous leur répondons."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "répondre à qqn = COI → lui."}, {"num": "24", "type": "Chọn câu trả lời đúng", "question": "Elle envoie un message à ses enfants ?", "options": [{"key": "A", "text": "Oui, elle leur envoie les."}, {"key": "B", "text": "Oui, elle le leur envoie un message."}, {"key": "C", "text": "Oui, elle leur envoie."}, {"key": "D", "text": "Oui, elle les envoie un message."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "COI leur + COD un message."}, {"num": "25", "type": "Chọn câu trả lời đúng", "question": "Le kiné vous parle après la séance ?", "options": [{"key": "A", "text": "Oui, il nous parle."}, {"key": "B", "text": "Oui, il vous parle."}, {"key": "C", "text": "Oui, il leur parle."}, {"key": "D", "text": "Oui, il me parle."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“vous” trong câu hỏi = COI, đổi thành nous khi trả lời."}, {"num": "26", "type": "Chọn câu trả lời đúng", "question": "Tu vois ta cousine ce week-end ?", "options": [{"key": "A", "text": "Oui, je lui vois."}, {"key": "B", "text": "Oui, je le vois."}, {"key": "C", "text": "Oui, je leur vois."}, {"key": "D", "text": "Oui, je la vois."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“cousine” = COD féminin → la."}, {"num": "27", "type": "Chọn câu trả lời đúng", "question": "Vous avez invité vos amis ?", "options": [{"key": "A", "text": "Oui, nous les avons invité."}, {"key": "B", "text": "Oui, nous leur avons invités."}, {"key": "C", "text": "Oui, nous avons les invités."}, {"key": "D", "text": "Oui, nous les avons invités."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "COD “les” → les avons invités."}, {"num": "28", "type": "Chọn câu trả lời đúng", "question": "Elle parle à sa sœur au téléphone ?", "options": [{"key": "A", "text": "Oui, elle la parle."}, {"key": "B", "text": "Oui, elle lui parle."}, {"key": "C", "text": "Oui, elle leur parle."}, {"key": "D", "text": "Oui, elle le parle."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "parler à sa sœur = COI → lui."}, {"num": "29", "type": "Chọn câu trả lời đúng", "question": "Ils appellent leur grand-père tous les jours ?", "options": [{"key": "A", "text": "Oui, ils l’appellent tous les jours."}, {"key": "B", "text": "Oui, ils les appellent tous les jours."}, {"key": "C", "text": "Oui, ils le appellent…"}, {"key": "D", "text": "Oui, ils lui appellent…"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“grand-père” = COD masc. sing. → l’."}, {"num": "30", "type": "Chọn câu trả lời đúng", "question": "Tu expliques le problème au médecin ?", "options": [{"key": "A", "text": "Oui, je leur explique."}, {"key": "B", "text": "Oui, je le explique."}, {"key": "C", "text": "Oui, je l’explique."}, {"key": "D", "text": "Oui, je lui explique."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "expliquer à qqn = COI → lui."}, {"num": "31", "type": "Chọn câu trả lời đúng", "question": "Tu manges la soupe ?", "options": [{"key": "A", "text": "Oui, je la mange."}, {"key": "B", "text": "Oui, je lui mange."}, {"key": "C", "text": "Oui, je les mange."}, {"key": "D", "text": "Oui, je le mange."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“soupe” = COD fém. sing. → la."}, {"num": "32", "type": "Chọn câu trả lời đúng", "question": "Vous téléphonez à votre tante malade ?", "options": [{"key": "A", "text": "Oui, nous lui parlons."}, {"key": "B", "text": "Oui, nous les téléphonons."}, {"key": "C", "text": "Oui, nous lui téléphonons."}, {"key": "D", "text": "Oui, nous la téléphonons."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "téléphoner à qqn = COI → lui."}, {"num": "33", "type": "Chọn câu trả lời đúng", "question": "Tu vois souvent tes grands-parents ?", "options": [{"key": "A", "text": "Oui, je les regardes souvent."}, {"key": "B", "text": "Oui, je leur parle souvent."}, {"key": "C", "text": "Oui, je les vois souvent."}, {"key": "D", "text": "Oui, je leur vois souvent."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“grands-parents” = COD pluriel → les."}, {"num": "34", "type": "Chọn câu trả lời đúng", "question": "Il donne les médicaments à ses enfants ?", "options": [{"key": "A", "text": "Oui, il leur les donne."}, {"key": "B", "text": "Oui, il les leur donne."}, {"key": "C", "text": "Oui, il les les donne."}, {"key": "D", "text": "Oui, il les donne à eux."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Double pronom COD + COI: les leur."}, {"num": "35", "type": "Chọn câu trả lời đúng", "question": "Tu écoutes ton frère ?", "options": [{"key": "A", "text": "Oui, je la écoute."}, {"key": "B", "text": "Oui, je les écoute."}, {"key": "C", "text": "Oui, je lui écoute."}, {"key": "D", "text": "Oui, je l’écoute."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“frère” = COD masc. sing. → l’."}, {"num": "36", "type": "Chọn câu trả lời đúng", "question": "Tu comprends ta sœur ?", "options": [{"key": "A", "text": "Oui, je leur comprends."}, {"key": "B", "text": "Oui, je lui comprends."}, {"key": "C", "text": "Oui, je la comprends."}, {"key": "D", "text": "Oui, je le comprends."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“sœur” = COD fém. sing. → la."}, {"num": "37", "type": "Chọn câu trả lời đúng", "question": "Vous écrivez à votre oncle ?", "options": [{"key": "A", "text": "Oui, nous l’écrivons."}, {"key": "B", "text": "Oui, nous lui écrivons."}, {"key": "C", "text": "Oui, nous leur écrivons."}, {"key": "D", "text": "Oui, nous la écrivons."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "écrire à qqn = COI → lui."}, {"num": "38", "type": "Chọn câu trả lời đúng", "question": "Tu invites tes cousins ?", "options": [{"key": "A", "text": "Oui, je leur invite."}, {"key": "B", "text": "Oui, je le invite."}, {"key": "C", "text": "Oui, je les invite."}, {"key": "D", "text": "Oui, je les invites."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“cousins” = COD masc. pluriel → les."}, {"num": "39", "type": "Chọn câu trả lời đúng", "question": "Il parle à ses enfants le soir ?", "options": [{"key": "A", "text": "Oui, il lui parle."}, {"key": "B", "text": "Oui, il leur parle."}, {"key": "C", "text": "Oui, il leur dit."}, {"key": "D", "text": "Oui, il les parle."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "parler à ses enfants = COI pluriel → leur."}, {"num": "40", "type": "Chọn câu trả lời đúng", "question": "Tu regardes ce film avec ta famille ?", "options": [{"key": "A", "text": "Oui, je lui regarde."}, {"key": "B", "text": "Oui, je les regarde."}, {"key": "C", "text": "Oui, je la regarde."}, {"key": "D", "text": "Oui, je le regarde."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“film” = COD masc. sing. → le."}, {"num": "41", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "audios/A2_Bai_17_Cau_41_121741.mp3", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "42", "type": "Viết câu trả lời", "question": "Đọc các đoạn văn và sắp xếp chúng theo đúng thứ tự của sự việc:", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}]}, {"id": "A2.1_L18", "num": 18, "filename": "Bai_18_Kiểm_tra_cuối_kỳ_1.md", "title": "Bài 18 - Kiểm tra cuối kỳ 1", "questions": [{"num": "1", "type": "Chọn câu trả lời đúng", "question": "___ école est fermée aujourd’hui.", "options": [{"key": "A", "text": "Une"}, {"key": "B", "text": "L'"}, {"key": "C", "text": "Des"}, {"key": "D", "text": "Le"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "\"École\" là danh từ giống cái bắt đầu bằng nguyên âm → dùng article défini L'."}, {"num": "2", "type": "Chọn câu trả lời đúng", "question": "Le chat est ___ la table.", "options": [{"key": "A", "text": "devant"}, {"key": "B", "text": "entre"}, {"key": "C", "text": "derrière"}, {"key": "D", "text": "sous"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "\"Sous la table\" = dưới cái bàn → préposition de lieu."}, {"num": "3", "type": "Chọn câu trả lời đúng", "question": "C’est une femme ___.", "options": [{"key": "A", "text": "beau"}, {"key": "B", "text": "intelligente"}, {"key": "C", "text": "italien"}, {"key": "D", "text": "rouge"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Tính từ chỉ tính chất đứng sau danh từ."}, {"num": "4", "type": "Chọn câu trả lời đúng", "question": "___ élèves sont absents aujourd’hui.", "options": [{"key": "A", "text": "Chaque"}, {"key": "B", "text": "Toute"}, {"key": "C", "text": "Plusieurs"}, {"key": "D", "text": "Certains"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "\"Certains\" = một số → dùng cho danh từ số nhiều."}, {"num": "5", "type": "Chọn câu trả lời đúng", "question": "Quel est l’indicateur de temps pour le futur ?", "options": [{"key": "A", "text": "Hier"}, {"key": "B", "text": "Demain"}, {"key": "C", "text": "Toujours"}, {"key": "D", "text": "Maintenant"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "\"Demain\" = ngày mai → thời tương lai."}, {"num": "6", "type": "Chọn câu trả lời đúng", "question": "Quelle phrase est correcte ?", "options": [{"key": "A", "text": "Je vais pas à l’école."}, {"key": "B", "text": "Je ne vais pas à l’école."}, {"key": "C", "text": "Je ne pas vais à l’école."}, {"key": "D", "text": "Je vais ne pas à l’école."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Négation: ne___ pas bao quanh động từ chia."}, {"num": "7", "type": "Chọn câu trả lời đúng", "question": "Quel verbe est au passé composé ?", "options": [{"key": "A", "text": "Je mangeais"}, {"key": "B", "text": "Il chantait"}, {"key": "C", "text": "Nous avons vu"}, {"key": "D", "text": "Vous étiez"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "\"Avoir + participe passé\" = passé composé."}, {"num": "8", "type": "Chọn câu trả lời đúng", "question": "Quel verbe est à l’imparfait ?", "options": [{"key": "A", "text": "J’ai fini"}, {"key": "B", "text": "Tu es allé"}, {"key": "C", "text": "Il parlait"}, {"key": "D", "text": "Nous avons vu"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "\"Parlait\" là imparfait (3e pers. sing.)."}, {"num": "9", "type": "Chọn câu trả lời đúng", "question": "Quand il est arrivé, je ___.", "options": [{"key": "A", "text": "a dormi"}, {"key": "B", "text": "dors"}, {"key": "C", "text": "dormais"}, {"key": "D", "text": "avais dormi"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Dùng thì imparfait chỉ hành động đang diễn ra khi một hành động khác cắt ngang."}, {"num": "10", "type": "Chọn câu trả lời đúng", "question": "Usage correct du pronom 'on' ?", "options": [{"key": "A", "text": "On est contents."}, {"key": "B", "text": "On es allé."}, {"key": "C", "text": "On sont parti."}, {"key": "D", "text": "On avez faim."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "\"On\" chia như il/elle → số ít."}, {"num": "11", "type": "Chọn câu trả lời đúng", "question": "Tu regardes le film ?", "options": [{"key": "A", "text": "Je la regarde."}, {"key": "B", "text": "Je le regarde."}, {"key": "C", "text": "Je l’y regarde."}, {"key": "D", "text": "Je lui regarde."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "\"Le film\" là COD giống đực → dùng le."}, {"num": "12", "type": "Chọn câu trả lời đúng", "question": "Elle parle à son frère. → avec COI ?", "options": [{"key": "A", "text": "Elle le parle."}, {"key": "B", "text": "Elle leur parle."}, {"key": "C", "text": "Elle y parle."}, {"key": "D", "text": "Elle lui parle."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "\"À son frère\" là COI → dùng lui."}, {"num": "13", "type": "Chọn câu trả lời đúng", "question": "C’est ___ pomme délicieuse.", "options": [{"key": "A", "text": "Des"}, {"key": "B", "text": "Le"}, {"key": "C", "text": "Un"}, {"key": "D", "text": "Une"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "\"Pomme\" là danh từ giống cái → article indéfini là une."}, {"num": "14", "type": "Chọn câu trả lời đúng", "question": "La lampe est ___ le canapé et la table.", "options": [{"key": "A", "text": "derrière"}, {"key": "B", "text": "entre"}, {"key": "C", "text": "dans"}, {"key": "D", "text": "sous"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "\"Entre A et B\" = giữa A và B → préposition de lieu."}, {"num": "15", "type": "Chọn câu trả lời đúng", "question": "J’ai acheté un ___ manteau.", "options": [{"key": "A", "text": "ancien"}, {"key": "B", "text": "chaud"}, {"key": "C", "text": "bleu"}, {"key": "D", "text": "beau"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "\"Beau\" là tính từ thường đứng trước danh từ."}, {"num": "16", "type": "Chọn câu trả lời đúng", "question": "___ personne ne l’a vu.", "options": [{"key": "A", "text": "Toutes"}, {"key": "B", "text": "Aucune"}, {"key": "C", "text": "Certains"}, {"key": "D", "text": "Chaque"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "\"Aucune\" + nom → mang nghĩa không ai/cái gì cả."}, {"num": "17", "type": "Chọn câu trả lời đúng", "question": "Quel indicateur de temps correspond au passé ?", "options": [{"key": "A", "text": "Demain"}, {"key": "B", "text": "Bientôt"}, {"key": "C", "text": "Hier"}, {"key": "D", "text": "Ce soir"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "\"Hier\" = hôm qua → chỉ thời quá khứ."}, {"num": "18", "type": "Chọn câu trả lời đúng", "question": "Il ___ vient jamais en avance.", "options": [{"key": "A", "text": "ne"}, {"key": "B", "text": "pas"}, {"key": "C", "text": "rien"}, {"key": "D", "text": "aucun"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Cấu trúc phủ định: ne___ jamais."}, {"num": "19", "type": "Chọn câu trả lời đúng", "question": "Choisis l’article défini : ___ soleil brille aujourd’hui.", "options": [{"key": "A", "text": "La"}, {"key": "B", "text": "Des"}, {"key": "C", "text": "Un"}, {"key": "D", "text": "Le"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "\"Soleil\" là danh từ giống đực số ít → dùng article défini Le."}, {"num": "20", "type": "Chọn câu trả lời đúng", "question": "Le livre est ___ mon sac.", "options": [{"key": "A", "text": "chez"}, {"key": "B", "text": "devant"}, {"key": "C", "text": "dans"}, {"key": "D", "text": "sur"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "\"Dans mon sac\" = trong cặp → préposition de lieu dans."}, {"num": "21", "type": "Chọn câu trả lời đúng", "question": "C’est un ___ homme.", "options": [{"key": "A", "text": "bleu"}, {"key": "B", "text": "petit"}, {"key": "C", "text": "française"}, {"key": "D", "text": "intelligent"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Petit” là tính từ thường đứng trước danh từ."}, {"num": "22", "type": "Chọn câu trả lời đúng", "question": "___ étudiants sont déjà arrivés.", "options": [{"key": "A", "text": "Chaque"}, {"key": "B", "text": "Aucun"}, {"key": "C", "text": "Toute"}, {"key": "D", "text": "Plusieurs"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“Plusieurs étudiants” = nhiều sinh viên."}, {"num": "23", "type": "Chọn câu trả lời đúng", "question": "Quel indicateur exprime une action en cours ?", "options": [{"key": "A", "text": "Demain"}, {"key": "B", "text": "Avant"}, {"key": "C", "text": "Maintenant"}, {"key": "D", "text": "Hier"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Maintenant” = hành động đang diễn ra."}, {"num": "24", "type": "Chọn câu trả lời đúng", "question": "___ lune est belle ce soir.", "options": [{"key": "A", "text": "Une"}, {"key": "B", "text": "Le"}, {"key": "C", "text": "Des"}, {"key": "D", "text": "La"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“La lune” (mặt trăng xác định)."}, {"num": "25", "type": "Chọn câu trả lời đúng", "question": "La voiture est ___ le garage.", "options": [{"key": "A", "text": "sur"}, {"key": "B", "text": "chez"}, {"key": "C", "text": "dans"}, {"key": "D", "text": "devant"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“dans le garage” = trong gara."}, {"num": "26", "type": "Chọn câu trả lời đúng", "question": "C’est une ___ maison.", "options": [{"key": "A", "text": "rouge"}, {"key": "B", "text": "sympa"}, {"key": "C", "text": "ancienne"}, {"key": "D", "text": "intéressant"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Une ancienne maison” → tính từ đứng trước danh từ, đúng ngữ pháp."}, {"num": "27", "type": "Chọn câu trả lời đúng", "question": "Il a rencontré ___ gens intéressants.", "options": [{"key": "A", "text": "chaque"}, {"key": "B", "text": "aucune"}, {"key": "C", "text": "plusieurs"}, {"key": "D", "text": "tout"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“plusieurs” = nhiều."}, {"num": "28", "type": "Chọn câu trả lời đúng", "question": "Quel indicateur exprime une fréquence ?", "options": [{"key": "A", "text": "Demain"}, {"key": "B", "text": "Souvent"}, {"key": "C", "text": "Hier"}, {"key": "D", "text": "Bientôt"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Souvent” = thường xuyên."}, {"num": "29", "type": "Chọn câu trả lời đúng", "question": "C’est ___ orange délicieuse.", "options": [{"key": "A", "text": "des"}, {"key": "B", "text": "un"}, {"key": "C", "text": "une"}, {"key": "D", "text": "le"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“orange” giống cái → une."}, {"num": "30", "type": "Chọn câu trả lời đúng", "question": "Le chien dort ___ le canapé.", "options": [{"key": "A", "text": "chez"}, {"key": "B", "text": "dans"}, {"key": "C", "text": "devant"}, {"key": "D", "text": "sur"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "D", "explanation": "“sur le canapé” = trên ghế sofa."}, {"num": "31", "type": "Chọn câu trả lời đúng", "question": "C’est un ___ appartement.", "options": [{"key": "A", "text": "bleu"}, {"key": "B", "text": "ancien"}, {"key": "C", "text": "petit"}, {"key": "D", "text": "vieux"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "un petit appartement → adj. trước danh từ."}, {"num": "32", "type": "Chọn câu trả lời đúng", "question": "___ enfants aiment les bonbons.", "options": [{"key": "A", "text": "Tous les"}, {"key": "B", "text": "Chaque"}, {"key": "C", "text": "Certain"}, {"key": "D", "text": "Aucun"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "“Tous les enfants” = tất cả trẻ em."}, {"num": "33", "type": "Chọn câu trả lời đúng", "question": "Quel indicateur exprime une action passée ?", "options": [{"key": "A", "text": "Demain"}, {"key": "B", "text": "Hier"}, {"key": "C", "text": "Maintenant"}, {"key": "D", "text": "Aujourd’hui"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "“Hier” = hôm qua."}, {"num": "34", "type": "Chọn câu trả lời đúng", "question": "Il ___ va pas au cinéma.", "options": [{"key": "A", "text": "ne"}, {"key": "B", "text": "non"}, {"key": "C", "text": "pas"}, {"key": "D", "text": "aucun"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "Cấu trúc phủ định: Il ne … pas …."}, {"num": "35", "type": "Chọn câu trả lời đúng", "question": "Quel verbe est au passé composé ?", "options": [{"key": "A", "text": "nous étions"}, {"key": "B", "text": "il dormait"}, {"key": "C", "text": "je suis allé"}, {"key": "D", "text": "tu parlais"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Passé composé: je suis allé."}, {"num": "36", "type": "Chọn câu trả lời đúng", "question": "Quel verbe est à l’imparfait ?", "options": [{"key": "A", "text": "tu es venu"}, {"key": "B", "text": "j’ai vu"}, {"key": "C", "text": "elle chantait"}, {"key": "D", "text": "ils ont mangé"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "Imparfait: chantait."}, {"num": "37", "type": "Chọn câu trả lời đúng", "question": "Nous ___ un film hier soir.", "options": [{"key": "A", "text": "regardons"}, {"key": "B", "text": "avons regardé"}, {"key": "C", "text": "regardions"}, {"key": "D", "text": "allez regarder"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "B", "explanation": "Passé composé với “hier soir”."}, {"num": "38", "type": "Chọn câu trả lời đúng", "question": "___ est ton prénom ?", "options": [{"key": "A", "text": "Où"}, {"key": "B", "text": "Comment"}, {"key": "C", "text": "Quel"}, {"key": "D", "text": "Qui"}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "C", "explanation": "“Quel est ton prénom ?” = hỏi tên."}, {"num": "39", "type": "Chọn câu trả lời đúng", "question": "Tu lis le livre ?", "options": [{"key": "A", "text": "Oui, je le lis."}, {"key": "B", "text": "Oui, je lui lis."}, {"key": "C", "text": "Oui, je les lis."}, {"key": "D", "text": "Oui, je la lis."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "COD masc. sing. → le."}, {"num": "40", "type": "Chọn câu trả lời đúng", "question": "Il parle à Marie ?", "options": [{"key": "A", "text": "Oui, il lui parle."}, {"key": "B", "text": "Oui, il le parle."}, {"key": "C", "text": "Oui, il la parle."}, {"key": "D", "text": "Oui, il les parle."}], "is_speaking": false, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "A", "explanation": "COI → lui."}, {"num": "41", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}, {"num": "42", "type": "Chọn câu trả lời đúng", "question": "", "options": [], "is_speaking": true, "speaking_word": "", "audio_data": "", "image_data": "", "correct_ans": "", "explanation": ""}]}]};
+  window.COURSES_DATA['A2.1'] = {
+  "id": "A2.1",
+  "level": "A2",
+  "sem_num": 1,
+  "title": "Học kỳ 1 (A2.1)",
+  "code": "CF1216-I",
+  "lessons": [
+    {
+      "id": "A2.1_L01",
+      "num": 1,
+      "filename": "Bai_01_Thông_tin_cá_nhân.md",
+      "title": "Bài 01 - Thông tin cá nhân",
+      "questions": [
+        {
+          "num": "1",
+          "type": "Chọn câu trả lời đúng",
+          "question": "____ chat est sur le canapé. (Con mèo ở trên ghế sô-pha.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "le"
+            },
+            {
+              "key": "B",
+              "text": "la"
+            },
+            {
+              "key": "C",
+              "text": "les"
+            },
+            {
+              "key": "D",
+              "text": "un"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Dùng \"le\" khi nói đến một con mèo cụ thể."
+        },
+        {
+          "num": "2",
+          "type": "Chọn câu trả lời đúng",
+          "question": "J’achète ____ pommes au marché. (Tôi mua táo ở chợ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "un"
+            },
+            {
+              "key": "B",
+              "text": "une"
+            },
+            {
+              "key": "C",
+              "text": "des"
+            },
+            {
+              "key": "D",
+              "text": "le"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Dùng \"des\" cho danh từ số nhiều không xác định."
+        },
+        {
+          "num": "3",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle lit ____ livre intéressant. (Cô ấy đọc một cuốn sách hay.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "une"
+            },
+            {
+              "key": "B",
+              "text": "un"
+            },
+            {
+              "key": "C",
+              "text": "le"
+            },
+            {
+              "key": "D",
+              "text": "des"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "\"Un\" dùng cho danh từ giống đực, số ít, chưa xác định."
+        },
+        {
+          "num": "4",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il y a ____ erreur dans ce texte. (Có một lỗi trong văn bản này.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "une"
+            },
+            {
+              "key": "B",
+              "text": "un"
+            },
+            {
+              "key": "C",
+              "text": "des"
+            },
+            {
+              "key": "D",
+              "text": "le"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"Une\" dùng cho danh từ giống cái, số ít, chưa xác định."
+        },
+        {
+          "num": "5",
+          "type": "Chọn câu trả lời đúng",
+          "question": "____ enfants jouent dans le parc. (Những đứa trẻ chơi trong công viên.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "les"
+            },
+            {
+              "key": "B",
+              "text": "un"
+            },
+            {
+              "key": "C",
+              "text": "une"
+            },
+            {
+              "key": "D",
+              "text": "le"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"Des\" dùng cho danh từ số nhiều không xác định."
+        },
+        {
+          "num": "6",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Comment tu t’appelles ? — Je ____. (s'appeler)",
+          "options": [
+            {
+              "key": "A",
+              "text": "s'appelle Anna"
+            },
+            {
+              "key": "B",
+              "text": "m’appelle Marie"
+            },
+            {
+              "key": "C",
+              "text": "t'appelles Paul"
+            },
+            {
+              "key": "D",
+              "text": "appelle Pierre"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Dùng \"je m'appelle\" để nói tên."
+        },
+        {
+          "num": "7",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il est mon frère. ____ s’appelle Julien. (Anh ấy là anh trai tôi. Anh ấy tên Julien.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Il"
+            },
+            {
+              "key": "B",
+              "text": "Elle"
+            },
+            {
+              "key": "C",
+              "text": "Ils"
+            },
+            {
+              "key": "D",
+              "text": "On"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"Il\" là chủ ngữ phù hợp với động từ \"s’appelle\"."
+        },
+        {
+          "num": "8",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Bonjour ! ____ suis Anna, enchantée. (Xin chào! Tôi là Anna, rất vui được gặp bạn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Tu"
+            },
+            {
+              "key": "B",
+              "text": "Je"
+            },
+            {
+              "key": "C",
+              "text": "Elle"
+            },
+            {
+              "key": "D",
+              "text": "Nous"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "\"Je suis\" dùng khi giới thiệu bản thân."
+        },
+        {
+          "num": "9",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle est étudiante. Elle ____ en première année. (Cô ấy là sinh viên. Cô ấy học năm nhất.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "être"
+            },
+            {
+              "key": "B",
+              "text": "est"
+            },
+            {
+              "key": "C",
+              "text": "es"
+            },
+            {
+              "key": "D",
+              "text": "sommes"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "\"Est\" là động từ être chia ngôi \"elle\"."
+        },
+        {
+          "num": "10",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu viens d’où ? Je viens ____. (Bạn đến từ đâu? Tôi đến từ …)",
+          "options": [
+            {
+              "key": "A",
+              "text": "de Lyon"
+            },
+            {
+              "key": "B",
+              "text": "à Paris"
+            },
+            {
+              "key": "C",
+              "text": "la France"
+            },
+            {
+              "key": "D",
+              "text": "le Vietnam"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"de Lyon\" đúng giới từ + thành phố"
+        },
+        {
+          "num": "11",
+          "type": "Chọn câu trả lời đúng",
+          "question": "J’achète ____ salade au marché. (Tôi mua một cây xà lách ở chợ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "un"
+            },
+            {
+              "key": "B",
+              "text": "une"
+            },
+            {
+              "key": "C",
+              "text": "le"
+            },
+            {
+              "key": "D",
+              "text": "des"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "\"Salade\" là danh từ giống cái, chưa xác định → dùng \"une\"."
+        },
+        {
+          "num": "12",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il regarde ____ film intéressant. (Anh ấy xem một bộ phim hay.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "une"
+            },
+            {
+              "key": "B",
+              "text": "un"
+            },
+            {
+              "key": "C",
+              "text": "le"
+            },
+            {
+              "key": "D",
+              "text": "des"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Dùng \"un\" vì \"film\" là giống đực và không xác định."
+        },
+        {
+          "num": "13",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu connais ____ professeur dont il parle ? (Bạn có biết thầy giáo mà anh ấy đang nói đến không?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "une"
+            },
+            {
+              "key": "B",
+              "text": "le"
+            },
+            {
+              "key": "C",
+              "text": "des"
+            },
+            {
+              "key": "D",
+              "text": "un"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "\"Professeur\" đã được xác định (dont il parle) → dùng \"le\"."
+        },
+        {
+          "num": "14",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous avons ____ chats à la maison. (Chúng tôi có nuôi mèo ở nhà.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "un"
+            },
+            {
+              "key": "B",
+              "text": "une"
+            },
+            {
+              "key": "C",
+              "text": "le"
+            },
+            {
+              "key": "D",
+              "text": "des"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Dùng \"des\" cho danh từ số nhiều không xác định."
+        },
+        {
+          "num": "15",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle prend ____ eau minérale. (Cô ấy uống nước khoáng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "un"
+            },
+            {
+              "key": "B",
+              "text": "une"
+            },
+            {
+              "key": "C",
+              "text": "de l’"
+            },
+            {
+              "key": "D",
+              "text": "des"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "\"Eau\" là danh từ bắt đầu bằng nguyên âm → dùng \"de l’\"."
+        },
+        {
+          "num": "16",
+          "type": "Chọn câu trả lời đúng",
+          "question": "C’est ____ stylo. (Đây là cây bút của tôi.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "mon"
+            },
+            {
+              "key": "B",
+              "text": "ma"
+            },
+            {
+              "key": "C",
+              "text": "mes"
+            },
+            {
+              "key": "D",
+              "text": "leur"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"Mon\" là tính từ sở hữu dùng cho danh từ giống đực, ngôi \"je\"."
+        },
+        {
+          "num": "17",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle a oublié ____ sac à dos à la maison. (Cô ấy quên balô ở nhà.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "son"
+            },
+            {
+              "key": "B",
+              "text": "sa"
+            },
+            {
+              "key": "C",
+              "text": "ses"
+            },
+            {
+              "key": "D",
+              "text": "leur"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"Sac à dos\" là giống đực → dùng \"son\"."
+        },
+        {
+          "num": "18",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ce sont ____ lunettes. (Đây là mắt kính của cô ấy.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "mon"
+            },
+            {
+              "key": "B",
+              "text": "mes"
+            },
+            {
+              "key": "C",
+              "text": "sa"
+            },
+            {
+              "key": "D",
+              "text": "ses"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "\"Lunettes\" là danh từ số nhiều → dùng \"ses\"."
+        },
+        {
+          "num": "19",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu as vu ____ clés ? (Bạn có thấy chìa khóa của tôi không?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ma"
+            },
+            {
+              "key": "B",
+              "text": "mes"
+            },
+            {
+              "key": "C",
+              "text": "mon"
+            },
+            {
+              "key": "D",
+              "text": "sa"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "\"Mes\" là tính từ sở hữu số nhiều cho ngôi \"je\"."
+        },
+        {
+          "num": "20",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il cherche ____ téléphone. (Anh ấy tìm điện thoại của anh ấy.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "son"
+            },
+            {
+              "key": "B",
+              "text": "sa"
+            },
+            {
+              "key": "C",
+              "text": "ses"
+            },
+            {
+              "key": "D",
+              "text": "le"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"Téléphone\" là danh từ giống đực → dùng \"son\"."
+        },
+        {
+          "num": "21",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je vois ___ enfants dans le jardin. (Tôi thấy những đứa trẻ trong vườn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "un"
+            },
+            {
+              "key": "B",
+              "text": "une"
+            },
+            {
+              "key": "C",
+              "text": "des"
+            },
+            {
+              "key": "D",
+              "text": "le"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Enfants” số nhiều, không xác định → des."
+        },
+        {
+          "num": "22",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu veux ___ café ou ___ thé ? (Bạn muốn cà phê hay trà?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "un / un"
+            },
+            {
+              "key": "B",
+              "text": "une / une"
+            },
+            {
+              "key": "C",
+              "text": "le / la"
+            },
+            {
+              "key": "D",
+              "text": "des / des"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Café, thé” đều giống đực số ít → un."
+        },
+        {
+          "num": "23",
+          "type": "Chọn câu trả lời đúng",
+          "question": "C’est ___ livre que je préfère. (Đây là cuốn sách mà tôi thích nhất.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "un"
+            },
+            {
+              "key": "B",
+              "text": "une"
+            },
+            {
+              "key": "C",
+              "text": "le"
+            },
+            {
+              "key": "D",
+              "text": "des"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Xác định cụ thể → le."
+        },
+        {
+          "num": "24",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils ont adopté ___ chien et ___ chat. (Họ đã nhận nuôi một con chó và một con mèo.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "un / un"
+            },
+            {
+              "key": "B",
+              "text": "une / un"
+            },
+            {
+              "key": "C",
+              "text": "un / une"
+            },
+            {
+              "key": "D",
+              "text": "le / la"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Chien, chat” giống đực số ít chưa xác định → un."
+        },
+        {
+          "num": "25",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu as ___ idée géniale ! (Bạn có một ý tưởng tuyệt vời!)",
+          "options": [
+            {
+              "key": "A",
+              "text": "un"
+            },
+            {
+              "key": "B",
+              "text": "une"
+            },
+            {
+              "key": "C",
+              "text": "le"
+            },
+            {
+              "key": "D",
+              "text": "des"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Idée” giống cái số ít → une."
+        },
+        {
+          "num": "26",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous sommes français. Nous ____ de Lyon. (Chúng tôi là người Pháp. Chúng tôi đến từ Lyon.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "vient"
+            },
+            {
+              "key": "B",
+              "text": "viens"
+            },
+            {
+              "key": "C",
+              "text": "venons"
+            },
+            {
+              "key": "D",
+              "text": "venez"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Ngôi “nous” → động từ venir chia = venons."
+        },
+        {
+          "num": "27",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous travaillez où ? ____ travaille dans une école. (Bạn làm việc ở đâu? Tôi làm việc trong một trường học.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Tu"
+            },
+            {
+              "key": "B",
+              "text": "Je"
+            },
+            {
+              "key": "C",
+              "text": "Il"
+            },
+            {
+              "key": "D",
+              "text": "Elle"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Trả lời về bản thân → Je travaille …."
+        },
+        {
+          "num": "28",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il est espagnol. Il vient ____. (Anh ấy là người Tây Ban Nha. Anh ấy đến từ Tây Ban Nha.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "d’Espagne"
+            },
+            {
+              "key": "B",
+              "text": "à Espagne"
+            },
+            {
+              "key": "C",
+              "text": "en Espagne"
+            },
+            {
+              "key": "D",
+              "text": "du Espagne"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Espagne” bắt đầu bằng nguyên âm → dùng d’."
+        },
+        {
+          "num": "29",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Enchanté, moi c’est Paul. Et toi ? Tu t’appelles ____ ? (Rất vui, tôi là Paul. Còn bạn? Bạn tên là gì?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "comment"
+            },
+            {
+              "key": "B",
+              "text": "qui"
+            },
+            {
+              "key": "C",
+              "text": "quoi"
+            },
+            {
+              "key": "D",
+              "text": "où"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Hỏi tên → chuẩn là Tu t’appelles comment ?."
+        },
+        {
+          "num": "30",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle est italienne. Elle ____ Rome. (Cô ấy là người Ý. Cô ấy đến từ Rome.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "suis"
+            },
+            {
+              "key": "B",
+              "text": "est"
+            },
+            {
+              "key": "C",
+              "text": "es"
+            },
+            {
+              "key": "D",
+              "text": "est de"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Nói xuất xứ → Elle est de Rome."
+        },
+        {
+          "num": "31",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu connais ___ professeur de français ? (Bạn có biết thầy giáo tiếng Pháp không?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "une"
+            },
+            {
+              "key": "B",
+              "text": "le"
+            },
+            {
+              "key": "C",
+              "text": "des"
+            },
+            {
+              "key": "D",
+              "text": "un"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Đã xác định rõ → dùng le."
+        },
+        {
+          "num": "32",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle veut acheter ___ robe bleue. (Cô ấy muốn mua một chiếc váy màu xanh.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "un"
+            },
+            {
+              "key": "B",
+              "text": "une"
+            },
+            {
+              "key": "C",
+              "text": "le"
+            },
+            {
+              "key": "D",
+              "text": "des"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Robe” giống cái số ít → une."
+        },
+        {
+          "num": "33",
+          "type": "Chọn câu trả lời đúng",
+          "question": "J’adore ___ chocolat noir. (Tôi rất thích sô-cô-la đen.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "un"
+            },
+            {
+              "key": "B",
+              "text": "une"
+            },
+            {
+              "key": "C",
+              "text": "le"
+            },
+            {
+              "key": "D",
+              "text": "des"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Thói quen/sở thích nói chung → dùng le."
+        },
+        {
+          "num": "34",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous avons vu ___ film hier soir. (Chúng tôi đã xem một bộ phim tối qua.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "un"
+            },
+            {
+              "key": "B",
+              "text": "une"
+            },
+            {
+              "key": "C",
+              "text": "le"
+            },
+            {
+              "key": "D",
+              "text": "des"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Film” giống đực số ít chưa xác định → un."
+        },
+        {
+          "num": "35",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle a ___ idée très originale. (Cô ấy có một ý tưởng rất độc đáo.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "une"
+            },
+            {
+              "key": "B",
+              "text": "un"
+            },
+            {
+              "key": "C",
+              "text": "le"
+            },
+            {
+              "key": "D",
+              "text": "des"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Idée” giống cái số ít → une."
+        },
+        {
+          "num": "36",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous aimons ___ appartement. (Chúng tôi thích căn hộ này.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "un"
+            },
+            {
+              "key": "B",
+              "text": "une"
+            },
+            {
+              "key": "C",
+              "text": "le"
+            },
+            {
+              "key": "D",
+              "text": "l’"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“Appartement” bắt đầu bằng nguyên âm → dùng l’."
+        },
+        {
+          "num": "37",
+          "type": "Chọn câu trả lời đúng",
+          "question": "J’ai perdu ___ montre ce matin. (Tôi đã làm mất chiếc đồng hồ sáng nay.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "mon"
+            },
+            {
+              "key": "B",
+              "text": "ma"
+            },
+            {
+              "key": "C",
+              "text": "mes"
+            },
+            {
+              "key": "D",
+              "text": "leur"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Montre” giống cái số ít, sở hữu ngôi je → ma."
+        },
+        {
+          "num": "38",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous avez rangé ___ affaires dans le placard ? (Bạn đã cất đồ đạc vào tủ chưa?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "votre"
+            },
+            {
+              "key": "B",
+              "text": "vos"
+            },
+            {
+              "key": "C",
+              "text": "leurs"
+            },
+            {
+              "key": "D",
+              "text": "ses"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Affaires” số nhiều, ngôi vous → vos."
+        },
+        {
+          "num": "39",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils n’aiment pas ___ nouvelle voisine. (Họ không thích cô hàng xóm mới.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "leur"
+            },
+            {
+              "key": "B",
+              "text": "ses"
+            },
+            {
+              "key": "C",
+              "text": "notre"
+            },
+            {
+              "key": "D",
+              "text": "sa"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Hàng xóm thuộc về họ → dùng leur."
+        },
+        {
+          "num": "40",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "audios/A2_Bai_01_Cau_40_120140.mp3",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "41",
+          "type": "Trả lời bằng ghi âm",
+          "question": "Hãy tự giới thiệu bản thân (tên, tuổi, quốc tịch, nơi ở, nơi học hoặc làm việc, sở thích)",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "A2.1_L02",
+      "num": 2,
+      "filename": "Bai_02_Không_gian_sống.md",
+      "title": "Bài 02 - Không gian sống",
+      "questions": [
+        {
+          "num": "1",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le chat est ___ la table. (Con mèo ở dưới bàn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "sous"
+            },
+            {
+              "key": "B",
+              "text": "sur"
+            },
+            {
+              "key": "C",
+              "text": "dans"
+            },
+            {
+              "key": "D",
+              "text": "devant"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "images/A2_Bai_02_Cau_01_120201.png",
+          "correct_ans": "A",
+          "explanation": "\"Sous\" có nghĩa là ở dưới một vật thể."
+        },
+        {
+          "num": "2",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le livre est ___ le bureau. (Cuốn sách ở trên bàn làm việc.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "sous"
+            },
+            {
+              "key": "B",
+              "text": "sur"
+            },
+            {
+              "key": "C",
+              "text": "dans"
+            },
+            {
+              "key": "D",
+              "text": "entre"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "images/A2_Bai_02_Cau_02_120202.png",
+          "correct_ans": "B",
+          "explanation": "\"Sur\" có nghĩa là ở trên bề mặt."
+        },
+        {
+          "num": "3",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il y a une voiture ___ la maison. (Có một chiếc ô tô trước ngôi nhà.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "devant"
+            },
+            {
+              "key": "B",
+              "text": "derrière"
+            },
+            {
+              "key": "C",
+              "text": "entre"
+            },
+            {
+              "key": "D",
+              "text": "sous"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "images/A2_Bai_02_Cau_03_120203.png",
+          "correct_ans": "A",
+          "explanation": "\"Devant\" có nghĩa là ở phía trước."
+        },
+        {
+          "num": "4",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le chien est ___ la porte. (Con chó ở sau cánh cửa.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "derrière"
+            },
+            {
+              "key": "B",
+              "text": "devant"
+            },
+            {
+              "key": "C",
+              "text": "entre"
+            },
+            {
+              "key": "D",
+              "text": "sous"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "images/A2_Bai_02_Cau_04_120204.png",
+          "correct_ans": "A",
+          "explanation": "\"Derrière\" có nghĩa là ở phía sau."
+        },
+        {
+          "num": "5",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le chat est ___ les deux chaises. (Con mèo ở giữa hai cái ghế.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "entre"
+            },
+            {
+              "key": "B",
+              "text": "sur"
+            },
+            {
+              "key": "C",
+              "text": "sous"
+            },
+            {
+              "key": "D",
+              "text": "contre"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "images/A2_Bai_02_Cau_05_120205.png",
+          "correct_ans": "A",
+          "explanation": "\"Entre\" có nghĩa là ở giữa hai vật."
+        },
+        {
+          "num": "6",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous habitons ___ un appartement en centre-ville. (Chúng tôi sống trong một căn hộ ở trung tâm thành phố.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "sur"
+            },
+            {
+              "key": "B",
+              "text": "dans"
+            },
+            {
+              "key": "C",
+              "text": "à"
+            },
+            {
+              "key": "D",
+              "text": "par"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "\"Dans\" dùng để chỉ ở bên trong một không gian."
+        },
+        {
+          "num": "7",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Mon immeuble est ___ supermarché. (Tòa nhà của tôi ở cạnh siêu thị.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "devant"
+            },
+            {
+              "key": "B",
+              "text": "dans"
+            },
+            {
+              "key": "C",
+              "text": "sous"
+            },
+            {
+              "key": "D",
+              "text": "à côté du"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "\"À côté de\" nghĩa là ở bên cạnh."
+        },
+        {
+          "num": "8",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il y a trois pièces ___ mon appartement. (Có ba phòng trong căn hộ của tôi.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "sur"
+            },
+            {
+              "key": "B",
+              "text": "à"
+            },
+            {
+              "key": "C",
+              "text": "dans"
+            },
+            {
+              "key": "D",
+              "text": "devant"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "\"Dans\" nghĩa là bên trong."
+        },
+        {
+          "num": "9",
+          "type": "Chọn câu trả lời đúng",
+          "question": "J’ai une belle vue ___ la mer. (Tôi có một tầm nhìn đẹp ra biển.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "sur"
+            },
+            {
+              "key": "B",
+              "text": "sous"
+            },
+            {
+              "key": "C",
+              "text": "entre"
+            },
+            {
+              "key": "D",
+              "text": "dans"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"Sur\" dùng để nói \"nhìn ra\" (vue sur___)."
+        },
+        {
+          "num": "10",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ma chambre est ___ salon. (Phòng ngủ của tôi ở cạnh phòng khách.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "dans"
+            },
+            {
+              "key": "B",
+              "text": "sur"
+            },
+            {
+              "key": "C",
+              "text": "à côté du"
+            },
+            {
+              "key": "D",
+              "text": "entre"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "\"À côté de\" chỉ vị trí bên cạnh phòng khách."
+        },
+        {
+          "num": "11",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le livre est ___ le sac. (Cuốn sách ở trong cặp.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "dans"
+            },
+            {
+              "key": "B",
+              "text": "sur"
+            },
+            {
+              "key": "C",
+              "text": "devant"
+            },
+            {
+              "key": "D",
+              "text": "sous"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "images/A2_Bai_02_Cau_11_120206.png",
+          "correct_ans": "A",
+          "explanation": "\"Dans\" có nghĩa là bên trong một vật."
+        },
+        {
+          "num": "12",
+          "type": "Chọn câu trả lời đúng",
+          "question": "L’école est ___ côté de la bibliothèque. (Trường học ở bên cạnh thư viện.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "à"
+            },
+            {
+              "key": "B",
+              "text": "de"
+            },
+            {
+              "key": "C",
+              "text": "sur"
+            },
+            {
+              "key": "D",
+              "text": "avec"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"À\" trong cụm \"à côté de\" chỉ vị trí bên cạnh."
+        },
+        {
+          "num": "13",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le chien est ___ de la voiture. (Con chó ở gần chiếc ô tô.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "près"
+            },
+            {
+              "key": "B",
+              "text": "à"
+            },
+            {
+              "key": "C",
+              "text": "loin"
+            },
+            {
+              "key": "D",
+              "text": "contre"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "images/A2_Bai_02_Cau_13_120207.png",
+          "correct_ans": "A",
+          "explanation": "\"Près\" có nghĩa là ở gần."
+        },
+        {
+          "num": "14",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le cinéma est ___ de l’école. (Rạp chiếu phim ở xa trường học.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "loin"
+            },
+            {
+              "key": "B",
+              "text": "sur"
+            },
+            {
+              "key": "C",
+              "text": "devant"
+            },
+            {
+              "key": "D",
+              "text": "entre"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"Loin\" có nghĩa là ở xa."
+        },
+        {
+          "num": "15",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le tableau est accroché ___ mur. (Bức tranh được treo trên tường.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "au"
+            },
+            {
+              "key": "B",
+              "text": "sur"
+            },
+            {
+              "key": "C",
+              "text": "dans"
+            },
+            {
+              "key": "D",
+              "text": "entre"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"Au\" là rút gọn của \"à le\", dùng với danh từ giống đực."
+        },
+        {
+          "num": "16",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Cet endroit est très ___. (Nơi này rất yên tĩnh.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "bruyante"
+            },
+            {
+              "key": "B",
+              "text": "calme"
+            },
+            {
+              "key": "C",
+              "text": "animée"
+            },
+            {
+              "key": "D",
+              "text": "rapide"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "\"Calme\" là tính từ giống đực mô tả nơi yên tĩnh."
+        },
+        {
+          "num": "17",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il y a ___ arbres dans ce parc. (Có những cái cây trong công viên này.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "un"
+            },
+            {
+              "key": "B",
+              "text": "le"
+            },
+            {
+              "key": "C",
+              "text": "la"
+            },
+            {
+              "key": "D",
+              "text": "des"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "\"Des\" dùng cho danh từ số nhiều không xác định."
+        },
+        {
+          "num": "18",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le musée est un lieu très ___. (Bảo tàng là một nơi rất thú vị.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "intéressant"
+            },
+            {
+              "key": "B",
+              "text": "bruyant"
+            },
+            {
+              "key": "C",
+              "text": "fermée"
+            },
+            {
+              "key": "D",
+              "text": "rapide"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"Intéressant\" mô tả một nơi hấp dẫn, lôi cuốn."
+        },
+        {
+          "num": "19",
+          "type": "Chọn câu trả lời đúng",
+          "question": "La place centrale est toujours ___. (Quảng trường trung tâm lúc nào cũng nhộn nhịp.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "calme"
+            },
+            {
+              "key": "B",
+              "text": "animée"
+            },
+            {
+              "key": "C",
+              "text": "sombre"
+            },
+            {
+              "key": "D",
+              "text": "propre"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "\"Animée\" mô tả nơi sôi động, có nhiều hoạt động."
+        },
+        {
+          "num": "20",
+          "type": "Chọn câu trả lời đúng",
+          "question": "C’est un quartier ___. Il y a beaucoup de voitures. (Đó là một khu phố ồn ào. Có rất nhiều xe cộ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "bruyant"
+            },
+            {
+              "key": "B",
+              "text": "désert"
+            },
+            {
+              "key": "C",
+              "text": "propre"
+            },
+            {
+              "key": "D",
+              "text": "tranquille"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"Bruyant\" dùng để mô tả khu vực ồn ào."
+        },
+        {
+          "num": "21",
+          "type": "Chọn câu trả lời đúng",
+          "question": "La lampe est ___ la table de nuit. (Cái đèn ở trên bàn đầu giường.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "sous"
+            },
+            {
+              "key": "B",
+              "text": "sur"
+            },
+            {
+              "key": "C",
+              "text": "derrière"
+            },
+            {
+              "key": "D",
+              "text": "dans"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "\"Sur\" nghĩa là ở trên bề mặt."
+        },
+        {
+          "num": "22",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le chat dort ___ le canapé. (Con mèo ngủ trên ghế sô-pha.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "sur"
+            },
+            {
+              "key": "B",
+              "text": "entre"
+            },
+            {
+              "key": "C",
+              "text": "à"
+            },
+            {
+              "key": "D",
+              "text": "devant"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "images/A2_Bai_02_Cau_22_120208.png",
+          "correct_ans": "A",
+          "explanation": "\"Sous\" nghĩa là ở phía dưới vật gì đó."
+        },
+        {
+          "num": "23",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le vélo est garé ___ la maison. (Chiếc xe đạp đỗ trước ngôi nhà.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "derrière"
+            },
+            {
+              "key": "B",
+              "text": "entre"
+            },
+            {
+              "key": "C",
+              "text": "devant"
+            },
+            {
+              "key": "D",
+              "text": "sur"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "images/A2_Bai_02_Cau_23_120209.png",
+          "correct_ans": "C",
+          "explanation": "\"Devant\" nghĩa là ở phía trước."
+        },
+        {
+          "num": "24",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le tableau est ___ la fenêtre. (Bức tranh ở cạnh cửa sổ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "à côté de"
+            },
+            {
+              "key": "B",
+              "text": "dans"
+            },
+            {
+              "key": "C",
+              "text": "loin de"
+            },
+            {
+              "key": "D",
+              "text": "entre"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "images/A2_Bai_02_Cau_24_120210.png",
+          "correct_ans": "A",
+          "explanation": "\"À côté de\" nghĩa là bên cạnh."
+        },
+        {
+          "num": "25",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le chat se cache ___ la table et le mur. (Con mèo trốn giữa bàn và tường.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "derrière"
+            },
+            {
+              "key": "B",
+              "text": "devant"
+            },
+            {
+              "key": "C",
+              "text": "à côté de"
+            },
+            {
+              "key": "D",
+              "text": "entre"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "\"Entre\" nghĩa là ở giữa hai vật."
+        },
+        {
+          "num": "26",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il y a une grande table ___ la salle à manger. (Có một cái bàn lớn trong phòng ăn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "dans"
+            },
+            {
+              "key": "B",
+              "text": "sous"
+            },
+            {
+              "key": "C",
+              "text": "entre"
+            },
+            {
+              "key": "D",
+              "text": "devant"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"Dans\" nghĩa là bên trong căn phòng đó."
+        },
+        {
+          "num": "27",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le lit est ___ la fenêtre. (Chiếc giường ở gần cửa sổ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "dans"
+            },
+            {
+              "key": "B",
+              "text": "sur"
+            },
+            {
+              "key": "C",
+              "text": "entre"
+            },
+            {
+              "key": "D",
+              "text": "près de"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "\"Près de\" chỉ vị trí gần."
+        },
+        {
+          "num": "28",
+          "type": "Chọn câu trả lời đúng",
+          "question": "L’appartement est situé ___ cinquième étage. (Căn hộ ở tầng 5.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "au"
+            },
+            {
+              "key": "B",
+              "text": "à"
+            },
+            {
+              "key": "C",
+              "text": "en"
+            },
+            {
+              "key": "D",
+              "text": "sur"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"Au cinquième étage\" là cách nói đúng với tầng nhà."
+        },
+        {
+          "num": "29",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils ont une maison ___ jardin. (Họ có một ngôi nhà có vườn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "dans"
+            },
+            {
+              "key": "B",
+              "text": "avec"
+            },
+            {
+              "key": "C",
+              "text": "sous"
+            },
+            {
+              "key": "D",
+              "text": "à"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "\"Avec\" dùng để nói \"có\" một đặc điểm đi kèm (maison avec jardin)."
+        },
+        {
+          "num": "30",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le canapé est ___ le mur. (Ghế sô-pha áp vào tường.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "contre"
+            },
+            {
+              "key": "B",
+              "text": "à"
+            },
+            {
+              "key": "C",
+              "text": "sur"
+            },
+            {
+              "key": "D",
+              "text": "entre"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"Contre\" nghĩa là sát vào, tựa vào tường."
+        },
+        {
+          "num": "31",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le livre est ___ l’étagère. (Cuốn sách ở trên giá sách.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "sur"
+            },
+            {
+              "key": "B",
+              "text": "sous"
+            },
+            {
+              "key": "C",
+              "text": "contre"
+            },
+            {
+              "key": "D",
+              "text": "à"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"Sur\" nghĩa là trên bề mặt."
+        },
+        {
+          "num": "32",
+          "type": "Chọn câu trả lời đúng",
+          "question": "L’éléphant est ___ la chaise. (Con voi ở sau chiếc ghế.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "devant"
+            },
+            {
+              "key": "B",
+              "text": "sur"
+            },
+            {
+              "key": "C",
+              "text": "entre"
+            },
+            {
+              "key": "D",
+              "text": "derrière"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "images/A2_Bai_02_Cau_32_120211.png",
+          "correct_ans": "D",
+          "explanation": "\"Derrière\" nghĩa là phía sau."
+        },
+        {
+          "num": "33",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le lit est ___ la fenêtre. (Chiếc giường ở gần cửa sổ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "loin de"
+            },
+            {
+              "key": "B",
+              "text": "près de"
+            },
+            {
+              "key": "C",
+              "text": "dans"
+            },
+            {
+              "key": "D",
+              "text": "au-dessus de"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "images/A2_Bai_02_Cau_33_120212.png",
+          "correct_ans": "B",
+          "explanation": "\"Près de\" nghĩa là gần."
+        },
+        {
+          "num": "34",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le bus s’arrête ___ l’école. (Xe buýt dừng trước trường học.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "sous"
+            },
+            {
+              "key": "B",
+              "text": "derrière"
+            },
+            {
+              "key": "C",
+              "text": "devant"
+            },
+            {
+              "key": "D",
+              "text": "sur"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "\"Devant\" là phía trước địa điểm."
+        },
+        {
+          "num": "35",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il y a un tapis ___ la table basse. (Có một tấm thảm dưới bàn trà.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "sous"
+            },
+            {
+              "key": "B",
+              "text": "sur"
+            },
+            {
+              "key": "C",
+              "text": "dans"
+            },
+            {
+              "key": "D",
+              "text": "devant"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"Sous\" dùng cho vị trí phía dưới."
+        },
+        {
+          "num": "36",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il y a un marché ___ dans ce village. (Có một chợ địa phương trong ngôi làng này.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "propre"
+            },
+            {
+              "key": "B",
+              "text": "rapide"
+            },
+            {
+              "key": "C",
+              "text": "local"
+            },
+            {
+              "key": "D",
+              "text": "ancien"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "\"Local\" mô tả chợ mang tính địa phương."
+        },
+        {
+          "num": "37",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le parc est très ___. (Công viên rất yên tĩnh.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "bruyant"
+            },
+            {
+              "key": "B",
+              "text": "animé"
+            },
+            {
+              "key": "C",
+              "text": "sale"
+            },
+            {
+              "key": "D",
+              "text": "tranquille"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "\"Tranquille\" dùng khi nói đến nơi yên tĩnh, thư giãn."
+        },
+        {
+          "num": "38",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Les rues sont ___. (Những con phố thì bẩn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "sales"
+            },
+            {
+              "key": "B",
+              "text": "propres"
+            },
+            {
+              "key": "C",
+              "text": "calmes"
+            },
+            {
+              "key": "D",
+              "text": "vertes"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"Sales\" là tính từ số nhiều giống cái cho “rues”."
+        },
+        {
+          "num": "39",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ce lieu est très ___. (Nơi này rất vắng vẻ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "vivant"
+            },
+            {
+              "key": "B",
+              "text": "propre"
+            },
+            {
+              "key": "C",
+              "text": "désert"
+            },
+            {
+              "key": "D",
+              "text": "sombre"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "\"Désert\" nghĩa là vắng vẻ, không có người."
+        },
+        {
+          "num": "40",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Mon village est ___ mais agréable. (Ngôi làng của tôi nhỏ nhưng dễ chịu.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "bruyant"
+            },
+            {
+              "key": "B",
+              "text": "petit"
+            },
+            {
+              "key": "C",
+              "text": "sale"
+            },
+            {
+              "key": "D",
+              "text": "vaste"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "\"Petit\" mô tả kích thước của làng (village)."
+        },
+        {
+          "num": "41",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "42",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "audios/A2_Bai_02_Cau_42_120242.mp3",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "A2.1_L03",
+      "num": 3,
+      "filename": "Bai_03_Ôn_tập_1.md",
+      "title": "Bài 03 - Ôn tập 1",
+      "questions": [
+        {
+          "num": "1",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je vais acheter ___ journal au kiosque. (Tôi sẽ mua một tờ báo ở sạp báo.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "le"
+            },
+            {
+              "key": "B",
+              "text": "un"
+            },
+            {
+              "key": "C",
+              "text": "des"
+            },
+            {
+              "key": "D",
+              "text": "du"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Journal” chưa xác định, bất kỳ tờ nào → un journal."
+        },
+        {
+          "num": "2",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ amis de Paul sont très sympas. (Những người bạn của Paul rất dễ thương.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Les"
+            },
+            {
+              "key": "B",
+              "text": "Le"
+            },
+            {
+              "key": "C",
+              "text": "Des"
+            },
+            {
+              "key": "D",
+              "text": "Un"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Bạn bè của Paul đã xác định → les amis."
+        },
+        {
+          "num": "3",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il y a ___ enfants dans le jardin. (Có những đứa trẻ trong vườn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "le"
+            },
+            {
+              "key": "B",
+              "text": "des"
+            },
+            {
+              "key": "C",
+              "text": "un"
+            },
+            {
+              "key": "D",
+              "text": "les"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Trẻ em không xác định, số nhiều → des enfants."
+        },
+        {
+          "num": "4",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils ont regardé ___ film français hier soir. (Họ đã xem một bộ phim Pháp tối qua.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "le"
+            },
+            {
+              "key": "B",
+              "text": "un"
+            },
+            {
+              "key": "C",
+              "text": "des"
+            },
+            {
+              "key": "D",
+              "text": "une"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Film” không xác định, bổ sung “français” → un film."
+        },
+        {
+          "num": "5",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je prends ___ café tous les matins. (Tôi uống cà phê mỗi sáng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "du"
+            },
+            {
+              "key": "B",
+              "text": "un"
+            },
+            {
+              "key": "C",
+              "text": "le"
+            },
+            {
+              "key": "D",
+              "text": "des"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Café” chất không đếm được → du café."
+        },
+        {
+          "num": "6",
+          "type": "Chọn câu trả lời đúng",
+          "question": "J’achète ___ pomme et ___ banane. (Tôi mua một quả táo và một quả chuối.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "la / la"
+            },
+            {
+              "key": "B",
+              "text": "une / une"
+            },
+            {
+              "key": "C",
+              "text": "des / des"
+            },
+            {
+              "key": "D",
+              "text": "un / un"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Pomme” & “banane” giống cái, số ít chưa xác định → une."
+        },
+        {
+          "num": "7",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle porte ___ robe bleue aujourd’hui. (Hôm nay cô ấy mặc một chiếc váy xanh.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "une"
+            },
+            {
+              "key": "B",
+              "text": "un"
+            },
+            {
+              "key": "C",
+              "text": "des"
+            },
+            {
+              "key": "D",
+              "text": "la"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Robe” giống cái, chưa xác định → une robe."
+        },
+        {
+          "num": "8",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ soleil brille très fort aujourd’hui. (Mặt trời chiếu sáng rất mạnh hôm nay.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Un"
+            },
+            {
+              "key": "B",
+              "text": "Du"
+            },
+            {
+              "key": "C",
+              "text": "Des"
+            },
+            {
+              "key": "D",
+              "text": "Le"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“Soleil” chỉ một mặt trời duy nhất → le soleil."
+        },
+        {
+          "num": "9",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Marie a ___ idée intéressante. (Marie có một ý tưởng hay.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "l’"
+            },
+            {
+              "key": "B",
+              "text": "la"
+            },
+            {
+              "key": "C",
+              "text": "des"
+            },
+            {
+              "key": "D",
+              "text": "une"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“Idée” giống cái, chưa xác định → une idée."
+        },
+        {
+          "num": "10",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ voiture rouge est à mon frère. (Chiếc xe hơi màu đỏ là của anh trai tôi.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Le"
+            },
+            {
+              "key": "B",
+              "text": "Des"
+            },
+            {
+              "key": "C",
+              "text": "Une"
+            },
+            {
+              "key": "D",
+              "text": "La"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Nói đến xe cụ thể → la voiture rouge."
+        },
+        {
+          "num": "11",
+          "type": "Viết câu trả lời",
+          "question": "Viết câu trả lời : Tu travailles où?",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "12",
+          "type": "Viết câu trả lời",
+          "question": "Viết câu trả lời : Tu parles quelles langues?",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "13",
+          "type": "Viết câu trả lời",
+          "question": "Viết câu trả lời : Qu’est-ce que tu aimes faire pendant ton temps libre?",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "14",
+          "type": "Viết câu trả lời",
+          "question": "Viết câu trả lời : Quels sont tes loisirs?",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "15",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous regardons ______ film ce soir. (Tối nay chúng tôi xem một bộ phim.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "un"
+            },
+            {
+              "key": "B",
+              "text": "le"
+            },
+            {
+              "key": "C",
+              "text": "des"
+            },
+            {
+              "key": "D",
+              "text": "une"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Film” giống đực, chưa xác định → un film."
+        },
+        {
+          "num": "16",
+          "type": "Chọn câu trả lời đúng",
+          "question": "______ enfants jouent dans le jardin. (Những đứa trẻ đang chơi trong vườn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Les"
+            },
+            {
+              "key": "B",
+              "text": "Des"
+            },
+            {
+              "key": "C",
+              "text": "Un"
+            },
+            {
+              "key": "D",
+              "text": "Le"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Nhóm trẻ xác định → les enfants."
+        },
+        {
+          "num": "17",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je préfère ______ chocolat noir. (Tôi thích sô-cô-la đen.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "le"
+            },
+            {
+              "key": "B",
+              "text": "un"
+            },
+            {
+              "key": "C",
+              "text": "du"
+            },
+            {
+              "key": "D",
+              "text": "des"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Thói quen/sở thích nói chung → dùng le."
+        },
+        {
+          "num": "18",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il a acheté ______ voiture rouge. (Anh ấy đã mua một chiếc xe màu đỏ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "une"
+            },
+            {
+              "key": "B",
+              "text": "la"
+            },
+            {
+              "key": "C",
+              "text": "des"
+            },
+            {
+              "key": "D",
+              "text": "un"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Voiture” giống cái, chưa xác định → une voiture."
+        },
+        {
+          "num": "19",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu as ______ amis en France ? (Bạn có bạn bè ở Pháp không?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "des"
+            },
+            {
+              "key": "B",
+              "text": "les"
+            },
+            {
+              "key": "C",
+              "text": "un"
+            },
+            {
+              "key": "D",
+              "text": "le"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Amis” số nhiều, không xác định → des amis."
+        },
+        {
+          "num": "20",
+          "type": "Chọn câu trả lời đúng",
+          "question": "______ éléphant est un animal très intelligent. (Con voi là loài động vật rất thông minh.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Le"
+            },
+            {
+              "key": "B",
+              "text": "L'"
+            },
+            {
+              "key": "C",
+              "text": "La"
+            },
+            {
+              "key": "D",
+              "text": "Les"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Éléphant” bắt đầu bằng nguyên âm → dùng l’."
+        },
+        {
+          "num": "21",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle boit souvent ______ café le matin. (Cô ấy thường uống cà phê vào buổi sáng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "un"
+            },
+            {
+              "key": "B",
+              "text": "le"
+            },
+            {
+              "key": "C",
+              "text": "du"
+            },
+            {
+              "key": "D",
+              "text": "de"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Café” là chất, không đếm được → dùng du café."
+        },
+        {
+          "num": "22",
+          "type": "Chọn câu trả lời đúng",
+          "question": "J’achète ______ pommes au marché. (Tôi mua những quả táo ở chợ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "une"
+            },
+            {
+              "key": "B",
+              "text": "le"
+            },
+            {
+              "key": "C",
+              "text": "un"
+            },
+            {
+              "key": "D",
+              "text": "des"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“Pommes” số nhiều, không xác định → des pommes."
+        },
+        {
+          "num": "23",
+          "type": "Viết câu trả lời",
+          "question": "Viết câu trả lời : Comment tu t’appelles?",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "24",
+          "type": "Viết câu trả lời",
+          "question": "Viết câu trả lời : Tu as quel âge?",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "25",
+          "type": "Viết câu trả lời",
+          "question": "Viết câu trả lời : Quelle est ta nationalité?",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "26",
+          "type": "Viết câu trả lời",
+          "question": "Viết câu trả lời : Tu habites où?",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "27",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je me __________. Je m’appelle Julie et j’ai 25 ans. (Tôi tự giới thiệu. Tôi tên là Julie và tôi 25 tuổi.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "salue"
+            },
+            {
+              "key": "B",
+              "text": "présente"
+            },
+            {
+              "key": "C",
+              "text": "montre"
+            },
+            {
+              "key": "D",
+              "text": "parle"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Se présenter” = giới thiệu bản thân → je me présente."
+        },
+        {
+          "num": "28",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il habite ___ une grande maison à la campagne. (Anh ấy sống trong một ngôi nhà lớn ở nông thôn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "chez"
+            },
+            {
+              "key": "B",
+              "text": "dans"
+            },
+            {
+              "key": "C",
+              "text": "entre"
+            },
+            {
+              "key": "D",
+              "text": "sur"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Habiter dans une maison” → dans."
+        },
+        {
+          "num": "29",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle parle souvent ___ ses problèmes personnels. (Cô ấy thường nói về những vấn đề cá nhân của mình.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "de"
+            },
+            {
+              "key": "B",
+              "text": "à"
+            },
+            {
+              "key": "C",
+              "text": "avec"
+            },
+            {
+              "key": "D",
+              "text": "en"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Parler de qch” = nói về điều gì đó."
+        },
+        {
+          "num": "30",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ chambre est lumineuse et confortable. (Phòng ngủ sáng sủa và thoải mái.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Des"
+            },
+            {
+              "key": "B",
+              "text": "Une"
+            },
+            {
+              "key": "C",
+              "text": "La"
+            },
+            {
+              "key": "D",
+              "text": "Du"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Chỉ một phòng xác định → la chambre."
+        },
+        {
+          "num": "31",
+          "type": "Chọn câu trả lời đúng",
+          "question": "L’armoire est ___ le lit et la fenêtre. (Cái tủ ở giữa giường và cửa sổ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "sous"
+            },
+            {
+              "key": "B",
+              "text": "devant"
+            },
+            {
+              "key": "C",
+              "text": "à"
+            },
+            {
+              "key": "D",
+              "text": "entre"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“Entre … et …” = ở giữa … và …"
+        },
+        {
+          "num": "32",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle veut acheter ___ table pour la cuisine. (Cô ấy muốn mua một cái bàn cho nhà bếp.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "une"
+            },
+            {
+              "key": "B",
+              "text": "la"
+            },
+            {
+              "key": "C",
+              "text": "des"
+            },
+            {
+              "key": "D",
+              "text": "un"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Table” giống cái, chưa xác định → une table."
+        },
+        {
+          "num": "33",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Mon frère travaille dans ___ hôpital. (Anh trai tôi làm việc trong một bệnh viện.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "l’"
+            },
+            {
+              "key": "B",
+              "text": "le"
+            },
+            {
+              "key": "C",
+              "text": "un"
+            },
+            {
+              "key": "D",
+              "text": "du"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Hôpital” bắt đầu bằng nguyên âm → dùng l’."
+        },
+        {
+          "num": "34",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous avons visité ___ château ancien. (Chúng tôi đã tham quan một lâu đài cổ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "un"
+            },
+            {
+              "key": "B",
+              "text": "le"
+            },
+            {
+              "key": "C",
+              "text": "des"
+            },
+            {
+              "key": "D",
+              "text": "du"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Lâu đài chưa xác định → un château."
+        },
+        {
+          "num": "35",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je cherche ___ appartement près du métro. (Tôi tìm một căn hộ gần tàu điện ngầm.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "du"
+            },
+            {
+              "key": "B",
+              "text": "un"
+            },
+            {
+              "key": "C",
+              "text": "des"
+            },
+            {
+              "key": "D",
+              "text": "le"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Chưa xác định → un appartement."
+        },
+        {
+          "num": "36",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle adore ___ animaux. (Cô ấy rất thích động vật.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "les"
+            },
+            {
+              "key": "B",
+              "text": "un"
+            },
+            {
+              "key": "C",
+              "text": "le"
+            },
+            {
+              "key": "D",
+              "text": "des"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Nói chung về động vật → dùng les animaux."
+        },
+        {
+          "num": "37",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils prennent souvent ___ pain au petit déjeuner. (Họ thường ăn bánh mì vào bữa sáng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "un"
+            },
+            {
+              "key": "B",
+              "text": "du"
+            },
+            {
+              "key": "C",
+              "text": "le"
+            },
+            {
+              "key": "D",
+              "text": "des"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Pain” chất không đếm được → du pain."
+        },
+        {
+          "num": "38",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle va acheter ___ oranges et ___ bananes. (Cô ấy sẽ mua cam và chuối.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "un / une"
+            },
+            {
+              "key": "B",
+              "text": "les / les"
+            },
+            {
+              "key": "C",
+              "text": "des / des"
+            },
+            {
+              "key": "D",
+              "text": "du / du"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Trái cây số nhiều không xác định → des oranges et des bananes."
+        },
+        {
+          "num": "39",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il met ___ lait dans son café. (Anh ấy cho sữa vào cà phê.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "de"
+            },
+            {
+              "key": "B",
+              "text": "du"
+            },
+            {
+              "key": "C",
+              "text": "le"
+            },
+            {
+              "key": "D",
+              "text": "un"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Lait” chất không đếm được → du lait."
+        },
+        {
+          "num": "40",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "audios/A2_Bai_03_Cau_40_120340.mp3",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "41",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "A2.1_L04",
+      "num": 4,
+      "filename": "Bai_04_Miêu_tả_người_và_đồ_vật.md",
+      "title": "Bài 04 - Miêu tả người và đồ vật",
+      "questions": [
+        {
+          "num": "1",
+          "type": "Chọn câu trả lời đúng",
+          "question": "C’est une ___ voiture. (Đó là một chiếc xe đẹp.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "belle"
+            },
+            {
+              "key": "B",
+              "text": "rouge"
+            },
+            {
+              "key": "C",
+              "text": "rapide"
+            },
+            {
+              "key": "D",
+              "text": "élégant"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Voiture” giống cái → belle voiture."
+        },
+        {
+          "num": "2",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il a une maison ___. (Anh ấy có một ngôi nhà màu trắng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "joli"
+            },
+            {
+              "key": "B",
+              "text": "petit"
+            },
+            {
+              "key": "C",
+              "text": "blanche"
+            },
+            {
+              "key": "D",
+              "text": "grande"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Maison” giống cái → maison blanche."
+        },
+        {
+          "num": "3",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Marie porte une robe ___. (Marie mặc một chiếc váy đỏ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "belle"
+            },
+            {
+              "key": "B",
+              "text": "rouge"
+            },
+            {
+              "key": "C",
+              "text": "grande"
+            },
+            {
+              "key": "D",
+              "text": "élégant"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Màu sắc đặt sau danh từ → robe rouge."
+        },
+        {
+          "num": "4",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Paul est un garçon ___. (Paul là một cậu bé thông minh.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "intelligent"
+            },
+            {
+              "key": "B",
+              "text": "petite"
+            },
+            {
+              "key": "C",
+              "text": "belle"
+            },
+            {
+              "key": "D",
+              "text": "mince"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Garçon” giống đực → un garçon intelligent."
+        },
+        {
+          "num": "5",
+          "type": "Chọn câu trả lời đúng",
+          "question": "J’ai acheté un sac ___ et pratique. (Tôi đã mua một cái túi màu đen và tiện lợi.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "rouge"
+            },
+            {
+              "key": "B",
+              "text": "petit"
+            },
+            {
+              "key": "C",
+              "text": "noir"
+            },
+            {
+              "key": "D",
+              "text": "grande"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Màu sắc đặt sau danh từ → sac noir."
+        },
+        {
+          "num": "6",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Choisissez la bonne phrase. (Chọn câu đúng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "C’est une gentille fille petite."
+            },
+            {
+              "key": "B",
+              "text": "C’est une petite fille gentille."
+            },
+            {
+              "key": "C",
+              "text": "C’est une fille petite gentille."
+            },
+            {
+              "key": "D",
+              "text": "C’est gentille petite fille."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Tính từ “petite” (trước danh từ), “gentille” (sau danh từ)."
+        },
+        {
+          "num": "7",
+          "type": "Chọn câu trả lời đúng",
+          "question": "C’est une table ___. (Đó là một cái bàn tròn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "beau"
+            },
+            {
+              "key": "B",
+              "text": "ronde"
+            },
+            {
+              "key": "C",
+              "text": "noir"
+            },
+            {
+              "key": "D",
+              "text": "petit"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Table” giống cái → table ronde."
+        },
+        {
+          "num": "8",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il a un ___ appartement. (Anh ấy có một căn hộ lớn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "grand"
+            },
+            {
+              "key": "B",
+              "text": "bleu"
+            },
+            {
+              "key": "C",
+              "text": "propre"
+            },
+            {
+              "key": "D",
+              "text": "moderne"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Một số tính từ (grand, petit, beau…) đặt trước danh từ."
+        },
+        {
+          "num": "9",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ma sœur a une jupe ___. (Em gái tôi có một cái váy ngắn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ancienne"
+            },
+            {
+              "key": "B",
+              "text": "jolie"
+            },
+            {
+              "key": "C",
+              "text": "courte"
+            },
+            {
+              "key": "D",
+              "text": "verte"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Jupe” giống cái → jupe courte."
+        },
+        {
+          "num": "10",
+          "type": "Chọn câu trả lời đúng",
+          "question": "C’est un ___ homme. (Đó là một người đàn ông trẻ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "content"
+            },
+            {
+              "key": "B",
+              "text": "intelligent"
+            },
+            {
+              "key": "C",
+              "text": "fort"
+            },
+            {
+              "key": "D",
+              "text": "jeune"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Tính từ “jeune” thường đặt trước danh từ."
+        },
+        {
+          "num": "11",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle a un sac ___ en cuir. (Cô ấy có một chiếc túi da màu đen.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "beau"
+            },
+            {
+              "key": "B",
+              "text": "petit"
+            },
+            {
+              "key": "C",
+              "text": "noir"
+            },
+            {
+              "key": "D",
+              "text": "joli"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Màu sắc đặt sau danh từ → sac noir."
+        },
+        {
+          "num": "12",
+          "type": "Chọn câu trả lời đúng",
+          "question": "C’est un homme ___. (Đó là một người đàn ông tốt bụng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "gentil"
+            },
+            {
+              "key": "B",
+              "text": "gentille"
+            },
+            {
+              "key": "C",
+              "text": "gentils"
+            },
+            {
+              "key": "D",
+              "text": "gentilles"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Homme” giống đực số ít → gentil."
+        },
+        {
+          "num": "13",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quelle phrase est correcte ? (Câu nào đúng?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Une voiture rouge rapide"
+            },
+            {
+              "key": "B",
+              "text": "Une rouge voiture rapide"
+            },
+            {
+              "key": "C",
+              "text": "Une rapide rouge voiture"
+            },
+            {
+              "key": "D",
+              "text": "Une voiture rapide rouge"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Thứ tự tự nhiên: danh từ + màu + đặc tính → voiture rouge rapide."
+        },
+        {
+          "num": "14",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel adjectif est toujours placé avant le nom ? (Tính từ nào luôn đặt trước danh từ?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "vert"
+            },
+            {
+              "key": "B",
+              "text": "moderne"
+            },
+            {
+              "key": "C",
+              "text": "beau"
+            },
+            {
+              "key": "D",
+              "text": "intelligent"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Beau” nằm trong nhóm đặc biệt (BAGS) → đứng trước danh từ."
+        },
+        {
+          "num": "15",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel mot est incorrect ? (Từ nào sai?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "des hommes intelligents"
+            },
+            {
+              "key": "B",
+              "text": "une robe bleue"
+            },
+            {
+              "key": "C",
+              "text": "un fille gentil"
+            },
+            {
+              "key": "D",
+              "text": "des enfants sages"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Fille” giống cái → phải viết une fille gentille."
+        },
+        {
+          "num": "16",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle a un visage ___. (Cô ấy có một khuôn mặt tròn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "rond"
+            },
+            {
+              "key": "B",
+              "text": "ronds"
+            },
+            {
+              "key": "C",
+              "text": "ronde"
+            },
+            {
+              "key": "D",
+              "text": "rondes"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Visage” giống đực số ít → un visage rond."
+        },
+        {
+          "num": "17",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quelle phrase est correcte ? (Câu nào đúng?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Paul a un sac élégant noir."
+            },
+            {
+              "key": "B",
+              "text": "Paul a un noir sac élégant."
+            },
+            {
+              "key": "C",
+              "text": "Paul a un sac noir élégant."
+            },
+            {
+              "key": "D",
+              "text": "Paul a élégant un sac noir."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Thứ tự: danh từ + màu + đặc tính → sac noir élégant."
+        },
+        {
+          "num": "18",
+          "type": "Chọn câu trả lời đúng",
+          "question": "J’ai vu une fille ___. (Tôi đã thấy một cô gái xinh đẹp.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "jolie"
+            },
+            {
+              "key": "B",
+              "text": "jolie fille"
+            },
+            {
+              "key": "C",
+              "text": "fille jolie"
+            },
+            {
+              "key": "D",
+              "text": "jolies"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Sau động từ → chỉ dùng tính từ jolie."
+        },
+        {
+          "num": "19",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il habite dans un appartement ___. (Anh ấy sống trong một căn hộ hiện đại.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "moderne appartement"
+            },
+            {
+              "key": "B",
+              "text": "appartement moderne"
+            },
+            {
+              "key": "C",
+              "text": "modernes"
+            },
+            {
+              "key": "D",
+              "text": "moderne"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Sau danh từ là một tính từ → un appartement moderne."
+        },
+        {
+          "num": "20",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quelle phrase est correcte ? (Câu nào đúng?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Un petit chien noir."
+            },
+            {
+              "key": "B",
+              "text": "Un petit noir chien."
+            },
+            {
+              "key": "C",
+              "text": "Un noir petit chien."
+            },
+            {
+              "key": "D",
+              "text": "Un chien petit noir."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Thứ tự: nhỏ (petit) trước, màu (noir) sau → Un petit chien noir."
+        },
+        {
+          "num": "21",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel adjectif est au féminin pluriel ? (Tính từ nào ở dạng giống cái số nhiều?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "petites"
+            },
+            {
+              "key": "B",
+              "text": "petite"
+            },
+            {
+              "key": "C",
+              "text": "petits"
+            },
+            {
+              "key": "D",
+              "text": "petit"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Petites” = giống cái + số nhiều."
+        },
+        {
+          "num": "22",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel mot est incorrect ? (Từ nào sai?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "une maison blanche"
+            },
+            {
+              "key": "B",
+              "text": "une fille gentille"
+            },
+            {
+              "key": "C",
+              "text": "des robes rouges"
+            },
+            {
+              "key": "D",
+              "text": "un homme intelligents"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“Homme” số ít → phải là un homme intelligent."
+        },
+        {
+          "num": "23",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel mot est correct ? (Từ nào đúng?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "des petites voitures rouges"
+            },
+            {
+              "key": "B",
+              "text": "des petites rouge voitures"
+            },
+            {
+              "key": "C",
+              "text": "des voitures petites rouges"
+            },
+            {
+              "key": "D",
+              "text": "des rouges petites voitures"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Trật tự đúng: déterminant + adj taille (petites) + nom + couleur (rouges)."
+        },
+        {
+          "num": "24",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Complétez : Elle porte une robe ___ (Cô ấy mặc một chiếc váy màu xanh.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "bleu"
+            },
+            {
+              "key": "B",
+              "text": "bleue"
+            },
+            {
+              "key": "C",
+              "text": "bleues"
+            },
+            {
+              "key": "D",
+              "text": "bleus"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Robe” giống cái số ít → bleue."
+        },
+        {
+          "num": "25",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Remettez les mots en ordre : belle / une / fille / c’est (Sắp xếp đúng câu: Đó là một cô gái xinh đẹp.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "C’est une belle fille."
+            },
+            {
+              "key": "B",
+              "text": "Une fille belle c’est."
+            },
+            {
+              "key": "C",
+              "text": "Belle c’est une fille."
+            },
+            {
+              "key": "D",
+              "text": "C’est fille une belle."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Trật tự tự nhiên: C’est une belle fille."
+        },
+        {
+          "num": "26",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel mot est correct ? (Từ nào đúng?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Il a un bleu sac petit."
+            },
+            {
+              "key": "B",
+              "text": "Il a sac petit bleu."
+            },
+            {
+              "key": "C",
+              "text": "Il a un petit sac bleu."
+            },
+            {
+              "key": "D",
+              "text": "Il a un sac bleu petit."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Trật tự: adj “petit” trước, màu sau → un petit sac bleu."
+        },
+        {
+          "num": "27",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Complétez avec l’accord correct : un homme ___ (một người đàn ông tốt bụng)",
+          "options": [
+            {
+              "key": "A",
+              "text": "gentil"
+            },
+            {
+              "key": "B",
+              "text": "gentils"
+            },
+            {
+              "key": "C",
+              "text": "gentille"
+            },
+            {
+              "key": "D",
+              "text": "gentilles"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Homme” giống đực số ít → gentil."
+        },
+        {
+          "num": "28",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Complétez : C’est une ___ maison (Đó là một ngôi nhà lớn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "grands"
+            },
+            {
+              "key": "B",
+              "text": "grande"
+            },
+            {
+              "key": "C",
+              "text": "grand"
+            },
+            {
+              "key": "D",
+              "text": "grandes"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Maison” giống cái số ít → grande."
+        },
+        {
+          "num": "29",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel mot est correct ? (Từ nào đúng?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Un manteau noir épais."
+            },
+            {
+              "key": "B",
+              "text": "Un manteau épais noir."
+            },
+            {
+              "key": "C",
+              "text": "Un noir manteau épais."
+            },
+            {
+              "key": "D",
+              "text": "Un épais noir manteau."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Thứ tự: nom + couleur + qualité → manteau noir épais."
+        },
+        {
+          "num": "30",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel mot est incorrect ? (Từ nào sai?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "des chaises confortables"
+            },
+            {
+              "key": "B",
+              "text": "un livre intéressant"
+            },
+            {
+              "key": "C",
+              "text": "un sac bleu"
+            },
+            {
+              "key": "D",
+              "text": "une fille jolies"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“Fille” số ít → phải là une fille jolie."
+        },
+        {
+          "num": "31",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Complétez : des ___ chaussures (Những đôi giày đẹp.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "beau"
+            },
+            {
+              "key": "B",
+              "text": "beaux"
+            },
+            {
+              "key": "C",
+              "text": "belle"
+            },
+            {
+              "key": "D",
+              "text": "belles"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“Chaussures” giống cái số nhiều → belles."
+        },
+        {
+          "num": "32",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Complétez : C’est un film ___. (Đó là một bộ phim hay.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "intéressante"
+            },
+            {
+              "key": "B",
+              "text": "intéressantes"
+            },
+            {
+              "key": "C",
+              "text": "intéressants"
+            },
+            {
+              "key": "D",
+              "text": "intéressant"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“Film” giống đực số ít → intéressant."
+        },
+        {
+          "num": "33",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel mot est incorrect ? (Từ nào sai?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "un chat mignon"
+            },
+            {
+              "key": "B",
+              "text": "un homme heureux"
+            },
+            {
+              "key": "C",
+              "text": "des enfants curieux"
+            },
+            {
+              "key": "D",
+              "text": "une femme gentils"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“Femme” giống cái số ít → phải là gentille."
+        },
+        {
+          "num": "34",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Complétez : Il y a une ___ chaise dans la salle. (Có một cái ghế lớn trong phòng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "grand"
+            },
+            {
+              "key": "B",
+              "text": "grands"
+            },
+            {
+              "key": "C",
+              "text": "grande"
+            },
+            {
+              "key": "D",
+              "text": "grandes"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Chaise” giống cái số ít → grande."
+        },
+        {
+          "num": "35",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quelle phrase est correcte ? (Câu nào đúng?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Une belle maison moderne"
+            },
+            {
+              "key": "B",
+              "text": "Une maison moderne belle"
+            },
+            {
+              "key": "C",
+              "text": "Une maison belle moderne"
+            },
+            {
+              "key": "D",
+              "text": "Une moderne maison belle"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Trật tự: adj BAGS (belle) trước, adj khác (moderne) sau."
+        },
+        {
+          "num": "36",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel adjectif peut se placer avant le nom ? (Tính từ nào có thể đặt trước danh từ?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "intéressant"
+            },
+            {
+              "key": "B",
+              "text": "beau"
+            },
+            {
+              "key": "C",
+              "text": "sportif"
+            },
+            {
+              "key": "D",
+              "text": "vert"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Beau” thuộc nhóm BAGS → trước danh từ."
+        },
+        {
+          "num": "37",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Complétez : C’est un chien ___ (méchant). (Đó là một con chó hung dữ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "méchant"
+            },
+            {
+              "key": "B",
+              "text": "méchants"
+            },
+            {
+              "key": "C",
+              "text": "méchante"
+            },
+            {
+              "key": "D",
+              "text": "méchantes"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Chien” giống đực số ít → méchant."
+        },
+        {
+          "num": "38",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel mot est correct ? (Từ nào đúng?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "un homme drôle"
+            },
+            {
+              "key": "B",
+              "text": "un fille intelligent"
+            },
+            {
+              "key": "C",
+              "text": "une chats noir"
+            },
+            {
+              "key": "D",
+              "text": "des robes rouge"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Câu A đúng; các câu khác sai giống/số."
+        },
+        {
+          "num": "39",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Complétez : Ce sont des amis ___. (loyal) (Họ là những người bạn trung thành.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "loyaux"
+            },
+            {
+              "key": "B",
+              "text": "loyal"
+            },
+            {
+              "key": "C",
+              "text": "loyale"
+            },
+            {
+              "key": "D",
+              "text": "loyales"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Amis” giống đực số nhiều → loyaux."
+        },
+        {
+          "num": "40",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "audios/A2_Bai_04_Cau_40_120440.mp3",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "41",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "audios/A2_Bai_04_Cau_41_120441.mp3",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "42",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Dựa vào hình ảnh, viết 3–5 câu để miêu tả người có dùng các tính từ đã học.",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "images/A2_Bai_04_Cau_42_120442.png",
+          "correct_ans": "",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "A2.1_L05",
+      "num": 5,
+      "filename": "Bai_05_Thói_quen_hằng_ngày.md",
+      "title": "Bài 05 - Thói quen hằng ngày",
+      "questions": [
+        {
+          "num": "1",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ élève a son cahier. (Mỗi học sinh đều có vở của mình.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Quelque"
+            },
+            {
+              "key": "B",
+              "text": "Chaque"
+            },
+            {
+              "key": "C",
+              "text": "Certains"
+            },
+            {
+              "key": "D",
+              "text": "Tout"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Chaque” + nom singulier."
+        },
+        {
+          "num": "2",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Choisissez la bonne phrase : (Chọn câu đúng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Tous les garçons sont là."
+            },
+            {
+              "key": "B",
+              "text": "Tout les garçons sont là."
+            },
+            {
+              "key": "C",
+              "text": "Tous les garçon sont là."
+            },
+            {
+              "key": "D",
+              "text": "Tout garçon sont là."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Tous + les + nom pluriel” → Tous les garçons."
+        },
+        {
+          "num": "3",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il y a ___ problème avec ce plan. (Không có vấn đề nào với kế hoạch này.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "quelque"
+            },
+            {
+              "key": "B",
+              "text": "chaque"
+            },
+            {
+              "key": "C",
+              "text": "aucun"
+            },
+            {
+              "key": "D",
+              "text": "tous"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Aucun + nom singulier” → aucun problème."
+        },
+        {
+          "num": "4",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ les invités sont arrivés à l’heure. (Tất cả khách mời đều đến đúng giờ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Aucun"
+            },
+            {
+              "key": "B",
+              "text": "Tous"
+            },
+            {
+              "key": "C",
+              "text": "Chacun"
+            },
+            {
+              "key": "D",
+              "text": "Tout"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Les invités” = danh từ giống đực số nhiều → tous"
+        },
+        {
+          "num": "5",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ personne ne sait la réponse. (Không ai biết câu trả lời.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Certaines"
+            },
+            {
+              "key": "B",
+              "text": "Chaque"
+            },
+            {
+              "key": "C",
+              "text": "Toutes"
+            },
+            {
+              "key": "D",
+              "text": "Aucune"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“Aucune personne” = không một ai."
+        },
+        {
+          "num": "6",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ enfant a reçu un cadeau différent. (Mỗi đứa trẻ nhận một món quà khác nhau.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Tout"
+            },
+            {
+              "key": "B",
+              "text": "Chaque"
+            },
+            {
+              "key": "C",
+              "text": "Tous"
+            },
+            {
+              "key": "D",
+              "text": "Quelque"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Chaque + nom singulier”."
+        },
+        {
+          "num": "7",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Choisissez la phrase correcte : (Chọn câu đúng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Chaque étudiants ont réussi."
+            },
+            {
+              "key": "B",
+              "text": "Aucun les étudiants n'ont réussi."
+            },
+            {
+              "key": "C",
+              "text": "Tous les étudiants ont réussi."
+            },
+            {
+              "key": "D",
+              "text": "Tout les étudiants ont réussi."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Tous les + pluriel” → Tous les étudiants."
+        },
+        {
+          "num": "8",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ personne n’a compris la question. (Không ai hiểu câu hỏi.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Toutes"
+            },
+            {
+              "key": "B",
+              "text": "Aucune"
+            },
+            {
+              "key": "C",
+              "text": "Quelque"
+            },
+            {
+              "key": "D",
+              "text": "Chacune"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Aucune personne” = không một ai."
+        },
+        {
+          "num": "9",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il n’y a ___ solution facile. (Không có giải pháp dễ dàng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "quelques"
+            },
+            {
+              "key": "B",
+              "text": "chaque"
+            },
+            {
+              "key": "C",
+              "text": "aucune"
+            },
+            {
+              "key": "D",
+              "text": "toute"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Aucune solution” = không giải pháp nào."
+        },
+        {
+          "num": "10",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quelle phrase est correcte ? (Câu nào đúng?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Chaque fille a une robe."
+            },
+            {
+              "key": "B",
+              "text": "Tous fille est ici."
+            },
+            {
+              "key": "C",
+              "text": "Aucun filles ne sont là."
+            },
+            {
+              "key": "D",
+              "text": "Tout les filles sont parties."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Chaque + singulier” → Chaque fille."
+        },
+        {
+          "num": "11",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je bois ___ café chaque matin. (Tôi uống một ly cà phê mỗi sáng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "quelque"
+            },
+            {
+              "key": "B",
+              "text": "tout"
+            },
+            {
+              "key": "C",
+              "text": "aucun"
+            },
+            {
+              "key": "D",
+              "text": "un"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Ở đây là 1 đơn vị cà phê → un café."
+        },
+        {
+          "num": "12",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ jour, il prend le métro pour aller au travail. (Mỗi ngày anh ấy đều đi làm bằng tàu điện ngầm.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Tous"
+            },
+            {
+              "key": "B",
+              "text": "Chaque"
+            },
+            {
+              "key": "C",
+              "text": "Quelque"
+            },
+            {
+              "key": "D",
+              "text": "Aucun"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Chaque + nom singulier” → Chaque jour."
+        },
+        {
+          "num": "13",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Choisissez la bonne phrase : (Chọn câu đúng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Tous matin, je me lève à 7h."
+            },
+            {
+              "key": "B",
+              "text": "Chaque matins, je me lève à 7h."
+            },
+            {
+              "key": "C",
+              "text": "Chaque matin, je me lève à 7h."
+            },
+            {
+              "key": "D",
+              "text": "Tout matin, je me lève à 7h."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Chaque + singulier” → Chaque matin."
+        },
+        {
+          "num": "14",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle mange ___ fruit après le déjeuner. (Cô ấy ăn một quả trái cây sau bữa trưa.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "chaque"
+            },
+            {
+              "key": "B",
+              "text": "quelque"
+            },
+            {
+              "key": "C",
+              "text": "aucun"
+            },
+            {
+              "key": "D",
+              "text": "un"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "1 đơn vị quả → un fruit."
+        },
+        {
+          "num": "15",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ les soirs, je regarde un film ou je lis un livre. (Mỗi tối tôi xem phim hoặc đọc sách.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Quelque"
+            },
+            {
+              "key": "B",
+              "text": "Tout"
+            },
+            {
+              "key": "C",
+              "text": "Tous"
+            },
+            {
+              "key": "D",
+              "text": "Chaque"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Tous les soirs” = mỗi buổi tối."
+        },
+        {
+          "num": "16",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ personne ne peut entrer sans badge. (Không ai có thể vào nếu không có thẻ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Aucune"
+            },
+            {
+              "key": "B",
+              "text": "Quelque"
+            },
+            {
+              "key": "C",
+              "text": "Chaque"
+            },
+            {
+              "key": "D",
+              "text": "Toutes"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Aucune personne” = không một ai."
+        },
+        {
+          "num": "17",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je fais ___ les tâches ménagères le samedi. (Tôi làm tất cả việc nhà vào thứ bảy.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "toutes"
+            },
+            {
+              "key": "B",
+              "text": "tout"
+            },
+            {
+              "key": "C",
+              "text": "chaque"
+            },
+            {
+              "key": "D",
+              "text": "aucune"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Toutes les tâches” = tất cả công việc."
+        },
+        {
+          "num": "18",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ soir, elle lit un chapitre de roman. (Mỗi tối cô ấy đọc một chương tiểu thuyết.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Chaque"
+            },
+            {
+              "key": "B",
+              "text": "Tous"
+            },
+            {
+              "key": "C",
+              "text": "Aucun"
+            },
+            {
+              "key": "D",
+              "text": "Quelque"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Chaque + nom singulier” → Chaque soir."
+        },
+        {
+          "num": "19",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Choisissez la phrase correcte : (Chọn câu đúng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Chaque jours, je bois un jus d’orange."
+            },
+            {
+              "key": "B",
+              "text": "Tous jour, je fais du sport."
+            },
+            {
+              "key": "C",
+              "text": "Tous les jours, je vais au travail."
+            },
+            {
+              "key": "D",
+              "text": "Tout les jours, je lis le journal."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Tous les jours” = mỗi ngày."
+        },
+        {
+          "num": "20",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ne fait ___ activité physique. (Anh ấy không tập luyện thể chất.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "aucune"
+            },
+            {
+              "key": "B",
+              "text": "chaque"
+            },
+            {
+              "key": "C",
+              "text": "toute"
+            },
+            {
+              "key": "D",
+              "text": "quelques"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Aucune activité” = không hoạt động nào."
+        },
+        {
+          "num": "21",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ matin, je fais du yoga. (Mỗi buổi sáng tôi tập yoga.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Chaque"
+            },
+            {
+              "key": "B",
+              "text": "Tous"
+            },
+            {
+              "key": "C",
+              "text": "Tout"
+            },
+            {
+              "key": "D",
+              "text": "Certaines"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Chaque + nom singulier” → chaque matin."
+        },
+        {
+          "num": "22",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ les étudiants ont un devoir à rendre. (Tất cả sinh viên đều có bài tập phải nộp.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Chacun"
+            },
+            {
+              "key": "B",
+              "text": "Tous"
+            },
+            {
+              "key": "C",
+              "text": "Chaque"
+            },
+            {
+              "key": "D",
+              "text": "Certains"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Tous les étudiants” = tất cả sinh viên."
+        },
+        {
+          "num": "23",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ les semaines, nous faisons les courses. (Mỗi tuần chúng tôi đi mua sắm.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Toutes"
+            },
+            {
+              "key": "B",
+              "text": "Chaque"
+            },
+            {
+              "key": "C",
+              "text": "Chacun"
+            },
+            {
+              "key": "D",
+              "text": "Certains"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Toutes les semaines” = mỗi tuần."
+        },
+        {
+          "num": "24",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ personne a un rôle important dans l’équipe. (Mỗi người đều có một vai trò quan trọng trong đội.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Chaque"
+            },
+            {
+              "key": "B",
+              "text": "Tous"
+            },
+            {
+              "key": "C",
+              "text": "Chacun"
+            },
+            {
+              "key": "D",
+              "text": "Toutes"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Chaque personne” = mỗi người."
+        },
+        {
+          "num": "25",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ d’entre vous doit répondre à cette question. (Mỗi người trong các bạn phải trả lời câu hỏi này.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Chacun"
+            },
+            {
+              "key": "B",
+              "text": "Tous"
+            },
+            {
+              "key": "C",
+              "text": "Tout"
+            },
+            {
+              "key": "D",
+              "text": "Chaque"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Chacun d’entre vous” = mỗi người trong số các bạn."
+        },
+        {
+          "num": "26",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle a acheté ___ robe bleue hier. (Cô ấy đã mua một chiếc váy xanh hôm qua.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "la"
+            },
+            {
+              "key": "B",
+              "text": "une"
+            },
+            {
+              "key": "C",
+              "text": "des"
+            },
+            {
+              "key": "D",
+              "text": "les"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Robe” giống cái, chưa xác định → une robe."
+        },
+        {
+          "num": "27",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu t’appelles comment ? (Bạn tên là gì?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Je suis 25 ans"
+            },
+            {
+              "key": "B",
+              "text": "J’habite à Paris"
+            },
+            {
+              "key": "C",
+              "text": "Je m’appelle Sophie"
+            },
+            {
+              "key": "D",
+              "text": "Je parle français"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Câu trả lời chuẩn cho “Tu t’appelles comment ?” → Je m’appelle…."
+        },
+        {
+          "num": "28",
+          "type": "Chọn câu trả lời đúng",
+          "question": "C’est ___ ordinateur portable. (Đây là máy tính xách tay của tôi.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "mon"
+            },
+            {
+              "key": "B",
+              "text": "ma"
+            },
+            {
+              "key": "C",
+              "text": "mes"
+            },
+            {
+              "key": "D",
+              "text": "le"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Ordinateur” giống đực số ít → mon ordinateur."
+        },
+        {
+          "num": "29",
+          "type": "Chọn câu trả lời đúng",
+          "question": "La lampe est ___ la table. (Cái đèn ở trên bàn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "sur"
+            },
+            {
+              "key": "B",
+              "text": "sous"
+            },
+            {
+              "key": "C",
+              "text": "à"
+            },
+            {
+              "key": "D",
+              "text": "dans"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Sur la table” = trên bàn."
+        },
+        {
+          "num": "30",
+          "type": "Chọn câu trả lời đúng",
+          "question": "J’habite ___ appartement dans le centre-ville. (Tôi sống trong một căn hộ ở trung tâm thành phố.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "un"
+            },
+            {
+              "key": "B",
+              "text": "le"
+            },
+            {
+              "key": "C",
+              "text": "du"
+            },
+            {
+              "key": "D",
+              "text": "ce"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Un appartement” = một căn hộ (không xác định)."
+        },
+        {
+          "num": "31",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ma chambre est ___ et lumineuse. (Phòng của tôi nhỏ và sáng sủa.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "petit"
+            },
+            {
+              "key": "B",
+              "text": "petite"
+            },
+            {
+              "key": "C",
+              "text": "petits"
+            },
+            {
+              "key": "D",
+              "text": "petites"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Chambre” giống cái số ít → petite chambre."
+        },
+        {
+          "num": "32",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quelle est la bonne position de l’adjectif ? (Vị trí đúng của tính từ?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "une maison belle"
+            },
+            {
+              "key": "B",
+              "text": "une belle maison"
+            },
+            {
+              "key": "C",
+              "text": "belle une maison"
+            },
+            {
+              "key": "D",
+              "text": "maison belle une"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Tính từ “belle” đặt trước danh từ."
+        },
+        {
+          "num": "33",
+          "type": "Viết câu trả lời",
+          "question": "Viết câu trả lời : À quelle heure tu te lèves ?",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "34",
+          "type": "Viết câu trả lời",
+          "question": "Viết câu trả lời : Qu’est-ce que tu fais le matin ?",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "35",
+          "type": "Viết câu trả lời",
+          "question": "Viết câu trả lời : À quelle heure tu vas à l’école ou au travail ?",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "36",
+          "type": "Viết câu trả lời",
+          "question": "Viết câu trả lời : Que fais-tu pendant la journée ?",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "37",
+          "type": "Viết câu trả lời",
+          "question": "Viết câu trả lời : Qu’est-ce que tu fais après l’école / le travail ?",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "38",
+          "type": "Viết câu trả lời",
+          "question": "Viết câu trả lời : Tu te couches à quelle heure ?",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "39",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "audios/A2_Bai_05_Cau_39_120539.mp3",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "40",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "A2.1_L06",
+      "num": 6,
+      "filename": "Bai_06_Kiểm_tra_giữa_kỳ_1.1.md",
+      "title": "Bài 06 - Kiểm tra giữa kỳ 1.1",
+      "questions": [
+        {
+          "num": "1",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils cherchent ___ maison avec un jardin. (Họ tìm một ngôi nhà có vườn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "une"
+            },
+            {
+              "key": "B",
+              "text": "la"
+            },
+            {
+              "key": "C",
+              "text": "des"
+            },
+            {
+              "key": "D",
+              "text": "du"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Maison” giống cái, chưa xác định → une maison."
+        },
+        {
+          "num": "2",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous avons loué ___ appartement au centre-ville. (Chúng tôi thuê một căn hộ ở trung tâm thành phố.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "un"
+            },
+            {
+              "key": "B",
+              "text": "des"
+            },
+            {
+              "key": "C",
+              "text": "le"
+            },
+            {
+              "key": "D",
+              "text": "du"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Appartement” giống đực, chưa xác định → un appartement."
+        },
+        {
+          "num": "3",
+          "type": "Chọn câu trả lời đúng",
+          "question": "J’adore ___ fleurs au printemps. (Tôi thích hoa vào mùa xuân.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "des"
+            },
+            {
+              "key": "B",
+              "text": "une"
+            },
+            {
+              "key": "C",
+              "text": "la"
+            },
+            {
+              "key": "D",
+              "text": "les"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Thói quen, sở thích chung → les fleurs."
+        },
+        {
+          "num": "4",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il habite ___ Paris. (Anh ấy sống ở Paris.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "dans"
+            },
+            {
+              "key": "B",
+              "text": "à"
+            },
+            {
+              "key": "C",
+              "text": "en"
+            },
+            {
+              "key": "D",
+              "text": "chez"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Thành phố → dùng à Paris."
+        },
+        {
+          "num": "5",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quelle est la phrase correcte ? (Câu nào đúng?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Elle est allée au marché."
+            },
+            {
+              "key": "B",
+              "text": "Elle a allait au marché."
+            },
+            {
+              "key": "C",
+              "text": "Elle aller au marché."
+            },
+            {
+              "key": "D",
+              "text": "Elle a allée au marché."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Passé composé với “aller” → trợ động từ être."
+        },
+        {
+          "num": "6",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Repérez l’erreur : Le chat est dans la table. (Xác định từ sai.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Le"
+            },
+            {
+              "key": "B",
+              "text": "la"
+            },
+            {
+              "key": "C",
+              "text": "dans"
+            },
+            {
+              "key": "D",
+              "text": "chat"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Nói đúng: sur la table, không dùng “dans”."
+        },
+        {
+          "num": "7",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Que veut dire “chaud” ? (“Chaud” nghĩa là gì?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Nhanh"
+            },
+            {
+              "key": "B",
+              "text": "Chậm"
+            },
+            {
+              "key": "C",
+              "text": "Nóng"
+            },
+            {
+              "key": "D",
+              "text": "Lạnh"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Chaud” = nóng."
+        },
+        {
+          "num": "8",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Combien d’animaux a Marie ? (Marie có bao nhiêu con vật?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "3"
+            },
+            {
+              "key": "B",
+              "text": "1"
+            },
+            {
+              "key": "C",
+              "text": "2"
+            },
+            {
+              "key": "D",
+              "text": "4"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "images/A2_Bai_06_Cau_08_120608.png",
+          "correct_ans": "A",
+          "explanation": "Theo ngữ cảnh câu hỏi → đáp án: 3."
+        },
+        {
+          "num": "9",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je suis fatigué, ___ je vais me coucher. (Tôi mệt, nên tôi sẽ đi ngủ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "mais"
+            },
+            {
+              "key": "B",
+              "text": "ou"
+            },
+            {
+              "key": "C",
+              "text": "donc"
+            },
+            {
+              "key": "D",
+              "text": "car"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Biểu thị kết quả → donc."
+        },
+        {
+          "num": "10",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Reconstituez : / va / Elle / marché / au (Sắp xếp lại câu)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Elle va au marché."
+            },
+            {
+              "key": "B",
+              "text": "Va au marché elle."
+            },
+            {
+              "key": "C",
+              "text": "Elle marché va au."
+            },
+            {
+              "key": "D",
+              "text": "Elle au va marché."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Trật tự đúng: Elle va au marché."
+        },
+        {
+          "num": "11",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous allons ___ cinéma ce soir. (Tối nay chúng tôi đi xem phim.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "au"
+            },
+            {
+              "key": "B",
+              "text": "aux"
+            },
+            {
+              "key": "C",
+              "text": "en"
+            },
+            {
+              "key": "D",
+              "text": "à la"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Cinéma” giống đực, dùng au cinéma."
+        },
+        {
+          "num": "12",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel mot est mal utilisé ? (Từ nào dùng sai trong: Elle bois de l'eau.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "bois"
+            },
+            {
+              "key": "B",
+              "text": "Elle"
+            },
+            {
+              "key": "C",
+              "text": "eau"
+            },
+            {
+              "key": "D",
+              "text": "une"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Động từ chia sai → phải là elle boit."
+        },
+        {
+          "num": "13",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je ___ un croissant chaque matin. (Tôi ăn một chiếc bánh sừng bò mỗi sáng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "mange"
+            },
+            {
+              "key": "B",
+              "text": "manges"
+            },
+            {
+              "key": "C",
+              "text": "mangent"
+            },
+            {
+              "key": "D",
+              "text": "manger"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Je” → chia động từ mange."
+        },
+        {
+          "num": "14",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quelle phrase est correcte ? (Câu nào đúng?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Ils sont partis hier soir."
+            },
+            {
+              "key": "B",
+              "text": "Elle est fait une promenade à pied."
+            },
+            {
+              "key": "C",
+              "text": "Tu es mange un sandwich."
+            },
+            {
+              "key": "D",
+              "text": "Nous avons allé au musée."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Passé composé đúng: Ils sont partis."
+        },
+        {
+          "num": "15",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Choisissez l’opposé de 'grand'. (Chọn từ trái nghĩa với “grand”.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "gros"
+            },
+            {
+              "key": "B",
+              "text": "petit"
+            },
+            {
+              "key": "C",
+              "text": "court"
+            },
+            {
+              "key": "D",
+              "text": "mince"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Grand” ↔ “petit”."
+        },
+        {
+          "num": "16",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils ___ une grande maison à la campagne. (Họ có một ngôi nhà lớn ở nông thôn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "a"
+            },
+            {
+              "key": "B",
+              "text": "avez"
+            },
+            {
+              "key": "C",
+              "text": "avons"
+            },
+            {
+              "key": "D",
+              "text": "ont"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“Ils” → chia động từ ont."
+        },
+        {
+          "num": "17",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ est mon frère. (Anh ấy là anh trai tôi.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Il"
+            },
+            {
+              "key": "B",
+              "text": "Elle"
+            },
+            {
+              "key": "C",
+              "text": "Ils"
+            },
+            {
+              "key": "D",
+              "text": "Tu"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Đại từ chủ ngữ đúng: Il."
+        },
+        {
+          "num": "18",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ___ au marché le dimanche. (Chúng tôi đi chợ vào chủ nhật.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "va"
+            },
+            {
+              "key": "B",
+              "text": "allez"
+            },
+            {
+              "key": "C",
+              "text": "allons"
+            },
+            {
+              "key": "D",
+              "text": "vais"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Nous” → chia động từ allons."
+        },
+        {
+          "num": "19",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel est le féminin de 'acteur' ? (Dạng giống cái của “acteur” là gì?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "acteurette"
+            },
+            {
+              "key": "B",
+              "text": "acteuse"
+            },
+            {
+              "key": "C",
+              "text": "actrice"
+            },
+            {
+              "key": "D",
+              "text": "acteure"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Acteur” → actrice."
+        },
+        {
+          "num": "20",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel jour vient après jeudi ? (Ngày nào sau thứ năm?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "vendredi"
+            },
+            {
+              "key": "B",
+              "text": "samedi"
+            },
+            {
+              "key": "C",
+              "text": "dimanche"
+            },
+            {
+              "key": "D",
+              "text": "mercredi"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Thứ tự ngày trong tuần → sau jeudi là vendredi."
+        },
+        {
+          "num": "21",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quelle est la bonne question pour demander le prix ? (Câu nào để hỏi giá tiền?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Combien ça coûte ?"
+            },
+            {
+              "key": "B",
+              "text": "Où est le prix ?"
+            },
+            {
+              "key": "C",
+              "text": "Pourquoi cher ?"
+            },
+            {
+              "key": "D",
+              "text": "Comment payer ?"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Câu hỏi: Combien ça coûte ?"
+        },
+        {
+          "num": "22",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel mot est mal écrit ? (Từ nào viết sai chính tả?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "appartement"
+            },
+            {
+              "key": "B",
+              "text": "restorant"
+            },
+            {
+              "key": "C",
+              "text": "hôpital"
+            },
+            {
+              "key": "D",
+              "text": "bibliothèque"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Đúng là restaurant, không phải restorant."
+        },
+        {
+          "num": "23",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Choisissez le synonyme de 'content'. (Đồng nghĩa với “content” là gì?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "triste"
+            },
+            {
+              "key": "B",
+              "text": "heureux"
+            },
+            {
+              "key": "C",
+              "text": "fatigué"
+            },
+            {
+              "key": "D",
+              "text": "fâché"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Content” = “heureux”."
+        },
+        {
+          "num": "24",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel est le contraire de 'facile' ? (Trái nghĩa của “facile” là gì?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "rapide"
+            },
+            {
+              "key": "B",
+              "text": "lent"
+            },
+            {
+              "key": "C",
+              "text": "difficile"
+            },
+            {
+              "key": "D",
+              "text": "joli"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Facile” trái nghĩa với “difficile”."
+        },
+        {
+          "num": "25",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quelle phrase est correcte ? (Câu nào đúng?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Je suis allée au cinéma hier soir."
+            },
+            {
+              "key": "B",
+              "text": "Je allé suis au cinéma hier soir."
+            },
+            {
+              "key": "C",
+              "text": "J’ai allée au cinéma hier soir."
+            },
+            {
+              "key": "D",
+              "text": "Je suis allée au cinéma hier. soir"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Passé composé với aller → dùng être."
+        },
+        {
+          "num": "26",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Dans quel pays parle-t-on français ? (Ở nước nào người ta nói tiếng Pháp?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Espagne"
+            },
+            {
+              "key": "B",
+              "text": "Maroc"
+            },
+            {
+              "key": "C",
+              "text": "Brésil"
+            },
+            {
+              "key": "D",
+              "text": "Italie"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Maroc là quốc gia nói tiếng Pháp."
+        },
+        {
+          "num": "27",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel mot est féminin ? (Từ nào giống cái?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "maison"
+            },
+            {
+              "key": "B",
+              "text": "livre"
+            },
+            {
+              "key": "C",
+              "text": "stylo"
+            },
+            {
+              "key": "D",
+              "text": "bureau"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Maison” là giống cái."
+        },
+        {
+          "num": "28",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il fait ___ aujourd’hui. (Hôm nay trời …)",
+          "options": [
+            {
+              "key": "A",
+              "text": "sale"
+            },
+            {
+              "key": "B",
+              "text": "lent"
+            },
+            {
+              "key": "C",
+              "text": "vide"
+            },
+            {
+              "key": "D",
+              "text": "froid"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Biểu thị thời tiết: Il fait froid."
+        },
+        {
+          "num": "29",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ___ en train de manger. (Chúng tôi đang ăn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "suis"
+            },
+            {
+              "key": "B",
+              "text": "est"
+            },
+            {
+              "key": "C",
+              "text": "êtes"
+            },
+            {
+              "key": "D",
+              "text": "sommes"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“Nous” → chia động từ sommes."
+        },
+        {
+          "num": "30",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quelle phrase est correcte ? (Câu nào đúng?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Je m'appelle Marc."
+            },
+            {
+              "key": "B",
+              "text": "Je s’appelle Marc."
+            },
+            {
+              "key": "C",
+              "text": "Je m’appelles Marc."
+            },
+            {
+              "key": "D",
+              "text": "Je me appelle Marc."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Đúng: Je m’appelle Marc."
+        },
+        {
+          "num": "31",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel mot ne va pas avec les autres ? (Từ nào không cùng nhóm?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "feutre"
+            },
+            {
+              "key": "B",
+              "text": "stylo"
+            },
+            {
+              "key": "C",
+              "text": "chaise"
+            },
+            {
+              "key": "D",
+              "text": "crayon"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "3 từ kia là bút viết, “chaise” là ghế → khác nhóm."
+        },
+        {
+          "num": "32",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Est-ce que tu ___ français ? (Bạn có nói tiếng Pháp không?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "parles"
+            },
+            {
+              "key": "B",
+              "text": "parlez"
+            },
+            {
+              "key": "C",
+              "text": "parler"
+            },
+            {
+              "key": "D",
+              "text": "parle"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Tu” → chia động từ parles."
+        },
+        {
+          "num": "33",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quelle est la bonne réponse – Merci ! (Đáp lại “Merci !”)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Bonjour !"
+            },
+            {
+              "key": "B",
+              "text": "Au revoir !"
+            },
+            {
+              "key": "C",
+              "text": "De rien !"
+            },
+            {
+              "key": "D",
+              "text": "Pardon !"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "De rien ! - Không có chi."
+        },
+        {
+          "num": "34",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quelle heure est-il ? – Il est ___ heures. (Bây giờ là mấy giờ?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "huit"
+            },
+            {
+              "key": "B",
+              "text": "neuf"
+            },
+            {
+              "key": "C",
+              "text": "deux"
+            },
+            {
+              "key": "D",
+              "text": "trois"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "images/A2_Bai_06_Cau_34_120634.png",
+          "correct_ans": "D",
+          "explanation": "3h: Il est trois heures."
+        },
+        {
+          "num": "35",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quelle phrase est correcte ? (Câu nào đúng?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Nous allons visiter Paris demain."
+            },
+            {
+              "key": "B",
+              "text": "Nous visitons aller Paris demain."
+            },
+            {
+              "key": "C",
+              "text": "Nous aller visiter Paris demain."
+            },
+            {
+              "key": "D",
+              "text": "Nous allons à visiter Paris demain."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Cấu trúc futur proche: aller + infinitif."
+        },
+        {
+          "num": "36",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel mot est mal orthographié ? (Từ nào viết sai chính tả?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "maison"
+            },
+            {
+              "key": "B",
+              "text": "voiture"
+            },
+            {
+              "key": "C",
+              "text": "fleur"
+            },
+            {
+              "key": "D",
+              "text": "garaje"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Đúng là garage, không phải garaje."
+        },
+        {
+          "num": "37",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel mot ne va pas avec les autres ? (Từ nào không cùng nhóm?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "banane"
+            },
+            {
+              "key": "B",
+              "text": "tomate"
+            },
+            {
+              "key": "C",
+              "text": "stylo"
+            },
+            {
+              "key": "D",
+              "text": "pomme"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Stylo” là đồ dùng học tập, không phải trái cây."
+        },
+        {
+          "num": "38",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quelle phrase est correcte ? (Câu nào đúng?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Ils ont pris le bus pour aller à l’école."
+            },
+            {
+              "key": "B",
+              "text": "Ils sont pris le bus pour aller à l’école."
+            },
+            {
+              "key": "C",
+              "text": "Ils ont pris le bus aller à l’école."
+            },
+            {
+              "key": "D",
+              "text": "Ils ont pris bus pour aller à l’école."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Passé composé với prendre → dùng avoir."
+        },
+        {
+          "num": "39",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "audios/A2_Bai_06_Cau_39_120639.mp3",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "40",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "A2.1_L07",
+      "num": 7,
+      "filename": "Bai_07_Kỷ_niệm_cá_nhân.md",
+      "title": "Bài 07 - Kỷ niệm cá nhân",
+      "questions": [
+        {
+          "num": "1",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je vais au travail ___. (Tôi đi làm mỗi ngày.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "hier"
+            },
+            {
+              "key": "B",
+              "text": "demain"
+            },
+            {
+              "key": "C",
+              "text": "tous les jours"
+            },
+            {
+              "key": "D",
+              "text": "souvent"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Thói quen → tous les jours."
+        },
+        {
+          "num": "2",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle est née ___ 1998. (Cô ấy sinh năm 1998.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "en"
+            },
+            {
+              "key": "B",
+              "text": "à"
+            },
+            {
+              "key": "C",
+              "text": "au"
+            },
+            {
+              "key": "D",
+              "text": "dans"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Năm → en + année."
+        },
+        {
+          "num": "3",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___, on est allé à la plage avec mes cousins. (Mùa hè năm ngoái, chúng tôi đi biển.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Maintenant"
+            },
+            {
+              "key": "B",
+              "text": "Bientôt"
+            },
+            {
+              "key": "C",
+              "text": "Souvent"
+            },
+            {
+              "key": "D",
+              "text": "L’été dernier"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Quá khứ cụ thể → l’été dernier."
+        },
+        {
+          "num": "4",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il prend le bus ___ matin. (Anh ấy đi xe buýt mỗi sáng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "dernier"
+            },
+            {
+              "key": "B",
+              "text": "chaque"
+            },
+            {
+              "key": "C",
+              "text": "parfois"
+            },
+            {
+              "key": "D",
+              "text": "ce"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Thói quen → chaque matin."
+        },
+        {
+          "num": "5",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous avons visité Paris ___ avril. (Chúng tôi thăm Paris vào tháng 4.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "en"
+            },
+            {
+              "key": "B",
+              "text": "au"
+            },
+            {
+              "key": "C",
+              "text": "le"
+            },
+            {
+              "key": "D",
+              "text": "à"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Tháng → en avril."
+        },
+        {
+          "num": "6",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils ont déménagé ___ deux semaines. (Họ đã chuyển nhà cách đây 2 tuần.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "depuis"
+            },
+            {
+              "key": "B",
+              "text": "pour"
+            },
+            {
+              "key": "C",
+              "text": "il y a"
+            },
+            {
+              "key": "D",
+              "text": "dans"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Quá khứ đã hoàn thành → il y a."
+        },
+        {
+          "num": "7",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je vais partir en vacances ___. (Tôi sắp đi nghỉ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "bientôt"
+            },
+            {
+              "key": "B",
+              "text": "hier"
+            },
+            {
+              "key": "C",
+              "text": "déjà"
+            },
+            {
+              "key": "D",
+              "text": "pendant"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Tương lai gần → bientôt."
+        },
+        {
+          "num": "8",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___, je faisais souvent du vélo avec mes amis. (Khi còn nhỏ, tôi thường đi xe đạp với bạn bè.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "L’année prochaine"
+            },
+            {
+              "key": "B",
+              "text": "Quand j’étais petit"
+            },
+            {
+              "key": "C",
+              "text": "Ce soir"
+            },
+            {
+              "key": "D",
+              "text": "Pendant deux jours"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Thói quen trong quá khứ → Quand j’étais petit."
+        },
+        {
+          "num": "9",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu as fini tes devoirs ___ ? (Bạn làm xong bài tập tối qua chưa?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "hier soir"
+            },
+            {
+              "key": "B",
+              "text": "ce soir"
+            },
+            {
+              "key": "C",
+              "text": "demain matin"
+            },
+            {
+              "key": "D",
+              "text": "pendant deux jours"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Quá khứ cụ thể → hier soir."
+        },
+        {
+          "num": "10",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je vais au marché ___ samedi matin. (Tôi đi chợ vào sáng thứ bảy hằng tuần.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "tous"
+            },
+            {
+              "key": "B",
+              "text": "le"
+            },
+            {
+              "key": "C",
+              "text": "en"
+            },
+            {
+              "key": "D",
+              "text": "au"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Thói quen hàng tuần → le samedi matin."
+        },
+        {
+          "num": "11",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je vis en France ___ 5 ans. (Tôi sống ở Pháp đã 5 năm.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "il y a"
+            },
+            {
+              "key": "B",
+              "text": "pendant"
+            },
+            {
+              "key": "C",
+              "text": "depuis"
+            },
+            {
+              "key": "D",
+              "text": "en"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Hành động bắt đầu và còn tiếp tục → depuis."
+        },
+        {
+          "num": "12",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle a habité à Lyon ___ deux ans. (Cô ấy từng sống ở Lyon trong 2 năm.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "depuis"
+            },
+            {
+              "key": "B",
+              "text": "pendant"
+            },
+            {
+              "key": "C",
+              "text": "pour"
+            },
+            {
+              "key": "D",
+              "text": "il y a"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Khoảng thời gian trọn vẹn → pendant deux ans."
+        },
+        {
+          "num": "13",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous sommes arrivés à Paris ___ une semaine. (Chúng tôi đến Paris cách đây 1 tuần.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "depuis"
+            },
+            {
+              "key": "B",
+              "text": "pendant"
+            },
+            {
+              "key": "C",
+              "text": "il y a"
+            },
+            {
+              "key": "D",
+              "text": "dans"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Mốc thời gian trong quá khứ → il y a."
+        },
+        {
+          "num": "14",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il travaille ici ___ janvier. (Anh ấy làm việc ở đây từ tháng Giêng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "il y a"
+            },
+            {
+              "key": "B",
+              "text": "en"
+            },
+            {
+              "key": "C",
+              "text": "pendant"
+            },
+            {
+              "key": "D",
+              "text": "depuis"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Mốc bắt đầu + còn tiếp tục → depuis janvier."
+        },
+        {
+          "num": "15",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il a étudié ___ trois mois, puis il a arrêté. (Anh ấy đã học trong 3 tháng rồi dừng lại.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "depuis"
+            },
+            {
+              "key": "B",
+              "text": "pendant"
+            },
+            {
+              "key": "C",
+              "text": "pour"
+            },
+            {
+              "key": "D",
+              "text": "en"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Khoảng thời gian đã hoàn thành → pendant trois mois."
+        },
+        {
+          "num": "16",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu es arrivé en France ___ ? (Bạn đến Pháp cách đây bao lâu?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "depuis"
+            },
+            {
+              "key": "B",
+              "text": "pendant"
+            },
+            {
+              "key": "C",
+              "text": "il y a combien de temps"
+            },
+            {
+              "key": "D",
+              "text": "pour"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Hỏi mốc quá khứ → il y a combien de temps ?."
+        },
+        {
+          "num": "17",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ combien de temps tu as voyagé en Italie ? (Bạn đã đi Ý trong bao lâu?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Pendant"
+            },
+            {
+              "key": "B",
+              "text": "Depuis"
+            },
+            {
+              "key": "C",
+              "text": "Il y a"
+            },
+            {
+              "key": "D",
+              "text": "Depuis quand"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Hỏi về thời lượng → pendant combien de temps."
+        },
+        {
+          "num": "18",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle apprend le français ___ 2022. (Cô ấy học tiếng Pháp từ 2022 đến nay.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "en"
+            },
+            {
+              "key": "B",
+              "text": "pendant"
+            },
+            {
+              "key": "C",
+              "text": "depuis"
+            },
+            {
+              "key": "D",
+              "text": "il y a"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Hành động tiếp diễn → depuis 2022."
+        },
+        {
+          "num": "19",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il va rester à Toulouse ___ une semaine. (Anh ấy sẽ ở Toulouse trong một tuần.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "depuis"
+            },
+            {
+              "key": "B",
+              "text": "pendant"
+            },
+            {
+              "key": "C",
+              "text": "il y a"
+            },
+            {
+              "key": "D",
+              "text": "jusqu’à"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Thời lượng dự kiến → pendant une semaine."
+        },
+        {
+          "num": "20",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ hiver, il fait très froid dans cette région. (Vào mùa đông, trời rất lạnh ở vùng này.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Depuis"
+            },
+            {
+              "key": "B",
+              "text": "En"
+            },
+            {
+              "key": "C",
+              "text": "Il y a"
+            },
+            {
+              "key": "D",
+              "text": "Pendant"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Mùa trong năm → en hiver."
+        },
+        {
+          "num": "21",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous avons étudié ___ deux heures hier. (Hôm qua chúng tôi đã học trong 2 giờ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "depuis"
+            },
+            {
+              "key": "B",
+              "text": "pendant"
+            },
+            {
+              "key": "C",
+              "text": "il y a"
+            },
+            {
+              "key": "D",
+              "text": "pour"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Hành động hoàn tất trong quá khứ → pendant."
+        },
+        {
+          "num": "22",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il habite ici ___ 2019. (Anh ấy sống ở đây từ 2019 đến nay.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "depuis"
+            },
+            {
+              "key": "B",
+              "text": "pendant"
+            },
+            {
+              "key": "C",
+              "text": "en"
+            },
+            {
+              "key": "D",
+              "text": "il y a"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Hành động bắt đầu và tiếp diễn → depuis 2019."
+        },
+        {
+          "num": "23",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je suis parti en vacances ___ une semaine. (Tôi đã đi nghỉ trong 1 tuần.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "depuis"
+            },
+            {
+              "key": "B",
+              "text": "pour"
+            },
+            {
+              "key": "C",
+              "text": "pendant"
+            },
+            {
+              "key": "D",
+              "text": "il y a"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Khoảng thời gian trọn vẹn → pendant une semaine."
+        },
+        {
+          "num": "24",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ combien de temps as-tu attendu ? (Bạn đã chờ trong bao lâu?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Pendant"
+            },
+            {
+              "key": "B",
+              "text": "Depuis"
+            },
+            {
+              "key": "C",
+              "text": "En"
+            },
+            {
+              "key": "D",
+              "text": "Il y a"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Hỏi về thời lượng → Pendant combien de temps."
+        },
+        {
+          "num": "25",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle a commencé son stage ___ trois jours. (Cô ấy bắt đầu thực tập cách đây 3 ngày.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "pendant"
+            },
+            {
+              "key": "B",
+              "text": "en"
+            },
+            {
+              "key": "C",
+              "text": "depuis"
+            },
+            {
+              "key": "D",
+              "text": "il y a"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Quá khứ mốc → il y a trois jours."
+        },
+        {
+          "num": "26",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ l’été, il travaille dans un café. (Trong mùa hè, anh ấy làm việc ở quán cà phê.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Pendant"
+            },
+            {
+              "key": "B",
+              "text": "En"
+            },
+            {
+              "key": "C",
+              "text": "Depuis"
+            },
+            {
+              "key": "D",
+              "text": "Il y a"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Toàn bộ mùa hè → pendant l’été."
+        },
+        {
+          "num": "27",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il est resté à Marseille ___ un an. (Anh ấy đã ở Marseille trong 1 năm.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "depuis"
+            },
+            {
+              "key": "B",
+              "text": "pendant"
+            },
+            {
+              "key": "C",
+              "text": "il y a"
+            },
+            {
+              "key": "D",
+              "text": "en"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Thời lượng trọn vẹn → pendant un an."
+        },
+        {
+          "num": "28",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ combien de temps tu fais du sport ? (Bạn tập thể thao được bao lâu rồi?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Depuis"
+            },
+            {
+              "key": "B",
+              "text": "Pendant"
+            },
+            {
+              "key": "C",
+              "text": "Il y a"
+            },
+            {
+              "key": "D",
+              "text": "En"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Hành động tiếp diễn → Depuis combien de temps."
+        },
+        {
+          "num": "29",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle a déménagé ___ deux mois. (Cô ấy đã chuyển nhà cách đây 2 tháng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "depuis"
+            },
+            {
+              "key": "B",
+              "text": "en"
+            },
+            {
+              "key": "C",
+              "text": "il y a"
+            },
+            {
+              "key": "D",
+              "text": "pendant"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Hành động đã xảy ra → il y a deux mois."
+        },
+        {
+          "num": "30",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle a appris le français ___ six mois. (Cô ấy đã học tiếng Pháp trong 6 tháng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "depuis"
+            },
+            {
+              "key": "B",
+              "text": "pendant"
+            },
+            {
+              "key": "C",
+              "text": "en"
+            },
+            {
+              "key": "D",
+              "text": "il y a"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Thời lượng trọn vẹn → pendant six mois."
+        },
+        {
+          "num": "31",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je suis arrivé à la gare ___ dix minutes. (Tôi đã đến ga cách đây 10 phút.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "depuis"
+            },
+            {
+              "key": "B",
+              "text": "pendant"
+            },
+            {
+              "key": "C",
+              "text": "il y a"
+            },
+            {
+              "key": "D",
+              "text": "en"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Mốc quá khứ → il y a dix minutes."
+        },
+        {
+          "num": "32",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je mange ___ pomme tous les matins. (Mỗi sáng tôi ăn một quả táo.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "un"
+            },
+            {
+              "key": "B",
+              "text": "une"
+            },
+            {
+              "key": "C",
+              "text": "le"
+            },
+            {
+              "key": "D",
+              "text": "la"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Pomme” giống cái số ít → une pomme."
+        },
+        {
+          "num": "33",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le livre est ___ la table. (Cuốn sách ở trên bàn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "dans"
+            },
+            {
+              "key": "B",
+              "text": "entre"
+            },
+            {
+              "key": "C",
+              "text": "à"
+            },
+            {
+              "key": "D",
+              "text": "sur"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Mẫu đúng: sur la table."
+        },
+        {
+          "num": "34",
+          "type": "Chọn câu trả lời đúng",
+          "question": "C’est un homme ___. (Đó là một người đàn ông thông minh.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "intelligent"
+            },
+            {
+              "key": "B",
+              "text": "intelligents"
+            },
+            {
+              "key": "C",
+              "text": "intelligente"
+            },
+            {
+              "key": "D",
+              "text": "belle"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Homme” giống đực số ít → intelligent."
+        },
+        {
+          "num": "35",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle met ___ robe rouge pour la fête. (Cô ấy mặc một chiếc váy đỏ cho bữa tiệc.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "une"
+            },
+            {
+              "key": "B",
+              "text": "la"
+            },
+            {
+              "key": "C",
+              "text": "des"
+            },
+            {
+              "key": "D",
+              "text": "un"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Váy chưa xác định → une robe."
+        },
+        {
+          "num": "36",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il y a ___ livres intéressants dans cette bibliothèque. (Có nhiều sách hay trong thư viện này.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "chaque"
+            },
+            {
+              "key": "B",
+              "text": "aucun"
+            },
+            {
+              "key": "C",
+              "text": "plusieurs"
+            },
+            {
+              "key": "D",
+              "text": "tout"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Diễn tả số lượng không xác định → plusieurs."
+        },
+        {
+          "num": "37",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ enfants jouent dans le parc. (Những đứa trẻ đang chơi trong công viên.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Un"
+            },
+            {
+              "key": "B",
+              "text": "Une"
+            },
+            {
+              "key": "C",
+              "text": "Les"
+            },
+            {
+              "key": "D",
+              "text": "Des"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Enfants” đã xác định → les enfants."
+        },
+        {
+          "num": "38",
+          "type": "Chọn câu trả lời đúng",
+          "question": "La boulangerie est ___ l’école. (Tiệm bánh đối diện trường học.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "sous"
+            },
+            {
+              "key": "B",
+              "text": "sur"
+            },
+            {
+              "key": "C",
+              "text": "en face de"
+            },
+            {
+              "key": "D",
+              "text": "dans"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Vị trí → en face de l’école."
+        },
+        {
+          "num": "39",
+          "type": "Chọn câu trả lời đúng",
+          "question": "J’ai un ___ à te raconter. (Tôi có một vấn đề nhỏ muốn kể với bạn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "problème petit"
+            },
+            {
+              "key": "B",
+              "text": "petit problème"
+            },
+            {
+              "key": "C",
+              "text": "problème petit"
+            },
+            {
+              "key": "D",
+              "text": "petits problème"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Tính từ “petit” đặt trước danh từ."
+        },
+        {
+          "num": "40",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "audios/A2_Bai_07_Cau_40_120740.mp3",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "41",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "A2.1_L08",
+      "num": 8,
+      "filename": "Bai_08_Sở_thích.md",
+      "title": "Bài 08 - Sở thích",
+      "questions": [
+        {
+          "num": "1",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle travaille ici ___ 2015. (Cô ấy làm việc ở đây từ 2015.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "depuis"
+            },
+            {
+              "key": "B",
+              "text": "en"
+            },
+            {
+              "key": "C",
+              "text": "pendant"
+            },
+            {
+              "key": "D",
+              "text": "il y a"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Hành động bắt đầu và còn tiếp diễn → depuis 2015."
+        },
+        {
+          "num": "2",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je ___ mange ___ viande. (Tôi không ăn thịt.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ne… pas"
+            },
+            {
+              "key": "B",
+              "text": "ne… pas de"
+            },
+            {
+              "key": "C",
+              "text": "n’… rien"
+            },
+            {
+              "key": "D",
+              "text": "ne… jamais"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Với danh từ không xác định sau phủ định → pas de viande."
+        },
+        {
+          "num": "3",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ___ aime ___ café. (Anh ấy không thích cà phê.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "n’… pas le"
+            },
+            {
+              "key": "B",
+              "text": "ne… plus"
+            },
+            {
+              "key": "C",
+              "text": "ne… jamais"
+            },
+            {
+              "key": "D",
+              "text": "ne… rien"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Phủ định sở thích → n’aime pas le café."
+        },
+        {
+          "num": "4",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ___ regardons ___ télé le soir. (Chúng tôi không xem tivi buổi tối.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ne… pas la"
+            },
+            {
+              "key": "B",
+              "text": "ne… jamais"
+            },
+            {
+              "key": "C",
+              "text": "ne… rien"
+            },
+            {
+              "key": "D",
+              "text": "n’… pas de"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Phủ định với danh từ xác định → pas la télé."
+        },
+        {
+          "num": "5",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle ___ mange ___ légumes. (Cô ấy không bao giờ ăn rau.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ne… pas des"
+            },
+            {
+              "key": "B",
+              "text": "ne… plus les"
+            },
+            {
+              "key": "C",
+              "text": "ne… rien"
+            },
+            {
+              "key": "D",
+              "text": "ne… jamais de"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Với phủ định “jamais” + danh từ không xác định → jamais de légumes."
+        },
+        {
+          "num": "6",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu ___ fais ___ sport ? (Bạn không tập thể thao à?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "n’… jamais de"
+            },
+            {
+              "key": "B",
+              "text": "ne… pas de"
+            },
+            {
+              "key": "C",
+              "text": "ne… plus"
+            },
+            {
+              "key": "D",
+              "text": "ne… pas les"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Phủ định với hoạt động chung → pas de sport."
+        },
+        {
+          "num": "7",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Câu nào đúng để nói “Tôi không thích cà phê” ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "J’aime pas café."
+            },
+            {
+              "key": "B",
+              "text": "Je n’aime pas le café."
+            },
+            {
+              "key": "C",
+              "text": "Je aime pas le café."
+            },
+            {
+              "key": "D",
+              "text": "J’aime café pas."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Cấu trúc phủ định chuẩn: Je n’aime pas le café."
+        },
+        {
+          "num": "8",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Câu nào đúng để nói “Tôi thích âm nhạc” ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Je la musique aime."
+            },
+            {
+              "key": "B",
+              "text": "Je aime musique."
+            },
+            {
+              "key": "C",
+              "text": "J’aime la musique."
+            },
+            {
+              "key": "D",
+              "text": "J’aime musique la."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Câu khẳng định chuẩn: J’aime la musique."
+        },
+        {
+          "num": "9",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il aime le chocolat. (phủ định)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Il n’aime pas le chocolat."
+            },
+            {
+              "key": "B",
+              "text": "Il ne aime pas chocolat."
+            },
+            {
+              "key": "C",
+              "text": "Il pas aime chocolat."
+            },
+            {
+              "key": "D",
+              "text": "Il aime pas le chocolat."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Cấu trúc đúng: Il n’aime pas le chocolat."
+        },
+        {
+          "num": "10",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous regardons la télé. (phủ định)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Nous regardons pas la télé."
+            },
+            {
+              "key": "B",
+              "text": "Nous ne regardons pas la télé."
+            },
+            {
+              "key": "C",
+              "text": "Nous ne pas regardons la télé."
+            },
+            {
+              "key": "D",
+              "text": "Nous pas regardons."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Dùng ne… pas quanh động từ."
+        },
+        {
+          "num": "11",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils vont au cinéma. (phủ định)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Ils ne vont pas cinéma."
+            },
+            {
+              "key": "B",
+              "text": "Ils vont pas cinéma."
+            },
+            {
+              "key": "C",
+              "text": "Ils ne vont pas au cinéma."
+            },
+            {
+              "key": "D",
+              "text": "Ils vont ne pas au cinéma."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Dùng ne… pas quanh động từ + giữ giới từ → au cinéma."
+        },
+        {
+          "num": "12",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Câu nào diễn tả “Tôi không thích môn toán” ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Je n’aime les maths."
+            },
+            {
+              "key": "B",
+              "text": "J’aime pas maths."
+            },
+            {
+              "key": "C",
+              "text": "Je n’aime pas les maths."
+            },
+            {
+              "key": "D",
+              "text": "Je ne maths pas."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Câu chuẩn: Je n’aime pas les maths."
+        },
+        {
+          "num": "13",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Câu nào diễn tả “Tôi thích nghe nhạc” ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "J’écoute la musique."
+            },
+            {
+              "key": "B",
+              "text": "J’aime écouter de la musique."
+            },
+            {
+              "key": "C",
+              "text": "J’aime la danse."
+            },
+            {
+              "key": "D",
+              "text": "Je déteste écouter."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Câu chuẩn: J’aime + infinitif → “écouter de la musique”."
+        },
+        {
+          "num": "14",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je ___ le poisson. (Tôi không thích cá.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "aime pas"
+            },
+            {
+              "key": "B",
+              "text": "n’aime pas"
+            },
+            {
+              "key": "C",
+              "text": "n’aime"
+            },
+            {
+              "key": "D",
+              "text": "aime"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Phủ định chuẩn: Je n’aime pas le poisson."
+        },
+        {
+          "num": "15",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu aimes les épinards ? → Non, ___ (Bạn có thích rau chân vịt không? – Không, tôi không thích.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "j’aime pas"
+            },
+            {
+              "key": "B",
+              "text": "je n’aime pas les"
+            },
+            {
+              "key": "C",
+              "text": "je déteste pas"
+            },
+            {
+              "key": "D",
+              "text": "je n’aime pas ça"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Đáp ngắn gọn tự nhiên → Je n’aime pas ça."
+        },
+        {
+          "num": "16",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ___ jamais de sport. (Anh ấy không bao giờ chơi thể thao.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ne fait"
+            },
+            {
+              "key": "B",
+              "text": "n’aime"
+            },
+            {
+              "key": "C",
+              "text": "fait pas"
+            },
+            {
+              "key": "D",
+              "text": "ne fait pas"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Cấu trúc đúng: Il ne fait jamais de sport."
+        },
+        {
+          "num": "17",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ___ la télé le soir. (phủ định)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ne regarde pas"
+            },
+            {
+              "key": "B",
+              "text": "regardons pas"
+            },
+            {
+              "key": "C",
+              "text": "ne regardons pas"
+            },
+            {
+              "key": "D",
+              "text": "nous pas regardons"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Chủ ngữ “nous” → ne regardons pas."
+        },
+        {
+          "num": "18",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle aime le chocolat ? (Cô ấy có thích sô-cô-la không?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, elle adore ça."
+            },
+            {
+              "key": "B",
+              "text": "Non, elle déteste pas."
+            },
+            {
+              "key": "C",
+              "text": "Oui, elle pas aime."
+            },
+            {
+              "key": "D",
+              "text": "Non, elle pas ça."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Câu trả lời khẳng định chuẩn: Oui, elle adore ça."
+        },
+        {
+          "num": "19",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je ___ jamais en retard. (Tôi không bao giờ đến muộn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ne suis"
+            },
+            {
+              "key": "B",
+              "text": "suis jamais"
+            },
+            {
+              "key": "C",
+              "text": "ne vais pas"
+            },
+            {
+              "key": "D",
+              "text": "ne suis pas"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Cấu trúc đúng: Je ne suis jamais en retard."
+        },
+        {
+          "num": "20",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous ___ le café ? – Non, je déteste ça. (Bạn có thích cà phê không? – Không, tôi ghét nó.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "bois"
+            },
+            {
+              "key": "B",
+              "text": "aimez"
+            },
+            {
+              "key": "C",
+              "text": "mangez"
+            },
+            {
+              "key": "D",
+              "text": "buvez"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Câu hỏi: Vous aimez le café ? → trả lời phủ định: “Non, je déteste ça”."
+        },
+        {
+          "num": "21",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils ___ la musique classique. (Họ không thích nhạc cổ điển.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "n’aiment"
+            },
+            {
+              "key": "B",
+              "text": "n’aime pas"
+            },
+            {
+              "key": "C",
+              "text": "aiment pas"
+            },
+            {
+              "key": "D",
+              "text": "n’aiment pas"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Phủ định chuẩn với “ils” → n’aiment pas."
+        },
+        {
+          "num": "22",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu ___ les films d’horreur ? – Oui, j’adore ! (Bạn có thích phim kinh dị không? – Có, mình rất thích!)",
+          "options": [
+            {
+              "key": "A",
+              "text": "aimes"
+            },
+            {
+              "key": "B",
+              "text": "aimes pas"
+            },
+            {
+              "key": "C",
+              "text": "aime"
+            },
+            {
+              "key": "D",
+              "text": "as"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Chủ ngữ “tu” → tu aimes…."
+        },
+        {
+          "num": "23",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je ___ pas le fromage. (Tôi không thích phô mai.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "aime"
+            },
+            {
+              "key": "B",
+              "text": "déteste"
+            },
+            {
+              "key": "C",
+              "text": "n’aime"
+            },
+            {
+              "key": "D",
+              "text": "mange"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Phủ định chuẩn: Je n’aime pas…."
+        },
+        {
+          "num": "24",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle ___ jamais de chocolat. (Cô ấy không bao giờ ăn sôcôla.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ne mangé"
+            },
+            {
+              "key": "B",
+              "text": "ne manges"
+            },
+            {
+              "key": "C",
+              "text": "ne mange"
+            },
+            {
+              "key": "D",
+              "text": "ne mange pas"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Phủ định với “jamais”: Elle ne mange jamais…."
+        },
+        {
+          "num": "25",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je n’aime pas ___ pommes. (Tôi không thích táo.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "les"
+            },
+            {
+              "key": "B",
+              "text": "des"
+            },
+            {
+              "key": "C",
+              "text": "une"
+            },
+            {
+              "key": "D",
+              "text": "de la"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Với danh từ xác định → les pommes."
+        },
+        {
+          "num": "26",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ___ les devoirs le week-end. (Chúng tôi không làm bài tập cuối tuần.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "faisons pas"
+            },
+            {
+              "key": "B",
+              "text": "fait pas"
+            },
+            {
+              "key": "C",
+              "text": "ne faisons pas"
+            },
+            {
+              "key": "D",
+              "text": "ne faire"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Phủ định chuẩn: Nous ne faisons pas…."
+        },
+        {
+          "num": "27",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu ___ les légumes ? – Non, je ___ pas ça. (Bạn có thích rau không? – Không, mình không thích.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "aime / n’aime"
+            },
+            {
+              "key": "B",
+              "text": "aimes / n’aime"
+            },
+            {
+              "key": "C",
+              "text": "aimes / n’aime pas"
+            },
+            {
+              "key": "D",
+              "text": "aimes / n’aimes"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Đúng: Tu aimes… ? – Non, je n’aime pas ça."
+        },
+        {
+          "num": "28",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils n’adorent ___ le sport. (Họ không hề thích thể thao.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "pas"
+            },
+            {
+              "key": "B",
+              "text": "plus"
+            },
+            {
+              "key": "C",
+              "text": "rien"
+            },
+            {
+              "key": "D",
+              "text": "jamais"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Phủ định chuẩn: n’adorent pas."
+        },
+        {
+          "num": "29",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous aimez la pluie ? – ___ (Bạn có thích mưa không? – Không, tôi không thích.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, je déteste."
+            },
+            {
+              "key": "B",
+              "text": "Non, j’aime pas beaucoup."
+            },
+            {
+              "key": "C",
+              "text": "Oui, je n’aime pas."
+            },
+            {
+              "key": "D",
+              "text": "Non, je n’aime pas ça."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Câu trả lời tự nhiên: Non, je n’aime pas ça."
+        },
+        {
+          "num": "30",
+          "type": "Chọn câu trả lời đúng",
+          "question": "J’aime ___ les chiens. (Tôi rất thích chó.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "pas"
+            },
+            {
+              "key": "B",
+              "text": "rien"
+            },
+            {
+              "key": "C",
+              "text": "beaucoup"
+            },
+            {
+              "key": "D",
+              "text": "jamais"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Trạng từ cường độ → J’aime beaucoup…."
+        },
+        {
+          "num": "31",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle déteste ___ légumes. (Cô ấy ghét rau.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "de"
+            },
+            {
+              "key": "B",
+              "text": "des"
+            },
+            {
+              "key": "C",
+              "text": "les"
+            },
+            {
+              "key": "D",
+              "text": "du"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Danh từ chung → les légumes."
+        },
+        {
+          "num": "32",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ___ pas le café, mais il ___ le thé. (Anh ấy không thích cà phê, nhưng thích trà.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "n’aime / aime"
+            },
+            {
+              "key": "B",
+              "text": "aime / n’aime"
+            },
+            {
+              "key": "C",
+              "text": "ne boit / boit"
+            },
+            {
+              "key": "D",
+              "text": "boit pas / préfère"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Đúng: Il n’aime pas le café, mais il aime le thé."
+        },
+        {
+          "num": "33",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu ___ jamais de jus le matin ? (Bạn không bao giờ uống nước hoa quả vào buổi sáng à?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ne boit"
+            },
+            {
+              "key": "B",
+              "text": "ne bois"
+            },
+            {
+              "key": "C",
+              "text": "bois"
+            },
+            {
+              "key": "D",
+              "text": "ne buvais"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Tu” → ne bois jamais."
+        },
+        {
+          "num": "34",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle a une voiture ___. (Cô ấy có một chiếc xe hơi màu đỏ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "rouge"
+            },
+            {
+              "key": "B",
+              "text": "rouges"
+            },
+            {
+              "key": "C",
+              "text": "rougees"
+            },
+            {
+              "key": "D",
+              "text": "roux"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Voiture” giống cái số ít → rouge."
+        },
+        {
+          "num": "35",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Mon père est très ___. (Bố tôi rất hiền lành.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "gentille"
+            },
+            {
+              "key": "B",
+              "text": "gentil"
+            },
+            {
+              "key": "C",
+              "text": "gentils"
+            },
+            {
+              "key": "D",
+              "text": "gentilles"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Père” giống đực số ít → gentil."
+        },
+        {
+          "num": "36",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Paul et Léa sont ___. (Paul và Léa thông minh.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "intelligent"
+            },
+            {
+              "key": "B",
+              "text": "intelligente"
+            },
+            {
+              "key": "C",
+              "text": "intelligents"
+            },
+            {
+              "key": "D",
+              "text": "intelligentes"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Số nhiều hỗn hợp → intelligents."
+        },
+        {
+          "num": "37",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Marie est une élève très ___. (Marie là học sinh rất chăm chỉ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "sérieux"
+            },
+            {
+              "key": "B",
+              "text": "sérieuxse"
+            },
+            {
+              "key": "C",
+              "text": "serieuse"
+            },
+            {
+              "key": "D",
+              "text": "sérieuse"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“Élève” giống cái số ít → sérieuse."
+        },
+        {
+          "num": "38",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous avons des amis ___. (Chúng tôi có những người bạn dễ mến.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "sympathique"
+            },
+            {
+              "key": "B",
+              "text": "sympathiques"
+            },
+            {
+              "key": "C",
+              "text": "sympathiquez"
+            },
+            {
+              "key": "D",
+              "text": "sympathics"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Amis” số nhiều → sympathiques."
+        },
+        {
+          "num": "39",
+          "type": "Viết câu trả lời",
+          "question": "Viết 2 câu nói bạn thích gì (J’aime___ / J’adore___)",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "40",
+          "type": "Viết câu trả lời",
+          "question": "Viết 2 câu nói bạn không thích gì (Je n’aime pas___ / Je déteste___)",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "41",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "audios/A2_Bai_08_Cau_41_120841.mp3",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "42",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "audios/A2_Bai_08_Cau_42_120842.mp3",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "A2.1_L09",
+      "num": 9,
+      "filename": "Bai_09_Ôn_tập_2.md",
+      "title": "Bài 09 - Ôn tập 2",
+      "questions": [
+        {
+          "num": "1",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je travaille ___ 8h à 17h. (Tôi làm việc từ 8h đến 17h.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "de"
+            },
+            {
+              "key": "B",
+              "text": "pendant"
+            },
+            {
+              "key": "C",
+              "text": "depuis"
+            },
+            {
+              "key": "D",
+              "text": "en"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Khoảng thời gian trong ngày: de… à…."
+        },
+        {
+          "num": "2",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il habite à Paris ___ 2015. (Anh ấy sống ở Paris từ năm 2015.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "pendant"
+            },
+            {
+              "key": "B",
+              "text": "depuis"
+            },
+            {
+              "key": "C",
+              "text": "en"
+            },
+            {
+              "key": "D",
+              "text": "il y a"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Hành động bắt đầu và còn tiếp diễn: depuis 2015."
+        },
+        {
+          "num": "3",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle est partie ___ deux jours. (Cô ấy đã đi cách đây hai ngày.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "en"
+            },
+            {
+              "key": "B",
+              "text": "pendant"
+            },
+            {
+              "key": "C",
+              "text": "il y a"
+            },
+            {
+              "key": "D",
+              "text": "depuis"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Quá khứ mốc: il y a deux jours."
+        },
+        {
+          "num": "4",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous allons en vacances ___ juillet. (Chúng tôi đi nghỉ vào tháng Bảy.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "au"
+            },
+            {
+              "key": "B",
+              "text": "à"
+            },
+            {
+              "key": "C",
+              "text": "depuis"
+            },
+            {
+              "key": "D",
+              "text": "en"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Tháng: dùng en juillet."
+        },
+        {
+          "num": "5",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand j’étais petit, je ___ du piano. (Khi tôi còn nhỏ, tôi thường chơi piano.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ai joué"
+            },
+            {
+              "key": "B",
+              "text": "jouais"
+            },
+            {
+              "key": "C",
+              "text": "joue"
+            },
+            {
+              "key": "D",
+              "text": "joué"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Quá khứ thói quen → imparfait."
+        },
+        {
+          "num": "6",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je ___ pas le poisson. (Tôi không thích cá.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "n’aime"
+            },
+            {
+              "key": "B",
+              "text": "aime pas"
+            },
+            {
+              "key": "C",
+              "text": "j’aime pas"
+            },
+            {
+              "key": "D",
+              "text": "ne pas"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Phủ định chuẩn: Je n’aime pas…."
+        },
+        {
+          "num": "7",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu aimes les épinards ? – Non, je ___ ça. (Bạn thích rau chân vịt không? – Không, tôi không thích.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "n’aime"
+            },
+            {
+              "key": "B",
+              "text": "n’aime pas"
+            },
+            {
+              "key": "C",
+              "text": "aime pas"
+            },
+            {
+              "key": "D",
+              "text": "déteste pas"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Trả lời tự nhiên: Je n’aime pas ça."
+        },
+        {
+          "num": "8",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ne ___ jamais de café. (Anh ấy không bao giờ uống cà phê.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "bois"
+            },
+            {
+              "key": "B",
+              "text": "boit"
+            },
+            {
+              "key": "C",
+              "text": "buvez"
+            },
+            {
+              "key": "D",
+              "text": "boire"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Chủ ngữ “il” → il boit."
+        },
+        {
+          "num": "9",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle adore le football. → (phủ định)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Ils pas aiment le football."
+            },
+            {
+              "key": "B",
+              "text": "Ils n’aiment pas le football."
+            },
+            {
+              "key": "C",
+              "text": "Ils aiment pas football."
+            },
+            {
+              "key": "D",
+              "text": "Ils aiment ne pas le football."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Phủ định chuẩn: Ils n’aiment pas…."
+        },
+        {
+          "num": "10",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ___ les devoirs. (Chúng tôi không thích bài tập.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "n’aimons pas"
+            },
+            {
+              "key": "B",
+              "text": "ne aime pas"
+            },
+            {
+              "key": "C",
+              "text": "aimons pas"
+            },
+            {
+              "key": "D",
+              "text": "n’aiment pas"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Với “nous”: nous n’aimons pas…."
+        },
+        {
+          "num": "11",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je vais au travail ___ bus. (Tôi đi làm bằng xe buýt.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "en"
+            },
+            {
+              "key": "B",
+              "text": "à"
+            },
+            {
+              "key": "C",
+              "text": "par"
+            },
+            {
+              "key": "D",
+              "text": "de"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Phương tiện chung → en bus."
+        },
+        {
+          "num": "12",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu es en vacances ___ combien de temps ? (Bạn đi nghỉ trong bao lâu?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "pour"
+            },
+            {
+              "key": "B",
+              "text": "depuis"
+            },
+            {
+              "key": "C",
+              "text": "pendant"
+            },
+            {
+              "key": "D",
+              "text": "il y a"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Hỏi thời lượng → pendant combien de temps."
+        },
+        {
+          "num": "13",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous habitons ici ___ deux ans. (Chúng tôi sống ở đây đã 2 năm.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "il y a"
+            },
+            {
+              "key": "B",
+              "text": "pour"
+            },
+            {
+              "key": "C",
+              "text": "depuis"
+            },
+            {
+              "key": "D",
+              "text": "en"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Hành động còn tiếp tục → depuis deux ans."
+        },
+        {
+          "num": "14",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle est née ___ 1998. (Cô ấy sinh năm 1998.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "en"
+            },
+            {
+              "key": "B",
+              "text": "depuis"
+            },
+            {
+              "key": "C",
+              "text": "pour"
+            },
+            {
+              "key": "D",
+              "text": "pendant"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Năm: dùng en 1998."
+        },
+        {
+          "num": "15",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ j’étais jeune, j’aimais les dessins animés. (Khi tôi còn nhỏ, tôi thích xem phim hoạt hình.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Pendant"
+            },
+            {
+              "key": "B",
+              "text": "Quand"
+            },
+            {
+              "key": "C",
+              "text": "Si"
+            },
+            {
+              "key": "D",
+              "text": "Parce que"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Thời điểm trong quá khứ → Quand j’étais jeune."
+        },
+        {
+          "num": "16",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je n’aime pas ___ fruits exotiques. (Tôi không thích trái cây nhiệt đới.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "des"
+            },
+            {
+              "key": "B",
+              "text": "de"
+            },
+            {
+              "key": "C",
+              "text": "les"
+            },
+            {
+              "key": "D",
+              "text": "du"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Danh từ xác định → les fruits exotiques."
+        },
+        {
+          "num": "17",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous ___ le sport ? (Bạn có thích thể thao không?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "aimez"
+            },
+            {
+              "key": "B",
+              "text": "jouez"
+            },
+            {
+              "key": "C",
+              "text": "faites"
+            },
+            {
+              "key": "D",
+              "text": "êtes"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Câu hỏi đúng: Vous aimez le sport ?."
+        },
+        {
+          "num": "18",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils ne ___ jamais de devoirs le week-end. (Họ không bao giờ làm bài tập cuối tuần.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "faisaient"
+            },
+            {
+              "key": "B",
+              "text": "fait"
+            },
+            {
+              "key": "C",
+              "text": "font"
+            },
+            {
+              "key": "D",
+              "text": "fais"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“ils” → ils font… → phủ định: ne font jamais."
+        },
+        {
+          "num": "19",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je ___ le fromage, surtout le camembert ! (Tôi ghét phô mai, đặc biệt là camembert!)",
+          "options": [
+            {
+              "key": "A",
+              "text": "aime"
+            },
+            {
+              "key": "B",
+              "text": "mange"
+            },
+            {
+              "key": "C",
+              "text": "déteste"
+            },
+            {
+              "key": "D",
+              "text": "goûte"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Biểu đạt sự ghét → je déteste."
+        },
+        {
+          "num": "20",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu ___ bien la cuisine italienne ? (Bạn có thích ẩm thực Ý không?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "aimes"
+            },
+            {
+              "key": "B",
+              "text": "connais"
+            },
+            {
+              "key": "C",
+              "text": "veux"
+            },
+            {
+              "key": "D",
+              "text": "manges"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Tu aimes… ?. = Bạn có thích ....?"
+        },
+        {
+          "num": "21",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il travaille ___ cinq heures sans pause. (Anh ấy làm việc trong 5 giờ không nghỉ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "depuis"
+            },
+            {
+              "key": "B",
+              "text": "pendant"
+            },
+            {
+              "key": "C",
+              "text": "en"
+            },
+            {
+              "key": "D",
+              "text": "à"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Thời lượng trọn vẹn → pendant cinq heures."
+        },
+        {
+          "num": "22",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu es arrivé ___ combien de temps ? (Bạn đến cách đây bao lâu?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "depuis"
+            },
+            {
+              "key": "B",
+              "text": "pour"
+            },
+            {
+              "key": "C",
+              "text": "pendant"
+            },
+            {
+              "key": "D",
+              "text": "il y a"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Diễn tả quá khứ mốc → il y a…."
+        },
+        {
+          "num": "23",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous avons visité le musée ___ deux heures. (Chúng tôi đã tham quan viện bảo tàng trong 2 giờ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "pendant"
+            },
+            {
+              "key": "B",
+              "text": "pour"
+            },
+            {
+              "key": "C",
+              "text": "il y a"
+            },
+            {
+              "key": "D",
+              "text": "depuis"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Thời lượng → pendant deux heures."
+        },
+        {
+          "num": "24",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle ne mange ___ de viande. (Cô ấy không ăn thịt.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "jamais"
+            },
+            {
+              "key": "B",
+              "text": "pas"
+            },
+            {
+              "key": "C",
+              "text": "plus"
+            },
+            {
+              "key": "D",
+              "text": "rien"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Phủ định với danh từ: ne… pas de viande."
+        },
+        {
+          "num": "25",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je ___ jamais en retard. (Tôi không bao giờ đến muộn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ne vais"
+            },
+            {
+              "key": "B",
+              "text": "suis"
+            },
+            {
+              "key": "C",
+              "text": "ne suis"
+            },
+            {
+              "key": "D",
+              "text": "ne vais pas"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Phủ định đúng: Je ne suis jamais…."
+        },
+        {
+          "num": "26",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous aimez la musique classique ? – Oui, ___ ! (Bạn thích nhạc cổ điển không? – Có, rất thích!)",
+          "options": [
+            {
+              "key": "A",
+              "text": "jamais"
+            },
+            {
+              "key": "B",
+              "text": "pas"
+            },
+            {
+              "key": "C",
+              "text": "beaucoup"
+            },
+            {
+              "key": "D",
+              "text": "rien"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Trả lời khẳng định: Oui, beaucoup !."
+        },
+        {
+          "num": "27",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je ___ les films d’horreur. ! (Tôi không thích phim kinh dị.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "aime pas"
+            },
+            {
+              "key": "B",
+              "text": "n’aime pas"
+            },
+            {
+              "key": "C",
+              "text": "ne aimes pas"
+            },
+            {
+              "key": "D",
+              "text": "déteste pas"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Cấu trúc chuẩn: Je n’aime pas…."
+        },
+        {
+          "num": "28",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand j’étais petit, je ___ du violon. (Khi còn nhỏ, tôi chơi đàn violin.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "jouais"
+            },
+            {
+              "key": "B",
+              "text": "ai joué"
+            },
+            {
+              "key": "C",
+              "text": "joue"
+            },
+            {
+              "key": "D",
+              "text": "jouer"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Thói quen quá khứ → imparfait."
+        },
+        {
+          "num": "29",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu vas à la salle de sport ___ semaine ? (Bạn đi tập gym mỗi tuần à?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "tous"
+            },
+            {
+              "key": "B",
+              "text": "toute"
+            },
+            {
+              "key": "C",
+              "text": "la"
+            },
+            {
+              "key": "D",
+              "text": "chaque"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Diễn tả đều đặn: chaque semaine."
+        },
+        {
+          "num": "30",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il adore les croissants ? – Non, il ___ ça. (Anh ấy có thích bánh sừng bò không? – Không, anh ấy ghét.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "déteste"
+            },
+            {
+              "key": "B",
+              "text": "mange"
+            },
+            {
+              "key": "C",
+              "text": "veut"
+            },
+            {
+              "key": "D",
+              "text": "préfère"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Phủ định sở thích → il déteste ça."
+        },
+        {
+          "num": "31",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ deux semaines, j’ai commencé un nouveau travail. (Tôi đã bắt đầu công việc mới cách đây 2 tuần.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Depuis"
+            },
+            {
+              "key": "B",
+              "text": "Pendant"
+            },
+            {
+              "key": "C",
+              "text": "Il y a"
+            },
+            {
+              "key": "D",
+              "text": "En"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Quá khứ mốc → il y a deux semaines."
+        },
+        {
+          "num": "32",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il travaille ___ lundi à vendredi. (Anh ấy làm việc từ thứ 2 đến thứ 6.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "en"
+            },
+            {
+              "key": "B",
+              "text": "de"
+            },
+            {
+              "key": "C",
+              "text": "depuis"
+            },
+            {
+              "key": "D",
+              "text": "pendant"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Cấu trúc: de… à…."
+        },
+        {
+          "num": "33",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous allons en vacances ___ août. (Chúng tôi đi nghỉ vào tháng 8.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "à"
+            },
+            {
+              "key": "B",
+              "text": "en"
+            },
+            {
+              "key": "C",
+              "text": "au"
+            },
+            {
+              "key": "D",
+              "text": "dans"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Tháng → en août."
+        },
+        {
+          "num": "34",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je ___ la viande. Je suis végétarien. (Tôi không ăn thịt. Tôi ăn chay.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ne mange"
+            },
+            {
+              "key": "B",
+              "text": "n’aime"
+            },
+            {
+              "key": "C",
+              "text": "mange pas"
+            },
+            {
+              "key": "D",
+              "text": "ne mange pas"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Phủ định chuẩn: Je ne mange pas la viande."
+        },
+        {
+          "num": "35",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu ___ les légumes ? – Non, je n’aime pas ça. (Bạn có thích rau không? – Không.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "aimes"
+            },
+            {
+              "key": "B",
+              "text": "manges"
+            },
+            {
+              "key": "C",
+              "text": "cuisines"
+            },
+            {
+              "key": "D",
+              "text": "bois"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Câu hỏi đúng: Tu aimes… ?."
+        },
+        {
+          "num": "36",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Mon frère ___ les films d’action. (Anh trai tôi thích phim hành động.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "préfère"
+            },
+            {
+              "key": "B",
+              "text": "regarde"
+            },
+            {
+              "key": "C",
+              "text": "évite"
+            },
+            {
+              "key": "D",
+              "text": "adore"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Động từ sở thích → il adore…."
+        },
+        {
+          "num": "37",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle ne va ___ au cinéma. (Cô ấy không bao giờ đi xem phim.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "pas"
+            },
+            {
+              "key": "B",
+              "text": "jamais"
+            },
+            {
+              "key": "C",
+              "text": "rien"
+            },
+            {
+              "key": "D",
+              "text": "plus"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Diễn tả “không bao giờ” → ne… jamais."
+        },
+        {
+          "num": "38",
+          "type": "Trả lời bằng ghi âm",
+          "question": "Nói 2 câu về bạn thích gì (J’aime___ / J’adore___)",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "39",
+          "type": "Trả lời bằng ghi âm",
+          "question": "Nói 2 câu về bạn không thích gì (Je n’aime pas___ / Je déteste___)",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "40",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "audios/A2_Bai_09_Cau_40_120940.mp3",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "41",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "A2.1_L10",
+      "num": 10,
+      "filename": "Bai_10_Kể_về_kỳ_nghỉ.md",
+      "title": "Bài 10 - Kể về kỳ nghỉ",
+      "questions": [
+        {
+          "num": "1",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Hier, je ___ au marché. (Hôm qua tôi đi chợ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "allais"
+            },
+            {
+              "key": "B",
+              "text": "suis allés"
+            },
+            {
+              "key": "C",
+              "text": "ai allé"
+            },
+            {
+              "key": "D",
+              "text": "suis allé"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“Aller” → trợ động từ être ở passé composé, ngôi 1 số ít → je suis allé(e)."
+        },
+        {
+          "num": "2",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle ___ Paul hier soir. (Cô ấy đã gặp Paul tối qua.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "a rencontré"
+            },
+            {
+              "key": "B",
+              "text": "était rencontrée"
+            },
+            {
+              "key": "C",
+              "text": "a rencontrée"
+            },
+            {
+              "key": "D",
+              "text": "rencontrait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Passé composé: elle a rencontré."
+        },
+        {
+          "num": "3",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle ___ en faisant du vélo. (Cô ấy đã ngã khi đi xe đạp.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "tombait"
+            },
+            {
+              "key": "B",
+              "text": "est tombé"
+            },
+            {
+              "key": "C",
+              "text": "est tombée"
+            },
+            {
+              "key": "D",
+              "text": "a tombée"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Tomber” → être ở passé composé, accord với “elle” → est tombée."
+        },
+        {
+          "num": "4",
+          "type": "Chọn câu trả lời đúng",
+          "question": "L’année dernière, nous ___ la France. (Năm ngoái chúng tôi đã thăm nước Pháp.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "avons visité"
+            },
+            {
+              "key": "B",
+              "text": "avons visite"
+            },
+            {
+              "key": "C",
+              "text": "étions visités"
+            },
+            {
+              "key": "D",
+              "text": "visitions"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Passé composé đúng: nous avons visité."
+        },
+        {
+          "num": "5",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle ___ un message ce matin. (Cô ấy đã để lại một tin nhắn sáng nay.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "laissait"
+            },
+            {
+              "key": "B",
+              "text": "a laissé"
+            },
+            {
+              "key": "C",
+              "text": "laissa"
+            },
+            {
+              "key": "D",
+              "text": "laisse"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Passé composé: elle a laissé."
+        },
+        {
+          "num": "6",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous ___ les chats ? – Non, je préfère les chiens. (Bạn có thích mèo không?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "aimez"
+            },
+            {
+              "key": "B",
+              "text": "avez"
+            },
+            {
+              "key": "C",
+              "text": "voulez"
+            },
+            {
+              "key": "D",
+              "text": "mangez"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Hỏi sở thích → vous aimez… ?"
+        },
+        {
+          "num": "7",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il est allé en France ___ deux mois. (Anh ấy đã đi Pháp cách đây 2 tháng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "depuis"
+            },
+            {
+              "key": "B",
+              "text": "pendant"
+            },
+            {
+              "key": "C",
+              "text": "pour"
+            },
+            {
+              "key": "D",
+              "text": "il y a"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Quá khứ mốc: il y a deux mois."
+        },
+        {
+          "num": "8",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ___ à la mer cet été. (Mùa hè này chúng tôi đã đi biển.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "avons allé"
+            },
+            {
+              "key": "B",
+              "text": "sommes allés"
+            },
+            {
+              "key": "C",
+              "text": "allions"
+            },
+            {
+              "key": "D",
+              "text": "sommes allé"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Aller” → être, ngôi 1 số nhiều → sommes allés."
+        },
+        {
+          "num": "9",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ___ ses valises hier soir. (Anh ấy đã sắp xếp hành lý tối qua.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "a fait"
+            },
+            {
+              "key": "B",
+              "text": "a fais"
+            },
+            {
+              "key": "C",
+              "text": "fait"
+            },
+            {
+              "key": "D",
+              "text": "fait eu"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Cấu trúc cố định: faire ses valises → passé composé."
+        },
+        {
+          "num": "10",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu ___ la Tour Eiffel ? (Bạn có thấy tháp Eiffel không?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "as regardé"
+            },
+            {
+              "key": "B",
+              "text": "as été"
+            },
+            {
+              "key": "C",
+              "text": "as visité"
+            },
+            {
+              "key": "D",
+              "text": "as vu"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“Voir” → passé composé: tu as vu."
+        },
+        {
+          "num": "11",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elles ___ du vélo pendant les vacances. (Các cô ấy đã đạp xe trong kỳ nghỉ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "sont fait"
+            },
+            {
+              "key": "B",
+              "text": "ont fait"
+            },
+            {
+              "key": "C",
+              "text": "faisaient"
+            },
+            {
+              "key": "D",
+              "text": "fais"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Faire” → toujours với avoir ở passé composé."
+        },
+        {
+          "num": "12",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ___ au Portugal en juillet. (Chúng tôi đã đi Bồ Đào Nha vào tháng 7.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "sommes allés"
+            },
+            {
+              "key": "B",
+              "text": "allions"
+            },
+            {
+              "key": "C",
+              "text": "allons"
+            },
+            {
+              "key": "D",
+              "text": "allé"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Aller” → être, ngôi 1 số nhiều."
+        },
+        {
+          "num": "13",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je ___ un super film pendant le vol. (Tôi đã xem một bộ phim hay trên máy bay.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ai regardé"
+            },
+            {
+              "key": "B",
+              "text": "regarde"
+            },
+            {
+              "key": "C",
+              "text": "regardais"
+            },
+            {
+              "key": "D",
+              "text": "regardé"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Passé composé: j’ai regardé."
+        },
+        {
+          "num": "14",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils ___ la semaine dernière. (Họ đã rời đi tuần trước.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "sont allé"
+            },
+            {
+              "key": "B",
+              "text": "ont parti"
+            },
+            {
+              "key": "C",
+              "text": "partis"
+            },
+            {
+              "key": "D",
+              "text": "sont partis"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“Partir” → être, ngôi 3 số nhiều → sont partis."
+        },
+        {
+          "num": "15",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous ___ vos photos ? (Bạn đã chụp ảnh chưa?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "pris"
+            },
+            {
+              "key": "B",
+              "text": "avez pris"
+            },
+            {
+              "key": "C",
+              "text": "prenez"
+            },
+            {
+              "key": "D",
+              "text": "avez prisé"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Passé composé: vous avez pris."
+        },
+        {
+          "num": "16",
+          "type": "Chọn câu trả lời đúng",
+          "question": "On ___ bien mangé pendant les vacances ! (Chúng tôi đã ăn rất ngon trong kỳ nghỉ!)",
+          "options": [
+            {
+              "key": "A",
+              "text": "a"
+            },
+            {
+              "key": "B",
+              "text": "est"
+            },
+            {
+              "key": "C",
+              "text": "avons"
+            },
+            {
+              "key": "D",
+              "text": "sommes"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“On” chia như “il” → on a mangé."
+        },
+        {
+          "num": "17",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle ___ beaucoup de photos. (Cô ấy đã chụp nhiều ảnh.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "a pris"
+            },
+            {
+              "key": "B",
+              "text": "est pris"
+            },
+            {
+              "key": "C",
+              "text": "prend"
+            },
+            {
+              "key": "D",
+              "text": "prends"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Passé composé: elle a pris."
+        },
+        {
+          "num": "18",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je ___ en Italie pendant deux semaines. (Tôi đã đi Ý trong 2 tuần.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "allais"
+            },
+            {
+              "key": "B",
+              "text": "vais"
+            },
+            {
+              "key": "C",
+              "text": "suis allé(e)"
+            },
+            {
+              "key": "D",
+              "text": "allé"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Aller” → être, ngôi 1 số ít → suis allé(e)."
+        },
+        {
+          "num": "19",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Mes parents ___ une maison au bord de la mer. (Bố mẹ tôi đã thuê một ngôi nhà bên bờ biển.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ont loué"
+            },
+            {
+              "key": "B",
+              "text": "ont loués"
+            },
+            {
+              "key": "C",
+              "text": "ont louer"
+            },
+            {
+              "key": "D",
+              "text": "louaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Passé composé: ils ont loué."
+        },
+        {
+          "num": "20",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ___ beaucoup de monuments. (Chúng tôi đã thăm nhiều di tích.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "avons visiter"
+            },
+            {
+              "key": "B",
+              "text": "sommes visité"
+            },
+            {
+              "key": "C",
+              "text": "avons visité"
+            },
+            {
+              "key": "D",
+              "text": "avons visitez"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Passé composé đúng: avons visité."
+        },
+        {
+          "num": "21",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu ___ des photos ? (Bạn có chụp ảnh không?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "as fait"
+            },
+            {
+              "key": "B",
+              "text": "as pris"
+            },
+            {
+              "key": "C",
+              "text": "fais"
+            },
+            {
+              "key": "D",
+              "text": "pris"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Động từ “prendre des photos” → passé composé: tu as pris."
+        },
+        {
+          "num": "22",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils ___ en retard à l’aéroport. (Họ đã đến muộn ở sân bay.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ont arrivé"
+            },
+            {
+              "key": "B",
+              "text": "sont arrivés"
+            },
+            {
+              "key": "C",
+              "text": "étaient arrivé"
+            },
+            {
+              "key": "D",
+              "text": "arrivent"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Arriver” → trợ động từ être."
+        },
+        {
+          "num": "23",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle ___ une crêpe au Nutella. (Cô ấy đã ăn một chiếc crêpe Nutella.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "mange"
+            },
+            {
+              "key": "B",
+              "text": "a mangé"
+            },
+            {
+              "key": "C",
+              "text": "mangée"
+            },
+            {
+              "key": "D",
+              "text": "mangé"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Passé composé: elle a mangé."
+        },
+        {
+          "num": "24",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous ___ dans un camping ? (Bạn đã ngủ ở khu cắm trại à?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "êtes dormi"
+            },
+            {
+              "key": "B",
+              "text": "avez dormi"
+            },
+            {
+              "key": "C",
+              "text": "dormiez"
+            },
+            {
+              "key": "D",
+              "text": "dormis"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Dormir” → trợ động từ avoir."
+        },
+        {
+          "num": "25",
+          "type": "Chọn câu trả lời đúng",
+          "question": "On ___ à la plage tous les jours. (Chúng tôi đã đi biển mỗi ngày.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "allait"
+            },
+            {
+              "key": "B",
+              "text": "allions"
+            },
+            {
+              "key": "C",
+              "text": "est allé"
+            },
+            {
+              "key": "D",
+              "text": "sont allés"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“On” thường chia như “il”: on est allé."
+        },
+        {
+          "num": "26",
+          "type": "Chọn câu trả lời đúng",
+          "question": "J’___ des amis français pendant mon voyage. (Tôi đã gặp bạn Pháp trong chuyến đi.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ai rencontre"
+            },
+            {
+              "key": "B",
+              "text": "ai rencontré"
+            },
+            {
+              "key": "C",
+              "text": "rencontré"
+            },
+            {
+              "key": "D",
+              "text": "rencontrais"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Passé composé: j’ai rencontré."
+        },
+        {
+          "num": "27",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils ___ du surf à Biarritz. (Họ đã lướt sóng ở Biarritz.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "font"
+            },
+            {
+              "key": "B",
+              "text": "faisaient"
+            },
+            {
+              "key": "C",
+              "text": "ont fait"
+            },
+            {
+              "key": "D",
+              "text": "fait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Faire du surf” → passé composé: ils ont fait."
+        },
+        {
+          "num": "28",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ___ dans un hôtel près de la mer. (Chúng tôi đã ngủ ở khách sạn gần biển.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "avons dormi"
+            },
+            {
+              "key": "B",
+              "text": "avons dormir"
+            },
+            {
+              "key": "C",
+              "text": "sommes dormis"
+            },
+            {
+              "key": "D",
+              "text": "dormé"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Dormir” → passé composé với avoir."
+        },
+        {
+          "num": "29",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elles ___ à la montagne pour skier. (Các cô ấy đã đi núi để trượt tuyết.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ont allé"
+            },
+            {
+              "key": "B",
+              "text": "sont allés"
+            },
+            {
+              "key": "C",
+              "text": "sont allées"
+            },
+            {
+              "key": "D",
+              "text": "vont allé"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Aller” → trợ động từ être, giống cái số nhiều → sont allées."
+        },
+        {
+          "num": "30",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ___ un livre très intéressant pendant les vacances. (Anh ấy đã đọc một quyển sách rất hay trong kỳ nghỉ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "a lire"
+            },
+            {
+              "key": "B",
+              "text": "lu"
+            },
+            {
+              "key": "C",
+              "text": "a lu"
+            },
+            {
+              "key": "D",
+              "text": "lisait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Passé composé: il a lu."
+        },
+        {
+          "num": "31",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu ___ ton passeport à l’hôtel ? (Bạn có quên hộ chiếu ở khách sạn không?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "as oublié"
+            },
+            {
+              "key": "B",
+              "text": "es oublié"
+            },
+            {
+              "key": "C",
+              "text": "oublié"
+            },
+            {
+              "key": "D",
+              "text": "as oublie"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Passé composé: tu as oublié."
+        },
+        {
+          "num": "32",
+          "type": "Chọn câu trả lời đúng",
+          "question": "On ___ le musée lundi matin. (Chúng tôi đã thăm bảo tàng sáng thứ hai.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "avons visité"
+            },
+            {
+              "key": "B",
+              "text": "a visité"
+            },
+            {
+              "key": "C",
+              "text": "visité"
+            },
+            {
+              "key": "D",
+              "text": "est visité"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“On” → chia như “il”: on a visité."
+        },
+        {
+          "num": "33",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Mes amis ___ une excursion en bateau. (Bạn bè tôi đã đi dạo thuyền.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ont fait"
+            },
+            {
+              "key": "B",
+              "text": "ont fais"
+            },
+            {
+              "key": "C",
+              "text": "ont faite"
+            },
+            {
+              "key": "D",
+              "text": "faisaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Passé composé: ils ont fait."
+        },
+        {
+          "num": "34",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle ___ un souvenir pour sa sœur. (Cô ấy đã mua một món quà lưu niệm cho em gái.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "achetée"
+            },
+            {
+              "key": "B",
+              "text": "a acheté"
+            },
+            {
+              "key": "C",
+              "text": "achetait"
+            },
+            {
+              "key": "D",
+              "text": "a achetés"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Passé composé: elle a acheté."
+        },
+        {
+          "num": "35",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous ___ quand au Maroc ? (Bạn đã đi Maroc khi nào?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "êtes parti"
+            },
+            {
+              "key": "B",
+              "text": "êtes partis"
+            },
+            {
+              "key": "C",
+              "text": "avez parté"
+            },
+            {
+              "key": "D",
+              "text": "partiez"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Partir” → être, ngôi 2 số nhiều → êtes partis."
+        },
+        {
+          "num": "36",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je ___ mon sac à dos dans le train. (Tôi đã làm mất ba lô trên tàu.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "perdais"
+            },
+            {
+              "key": "B",
+              "text": "ai perdu"
+            },
+            {
+              "key": "C",
+              "text": "suis perdu"
+            },
+            {
+              "key": "D",
+              "text": "perds"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Passé composé: j’ai perdu."
+        },
+        {
+          "num": "37",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils ___ des châteaux de sable tous les jours. (Họ đã xây lâu đài cát mỗi ngày.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ont construire"
+            },
+            {
+              "key": "B",
+              "text": "sont construit"
+            },
+            {
+              "key": "C",
+              "text": "ont construit"
+            },
+            {
+              "key": "D",
+              "text": "construisaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Passé composé: ils ont construit."
+        },
+        {
+          "num": "38",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ___ un bon restaurant à Nice. (Chúng tôi đã tìm thấy một nhà hàng ngon ở Nice.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "trouvons"
+            },
+            {
+              "key": "B",
+              "text": "avons trouvé"
+            },
+            {
+              "key": "C",
+              "text": "avons trouvés"
+            },
+            {
+              "key": "D",
+              "text": "trouvait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Passé composé: nous avons trouvé."
+        },
+        {
+          "num": "39",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu ___ la valise avant de partir ? (Bạn đã chuẩn bị hành lý trước khi đi chưa?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "as préparé"
+            },
+            {
+              "key": "B",
+              "text": "préparais"
+            },
+            {
+              "key": "C",
+              "text": "es préparé"
+            },
+            {
+              "key": "D",
+              "text": "prépare"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Passé composé: tu as préparé."
+        },
+        {
+          "num": "40",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "41",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "A2.1_L11",
+      "num": 11,
+      "filename": "Bai_11_Ký_ức_tuổi_thơ.md",
+      "title": "Bài 11 - Ký ức tuổi thơ",
+      "questions": [
+        {
+          "num": "1",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand j’étais petit, je ___ du piano chaque jour. (Khi còn nhỏ, tôi chơi piano mỗi ngày.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "jouais"
+            },
+            {
+              "key": "B",
+              "text": "jouait"
+            },
+            {
+              "key": "C",
+              "text": "jouions"
+            },
+            {
+              "key": "D",
+              "text": "jouaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Je” → je jouais."
+        },
+        {
+          "num": "2",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ___ très fatigués après le voyage. (Chúng tôi rất mệt sau chuyến đi.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "étais"
+            },
+            {
+              "key": "B",
+              "text": "étions"
+            },
+            {
+              "key": "C",
+              "text": "étiez"
+            },
+            {
+              "key": "D",
+              "text": "étaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Nous” → nous étions."
+        },
+        {
+          "num": "3",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Pendant qu’il ___, je ___ des notes. (Trong khi anh ấy nói, tôi ghi chép.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "parlait / prenais"
+            },
+            {
+              "key": "B",
+              "text": "parlais / prenais"
+            },
+            {
+              "key": "C",
+              "text": "parlions / prenais"
+            },
+            {
+              "key": "D",
+              "text": "parlaient / prenais"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Il parlait” & “je prenais” → imparfait."
+        },
+        {
+          "num": "4",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je ___ un livre tous les soirs. (Tôi thường đọc sách mỗi tối.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "lisait"
+            },
+            {
+              "key": "B",
+              "text": "lisions"
+            },
+            {
+              "key": "C",
+              "text": "lisais"
+            },
+            {
+              "key": "D",
+              "text": "lisaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Je” → je lisais."
+        },
+        {
+          "num": "5",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous ___ toujours une bonne note. (Các bạn luôn đạt điểm tốt.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "avais"
+            },
+            {
+              "key": "B",
+              "text": "avaient"
+            },
+            {
+              "key": "C",
+              "text": "aviez"
+            },
+            {
+              "key": "D",
+              "text": "avions"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Vous” → vous aviez."
+        },
+        {
+          "num": "6",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ___ minuit quand je rentrais chez moi. (Đã nửa đêm khi tôi về nhà.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "était"
+            },
+            {
+              "key": "B",
+              "text": "étais"
+            },
+            {
+              "key": "C",
+              "text": "étions"
+            },
+            {
+              "key": "D",
+              "text": "étaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Il était minuit” → mô tả thời gian."
+        },
+        {
+          "num": "7",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ___ souvent fatigué. (Anh ấy thường mệt mỏi.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "étais"
+            },
+            {
+              "key": "B",
+              "text": "étions"
+            },
+            {
+              "key": "C",
+              "text": "était"
+            },
+            {
+              "key": "D",
+              "text": "étaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Il” → il était."
+        },
+        {
+          "num": "8",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ___ à la plage tous les étés. (Mỗi mùa hè chúng tôi đi biển.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "allaient"
+            },
+            {
+              "key": "B",
+              "text": "allions"
+            },
+            {
+              "key": "C",
+              "text": "alliez"
+            },
+            {
+              "key": "D",
+              "text": "allais"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Nous” → nous allions."
+        },
+        {
+          "num": "9",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand il était jeune, il ___ du violon. (Khi còn trẻ, anh ấy chơi violin.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "jouais"
+            },
+            {
+              "key": "B",
+              "text": "jouait"
+            },
+            {
+              "key": "C",
+              "text": "jouions"
+            },
+            {
+              "key": "D",
+              "text": "jouaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Il” → il jouait."
+        },
+        {
+          "num": "10",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je ___ mes devoirs quand mon frère regardait la télé. (Tôi làm bài khi anh trai xem TV.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "faisait"
+            },
+            {
+              "key": "B",
+              "text": "faisais"
+            },
+            {
+              "key": "C",
+              "text": "faisions"
+            },
+            {
+              "key": "D",
+              "text": "faisaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Je” → je faisais."
+        },
+        {
+          "num": "11",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand j’étais enfant, j' ___ dans un village. (Tôi từng sống ở làng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "habitait"
+            },
+            {
+              "key": "B",
+              "text": "habitions"
+            },
+            {
+              "key": "C",
+              "text": "habitais"
+            },
+            {
+              "key": "D",
+              "text": "habitaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Je” → j’habitais."
+        },
+        {
+          "num": "12",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand j’étais petit, je ___ souvent au parc. (Khi còn nhỏ tôi thường chơi ở công viên.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "jouait"
+            },
+            {
+              "key": "B",
+              "text": "jouions"
+            },
+            {
+              "key": "C",
+              "text": "jouais"
+            },
+            {
+              "key": "D",
+              "text": "jouaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Je” → je jouais."
+        },
+        {
+          "num": "13",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ___ très timide à l’école. (Anh ấy rất nhút nhát ở trường.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "était"
+            },
+            {
+              "key": "B",
+              "text": "étaient"
+            },
+            {
+              "key": "C",
+              "text": "étais"
+            },
+            {
+              "key": "D",
+              "text": "étions"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Il” → il était."
+        },
+        {
+          "num": "14",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ___ des dessins animés tous les samedis. (Chúng tôi xem hoạt hình mỗi thứ 7.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "regardais"
+            },
+            {
+              "key": "B",
+              "text": "regardions"
+            },
+            {
+              "key": "C",
+              "text": "regardaient"
+            },
+            {
+              "key": "D",
+              "text": "regardait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Nous” → nous regardions."
+        },
+        {
+          "num": "15",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle ___ chez ses grands-parents en été. (Cô ấy thường đến nhà ông bà vào mùa hè.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "allais"
+            },
+            {
+              "key": "B",
+              "text": "allait"
+            },
+            {
+              "key": "C",
+              "text": "allions"
+            },
+            {
+              "key": "D",
+              "text": "allaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Elle” → elle allait."
+        },
+        {
+          "num": "16",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu ___ souvent du chocolat ? (Bạn thường ăn socola chứ?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "mangeait"
+            },
+            {
+              "key": "B",
+              "text": "mangeais"
+            },
+            {
+              "key": "C",
+              "text": "mangions"
+            },
+            {
+              "key": "D",
+              "text": "mangeaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Tu” → tu mangeais."
+        },
+        {
+          "num": "17",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand nous étions enfants, nous ___ beaucoup de jeux. (Khi còn nhỏ chúng tôi nghĩ ra nhiều trò chơi.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "inventions"
+            },
+            {
+              "key": "B",
+              "text": "inventait"
+            },
+            {
+              "key": "C",
+              "text": "inventais"
+            },
+            {
+              "key": "D",
+              "text": "inventaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Nous” → nous inventions."
+        },
+        {
+          "num": "18",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Les élèves ___ quand le professeur est entré. (Học sinh đang nói chuyện khi thầy vào lớp.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "parlait"
+            },
+            {
+              "key": "B",
+              "text": "parlaient"
+            },
+            {
+              "key": "C",
+              "text": "parlions"
+            },
+            {
+              "key": "D",
+              "text": "parlais"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Ils” → ils parlaient."
+        },
+        {
+          "num": "19",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ___ souvent triste sans raison. (Anh ấy thường buồn không lý do.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "semblait"
+            },
+            {
+              "key": "B",
+              "text": "semblais"
+            },
+            {
+              "key": "C",
+              "text": "semblaient"
+            },
+            {
+              "key": "D",
+              "text": "semblions"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Il” → il semblait."
+        },
+        {
+          "num": "20",
+          "type": "Chọn câu trả lời đúng",
+          "question": "On ___ dans un petit appartement. (Chúng tôi sống trong một căn hộ nhỏ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "habitais"
+            },
+            {
+              "key": "B",
+              "text": "habitait"
+            },
+            {
+              "key": "C",
+              "text": "habitions"
+            },
+            {
+              "key": "D",
+              "text": "habitaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“On” thường chia ngôi 3 số ít → on habitait."
+        },
+        {
+          "num": "21",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous ___ timides au collège ? (Các bạn nhút nhát hồi cấp 2 à?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "étions"
+            },
+            {
+              "key": "B",
+              "text": "étais"
+            },
+            {
+              "key": "C",
+              "text": "étiez"
+            },
+            {
+              "key": "D",
+              "text": "était"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Vous” → động từ être chia ở ngôi 2 số nhiều → vous étiez."
+        },
+        {
+          "num": "22",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand j’étais petit, j' ___ chez ma grand-mère tous les week-ends. (Hồi nhỏ tôi thường đến nhà bà.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "allions"
+            },
+            {
+              "key": "B",
+              "text": "allais"
+            },
+            {
+              "key": "C",
+              "text": "allaient"
+            },
+            {
+              "key": "D",
+              "text": "allait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Hành động lặp lại trong quá khứ → j'allais."
+        },
+        {
+          "num": "23",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ___ un petit chien quand nous habitions à la campagne. (Chúng tôi có một con chó nhỏ khi ở quê.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "avais"
+            },
+            {
+              "key": "B",
+              "text": "avaient"
+            },
+            {
+              "key": "C",
+              "text": "avions"
+            },
+            {
+              "key": "D",
+              "text": "aviez"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Chủ ngữ “nous” → động từ avoir chia imparfait: nous avions."
+        },
+        {
+          "num": "24",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ___ toujours très tard le soir. (Anh ấy thường ngủ muộn vào buổi tối.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "se couchais"
+            },
+            {
+              "key": "B",
+              "text": "se couchions"
+            },
+            {
+              "key": "C",
+              "text": "se couchait"
+            },
+            {
+              "key": "D",
+              "text": "se couchaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Thói quen của “il” → il se couchait."
+        },
+        {
+          "num": "25",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Avant, je ___ toujours mon vélo pour aller à l’école. (Trước đây tôi đi học bằng xe đạp.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "prenait"
+            },
+            {
+              "key": "B",
+              "text": "prenais"
+            },
+            {
+              "key": "C",
+              "text": "prenaient"
+            },
+            {
+              "key": "D",
+              "text": "prenions"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Chủ ngữ “je” → động từ prendre chia imparfait: je prenais."
+        },
+        {
+          "num": "26",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je ___ mes devoirs pendant que mon frère jouait dehors. (Tôi làm bài trong khi anh trai chơi ở ngoài.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "faisions"
+            },
+            {
+              "key": "B",
+              "text": "faisais"
+            },
+            {
+              "key": "C",
+              "text": "faisait"
+            },
+            {
+              "key": "D",
+              "text": "faisaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Hành động kéo dài → je faisais."
+        },
+        {
+          "num": "27",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Pendant qu’il ___, elle préparait le dîner. (Trong khi anh ấy đọc, cô ấy nấu ăn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "lisions"
+            },
+            {
+              "key": "B",
+              "text": "lisaient"
+            },
+            {
+              "key": "C",
+              "text": "lisait"
+            },
+            {
+              "key": "D",
+              "text": "lisais"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Il” → động từ lire chia imparfait: il lisait."
+        },
+        {
+          "num": "28",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils ___ dehors quand il pleuvait. (Bọn trẻ chơi ở ngoài khi trời mưa.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "jouait"
+            },
+            {
+              "key": "B",
+              "text": "jouaient"
+            },
+            {
+              "key": "C",
+              "text": "jouions"
+            },
+            {
+              "key": "D",
+              "text": "jouais"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Chủ ngữ “ils” → động từ jouer chia imparfait: ils jouaient."
+        },
+        {
+          "num": "29",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle écoutait la radio pendant que je ___ la vaisselle. (Cô ấy nghe radio khi tôi rửa bát.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "faisait"
+            },
+            {
+              "key": "B",
+              "text": "faisions"
+            },
+            {
+              "key": "C",
+              "text": "faisaient"
+            },
+            {
+              "key": "D",
+              "text": "faisais"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Chủ ngữ “je” → động từ faire chia imparfait: je faisais."
+        },
+        {
+          "num": "30",
+          "type": "Chọn câu trả lời đúng",
+          "question": "J' ___ très timide, mais maintenant je suis plus sociable. (Hồi trước tôi rất nhút nhát.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "étais"
+            },
+            {
+              "key": "B",
+              "text": "étions"
+            },
+            {
+              "key": "C",
+              "text": "étiez"
+            },
+            {
+              "key": "D",
+              "text": "était"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Chủ ngữ “je” → động từ être chia imparfait: j’étais."
+        },
+        {
+          "num": "31",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand j’étais au collège, mes amis et moi ___ au foot tous les jours. (Hồi học cấp 2, chúng tôi đá bóng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "jouaient"
+            },
+            {
+              "key": "B",
+              "text": "jouions"
+            },
+            {
+              "key": "C",
+              "text": "jouais"
+            },
+            {
+              "key": "D",
+              "text": "jouait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Chủ ngữ “nous” → nous jouions."
+        },
+        {
+          "num": "32",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Avant, il ___ toujours la même chemise bleue. (Trước đây anh ấy mặc cùng áo xanh.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "portait"
+            },
+            {
+              "key": "B",
+              "text": "portaient"
+            },
+            {
+              "key": "C",
+              "text": "portais"
+            },
+            {
+              "key": "D",
+              "text": "portions"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Chủ ngữ “il” → động từ porter chia imparfait: il portait."
+        },
+        {
+          "num": "33",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand elle était jeune, elle ___ souvent des gâteaux. (Khi còn trẻ cô ấy thường làm bánh.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "faisaient"
+            },
+            {
+              "key": "B",
+              "text": "faisait"
+            },
+            {
+              "key": "C",
+              "text": "faisais"
+            },
+            {
+              "key": "D",
+              "text": "faisions"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Chủ ngữ “elle” → động từ faire chia imparfait: elle faisait."
+        },
+        {
+          "num": "34",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Chaque été, nous ___ chez nos grands-parents à la campagne. (Mỗi hè chúng tôi về thăm ông bà.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "allait"
+            },
+            {
+              "key": "B",
+              "text": "allais"
+            },
+            {
+              "key": "C",
+              "text": "allions"
+            },
+            {
+              "key": "D",
+              "text": "allaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Chủ ngữ “nous” → động từ aller chia imparfait: nous allions."
+        },
+        {
+          "num": "35",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ___ souvent très tard pendant ses années d’université. (Thời sinh viên anh ấy thường thức khuya.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "se couchait"
+            },
+            {
+              "key": "B",
+              "text": "se couchais"
+            },
+            {
+              "key": "C",
+              "text": "se couchaient"
+            },
+            {
+              "key": "D",
+              "text": "se couchions"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Chủ ngữ “il” → động từ se coucher chia imparfait: il se couchait."
+        },
+        {
+          "num": "36",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand j’étais enfant, je ___ toujours au même endroit. (Hồi nhỏ tôi luôn ngồi cùng chỗ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "m’asseyait"
+            },
+            {
+              "key": "B",
+              "text": "m’asseyais"
+            },
+            {
+              "key": "C",
+              "text": "nous asseyions"
+            },
+            {
+              "key": "D",
+              "text": "s’asseyaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Chủ ngữ “je” → động từ s’asseoir chia imparfait: je m’asseyais."
+        },
+        {
+          "num": "37",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Mes parents ___ un restaurant quand ils étaient jeunes. (Bố mẹ tôi có một nhà hàng hồi trẻ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "avais"
+            },
+            {
+              "key": "B",
+              "text": "avaient"
+            },
+            {
+              "key": "C",
+              "text": "avait"
+            },
+            {
+              "key": "D",
+              "text": "aviez"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Chủ ngữ “mes parents” (số nhiều) → ils avaient."
+        },
+        {
+          "num": "38",
+          "type": "Viết câu trả lời",
+          "question": "Viết câu ở thì passé composé với từ gợi ý : nous/rester/chez nous",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "39",
+          "type": "Viết câu trả lời",
+          "question": "Viết câu ở thì passé composé với từ gợi ý : nous/rencontrer/des amis",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "40",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "audios/A2_Bai_11_Cau_40_121140.mp3",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "41",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "A2.1_L12",
+      "num": 12,
+      "filename": "Bai_12_Kiểm_tra_giữa_kỳ_1.2.md",
+      "title": "Bài 12 - Kiểm tra giữa kỳ 1.2",
+      "questions": [
+        {
+          "num": "1",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils ___ la voiture pour aller à la plage. (Họ đã lấy xe đi biển.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ont pris"
+            },
+            {
+              "key": "B",
+              "text": "ont prendu"
+            },
+            {
+              "key": "C",
+              "text": "ont prenaient"
+            },
+            {
+              "key": "D",
+              "text": "prenaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Passé composé, động từ prendre → ont pris."
+        },
+        {
+          "num": "2",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle ___ une belle jupe au marché. (Cô ấy đã mua một chiếc váy đẹp ở chợ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "a achetée"
+            },
+            {
+              "key": "B",
+              "text": "a acheté"
+            },
+            {
+              "key": "C",
+              "text": "achetait"
+            },
+            {
+              "key": "D",
+              "text": "acheta"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Passé composé, COD “jupe” theo sau → không cần accord → a acheté."
+        },
+        {
+          "num": "3",
+          "type": "Chọn câu trả lời đúng",
+          "question": "J' ___ mes clés dans la chambre d’hôtel. (Tôi đã để quên chìa khóa trong phòng khách sạn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ai laissé"
+            },
+            {
+              "key": "B",
+              "text": "suis laissé"
+            },
+            {
+              "key": "C",
+              "text": "laisse"
+            },
+            {
+              "key": "D",
+              "text": "ai laissée"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Passé composé, laisser → j’ai laissé."
+        },
+        {
+          "num": "4",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ___ une promenade en bateau. (Chúng tôi đã đi dạo bằng thuyền.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "avons fait"
+            },
+            {
+              "key": "B",
+              "text": "avons fais"
+            },
+            {
+              "key": "C",
+              "text": "faisons"
+            },
+            {
+              "key": "D",
+              "text": "faisaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Passé composé, faire → avons fait."
+        },
+        {
+          "num": "5",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous ___ une glace hier soir ? (Các bạn có ăn kem tối qua không?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "avez mangez"
+            },
+            {
+              "key": "B",
+              "text": "mangez"
+            },
+            {
+              "key": "C",
+              "text": "avez mangé"
+            },
+            {
+              "key": "D",
+              "text": "mangiez"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Passé composé, manger → vous avez mangé."
+        },
+        {
+          "num": "6",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elles ___ tard à la gare. (Các cô ấy đã đến trễ ở ga.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ont arrivées"
+            },
+            {
+              "key": "B",
+              "text": "sont arrivés"
+            },
+            {
+              "key": "C",
+              "text": "sont arrivées"
+            },
+            {
+              "key": "D",
+              "text": "arrivaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Verbe arriver dùng trợ động từ être → elles sont arrivées."
+        },
+        {
+          "num": "7",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ___ ses amis au café. (Anh ấy đã gặp lại bạn ở quán cà phê.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "a retrouvés"
+            },
+            {
+              "key": "B",
+              "text": "a retrouvé"
+            },
+            {
+              "key": "C",
+              "text": "retrouve"
+            },
+            {
+              "key": "D",
+              "text": "retrouvait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Passé composé, retrouver → il a retrouvé (COD sau → không accord)."
+        },
+        {
+          "num": "8",
+          "type": "Chọn câu trả lời đúng",
+          "question": "On ___ au marché tous les matins. (Người ta đi chợ mỗi sáng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "va"
+            },
+            {
+              "key": "B",
+              "text": "est allé"
+            },
+            {
+              "key": "C",
+              "text": "allait"
+            },
+            {
+              "key": "D",
+              "text": "allait allé"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Thói quen → imparfait → on allait."
+        },
+        {
+          "num": "9",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il travaille ici ___ deux ans. (Anh ấy làm việc ở đây được 2 năm rồi.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "pendant"
+            },
+            {
+              "key": "B",
+              "text": "il y a"
+            },
+            {
+              "key": "C",
+              "text": "pour"
+            },
+            {
+              "key": "D",
+              "text": "depuis"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Cấu trúc “travailler ici depuis deux ans” → hành động kéo dài."
+        },
+        {
+          "num": "10",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle a étudié à Paris ___ un an. (Cô ấy học ở Paris trong 1 năm.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "il y a"
+            },
+            {
+              "key": "B",
+              "text": "depuis"
+            },
+            {
+              "key": "C",
+              "text": "pendant"
+            },
+            {
+              "key": "D",
+              "text": "pour"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“pendant + durée” → hành động giới hạn thời gian."
+        },
+        {
+          "num": "11",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il est arrivé ___ deux semaines. (Anh ấy đến cách đây 2 tuần.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "pendant"
+            },
+            {
+              "key": "B",
+              "text": "il y a"
+            },
+            {
+              "key": "C",
+              "text": "depuis"
+            },
+            {
+              "key": "D",
+              "text": "dans"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“il y a + durée” → quá khứ."
+        },
+        {
+          "num": "12",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je ___ le chocolat. Je préfère la vanille. (Tôi không thích socola. Tôi thích vani hơn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ne déteste pas"
+            },
+            {
+              "key": "B",
+              "text": "aime"
+            },
+            {
+              "key": "C",
+              "text": "n’aime pas"
+            },
+            {
+              "key": "D",
+              "text": "n’aime plus"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Phủ định đơn giản → je n’aime pas."
+        },
+        {
+          "num": "13",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu veux du café ? – Non, merci, je ___ jamais. (Bạn có muốn cà phê không? – Không, cảm ơn, tôi không bao giờ uống.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ne bois pas"
+            },
+            {
+              "key": "B",
+              "text": "n’en bois"
+            },
+            {
+              "key": "C",
+              "text": "ne bois"
+            },
+            {
+              "key": "D",
+              "text": "ne bois jamais"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Phủ định tần suất → je ne bois jamais."
+        },
+        {
+          "num": "14",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle ___ en Italie pendant ses vacances. (Cô ấy đã đi Ý vào kỳ nghỉ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "est"
+            },
+            {
+              "key": "B",
+              "text": "a"
+            },
+            {
+              "key": "C",
+              "text": "est allée"
+            },
+            {
+              "key": "D",
+              "text": "avait été"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Passé composé với être → elle est allée."
+        },
+        {
+          "num": "15",
+          "type": "Chọn câu trả lời đúng",
+          "question": "L’année dernière, nous ___ un voyage en Grèce. (Năm ngoái chúng tôi đã đi du lịch Hy Lạp.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "avons fait"
+            },
+            {
+              "key": "B",
+              "text": "faisions"
+            },
+            {
+              "key": "C",
+              "text": "faisons"
+            },
+            {
+              "key": "D",
+              "text": "ferions"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Passé composé → nous avons fait."
+        },
+        {
+          "num": "16",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand j’étais enfant, je ___ des bandes dessinées. (Khi còn nhỏ tôi thường đọc truyện tranh.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "lisais"
+            },
+            {
+              "key": "B",
+              "text": "ai lu"
+            },
+            {
+              "key": "C",
+              "text": "lirai"
+            },
+            {
+              "key": "D",
+              "text": "lis"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Thói quen quá khứ → imparfait → je lisais."
+        },
+        {
+          "num": "17",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il faisait très froid et tout le monde ___ des manteaux. (Trời rất lạnh và mọi người mặc áo khoác.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "portait"
+            },
+            {
+              "key": "B",
+              "text": "a porté"
+            },
+            {
+              "key": "C",
+              "text": "porte"
+            },
+            {
+              "key": "D",
+              "text": "porterait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Mô tả → imparfait → tout le monde portait."
+        },
+        {
+          "num": "18",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je ne mange ___ de viande. (Tôi không ăn thịt.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "aucune"
+            },
+            {
+              "key": "B",
+              "text": "jamais"
+            },
+            {
+              "key": "C",
+              "text": "plus"
+            },
+            {
+              "key": "D",
+              "text": "pas"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Phủ định với ne… pas → je ne mange pas de viande."
+        },
+        {
+          "num": "19",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous sommes partis en vacances ___ deux semaines. (Chúng tôi đi nghỉ trong 2 tuần.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "depuis"
+            },
+            {
+              "key": "B",
+              "text": "pour"
+            },
+            {
+              "key": "C",
+              "text": "il y a"
+            },
+            {
+              "key": "D",
+              "text": "pendant"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“pendant + durée” → chỉ khoảng thời gian."
+        },
+        {
+          "num": "20",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand j’étais petit, je ___ au parc tous les dimanches. (Khi còn nhỏ tôi đi công viên mỗi Chủ nhật.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "vais"
+            },
+            {
+              "key": "B",
+              "text": "irai"
+            },
+            {
+              "key": "C",
+              "text": "suis allé"
+            },
+            {
+              "key": "D",
+              "text": "allais"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Thói quen trong quá khứ → imparfait → j’allais."
+        },
+        {
+          "num": "21",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ___ très chaud hier. (Hôm qua trời rất nóng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "fait"
+            },
+            {
+              "key": "B",
+              "text": "faisait"
+            },
+            {
+              "key": "C",
+              "text": "fera"
+            },
+            {
+              "key": "D",
+              "text": "a fait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Mô tả thời tiết quá khứ → imparfait."
+        },
+        {
+          "num": "22",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ___ nos devoirs avant de sortir. (Chúng tôi đã làm bài tập trước khi ra ngoài.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ferons"
+            },
+            {
+              "key": "B",
+              "text": "faisons"
+            },
+            {
+              "key": "C",
+              "text": "faisions"
+            },
+            {
+              "key": "D",
+              "text": "avons fait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Hành động đã hoàn tất → passé composé."
+        },
+        {
+          "num": "23",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il travaille ici ___ 2018. (Anh ấy làm ở đây từ năm 2018 đến nay.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "pendant"
+            },
+            {
+              "key": "B",
+              "text": "il y a"
+            },
+            {
+              "key": "C",
+              "text": "dans"
+            },
+            {
+              "key": "D",
+              "text": "depuis"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Depuis + date = hành động bắt đầu và kéo dài đến hiện tại."
+        },
+        {
+          "num": "24",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils ont vécu à Lyon ___ 10 ans. (Họ đã sống ở Lyon trong 10 năm.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "depuis"
+            },
+            {
+              "key": "B",
+              "text": "pour"
+            },
+            {
+              "key": "C",
+              "text": "il y a"
+            },
+            {
+              "key": "D",
+              "text": "pendant"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Pendant + durée = khoảng thời gian trọn vẹn trong quá khứ."
+        },
+        {
+          "num": "25",
+          "type": "Chọn câu trả lời đúng",
+          "question": "J' ___ ce film hier soir. (Tối qua tôi đã xem phim này.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ai"
+            },
+            {
+              "key": "B",
+              "text": "avais vu"
+            },
+            {
+              "key": "C",
+              "text": "ai vu"
+            },
+            {
+              "key": "D",
+              "text": "ai été"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Passé composé → j’ai vu."
+        },
+        {
+          "num": "26",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand elle était jeune, elle ___ souvent au théâtre. (Khi còn trẻ, cô ấy thường đi xem kịch.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "est allée"
+            },
+            {
+              "key": "B",
+              "text": "va"
+            },
+            {
+              "key": "C",
+              "text": "ira"
+            },
+            {
+              "key": "D",
+              "text": "allait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Thói quen quá khứ → imparfait."
+        },
+        {
+          "num": "27",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je ___ ce genre de musique. (Tôi không bao giờ nghe loại nhạc này.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "n'écoute jamais"
+            },
+            {
+              "key": "B",
+              "text": "n’écoute pas"
+            },
+            {
+              "key": "C",
+              "text": "n'écoutais"
+            },
+            {
+              "key": "D",
+              "text": "n'écoute"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Câu phủ định với “jamais” → Je n’écoute jamais."
+        },
+        {
+          "num": "28",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu ___ au cinéma hier ? (Hôm qua bạn có đi xem phim không?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "es"
+            },
+            {
+              "key": "B",
+              "text": "as allé"
+            },
+            {
+              "key": "C",
+              "text": "es allé"
+            },
+            {
+              "key": "D",
+              "text": "as"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Passé composé với être → tu es allé."
+        },
+        {
+          "num": "29",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ___ toujours ses devoirs le soir. (Anh ấy luôn làm bài tập vào buổi tối.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "fera"
+            },
+            {
+              "key": "B",
+              "text": "a fait"
+            },
+            {
+              "key": "C",
+              "text": "faisait"
+            },
+            {
+              "key": "D",
+              "text": "fait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Thói quen → imparfait."
+        },
+        {
+          "num": "30",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je ___ pas envie de sortir ce soir. (Tôi không muốn ra ngoài tối nay.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "n’ai"
+            },
+            {
+              "key": "B",
+              "text": "ne"
+            },
+            {
+              "key": "C",
+              "text": "n’ai jamais"
+            },
+            {
+              "key": "D",
+              "text": "ai"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Phủ định đúng: Je n’ai pas envie."
+        },
+        {
+          "num": "31",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous habitons ici ___ 5 ans. (Chúng tôi sống ở đây được 5 năm rồi.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "il y a"
+            },
+            {
+              "key": "B",
+              "text": "dans"
+            },
+            {
+              "key": "C",
+              "text": "depuis"
+            },
+            {
+              "key": "D",
+              "text": "pendant"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Depuis + durée = hành động kéo dài đến hiện tại."
+        },
+        {
+          "num": "32",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous ___ partis tôt ce matin. (Các bạn đã đi sớm sáng nay.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "avez parti"
+            },
+            {
+              "key": "B",
+              "text": "partiez"
+            },
+            {
+              "key": "C",
+              "text": "êtes partis"
+            },
+            {
+              "key": "D",
+              "text": "êtes"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Passé composé với être → vous êtes partis."
+        },
+        {
+          "num": "33",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elles ___ au musée samedi dernier. (Các cô ấy đã đi bảo tàng thứ 7 tuần trước.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ont allé"
+            },
+            {
+              "key": "B",
+              "text": "étaient allé"
+            },
+            {
+              "key": "C",
+              "text": "sont"
+            },
+            {
+              "key": "D",
+              "text": "sont allées"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Passé composé với être → elles sont allées."
+        },
+        {
+          "num": "34",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ___ souvent au parc quand nous étions petits. (Hồi nhỏ chúng tôi thường đi công viên.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "allions"
+            },
+            {
+              "key": "B",
+              "text": "sommes allés"
+            },
+            {
+              "key": "C",
+              "text": "irons"
+            },
+            {
+              "key": "D",
+              "text": "allons"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Thói quen quá khứ → imparfait."
+        },
+        {
+          "num": "35",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ___ ses devoirs à temps. (Nó không bao giờ nộp bài tập đúng hạn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ne rendait jamais"
+            },
+            {
+              "key": "B",
+              "text": "ne rend"
+            },
+            {
+              "key": "C",
+              "text": "ne rend jamais"
+            },
+            {
+              "key": "D",
+              "text": "ne rendait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Thói quen phủ định → imparfait → il ne rendait jamais."
+        },
+        {
+          "num": "36",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle habite ici ___ trois mois. (Cô ấy sống ở đây được 3 tháng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "il y a"
+            },
+            {
+              "key": "B",
+              "text": "pendant"
+            },
+            {
+              "key": "C",
+              "text": "depuis"
+            },
+            {
+              "key": "D",
+              "text": "dans"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Depuis + durée = kéo dài đến hiện tại."
+        },
+        {
+          "num": "37",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous ___ vos valises avant de partir. (Các bạn đã chuẩn bị hành lý trước khi đi.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "allez faire"
+            },
+            {
+              "key": "B",
+              "text": "faites"
+            },
+            {
+              "key": "C",
+              "text": "faisiez"
+            },
+            {
+              "key": "D",
+              "text": "avez fait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Hành động đã hoàn tất → passé composé."
+        },
+        {
+          "num": "38",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ___ à la plage chaque été quand il était enfant. (Hồi nhỏ anh ấy đi biển mỗi hè.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "allait"
+            },
+            {
+              "key": "B",
+              "text": "va"
+            },
+            {
+              "key": "C",
+              "text": "ira"
+            },
+            {
+              "key": "D",
+              "text": "est allé"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Thói quen quá khứ → imparfait."
+        },
+        {
+          "num": "39",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je n’___ pas le poisson. (Tôi không thích cá.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "aimes"
+            },
+            {
+              "key": "B",
+              "text": "aimez"
+            },
+            {
+              "key": "C",
+              "text": "aime pas"
+            },
+            {
+              "key": "D",
+              "text": "aime"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Câu phủ định đúng: Je n’aime pas le poisson."
+        },
+        {
+          "num": "40",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "audios/A2_Bai_12_Cau_40_121240.mp3",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "41",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "A2.1_L13",
+      "num": 13,
+      "filename": "Bai_13_Kể_chuyện_và_bối_cảnh.md",
+      "title": "Bài 13 - Kể chuyện và bối cảnh",
+      "questions": [
+        {
+          "num": "1",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand elle ___ à l’université, elle étudiait la biologie. (Khi cô ấy học đại học…)",
+          "options": [
+            {
+              "key": "A",
+              "text": "a été"
+            },
+            {
+              "key": "B",
+              "text": "était"
+            },
+            {
+              "key": "C",
+              "text": "avait été"
+            },
+            {
+              "key": "D",
+              "text": "fut"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Bối cảnh mô tả → imparfait."
+        },
+        {
+          "num": "2",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ___ notre première maison en 2010. (Chúng tôi đã mua nhà năm 2010.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "achetions"
+            },
+            {
+              "key": "B",
+              "text": "avons achèter"
+            },
+            {
+              "key": "C",
+              "text": "avons acheté"
+            },
+            {
+              "key": "D",
+              "text": "avions acheté"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Sự kiện cụ thể, hoàn tất → passé composé."
+        },
+        {
+          "num": "3",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils ___ leurs études à Lyon avant de déménager à Paris. (Họ đã kết thúc việc học trước khi chuyển đi.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "avaient terminé"
+            },
+            {
+              "key": "B",
+              "text": "ont terminé"
+            },
+            {
+              "key": "C",
+              "text": "terminaient"
+            },
+            {
+              "key": "D",
+              "text": "avaient finissés"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Hành động dứt điểm → passé composé."
+        },
+        {
+          "num": "4",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand j’étais jeune, je ___ jouer au piano tous les jours. (Hồi nhỏ tôi thích chơi piano.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "avais aimé"
+            },
+            {
+              "key": "B",
+              "text": "aimais"
+            },
+            {
+              "key": "C",
+              "text": "aimait"
+            },
+            {
+              "key": "D",
+              "text": "ai aimé"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Thói quen quá khứ → imparfait."
+        },
+        {
+          "num": "5",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand j’étais jeune, je ___ beaucoup de livres. (Tôi đọc nhiều sách.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "lisait"
+            },
+            {
+              "key": "B",
+              "text": "lisais"
+            },
+            {
+              "key": "C",
+              "text": "avais lu"
+            },
+            {
+              "key": "D",
+              "text": "ai lu"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Thói quen quá khứ → imparfait."
+        },
+        {
+          "num": "6",
+          "type": "Chọn câu trả lời đúng",
+          "question": "En 2009, ils ___ une entreprise ensemble. (Năm 2009, họ lập công ty.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "créaient"
+            },
+            {
+              "key": "B",
+              "text": "avaient créé"
+            },
+            {
+              "key": "C",
+              "text": "ont créé"
+            },
+            {
+              "key": "D",
+              "text": "ont créés"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Sự kiện cụ thể → passé composé."
+        },
+        {
+          "num": "7",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle ___ à Paris quand elle a rencontré Marc. (Cô ấy đang sống ở Paris khi gặp Marc.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "vivait"
+            },
+            {
+              "key": "B",
+              "text": "avait vécu"
+            },
+            {
+              "key": "C",
+              "text": "vivaient"
+            },
+            {
+              "key": "D",
+              "text": "a vécu"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Bối cảnh kéo dài → imparfait."
+        },
+        {
+          "num": "8",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ___ ingénieur avant de devenir professeur. (Anh ấy là kỹ sư trước khi thành giáo sư.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "avait été"
+            },
+            {
+              "key": "B",
+              "text": "était"
+            },
+            {
+              "key": "C",
+              "text": "fut"
+            },
+            {
+              "key": "D",
+              "text": "a été"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Trạng thái mô tả → imparfait."
+        },
+        {
+          "num": "9",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand il était petit, il ___ souvent des châteaux de sable. (Hồi nhỏ anh ấy thường xây lâu đài cát.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "faisaient"
+            },
+            {
+              "key": "B",
+              "text": "a fait"
+            },
+            {
+              "key": "C",
+              "text": "faisait"
+            },
+            {
+              "key": "D",
+              "text": "avaient fait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Thói quen quá khứ → imparfait."
+        },
+        {
+          "num": "10",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils ___ dans la même ville pendant toute leur enfance. (Họ sống cùng thành phố thời thơ ấu.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "avaient vécu"
+            },
+            {
+              "key": "B",
+              "text": "vivaient"
+            },
+            {
+              "key": "C",
+              "text": "ont vécu"
+            },
+            {
+              "key": "D",
+              "text": "vécurent"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Hành động kéo dài → imparfait."
+        },
+        {
+          "num": "11",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je ___ mon diplôme l’année dernière. (Năm ngoái tôi lấy bằng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "obtenais"
+            },
+            {
+              "key": "B",
+              "text": "avais obtenu"
+            },
+            {
+              "key": "C",
+              "text": "ai obtenu"
+            },
+            {
+              "key": "D",
+              "text": "eus obtenu"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Sự kiện rõ ràng, hoàn tất → passé composé."
+        },
+        {
+          "num": "12",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand nous ___ jeunes, nous allions souvent au parc. (Khi còn nhỏ, chúng tôi thường đi công viên.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "avons été"
+            },
+            {
+              "key": "B",
+              "text": "étions"
+            },
+            {
+              "key": "C",
+              "text": "avions été"
+            },
+            {
+              "key": "D",
+              "text": "étions allés"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Mô tả trạng thái → imparfait."
+        },
+        {
+          "num": "13",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ___ très timide quand il était adolescent. (Anh ấy rất nhút nhát.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "a été"
+            },
+            {
+              "key": "B",
+              "text": "fut"
+            },
+            {
+              "key": "C",
+              "text": "était"
+            },
+            {
+              "key": "D",
+              "text": "avait été"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Tính cách quá khứ → imparfait."
+        },
+        {
+          "num": "14",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Hier, nous ___ un film très intéressant. (Hôm qua chúng tôi xem phim.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "regardions"
+            },
+            {
+              "key": "B",
+              "text": "avons regardés"
+            },
+            {
+              "key": "C",
+              "text": "avons regardé"
+            },
+            {
+              "key": "D",
+              "text": "avions regardé"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Sự kiện rõ, kết thúc → passé composé."
+        },
+        {
+          "num": "15",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand il ___ enfant, il adorait les animaux. (Khi còn nhỏ, anh ấy thích động vật.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "a été"
+            },
+            {
+              "key": "B",
+              "text": "fut"
+            },
+            {
+              "key": "C",
+              "text": "était"
+            },
+            {
+              "key": "D",
+              "text": "avait été"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Mô tả bối cảnh → imparfait."
+        },
+        {
+          "num": "16",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Pendant que je ___ mes devoirs, il regardait la télé. (Trong khi tôi làm bài tập, anh ấy xem TV.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "faisait"
+            },
+            {
+              "key": "B",
+              "text": "ai fait"
+            },
+            {
+              "key": "C",
+              "text": "faisais"
+            },
+            {
+              "key": "D",
+              "text": "avions fait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Hành động song song → imparfait."
+        },
+        {
+          "num": "17",
+          "type": "Chọn câu trả lời đúng",
+          "question": "La semaine dernière, elle ___ à un concert de jazz. (Tuần trước cô ấy đi nghe hòa nhạc.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "allait"
+            },
+            {
+              "key": "B",
+              "text": "était allée"
+            },
+            {
+              "key": "C",
+              "text": "est allée"
+            },
+            {
+              "key": "D",
+              "text": "ont été"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Sự kiện cụ thể → passé composé."
+        },
+        {
+          "num": "18",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tous les matins, il ___ du café avant de partir. (Mỗi sáng anh ấy uống cà phê.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "a bu"
+            },
+            {
+              "key": "B",
+              "text": "buvait"
+            },
+            {
+              "key": "C",
+              "text": "avaient bu"
+            },
+            {
+              "key": "D",
+              "text": "buvaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Thói quen → imparfait."
+        },
+        {
+          "num": "19",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand il était petit, Paul ___ toujours avec son grand-père. (Hồi nhỏ Paul chơi với ông.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "jouait"
+            },
+            {
+              "key": "B",
+              "text": "jouaient"
+            },
+            {
+              "key": "C",
+              "text": "avait joué"
+            },
+            {
+              "key": "D",
+              "text": "a joué"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Thói quen quá khứ → imparfait."
+        },
+        {
+          "num": "20",
+          "type": "Chọn câu trả lời đúng",
+          "question": "En 2005, nous ___ à Paris pour la première fois. (Năm 2005 chúng tôi đi Paris lần đầu.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "sommes allés"
+            },
+            {
+              "key": "B",
+              "text": "allions"
+            },
+            {
+              "key": "C",
+              "text": "avions été"
+            },
+            {
+              "key": "D",
+              "text": "étions allés"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Hành động cụ thể, đã hoàn tất → passé composé."
+        },
+        {
+          "num": "21",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Hier, elle ___ un long email à sa mère. (Hôm qua cô ấy viết email cho mẹ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "écrivait"
+            },
+            {
+              "key": "B",
+              "text": "avait écrit"
+            },
+            {
+              "key": "C",
+              "text": "a écrit"
+            },
+            {
+              "key": "D",
+              "text": "écrivait souvent"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Sự kiện cụ thể, hoàn tất → passé composé."
+        },
+        {
+          "num": "22",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ___ très timide quand il était au lycée. (Anh ấy rất nhút nhát hồi cấp 3.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "était"
+            },
+            {
+              "key": "B",
+              "text": "a été"
+            },
+            {
+              "key": "C",
+              "text": "avait été"
+            },
+            {
+              "key": "D",
+              "text": "fut"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Mô tả trạng thái quá khứ → imparfait."
+        },
+        {
+          "num": "23",
+          "type": "Chọn câu trả lời đúng",
+          "question": "En 2010, elle ___ son diplôme de médecine. (Năm 2010 cô ấy lấy bằng y khoa.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "obtenait"
+            },
+            {
+              "key": "B",
+              "text": "avait obtenu"
+            },
+            {
+              "key": "C",
+              "text": "a obtenu"
+            },
+            {
+              "key": "D",
+              "text": "obtint"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Hành động hoàn tất, rõ thời điểm → passé composé."
+        },
+        {
+          "num": "24",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand il vivait à Lyon, il ___ souvent au parc. (Hồi sống ở Lyon, anh ấy thường đi công viên.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "allait"
+            },
+            {
+              "key": "B",
+              "text": "a été"
+            },
+            {
+              "key": "C",
+              "text": "est allé"
+            },
+            {
+              "key": "D",
+              "text": "avait été"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Thói quen quá khứ → imparfait."
+        },
+        {
+          "num": "25",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand j’étais à l’université, je ___ beaucoup de livres. (Khi học đại học, tôi đọc nhiều sách.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "lisais"
+            },
+            {
+              "key": "B",
+              "text": "avais lu"
+            },
+            {
+              "key": "C",
+              "text": "ai lu"
+            },
+            {
+              "key": "D",
+              "text": "lisait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Thói quen quá khứ → imparfait."
+        },
+        {
+          "num": "26",
+          "type": "Chọn câu trả lời đúng",
+          "question": "L’année dernière, nous ___ en Italie pendant deux semaines. (Năm ngoái chúng tôi đi Ý 2 tuần.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "allions"
+            },
+            {
+              "key": "B",
+              "text": "sommes allés"
+            },
+            {
+              "key": "C",
+              "text": "étions allés"
+            },
+            {
+              "key": "D",
+              "text": "avions été"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Sự kiện rõ, hoàn tất → passé composé."
+        },
+        {
+          "num": "27",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand elle ___ enfant, elle jouait du piano tous les jours. (Khi còn nhỏ cô ấy chơi piano mỗi ngày.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "était"
+            },
+            {
+              "key": "B",
+              "text": "avait été"
+            },
+            {
+              "key": "C",
+              "text": "fut"
+            },
+            {
+              "key": "D",
+              "text": "a été"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Mô tả bối cảnh → imparfait."
+        },
+        {
+          "num": "28",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ___ son permis de conduire en 2015. (Anh ấy lấy bằng lái năm 2015.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "a obtenu"
+            },
+            {
+              "key": "B",
+              "text": "obtenait"
+            },
+            {
+              "key": "C",
+              "text": "avait obtenu"
+            },
+            {
+              "key": "D",
+              "text": "obtint"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Sự kiện cụ thể → passé composé."
+        },
+        {
+          "num": "29",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ___ dans cette maison depuis dix ans quand nous avons déménagé. (Chúng tôi đã sống ở đây 10 năm khi chuyển đi.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "vivions"
+            },
+            {
+              "key": "B",
+              "text": "avions vécu"
+            },
+            {
+              "key": "C",
+              "text": "avons vécu"
+            },
+            {
+              "key": "D",
+              "text": "vécurent"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Hành động kéo dài trong quá khứ → imparfait."
+        },
+        {
+          "num": "30",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ___ très tard hier soir. (Tối qua anh ấy về rất muộn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "est rentré"
+            },
+            {
+              "key": "B",
+              "text": "rentrait"
+            },
+            {
+              "key": "C",
+              "text": "avait rentré"
+            },
+            {
+              "key": "D",
+              "text": "fut rentré"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Hành động cụ thể → passé composé."
+        },
+        {
+          "num": "31",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand elle était jeune, elle ___ beaucoup de romans. (Khi còn trẻ cô ấy đọc nhiều tiểu thuyết.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "lisait"
+            },
+            {
+              "key": "B",
+              "text": "lisais"
+            },
+            {
+              "key": "C",
+              "text": "avait lu"
+            },
+            {
+              "key": "D",
+              "text": "a lu"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Thói quen quá khứ → imparfait."
+        },
+        {
+          "num": "32",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ___ à Marseille pendant les vacances de 2022. (Kỳ nghỉ 2022 chúng tôi đi Marseille.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "allions"
+            },
+            {
+              "key": "B",
+              "text": "étions allés"
+            },
+            {
+              "key": "C",
+              "text": "sommes allés"
+            },
+            {
+              "key": "D",
+              "text": "avions été"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Sự kiện cụ thể, rõ thời điểm → passé composé."
+        },
+        {
+          "num": "33",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Chaque hiver, quand ils étaient jeunes, ils ___ du ski à Chamonix. (Mỗi mùa đông hồi nhỏ họ đi trượt tuyết ở Chamonix.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "faisaient"
+            },
+            {
+              "key": "B",
+              "text": "avaient fait"
+            },
+            {
+              "key": "C",
+              "text": "ont fait"
+            },
+            {
+              "key": "D",
+              "text": "firent"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Thói quen → imparfait."
+        },
+        {
+          "num": "34",
+          "type": "Chọn câu trả lời đúng",
+          "question": "En 2019, elle ___ en Espagne pour ses études. (Năm 2019 cô ấy đi du học ở Tây Ban Nha.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "était partie"
+            },
+            {
+              "key": "B",
+              "text": "partait"
+            },
+            {
+              "key": "C",
+              "text": "est partie"
+            },
+            {
+              "key": "D",
+              "text": "avait été"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Sự kiện cụ thể → passé composé."
+        },
+        {
+          "num": "35",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : je / petit / quand / dans le jardin / jouais / j’ / étais / tous les jours",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": "Quand j’étais petit, je jouais dans le jardin tous les jours."
+        },
+        {
+          "num": "36",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : préparait / chocolat / mère / des gâteaux / souvent / Ma",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": "Ma mère préparait souvent des gâteaux au chocolat."
+        },
+        {
+          "num": "37",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : je / en 2015 / université / suis / à l’ / entré / médecine / de",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": "En 2015, je suis entré à l’université de médecine."
+        },
+        {
+          "num": "38",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : à l’hôpital / un stage / pendant mes études / j’ai / fait",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": "Pendant mes études, j’ai fait un stage à l’hôpital."
+        },
+        {
+          "num": "39",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : en 2020 / mon premier emploi / j’ai / obtenu / dans une entreprise",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": "En 2020, j’ai obtenu mon premier emploi dans une entreprise."
+        },
+        {
+          "num": "40",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : dans un café / serveur / comme / travaillais / je / avant cela",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": "Avant cela, je travaillais comme serveur dans un café."
+        },
+        {
+          "num": "41",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "audios/A2_Bai_13_Cau_41_121341.mp3",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "42",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "A2.1_L14",
+      "num": 14,
+      "filename": "Bai_14_Cuộc_sống_thường_ngày.md",
+      "title": "Bài 14 - Cuộc sống thường ngày",
+      "questions": [
+        {
+          "num": "1",
+          "type": "Chọn câu trả lời đúng",
+          "question": "À Marseille, on mange une soupe de poissons qui s'appelle « la bouillabaisse ».",
+          "options": [
+            {
+              "key": "A",
+              "text": "On = nous"
+            },
+            {
+              "key": "B",
+              "text": "On = quelqu’un"
+            },
+            {
+              "key": "C",
+              "text": "On = les gens"
+            },
+            {
+              "key": "D",
+              "text": "On = il"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Nói thói quen chung → mọi người."
+        },
+        {
+          "num": "2",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Hier matin, dans le bus, on m’a volé mon portefeuille.",
+          "options": [
+            {
+              "key": "A",
+              "text": "On = nous"
+            },
+            {
+              "key": "B",
+              "text": "On = quelqu’un"
+            },
+            {
+              "key": "C",
+              "text": "On = les gens"
+            },
+            {
+              "key": "D",
+              "text": "On = tu"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Hành động của một người không xác định."
+        },
+        {
+          "num": "3",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Cet été, avec ma mère, on va voyager en Afrique.",
+          "options": [
+            {
+              "key": "A",
+              "text": "On = ils"
+            },
+            {
+              "key": "B",
+              "text": "On = nous"
+            },
+            {
+              "key": "C",
+              "text": "On = quelqu’un"
+            },
+            {
+              "key": "D",
+              "text": "On = les gens"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "« On » thay cho « nous » (tôi + mẹ tôi)."
+        },
+        {
+          "num": "4",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Salut Marie ! On est arrivé le plus vite possible, on ne t’a pas fait trop attendre ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "On = les gens"
+            },
+            {
+              "key": "B",
+              "text": "On = quelqu’un"
+            },
+            {
+              "key": "C",
+              "text": "On = nous"
+            },
+            {
+              "key": "D",
+              "text": "On = vous"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Dùng như « nous » → chúng tôi."
+        },
+        {
+          "num": "5",
+          "type": "Chọn câu trả lời đúng",
+          "question": "On t’a dit qu’il fait froid ici, même en été ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "On = nous"
+            },
+            {
+              "key": "B",
+              "text": "On = quelqu’un"
+            },
+            {
+              "key": "C",
+              "text": "On = les gens"
+            },
+            {
+              "key": "D",
+              "text": "On = il"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Không rõ ai đã nói → một người nào đó."
+        },
+        {
+          "num": "6",
+          "type": "Viết câu trả lời",
+          "question": "Viết lại câu dùng đại từ “on” - Les gens disent que ce film est excellent.",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "7",
+          "type": "Viết câu trả lời",
+          "question": "Viết lại câu dùng đại từ “on” - Nous va souvent à la plage le week-end.",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "8",
+          "type": "Viết câu trả lời",
+          "question": "Viết lại câu dùng đại từ “on” - Tout le monde parle français ici.",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "9",
+          "type": "Viết câu trả lời",
+          "question": "Viết lại câu dùng đại từ “on” - Mes parents et moi prenons toujours un dessert.",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "10",
+          "type": "Viết câu trả lời",
+          "question": "Viết lại câu dùng đại từ “on” - Les touristes visitent le musée chaque jour.",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "11",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Pour entrer dans un aéroport, on doit passer le contrôle de sécurité.",
+          "options": [
+            {
+              "key": "A",
+              "text": "On = nous"
+            },
+            {
+              "key": "B",
+              "text": "On = quelqu’un"
+            },
+            {
+              "key": "C",
+              "text": "On = les gens"
+            },
+            {
+              "key": "D",
+              "text": "On = tu"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Tất cả mọi người. (les gens)"
+        },
+        {
+          "num": "12",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Pardon Madame, à quelle heure est-ce qu’on arrive à Paris ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "On = quelqu’un"
+            },
+            {
+              "key": "B",
+              "text": "On = les gens"
+            },
+            {
+              "key": "C",
+              "text": "On = nous"
+            },
+            {
+              "key": "D",
+              "text": "On = il"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "« On » thay cho « nous » = chúng tôi (hành khách)."
+        },
+        {
+          "num": "13",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Pour aller à Paris depuis l’aéroport, on peut prendre le bus, le RER ou un taxi.",
+          "options": [
+            {
+              "key": "A",
+              "text": "On = nous"
+            },
+            {
+              "key": "B",
+              "text": "On = quelqu’un"
+            },
+            {
+              "key": "C",
+              "text": "On = les gens"
+            },
+            {
+              "key": "D",
+              "text": "On = ils"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "« On » = mọi người, cách chung để diễn đạt."
+        },
+        {
+          "num": "14",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Aujourd’hui, on ______ le 16 mai.",
+          "options": [
+            {
+              "key": "A",
+              "text": "est"
+            },
+            {
+              "key": "B",
+              "text": "suis"
+            },
+            {
+              "key": "C",
+              "text": "étaient"
+            },
+            {
+              "key": "D",
+              "text": "sera"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Động từ être chia ngôi il/elle/on → est."
+        },
+        {
+          "num": "15",
+          "type": "Chọn câu trả lời đúng",
+          "question": "On ______ à la plage demain matin.",
+          "options": [
+            {
+              "key": "A",
+              "text": "allons"
+            },
+            {
+              "key": "B",
+              "text": "va"
+            },
+            {
+              "key": "C",
+              "text": "allait"
+            },
+            {
+              "key": "D",
+              "text": "iront"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Động từ aller, ngôi on → va (tương lai gần)."
+        },
+        {
+          "num": "16",
+          "type": "Chọn câu trả lời đúng",
+          "question": "On ______ très contents de vous voir.",
+          "options": [
+            {
+              "key": "A",
+              "text": "sommes"
+            },
+            {
+              "key": "B",
+              "text": "est"
+            },
+            {
+              "key": "C",
+              "text": "étions"
+            },
+            {
+              "key": "D",
+              "text": "serez"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Dù nghĩa = nous, động từ vẫn chia như il/elle → est."
+        },
+        {
+          "num": "17",
+          "type": "Chọn câu trả lời đúng",
+          "question": "On se ______ ce soir.",
+          "options": [
+            {
+              "key": "A",
+              "text": "s’appelle"
+            },
+            {
+              "key": "B",
+              "text": "s’appellent"
+            },
+            {
+              "key": "C",
+              "text": "appelait"
+            },
+            {
+              "key": "D",
+              "text": "appelleront"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "« On » số ít, động từ phản thân chia il/elle → s’appelle."
+        },
+        {
+          "num": "18",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Arthur et moi, on se ______ depuis l’enfance.",
+          "options": [
+            {
+              "key": "A",
+              "text": "connaissons"
+            },
+            {
+              "key": "B",
+              "text": "connaît"
+            },
+            {
+              "key": "C",
+              "text": "connaissaient"
+            },
+            {
+              "key": "D",
+              "text": "connaîtra"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Động từ connaître, chia il/elle/on → connaît."
+        },
+        {
+          "num": "19",
+          "type": "Chọn câu trả lời đúng",
+          "question": "On se ______ pourquoi il fait ça.",
+          "options": [
+            {
+              "key": "A",
+              "text": "demande"
+            },
+            {
+              "key": "B",
+              "text": "demandons"
+            },
+            {
+              "key": "C",
+              "text": "demandaient"
+            },
+            {
+              "key": "D",
+              "text": "demandera"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Động từ demander, chia il/elle/on → demande."
+        },
+        {
+          "num": "20",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ma mère et moi, on se ______ très bien.",
+          "options": [
+            {
+              "key": "A",
+              "text": "s’entend"
+            },
+            {
+              "key": "B",
+              "text": "s’entends"
+            },
+            {
+              "key": "C",
+              "text": "entendons"
+            },
+            {
+              "key": "D",
+              "text": "entend"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "« On » ngôi 3 số ít → s’entend."
+        },
+        {
+          "num": "21",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Avec mon père, on ______ au cinéma tous les vendredis.",
+          "options": [
+            {
+              "key": "A",
+              "text": "allons"
+            },
+            {
+              "key": "B",
+              "text": "va"
+            },
+            {
+              "key": "C",
+              "text": "allait"
+            },
+            {
+              "key": "D",
+              "text": "irons"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Động từ aller, ngôi on → va (hiện tại)."
+        },
+        {
+          "num": "22",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous savez, vous ? Non, on ne ______ pas.",
+          "options": [
+            {
+              "key": "A",
+              "text": "sait"
+            },
+            {
+              "key": "B",
+              "text": "savons"
+            },
+            {
+              "key": "C",
+              "text": "saurait"
+            },
+            {
+              "key": "D",
+              "text": "savait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Động từ savoir, chia il/elle/on → sait."
+        },
+        {
+          "num": "23",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Si tu veux, on ______ jouer avec toi.",
+          "options": [
+            {
+              "key": "A",
+              "text": "pouvons"
+            },
+            {
+              "key": "B",
+              "text": "peut"
+            },
+            {
+              "key": "C",
+              "text": "pouvait"
+            },
+            {
+              "key": "D",
+              "text": "pourront"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Động từ pouvoir, ngôi il/elle/on → peut."
+        },
+        {
+          "num": "24",
+          "type": "Chọn câu trả lời đúng",
+          "question": "En France, on ___ les courses dans des marchés en plein air.",
+          "options": [
+            {
+              "key": "A",
+              "text": "fais"
+            },
+            {
+              "key": "B",
+              "text": "fait"
+            },
+            {
+              "key": "C",
+              "text": "faisons"
+            },
+            {
+              "key": "D",
+              "text": "font"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "On chia như il/elle → fait."
+        },
+        {
+          "num": "25",
+          "type": "Chọn câu trả lời đúng",
+          "question": "D’habitude, Michael et moi, on ___ tôt.",
+          "options": [
+            {
+              "key": "A",
+              "text": "se lève"
+            },
+            {
+              "key": "B",
+              "text": "se levons"
+            },
+            {
+              "key": "C",
+              "text": "se lèvent"
+            },
+            {
+              "key": "D",
+              "text": "se levait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "On (thay “nous”) nhưng động từ chia ngôi il/elle/on → se lève."
+        },
+        {
+          "num": "26",
+          "type": "Chọn câu trả lời đúng",
+          "question": "À la campagne, on ___ plus.",
+          "options": [
+            {
+              "key": "A",
+              "text": "se parle"
+            },
+            {
+              "key": "B",
+              "text": "se parlez"
+            },
+            {
+              "key": "C",
+              "text": "se parlons"
+            },
+            {
+              "key": "D",
+              "text": "se parlent"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Se parler với on → se parle."
+        },
+        {
+          "num": "27",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ma sœur et moi, on ___ souvent ensemble.",
+          "options": [
+            {
+              "key": "A",
+              "text": "voyagent"
+            },
+            {
+              "key": "B",
+              "text": "voyage"
+            },
+            {
+              "key": "C",
+              "text": "voyages"
+            },
+            {
+              "key": "D",
+              "text": "voyageait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Voyager với on → voyage."
+        },
+        {
+          "num": "28",
+          "type": "Chọn câu trả lời đúng",
+          "question": "On ___ de plus en plus à la maison.",
+          "options": [
+            {
+              "key": "A",
+              "text": "travaille"
+            },
+            {
+              "key": "B",
+              "text": "travaillons"
+            },
+            {
+              "key": "C",
+              "text": "travaillent"
+            },
+            {
+              "key": "D",
+              "text": "travail"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Travailler với on → travaille."
+        },
+        {
+          "num": "29",
+          "type": "Viết câu trả lời",
+          "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : un chien / s’appelait / Max / avions / Nous / qui",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "30",
+          "type": "Viết câu trả lời",
+          "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : en vacances / chaque été / partions / Nous / à la montagne",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "31",
+          "type": "Viết câu trả lời",
+          "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : à 7 heures / je / chaque matin / le bus / prenais",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "32",
+          "type": "Viết câu trả lời",
+          "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : étaient / stricts / mais / passionnés / mes professeurs",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "33",
+          "type": "Viết câu trả lời",
+          "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : à 9h / je / chaque jour / commençais / à 18h / finissais / je",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "34",
+          "type": "Viết câu trả lời",
+          "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : j’ai / à Paris / déménagé / une nouvelle opportunité / pour / l’année dernière",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "35",
+          "type": "Trả lời bằng ghi âm",
+          "question": "Que fait-on le dimanche en général dans ton pays ?",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "36",
+          "type": "Trả lời bằng ghi âm",
+          "question": "Que fait-on quand il fait chaud ?",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "37",
+          "type": "Trả lời bằng ghi âm",
+          "question": "Que mange-t-on pendant le Têt ?",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "38",
+          "type": "Trả lời bằng ghi âm",
+          "question": "Que fait-on à l’école ?",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "39",
+          "type": "Trả lời bằng ghi âm",
+          "question": "Que fait-on quand on est malade ?",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "40",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "41",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "A2.1_L15",
+      "num": 15,
+      "filename": "Bai_15_Ôn_tập_3.md",
+      "title": "Bài 15 - Ôn tập 3",
+      "questions": [
+        {
+          "num": "1",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ chat est sur la table. (Con mèo ở trên bàn)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Un"
+            },
+            {
+              "key": "B",
+              "text": "Du"
+            },
+            {
+              "key": "C",
+              "text": "Le"
+            },
+            {
+              "key": "D",
+              "text": "Des"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Con mèo xác định → article défini Le."
+        },
+        {
+          "num": "2",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le livre est ___ la table. (Quyển sách ở dưới bàn)",
+          "options": [
+            {
+              "key": "A",
+              "text": "dans"
+            },
+            {
+              "key": "B",
+              "text": "pour"
+            },
+            {
+              "key": "C",
+              "text": "avec"
+            },
+            {
+              "key": "D",
+              "text": "sous"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Diễn tả vị trí → sous la table."
+        },
+        {
+          "num": "3",
+          "type": "Chọn câu trả lời đúng",
+          "question": "C’est une ___ maison. (Đây là một ngôi nhà xinh đẹp)",
+          "options": [
+            {
+              "key": "A",
+              "text": "maison jolie"
+            },
+            {
+              "key": "B",
+              "text": "beau"
+            },
+            {
+              "key": "C",
+              "text": "jolie"
+            },
+            {
+              "key": "D",
+              "text": "joliment"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Une jolie maison → tính từ trước danh từ."
+        },
+        {
+          "num": "4",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ personne ne veut venir. (Không ai muốn đến)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Toute"
+            },
+            {
+              "key": "B",
+              "text": "Quelque"
+            },
+            {
+              "key": "C",
+              "text": "Chaque"
+            },
+            {
+              "key": "D",
+              "text": "Aucune"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Phủ định toàn bộ → Aucune personne…."
+        },
+        {
+          "num": "5",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je suis parti ___ matin. (Tôi đã đi vào sáng nay)",
+          "options": [
+            {
+              "key": "A",
+              "text": "cette"
+            },
+            {
+              "key": "B",
+              "text": "cet"
+            },
+            {
+              "key": "C",
+              "text": "ces"
+            },
+            {
+              "key": "D",
+              "text": "ce"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Biểu thị thời gian: ce matin."
+        },
+        {
+          "num": "6",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je ___ mange pas de viande. (Tôi không ăn thịt)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ne"
+            },
+            {
+              "key": "B",
+              "text": "n'"
+            },
+            {
+              "key": "C",
+              "text": "non"
+            },
+            {
+              "key": "D",
+              "text": "pas"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Phủ định: Je ne mange pas…."
+        },
+        {
+          "num": "7",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Hier, il ___ un gâteau. (Hôm qua, anh ấy làm bánh)",
+          "options": [
+            {
+              "key": "A",
+              "text": "a fait"
+            },
+            {
+              "key": "B",
+              "text": "faisait"
+            },
+            {
+              "key": "C",
+              "text": "fait"
+            },
+            {
+              "key": "D",
+              "text": "fais"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Hành động đã hoàn tất hôm qua → passé composé."
+        },
+        {
+          "num": "8",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand j’étais petit, je ___ beaucoup. (Khi còn nhỏ, tôi đọc rất nhiều)",
+          "options": [
+            {
+              "key": "A",
+              "text": "lisais"
+            },
+            {
+              "key": "B",
+              "text": "ai lu"
+            },
+            {
+              "key": "C",
+              "text": "lit"
+            },
+            {
+              "key": "D",
+              "text": "lirai"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Thói quen trong quá khứ → imparfait."
+        },
+        {
+          "num": "9",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand j’étais petit, je/j' ___ au parc, mais hier, je/j’___ à la maison. (Ngày xưa tôi hay đi công viên, nhưng hôm qua tôi ở nhà)",
+          "options": [
+            {
+              "key": "A",
+              "text": "allais / suis resté"
+            },
+            {
+              "key": "B",
+              "text": "suis allé / reste"
+            },
+            {
+              "key": "C",
+              "text": "vais / suis resté"
+            },
+            {
+              "key": "D",
+              "text": "allais / suis restée"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Imparfait (thói quen) + passé composé (hành động cụ thể)."
+        },
+        {
+          "num": "10",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ va au marché ce matin ? (Ai đi chợ sáng nay?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "On"
+            },
+            {
+              "key": "B",
+              "text": "Nous"
+            },
+            {
+              "key": "C",
+              "text": "Ils"
+            },
+            {
+              "key": "D",
+              "text": "Tu"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Câu hỏi chung → On va au marché."
+        },
+        {
+          "num": "11",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ enfants jouent dans le jardin. (Những đứa trẻ chơi trong vườn)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Un"
+            },
+            {
+              "key": "B",
+              "text": "Les"
+            },
+            {
+              "key": "C",
+              "text": "Le"
+            },
+            {
+              "key": "D",
+              "text": "Des"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Số nhiều xác định → Les enfants."
+        },
+        {
+          "num": "12",
+          "type": "Chọn câu trả lời đúng",
+          "question": "La boulangerie est ___ l’école. (Tiệm bánh ở gần trường)",
+          "options": [
+            {
+              "key": "A",
+              "text": "pour"
+            },
+            {
+              "key": "B",
+              "text": "avec"
+            },
+            {
+              "key": "C",
+              "text": "près de"
+            },
+            {
+              "key": "D",
+              "text": "dans"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Vị trí → près de l’école."
+        },
+        {
+          "num": "13",
+          "type": "Chọn câu trả lời đúng",
+          "question": "C’est un homme ___. (Đó là một người đàn ông thông minh)",
+          "options": [
+            {
+              "key": "A",
+              "text": "intelligents"
+            },
+            {
+              "key": "B",
+              "text": "intelligemment"
+            },
+            {
+              "key": "C",
+              "text": "intelligente"
+            },
+            {
+              "key": "D",
+              "text": "intelligent"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Tính từ giống đực, số ít."
+        },
+        {
+          "num": "14",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ élèves sont absents aujourd’hui. (Một vài học sinh vắng mặt hôm nay)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Aucun"
+            },
+            {
+              "key": "B",
+              "text": "Chaque"
+            },
+            {
+              "key": "C",
+              "text": "Toute"
+            },
+            {
+              "key": "D",
+              "text": "Quelques"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Quelques élèves…."
+        },
+        {
+          "num": "15",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je pars ___ soir. (Tối nay tôi đi)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ces"
+            },
+            {
+              "key": "B",
+              "text": "ce"
+            },
+            {
+              "key": "C",
+              "text": "cet"
+            },
+            {
+              "key": "D",
+              "text": "cette"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Thời điểm cụ thể: ce soir."
+        },
+        {
+          "num": "16",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle ne ___ jamais de viande. (Cô ấy không bao giờ ăn thịt)",
+          "options": [
+            {
+              "key": "A",
+              "text": "mange"
+            },
+            {
+              "key": "B",
+              "text": "manges"
+            },
+            {
+              "key": "C",
+              "text": "mangé"
+            },
+            {
+              "key": "D",
+              "text": "mangeait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Ngôi elle → mange."
+        },
+        {
+          "num": "17",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils ___ au Portugal l’été dernier. (Họ đã đi Bồ Đào Nha mùa hè năm ngoái)",
+          "options": [
+            {
+              "key": "A",
+              "text": "sont allés"
+            },
+            {
+              "key": "B",
+              "text": "allaient"
+            },
+            {
+              "key": "C",
+              "text": "vont"
+            },
+            {
+              "key": "D",
+              "text": "allaient être"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Hành động đã hoàn tất → passé composé."
+        },
+        {
+          "num": "18",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand j’étais à Paris, je/j' ___ souvent au café. (Khi ở Paris, tôi thường đi quán cà phê)",
+          "options": [
+            {
+              "key": "A",
+              "text": "allais"
+            },
+            {
+              "key": "B",
+              "text": "suis allé"
+            },
+            {
+              "key": "C",
+              "text": "vais"
+            },
+            {
+              "key": "D",
+              "text": "allé"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Thói quen quá khứ → imparfait."
+        },
+        {
+          "num": "19",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand j’étais jeune, je/j' ___ du piano. Hier, je/j’___ de la guitare. (Ngày xưa tôi chơi piano. Hôm qua tôi chơi guitar.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "jouais / ai joué"
+            },
+            {
+              "key": "B",
+              "text": "joue / ai joué"
+            },
+            {
+              "key": "C",
+              "text": "ai joué / joue"
+            },
+            {
+              "key": "D",
+              "text": "jouais / jouais"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Imparfait (thói quen) + passé composé (hành động cụ thể)."
+        },
+        {
+          "num": "20",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ peut entrer sans frapper ? (Ai cũng có thể vào mà không cần gõ cửa)",
+          "options": [
+            {
+              "key": "A",
+              "text": "On"
+            },
+            {
+              "key": "B",
+              "text": "Tu"
+            },
+            {
+              "key": "C",
+              "text": "Il"
+            },
+            {
+              "key": "D",
+              "text": "Elle"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Chủ ngữ chung → On peut entrer…."
+        },
+        {
+          "num": "21",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu veux ___ pomme ? (Bạn có muốn một quả táo không?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "une"
+            },
+            {
+              "key": "B",
+              "text": "la"
+            },
+            {
+              "key": "C",
+              "text": "des"
+            },
+            {
+              "key": "D",
+              "text": "le"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Dùng une vì “pomme” là giống cái, số ít, không xác định."
+        },
+        {
+          "num": "22",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le chat est ___ canapé. (Con mèo ở trên ghế sô-pha)",
+          "options": [
+            {
+              "key": "A",
+              "text": "dans"
+            },
+            {
+              "key": "B",
+              "text": "sur le"
+            },
+            {
+              "key": "C",
+              "text": "à la"
+            },
+            {
+              "key": "D",
+              "text": "chez"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Cụm chuẩn: sur le canapé."
+        },
+        {
+          "num": "23",
+          "type": "Chọn câu trả lời đúng",
+          "question": "C’est une robe ___. (Đây là một chiếc váy màu đỏ)",
+          "options": [
+            {
+              "key": "A",
+              "text": "rouge"
+            },
+            {
+              "key": "B",
+              "text": "rougement"
+            },
+            {
+              "key": "C",
+              "text": "rougée"
+            },
+            {
+              "key": "D",
+              "text": "rouges"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Tính từ màu không đổi ở giống đực số ít → rouge."
+        },
+        {
+          "num": "24",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ étudiants sont arrivés en retard. (Một số sinh viên đến muộn)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Chaque"
+            },
+            {
+              "key": "B",
+              "text": "Aucun"
+            },
+            {
+              "key": "C",
+              "text": "Certains"
+            },
+            {
+              "key": "D",
+              "text": "Toute"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Certains diễn tả “một số”."
+        },
+        {
+          "num": "25",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je suis né ___ 2001. (Tôi sinh năm 2001)",
+          "options": [
+            {
+              "key": "A",
+              "text": "en"
+            },
+            {
+              "key": "B",
+              "text": "à"
+            },
+            {
+              "key": "C",
+              "text": "dans"
+            },
+            {
+              "key": "D",
+              "text": "depuis"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Chỉ năm → dùng en."
+        },
+        {
+          "num": "26",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ne ___ plus ici. (Chúng tôi không còn sống ở đây nữa)",
+          "options": [
+            {
+              "key": "A",
+              "text": "vivons"
+            },
+            {
+              "key": "B",
+              "text": "vivait"
+            },
+            {
+              "key": "C",
+              "text": "vivre"
+            },
+            {
+              "key": "D",
+              "text": "vécu"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Ngôi nous hiện tại → vivons."
+        },
+        {
+          "num": "27",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ___ tombé hier soir. (Anh ấy đã ngã tối qua)",
+          "options": [
+            {
+              "key": "A",
+              "text": "est"
+            },
+            {
+              "key": "B",
+              "text": "a"
+            },
+            {
+              "key": "C",
+              "text": "était"
+            },
+            {
+              "key": "D",
+              "text": "avait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Il est tombé → passé composé với être."
+        },
+        {
+          "num": "28",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand elle était petite, elle ___ du piano. (Khi còn nhỏ, cô ấy chơi piano)",
+          "options": [
+            {
+              "key": "A",
+              "text": "jouait"
+            },
+            {
+              "key": "B",
+              "text": "a joué"
+            },
+            {
+              "key": "C",
+              "text": "joue"
+            },
+            {
+              "key": "D",
+              "text": "jouera"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Thói quen trong quá khứ → imparfait."
+        },
+        {
+          "num": "29",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand j’étais enfant, je ___ à la plage. Ce week-end, j’___ chez moi. (Ngày xưa tôi đi biển, cuối tuần này tôi ở nhà)",
+          "options": [
+            {
+              "key": "A",
+              "text": "allais / suis resté"
+            },
+            {
+              "key": "B",
+              "text": "vais / suis resté"
+            },
+            {
+              "key": "C",
+              "text": "suis allé / reste"
+            },
+            {
+              "key": "D",
+              "text": "allais / restais"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Imparfait cho thói quen + passé composé cho hành động cụ thể."
+        },
+        {
+          "num": "30",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ doit toujours dire la vérité. (… phải luôn nói sự thật)",
+          "options": [
+            {
+              "key": "A",
+              "text": "On"
+            },
+            {
+              "key": "B",
+              "text": "Il"
+            },
+            {
+              "key": "C",
+              "text": "Vous"
+            },
+            {
+              "key": "D",
+              "text": "Ils"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "On diễn tả chung chung “người ta”."
+        },
+        {
+          "num": "31",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je prends ___ café chaque matin. (Tôi uống một ly cà phê mỗi sáng)",
+          "options": [
+            {
+              "key": "A",
+              "text": "le"
+            },
+            {
+              "key": "B",
+              "text": "des"
+            },
+            {
+              "key": "C",
+              "text": "du"
+            },
+            {
+              "key": "D",
+              "text": "un"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Un café = một ly cà phê."
+        },
+        {
+          "num": "32",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le stylo est ___ la trousse. (Cây bút ở trong hộp bút)",
+          "options": [
+            {
+              "key": "A",
+              "text": "chez"
+            },
+            {
+              "key": "B",
+              "text": "sur"
+            },
+            {
+              "key": "C",
+              "text": "à"
+            },
+            {
+              "key": "D",
+              "text": "dans"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Vị trí đúng: dans la trousse."
+        },
+        {
+          "num": "33",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle porte une robe ___. (Cô ấy mặc một chiếc váy màu xanh da trời)",
+          "options": [
+            {
+              "key": "A",
+              "text": "bleue"
+            },
+            {
+              "key": "B",
+              "text": "bleument"
+            },
+            {
+              "key": "C",
+              "text": "bleu"
+            },
+            {
+              "key": "D",
+              "text": "bleus"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Tính từ giống cái số ít → bleue."
+        },
+        {
+          "num": "34",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ livres sont intéressants. (Những quyển sách này rất hay)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Ces"
+            },
+            {
+              "key": "B",
+              "text": "Chaque"
+            },
+            {
+              "key": "C",
+              "text": "Quelque"
+            },
+            {
+              "key": "D",
+              "text": "Toute"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Ces dùng cho số nhiều xác định."
+        },
+        {
+          "num": "35",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il travaille ___ nuit. (Anh ấy làm việc ca đêm)",
+          "options": [
+            {
+              "key": "A",
+              "text": "à la"
+            },
+            {
+              "key": "B",
+              "text": "en"
+            },
+            {
+              "key": "C",
+              "text": "le"
+            },
+            {
+              "key": "D",
+              "text": "la"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Biểu thức cố định: la nuit."
+        },
+        {
+          "num": "36",
+          "type": "Chọn câu trả lời đúng",
+          "question": "On ne ___ rien compris. (Người ta chẳng hiểu gì cả)",
+          "options": [
+            {
+              "key": "A",
+              "text": "a"
+            },
+            {
+              "key": "B",
+              "text": "avons"
+            },
+            {
+              "key": "C",
+              "text": "fait"
+            },
+            {
+              "key": "D",
+              "text": "est"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Passé composé: on n’a rien compris."
+        },
+        {
+          "num": "37",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ___ arrivés à 8h hier. (Chúng tôi đã đến lúc 8h hôm qua)",
+          "options": [
+            {
+              "key": "A",
+              "text": "sommes"
+            },
+            {
+              "key": "B",
+              "text": "avons"
+            },
+            {
+              "key": "C",
+              "text": "étions"
+            },
+            {
+              "key": "D",
+              "text": "serons"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Passé composé với être cho động từ arriver."
+        },
+        {
+          "num": "38",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand j’étais jeune, je ___ très curieux. (Khi còn trẻ, tôi rất tò mò)",
+          "options": [
+            {
+              "key": "A",
+              "text": "étais"
+            },
+            {
+              "key": "B",
+              "text": "suis"
+            },
+            {
+              "key": "C",
+              "text": "ai été"
+            },
+            {
+              "key": "D",
+              "text": "serai"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Mô tả trạng thái quá khứ → imparfait."
+        },
+        {
+          "num": "39",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Avant, je ___ au sport le matin. Aujourd’hui, je ___ plus. (Trước đây tôi tập thể thao buổi sáng. Giờ thì tôi không nữa)",
+          "options": [
+            {
+              "key": "A",
+              "text": "faisais / ne fais"
+            },
+            {
+              "key": "B",
+              "text": "ai fait / ne fais"
+            },
+            {
+              "key": "C",
+              "text": "faisais / ne fais pas"
+            },
+            {
+              "key": "D",
+              "text": "fais / n’ai fait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Quá khứ = imparfait (faisais), hiện tại phủ định = ne fais plus."
+        },
+        {
+          "num": "40",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ pense que c’est une bonne idée. (… nghĩ rằng đó là một ý hay)",
+          "options": [
+            {
+              "key": "A",
+              "text": "On"
+            },
+            {
+              "key": "B",
+              "text": "Tu"
+            },
+            {
+              "key": "C",
+              "text": "Il"
+            },
+            {
+              "key": "D",
+              "text": "Elle"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Chủ ngữ chung: On pense…."
+        },
+        {
+          "num": "41",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "42",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "A2.1_L16",
+      "num": 16,
+      "filename": "Bai_16_Gia_đình_và_hoạt_động.md",
+      "title": "Bài 16 - Gia đình và hoạt động",
+      "questions": [
+        {
+          "num": "1",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu parles à ta sœur ? – Oui, ___ (Bạn có nói chuyện với chị gái không? – Vâng, tôi nói chuyện với chị ấy.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "je lui parle"
+            },
+            {
+              "key": "B",
+              "text": "je en parle"
+            },
+            {
+              "key": "C",
+              "text": "je l’y parle"
+            },
+            {
+              "key": "D",
+              "text": "je la parle"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“à ta sœur” → pronom COI lui."
+        },
+        {
+          "num": "2",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu regardes le match à la télé ? – Oui, ___ (Bạn xem trận đấu trên TV à? – Vâng, tôi xem.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "je l’y regarde"
+            },
+            {
+              "key": "B",
+              "text": "je y regarde"
+            },
+            {
+              "key": "C",
+              "text": "je lui regarde"
+            },
+            {
+              "key": "D",
+              "text": "je le regarde"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "COD le match → je le regarde."
+        },
+        {
+          "num": "3",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous connaissez ces filles ? – Oui, ___ (Các bạn có quen những cô gái này không? – Có.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "nous les connaissons"
+            },
+            {
+              "key": "B",
+              "text": "nous leur connaissons"
+            },
+            {
+              "key": "C",
+              "text": "nous y connaissons"
+            },
+            {
+              "key": "D",
+              "text": "nous les savons"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "COD ces filles → les."
+        },
+        {
+          "num": "4",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il lit le journal chaque matin. (Anh ấy đọc báo mỗi sáng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "il l’y lit"
+            },
+            {
+              "key": "B",
+              "text": "il le lit"
+            },
+            {
+              "key": "C",
+              "text": "il y lit"
+            },
+            {
+              "key": "D",
+              "text": "il lui lit"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "COD le journal → le."
+        },
+        {
+          "num": "5",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu as vu les enfants ? – Oui, ___ (Bạn có thấy bọn trẻ không? – Có, tôi đã thấy.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "je leur ai vus"
+            },
+            {
+              "key": "B",
+              "text": "je les ai vu"
+            },
+            {
+              "key": "C",
+              "text": "je leur ai vu"
+            },
+            {
+              "key": "D",
+              "text": "je les ai vus"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "COD les enfants → les. Hòa hợp với vus."
+        },
+        {
+          "num": "6",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il finit son café ? – Non, ___ (Anh ấy uống xong cà phê chưa? – Chưa.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Non, il ne le finit pas."
+            },
+            {
+              "key": "B",
+              "text": "Non, il ne lui finit pas."
+            },
+            {
+              "key": "C",
+              "text": "Non, il le ne finit pas."
+            },
+            {
+              "key": "D",
+              "text": "Non, il n’en finit pas."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "COD le café → le."
+        },
+        {
+          "num": "7",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle écoute cette chanson ? – Oui, ___ (Cô ấy nghe bài hát này à? – Có.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "elle l’écoute"
+            },
+            {
+              "key": "B",
+              "text": "elle y écoute"
+            },
+            {
+              "key": "C",
+              "text": "elle la écoute"
+            },
+            {
+              "key": "D",
+              "text": "elle l’y écoute"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "COD cette chanson giống cái → la, trước nguyên âm → l’."
+        },
+        {
+          "num": "8",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu prends la valise ? – Oui, ___ (Bạn lấy vali chứ? – Có.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "je la prends"
+            },
+            {
+              "key": "B",
+              "text": "je le prends"
+            },
+            {
+              "key": "C",
+              "text": "je lui prends"
+            },
+            {
+              "key": "D",
+              "text": "je y prends"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "COD la valise giống cái → la."
+        },
+        {
+          "num": "9",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous regardez les films français ? – Oui, ___ (Các bạn xem phim Pháp à? – Vâng, chúng tôi xem.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "nous les regardons"
+            },
+            {
+              "key": "B",
+              "text": "nous les voyons"
+            },
+            {
+              "key": "C",
+              "text": "nous y regardons"
+            },
+            {
+              "key": "D",
+              "text": "nous les écoutons"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "COD les films → les."
+        },
+        {
+          "num": "10",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il aime cette actrice ? – Oui, ___ (Anh ấy thích nữ diễn viên này à? – Vâng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "il l’aime"
+            },
+            {
+              "key": "B",
+              "text": "il lui aime"
+            },
+            {
+              "key": "C",
+              "text": "il y aime"
+            },
+            {
+              "key": "D",
+              "text": "il la aime"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "COD cette actrice giống cái → la → l’aime."
+        },
+        {
+          "num": "11",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu m’aimes ? – Oui, ___ (Bạn yêu tôi chứ? – Vâng, tôi yêu bạn.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "je t’aime"
+            },
+            {
+              "key": "B",
+              "text": "je l’aime"
+            },
+            {
+              "key": "C",
+              "text": "je l’y aime"
+            },
+            {
+              "key": "D",
+              "text": "je te m’aime"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "COD me → te → t’aime."
+        },
+        {
+          "num": "12",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous nous entendez ? – Oui, ___ (Các bạn có nghe chúng tôi không? – Có, chúng tôi nghe rõ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "nous vous écoutons"
+            },
+            {
+              "key": "B",
+              "text": "nous les entendons"
+            },
+            {
+              "key": "C",
+              "text": "nous vous entendons"
+            },
+            {
+              "key": "D",
+              "text": "nous les écoutons"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "COD vous → nous vous entendons."
+        },
+        {
+          "num": "13",
+          "type": "Viết câu trả lời",
+          "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : cherche / Il / une heure / depuis / me",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": "Il me cherche depuis une heure."
+        },
+        {
+          "num": "14",
+          "type": "Viết câu trả lời",
+          "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : nous / Tu / ce soir / appelles ?",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": "Tu nous appelles ce soir ?"
+        },
+        {
+          "num": "15",
+          "type": "Viết câu trả lời",
+          "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : invite / vous / Elle / la fête / à ?",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": "Elle vous invite à la fête ?"
+        },
+        {
+          "num": "16",
+          "type": "Viết câu trả lời",
+          "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : demain / Il / te / va / voir.",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": "Il va te voir demain."
+        },
+        {
+          "num": "17",
+          "type": "Viết câu trả lời",
+          "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : me / Est-ce que / tu / comprends ?",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": "Est-ce que tu me comprends ?"
+        },
+        {
+          "num": "18",
+          "type": "Viết câu trả lời",
+          "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : ici / Vous / attendez / nous ?",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": "Vous nous attendez ici ?"
+        },
+        {
+          "num": "19",
+          "type": "Viết câu trả lời",
+          "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : souvent / Elle / pas / vous / voit / ne.",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": "Elle ne vous voit pas souvent."
+        },
+        {
+          "num": "20",
+          "type": "Viết câu trả lời",
+          "question": "Sắp xếp các từ sau đây thành câu hoàn chỉnh : regardes / comme ça / Tu / me ?",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": "Tu me regardes comme ça ?"
+        },
+        {
+          "num": "21",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu vois souvent ton frère ? – Oui, ___ (Bạn thường gặp em trai mình chứ? – Vâng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, je lui vois souvent."
+            },
+            {
+              "key": "B",
+              "text": "Oui, je la vois souvent."
+            },
+            {
+              "key": "C",
+              "text": "Oui, je le vois souvent."
+            },
+            {
+              "key": "D",
+              "text": "Oui, je le lui vois souvent."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "COD ton frère giống đực → le."
+        },
+        {
+          "num": "22",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous invitez vos cousins ? – Oui, ___ (Các bạn mời các anh em họ à? – Vâng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "nous en invitons"
+            },
+            {
+              "key": "B",
+              "text": "nous y invitons"
+            },
+            {
+              "key": "C",
+              "text": "nous leur invitons"
+            },
+            {
+              "key": "D",
+              "text": "nous les invitons"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "COD vos cousins → les."
+        },
+        {
+          "num": "23",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu aides ta sœur ? – Oui, ___ (Bạn giúp chị gái à? – Vâng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "je la lui aide"
+            },
+            {
+              "key": "B",
+              "text": "je lui aide"
+            },
+            {
+              "key": "C",
+              "text": "je y aide"
+            },
+            {
+              "key": "D",
+              "text": "je l’aide"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "COD ta sœur giống cái → la → l’aide."
+        },
+        {
+          "num": "24",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Que fait ta famille le dimanche ? (Gia đình bạn làm gì vào chủ nhật?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "Elle fait une promenade."
+            },
+            {
+              "key": "B",
+              "text": "Ils faisaient une promenade."
+            },
+            {
+              "key": "C",
+              "text": "Elle faire une promenade."
+            },
+            {
+              "key": "D",
+              "text": "Ils va faire une promenade."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Đúng ngữ pháp: Elle fait…."
+        },
+        {
+          "num": "25",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ton frère et toi, vous ___ au foot le samedi ? (Anh em cậu đá bóng thứ Bảy à?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "jouent"
+            },
+            {
+              "key": "B",
+              "text": "jouait"
+            },
+            {
+              "key": "C",
+              "text": "jouons"
+            },
+            {
+              "key": "D",
+              "text": "jouez"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Chủ ngữ vous → vous jouez."
+        },
+        {
+          "num": "26",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Hier, j’___ un gâteau avec ma mère. (Hôm qua tôi đã làm bánh với mẹ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "faire"
+            },
+            {
+              "key": "B",
+              "text": "faisais"
+            },
+            {
+              "key": "C",
+              "text": "ai fait"
+            },
+            {
+              "key": "D",
+              "text": "fais"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Hành động hoàn tất hôm qua → passé composé."
+        },
+        {
+          "num": "27",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu ___ tes grands-parents souvent ? (Bạn có hay thăm ông bà không?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "voit"
+            },
+            {
+              "key": "B",
+              "text": "vois"
+            },
+            {
+              "key": "C",
+              "text": "voies"
+            },
+            {
+              "key": "D",
+              "text": "voient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Ngôi tu → tu vois."
+        },
+        {
+          "num": "28",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ___ nos amis au parc dimanche dernier. (Chủ nhật trước chúng tôi gặp bạn ở công viên.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "voient"
+            },
+            {
+              "key": "B",
+              "text": "avons vu"
+            },
+            {
+              "key": "C",
+              "text": "verrons"
+            },
+            {
+              "key": "D",
+              "text": "voyons"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Hành động đã hoàn tất (dimanche dernier) → passé composé."
+        },
+        {
+          "num": "29",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle ___ ses devoirs avec son père. (Cô ấy làm bài tập với bố.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "fait"
+            },
+            {
+              "key": "B",
+              "text": "faites"
+            },
+            {
+              "key": "C",
+              "text": "faisait"
+            },
+            {
+              "key": "D",
+              "text": "fais"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Ngôi elle → elle fait."
+        },
+        {
+          "num": "30",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils ___ leur grand-mère pendant les vacances. (Họ thăm bà vào kỳ nghỉ.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "visitent"
+            },
+            {
+              "key": "B",
+              "text": "visiter"
+            },
+            {
+              "key": "C",
+              "text": "visite"
+            },
+            {
+              "key": "D",
+              "text": "visitaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Ngôi ils → ils visitent."
+        },
+        {
+          "num": "31",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu vois tes cousines ce week-end ? – Oui, ___ (Bạn gặp các chị họ cuối tuần này à?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "je lui vois"
+            },
+            {
+              "key": "B",
+              "text": "je leur vois"
+            },
+            {
+              "key": "C",
+              "text": "je les vois"
+            },
+            {
+              "key": "D",
+              "text": "je la vois"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "COD tes cousines → les."
+        },
+        {
+          "num": "32",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il aide son frère à faire ses devoirs ? – Oui, ___ (Anh ấy giúp em làm bài à?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "il l’y aide"
+            },
+            {
+              "key": "B",
+              "text": "il l’aide"
+            },
+            {
+              "key": "C",
+              "text": "il lui aide"
+            },
+            {
+              "key": "D",
+              "text": "il le lui aide"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "COD son frère → l’aide."
+        },
+        {
+          "num": "33",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous allez appeler vos parents ? – Oui, ___ (Các bạn sẽ gọi bố mẹ à?)",
+          "options": [
+            {
+              "key": "A",
+              "text": "nous allons les appelez"
+            },
+            {
+              "key": "B",
+              "text": "nous allons les appeler"
+            },
+            {
+              "key": "C",
+              "text": "nous les allons appeler"
+            },
+            {
+              "key": "D",
+              "text": "nous allons leur appeler"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "COD vos parents → les, cấu trúc futur proche → aller + infinitif."
+        },
+        {
+          "num": "34",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ma sœur ___ avec moi pendant le week-end. (Chị tôi đã ở với tôi cuối tuần.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "restera"
+            },
+            {
+              "key": "B",
+              "text": "reste"
+            },
+            {
+              "key": "C",
+              "text": "est restée"
+            },
+            {
+              "key": "D",
+              "text": "restait"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Hành động cụ thể quá khứ → passé composé (être)."
+        },
+        {
+          "num": "35",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Mes parents ___ souvent à mes grands-parents. (Bố mẹ tôi thường gọi điện cho ông bà.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ont téléphoné"
+            },
+            {
+              "key": "B",
+              "text": "téléphone"
+            },
+            {
+              "key": "C",
+              "text": "téléphonent"
+            },
+            {
+              "key": "D",
+              "text": "téléphonaient"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Thói quen hiện tại → présent."
+        },
+        {
+          "num": "36",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ton père prépare le dîner ? – Oui, ___ (Bố bạn nấu bữa tối à? – Vâng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "il le prépare"
+            },
+            {
+              "key": "B",
+              "text": "il la prépare"
+            },
+            {
+              "key": "C",
+              "text": "il y prépare"
+            },
+            {
+              "key": "D",
+              "text": "il en prépare"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "COD le dîner → le."
+        },
+        {
+          "num": "37",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous attendez votre sœur ? – Oui, ___ (Bạn chờ em gái à? – Vâng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "nous y attendons"
+            },
+            {
+              "key": "B",
+              "text": "nous leur attendons"
+            },
+            {
+              "key": "C",
+              "text": "nous l’attendons"
+            },
+            {
+              "key": "D",
+              "text": "nous la attendons"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "COD votre sœur → la → l’attendons."
+        },
+        {
+          "num": "38",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il raconte ses vacances à ses amis ? – Oui, ___ (Anh ấy kể kỳ nghỉ cho bạn bè à? – Vâng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "il leur raconte"
+            },
+            {
+              "key": "B",
+              "text": "il les raconte"
+            },
+            {
+              "key": "C",
+              "text": "il y raconte"
+            },
+            {
+              "key": "D",
+              "text": "il lui raconte"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "COI à ses amis → leur."
+        },
+        {
+          "num": "39",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu invites ton oncle pour Noël ? – Oui, ___ (Bạn mời chú à? – Vâng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "je lui invite"
+            },
+            {
+              "key": "B",
+              "text": "je l’y invite"
+            },
+            {
+              "key": "C",
+              "text": "je l’invite"
+            },
+            {
+              "key": "D",
+              "text": "je le lui invite"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "COD ton oncle → l’invite."
+        },
+        {
+          "num": "40",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils retrouvent leurs amis au café ? – Oui, ___ (Họ gặp lại bạn ở quán cà phê à? – Vâng.)",
+          "options": [
+            {
+              "key": "A",
+              "text": "ils y retrouvent"
+            },
+            {
+              "key": "B",
+              "text": "ils leur retrouvent"
+            },
+            {
+              "key": "C",
+              "text": "ils les revoient"
+            },
+            {
+              "key": "D",
+              "text": "ils les retrouvent"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "COD leurs amis → les."
+        },
+        {
+          "num": "41",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "audios/A2_Bai_16_Cau_41_121641.mp3",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "42",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "A2.1_L17",
+      "num": 17,
+      "filename": "Bai_17_Sức_khỏe.md",
+      "title": "Bài 17 - Sức khỏe",
+      "questions": [
+        {
+          "num": "1",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il écrit à Julie ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, il lui écrit."
+            },
+            {
+              "key": "B",
+              "text": "Oui, il y écrit."
+            },
+            {
+              "key": "C",
+              "text": "Oui, il l’écrit."
+            },
+            {
+              "key": "D",
+              "text": "Oui, il la écrit."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"À Julie\" là COI → dùng \"lui\"."
+        },
+        {
+          "num": "2",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu expliques aux enfants ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, je leur explique."
+            },
+            {
+              "key": "B",
+              "text": "Oui, je y explique."
+            },
+            {
+              "key": "C",
+              "text": "Oui, je les explique."
+            },
+            {
+              "key": "D",
+              "text": "Oui, je l’explique."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"Aux enfants\" là COI → dùng \"leur\"."
+        },
+        {
+          "num": "3",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle parle à son père ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, elle le parle."
+            },
+            {
+              "key": "B",
+              "text": "Oui, elle les parle."
+            },
+            {
+              "key": "C",
+              "text": "Oui, elle l’y parle."
+            },
+            {
+              "key": "D",
+              "text": "Oui, elle lui parle."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "\"À son père\" là COI → dùng \"lui\"."
+        },
+        {
+          "num": "4",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous téléphonez à vos cousines ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, nous la téléphonons."
+            },
+            {
+              "key": "B",
+              "text": "Oui, nous y téléphonons."
+            },
+            {
+              "key": "C",
+              "text": "Oui, nous les téléphonons."
+            },
+            {
+              "key": "D",
+              "text": "Oui, nous leur téléphonons."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "\"À vos cousines\" là COI → dùng \"leur\"."
+        },
+        {
+          "num": "5",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Je réponds à ma sœur ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, tu lui réponds."
+            },
+            {
+              "key": "B",
+              "text": "Oui, tu y réponds."
+            },
+            {
+              "key": "C",
+              "text": "Oui, tu la réponds."
+            },
+            {
+              "key": "D",
+              "text": "Oui, tu le réponds."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"À ma sœur\" là COI → dùng \"lui\"."
+        },
+        {
+          "num": "6",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu me parles ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, je lui parle."
+            },
+            {
+              "key": "B",
+              "text": "Oui, je te parles."
+            },
+            {
+              "key": "C",
+              "text": "Oui, je te parle."
+            },
+            {
+              "key": "D",
+              "text": "Oui, je t’y parle."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "\"me\" → COI → đổi thành \"te\"."
+        },
+        {
+          "num": "7",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il t’envoie un message ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, il me l’envoie."
+            },
+            {
+              "key": "B",
+              "text": "Oui, il te l’envoie."
+            },
+            {
+              "key": "C",
+              "text": "Oui, il lui l’envoie."
+            },
+            {
+              "key": "D",
+              "text": "Oui, il l’envoie."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"me\" là COI, \"le message\" là COD → \"me l’\"."
+        },
+        {
+          "num": "8",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous nous expliquez le problème ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, je l’explique."
+            },
+            {
+              "key": "B",
+              "text": "Oui, je leur explique."
+            },
+            {
+              "key": "C",
+              "text": "Oui, je vous explique."
+            },
+            {
+              "key": "D",
+              "text": "Oui, je vous l’explique."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "COD “le problème” → l’: vous l’explique."
+        },
+        {
+          "num": "9",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu m’écris souvent ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, je lui écris chaque jour."
+            },
+            {
+              "key": "B",
+              "text": "Oui, je t’écris chaque jour."
+            },
+            {
+              "key": "C",
+              "text": "Oui, je te écris chaque jour."
+            },
+            {
+              "key": "D",
+              "text": "Oui, je t’y écris chaque jour."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"m’\" → COI → thành \"t’\" nếu người nói đổi."
+        },
+        {
+          "num": "10",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle vous parle ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, elle nous parlez souvent."
+            },
+            {
+              "key": "B",
+              "text": "Oui, elle leur parle souvent."
+            },
+            {
+              "key": "C",
+              "text": "Oui, elle nous parle souvent."
+            },
+            {
+              "key": "D",
+              "text": "Oui, elle y parle souvent."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "\"vous\" → COI → chuyển thành \"nous\" nếu người trả lời là “nous”."
+        },
+        {
+          "num": "11",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu téléphones à ta mère ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, je la téléphone."
+            },
+            {
+              "key": "B",
+              "text": "Oui, je lui téléphone."
+            },
+            {
+              "key": "C",
+              "text": "Oui, je l’y téléphone."
+            },
+            {
+              "key": "D",
+              "text": "Oui, je le téléphone."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "\"À ta mère\" là COI → dùng \"lui\"."
+        },
+        {
+          "num": "12",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous parlez à votre médecin ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, nous les parlons."
+            },
+            {
+              "key": "B",
+              "text": "Oui, nous le parlons."
+            },
+            {
+              "key": "C",
+              "text": "Oui, nous lui parlez."
+            },
+            {
+              "key": "D",
+              "text": "Oui, nous lui parlons."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "\"À votre médecin\" là COI → dùng \"lui\"."
+        },
+        {
+          "num": "13",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle donne des conseils à ses enfants ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, elle leur donne des conseils."
+            },
+            {
+              "key": "B",
+              "text": "Oui, elle les donne des conseils."
+            },
+            {
+              "key": "C",
+              "text": "Oui, elle lui donne des conseils."
+            },
+            {
+              "key": "D",
+              "text": "Oui, elle leur donne les."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"À ses enfants\" = COI số nhiều → dùng \"leur\"."
+        },
+        {
+          "num": "14",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il téléphone à ses collègues tous les matins ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, il leur téléphone."
+            },
+            {
+              "key": "B",
+              "text": "Oui, il les téléphone."
+            },
+            {
+              "key": "C",
+              "text": "Oui, il lui téléphone."
+            },
+            {
+              "key": "D",
+              "text": "Oui, il les parle."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"À ses collègues\" = COI số nhiều → dùng \"leur\"."
+        },
+        {
+          "num": "15",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu parles souvent à ton kiné ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, je leur parle souvent."
+            },
+            {
+              "key": "B",
+              "text": "Oui, je lui parle souvent."
+            },
+            {
+              "key": "C",
+              "text": "Oui, je l’y parle souvent."
+            },
+            {
+              "key": "D",
+              "text": "Oui, je le parle souvent."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "\"À ton kiné\" = COI → dùng \"lui\"."
+        },
+        {
+          "num": "16",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le médecin te donne un médicament ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, il le me donne."
+            },
+            {
+              "key": "B",
+              "text": "Oui, il la me donne."
+            },
+            {
+              "key": "C",
+              "text": "Oui, il me le donne."
+            },
+            {
+              "key": "D",
+              "text": "Oui, il me la donne."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "\"me\" là COI, \"un médicament\" là COD → trật tự: me + le."
+        },
+        {
+          "num": "17",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu as mal à la tête ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, je suis malade la tête."
+            },
+            {
+              "key": "B",
+              "text": "Oui, j’ai mal le tête."
+            },
+            {
+              "key": "C",
+              "text": "Oui, je suis mal à la tête."
+            },
+            {
+              "key": "D",
+              "text": "Oui, j’ai mal à la tête."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "Cấu trúc đúng: avoir mal à + phần cơ thể."
+        },
+        {
+          "num": "18",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle se sent bien aujourd’hui ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, elle se sent bien."
+            },
+            {
+              "key": "B",
+              "text": "Oui, elle est bien sentie."
+            },
+            {
+              "key": "C",
+              "text": "Oui, elle s’est bien sentie."
+            },
+            {
+              "key": "D",
+              "text": "Oui, elle sent se bien."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Thì hiện tại: elle se sent bien (se sentir)."
+        },
+        {
+          "num": "19",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous téléphonez à vos grands-parents ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, nous leur téléphonons."
+            },
+            {
+              "key": "B",
+              "text": "Oui, nous la téléphonons."
+            },
+            {
+              "key": "C",
+              "text": "Oui, nous les téléphonons."
+            },
+            {
+              "key": "D",
+              "text": "Oui, nous lui téléphonons."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"À vos grands-parents\" = COI số nhiều → dùng \"leur\"."
+        },
+        {
+          "num": "20",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu donnes des nouvelles à tes amis ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, je les donne des nouvelles."
+            },
+            {
+              "key": "B",
+              "text": "Oui, je leur donnes."
+            },
+            {
+              "key": "C",
+              "text": "Oui, je leur donne les nouvelles."
+            },
+            {
+              "key": "D",
+              "text": "Oui, je leur donne des nouvelles."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "\"À tes amis\" = COI → dùng \"leur\"."
+        },
+        {
+          "num": "21",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu écris à ton médecin ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, je leur écris."
+            },
+            {
+              "key": "B",
+              "text": "Oui, je la écris."
+            },
+            {
+              "key": "C",
+              "text": "Oui, je l’écris."
+            },
+            {
+              "key": "D",
+              "text": "Oui, je lui écris."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“à ton médecin” = COI → lui."
+        },
+        {
+          "num": "22",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il parle à son psychologue ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, il leur parle."
+            },
+            {
+              "key": "B",
+              "text": "Oui, il l’y parle."
+            },
+            {
+              "key": "C",
+              "text": "Oui, il le parle."
+            },
+            {
+              "key": "D",
+              "text": "Oui, il lui parle."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "parler à qqn → COI → lui."
+        },
+        {
+          "num": "23",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous répondez au pharmacien ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, nous y répondons."
+            },
+            {
+              "key": "B",
+              "text": "Oui, nous lui répondons."
+            },
+            {
+              "key": "C",
+              "text": "Oui, nous le répondons."
+            },
+            {
+              "key": "D",
+              "text": "Oui, nous leur répondons."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "répondre à qqn = COI → lui."
+        },
+        {
+          "num": "24",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle envoie un message à ses enfants ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, elle leur envoie les."
+            },
+            {
+              "key": "B",
+              "text": "Oui, elle le leur envoie un message."
+            },
+            {
+              "key": "C",
+              "text": "Oui, elle leur envoie."
+            },
+            {
+              "key": "D",
+              "text": "Oui, elle les envoie un message."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "COI leur + COD un message."
+        },
+        {
+          "num": "25",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le kiné vous parle après la séance ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, il nous parle."
+            },
+            {
+              "key": "B",
+              "text": "Oui, il vous parle."
+            },
+            {
+              "key": "C",
+              "text": "Oui, il leur parle."
+            },
+            {
+              "key": "D",
+              "text": "Oui, il me parle."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“vous” trong câu hỏi = COI, đổi thành nous khi trả lời."
+        },
+        {
+          "num": "26",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu vois ta cousine ce week-end ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, je lui vois."
+            },
+            {
+              "key": "B",
+              "text": "Oui, je le vois."
+            },
+            {
+              "key": "C",
+              "text": "Oui, je leur vois."
+            },
+            {
+              "key": "D",
+              "text": "Oui, je la vois."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“cousine” = COD féminin → la."
+        },
+        {
+          "num": "27",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous avez invité vos amis ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, nous les avons invité."
+            },
+            {
+              "key": "B",
+              "text": "Oui, nous leur avons invités."
+            },
+            {
+              "key": "C",
+              "text": "Oui, nous avons les invités."
+            },
+            {
+              "key": "D",
+              "text": "Oui, nous les avons invités."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "COD “les” → les avons invités."
+        },
+        {
+          "num": "28",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle parle à sa sœur au téléphone ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, elle la parle."
+            },
+            {
+              "key": "B",
+              "text": "Oui, elle lui parle."
+            },
+            {
+              "key": "C",
+              "text": "Oui, elle leur parle."
+            },
+            {
+              "key": "D",
+              "text": "Oui, elle le parle."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "parler à sa sœur = COI → lui."
+        },
+        {
+          "num": "29",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Ils appellent leur grand-père tous les jours ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, ils l’appellent tous les jours."
+            },
+            {
+              "key": "B",
+              "text": "Oui, ils les appellent tous les jours."
+            },
+            {
+              "key": "C",
+              "text": "Oui, ils le appellent…"
+            },
+            {
+              "key": "D",
+              "text": "Oui, ils lui appellent…"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“grand-père” = COD masc. sing. → l’."
+        },
+        {
+          "num": "30",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu expliques le problème au médecin ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, je leur explique."
+            },
+            {
+              "key": "B",
+              "text": "Oui, je le explique."
+            },
+            {
+              "key": "C",
+              "text": "Oui, je l’explique."
+            },
+            {
+              "key": "D",
+              "text": "Oui, je lui explique."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "expliquer à qqn = COI → lui."
+        },
+        {
+          "num": "31",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu manges la soupe ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, je la mange."
+            },
+            {
+              "key": "B",
+              "text": "Oui, je lui mange."
+            },
+            {
+              "key": "C",
+              "text": "Oui, je les mange."
+            },
+            {
+              "key": "D",
+              "text": "Oui, je le mange."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“soupe” = COD fém. sing. → la."
+        },
+        {
+          "num": "32",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous téléphonez à votre tante malade ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, nous lui parlons."
+            },
+            {
+              "key": "B",
+              "text": "Oui, nous les téléphonons."
+            },
+            {
+              "key": "C",
+              "text": "Oui, nous lui téléphonons."
+            },
+            {
+              "key": "D",
+              "text": "Oui, nous la téléphonons."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "téléphoner à qqn = COI → lui."
+        },
+        {
+          "num": "33",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu vois souvent tes grands-parents ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, je les regardes souvent."
+            },
+            {
+              "key": "B",
+              "text": "Oui, je leur parle souvent."
+            },
+            {
+              "key": "C",
+              "text": "Oui, je les vois souvent."
+            },
+            {
+              "key": "D",
+              "text": "Oui, je leur vois souvent."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“grands-parents” = COD pluriel → les."
+        },
+        {
+          "num": "34",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il donne les médicaments à ses enfants ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, il leur les donne."
+            },
+            {
+              "key": "B",
+              "text": "Oui, il les leur donne."
+            },
+            {
+              "key": "C",
+              "text": "Oui, il les les donne."
+            },
+            {
+              "key": "D",
+              "text": "Oui, il les donne à eux."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Double pronom COD + COI: les leur."
+        },
+        {
+          "num": "35",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu écoutes ton frère ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, je la écoute."
+            },
+            {
+              "key": "B",
+              "text": "Oui, je les écoute."
+            },
+            {
+              "key": "C",
+              "text": "Oui, je lui écoute."
+            },
+            {
+              "key": "D",
+              "text": "Oui, je l’écoute."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“frère” = COD masc. sing. → l’."
+        },
+        {
+          "num": "36",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu comprends ta sœur ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, je leur comprends."
+            },
+            {
+              "key": "B",
+              "text": "Oui, je lui comprends."
+            },
+            {
+              "key": "C",
+              "text": "Oui, je la comprends."
+            },
+            {
+              "key": "D",
+              "text": "Oui, je le comprends."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“sœur” = COD fém. sing. → la."
+        },
+        {
+          "num": "37",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Vous écrivez à votre oncle ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, nous l’écrivons."
+            },
+            {
+              "key": "B",
+              "text": "Oui, nous lui écrivons."
+            },
+            {
+              "key": "C",
+              "text": "Oui, nous leur écrivons."
+            },
+            {
+              "key": "D",
+              "text": "Oui, nous la écrivons."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "écrire à qqn = COI → lui."
+        },
+        {
+          "num": "38",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu invites tes cousins ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, je leur invite."
+            },
+            {
+              "key": "B",
+              "text": "Oui, je le invite."
+            },
+            {
+              "key": "C",
+              "text": "Oui, je les invite."
+            },
+            {
+              "key": "D",
+              "text": "Oui, je les invites."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“cousins” = COD masc. pluriel → les."
+        },
+        {
+          "num": "39",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il parle à ses enfants le soir ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, il lui parle."
+            },
+            {
+              "key": "B",
+              "text": "Oui, il leur parle."
+            },
+            {
+              "key": "C",
+              "text": "Oui, il leur dit."
+            },
+            {
+              "key": "D",
+              "text": "Oui, il les parle."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "parler à ses enfants = COI pluriel → leur."
+        },
+        {
+          "num": "40",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu regardes ce film avec ta famille ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, je lui regarde."
+            },
+            {
+              "key": "B",
+              "text": "Oui, je les regarde."
+            },
+            {
+              "key": "C",
+              "text": "Oui, je la regarde."
+            },
+            {
+              "key": "D",
+              "text": "Oui, je le regarde."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“film” = COD masc. sing. → le."
+        },
+        {
+          "num": "41",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "audios/A2_Bai_17_Cau_41_121741.mp3",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "42",
+          "type": "Viết câu trả lời",
+          "question": "Đọc các đoạn văn và sắp xếp chúng theo đúng thứ tự của sự việc:",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "A2.1_L18",
+      "num": 18,
+      "filename": "Bai_18_Kiểm_tra_cuối_kỳ_1.md",
+      "title": "Bài 18 - Kiểm tra cuối kỳ 1",
+      "questions": [
+        {
+          "num": "1",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ école est fermée aujourd’hui.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Une"
+            },
+            {
+              "key": "B",
+              "text": "L'"
+            },
+            {
+              "key": "C",
+              "text": "Des"
+            },
+            {
+              "key": "D",
+              "text": "Le"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "\"École\" là danh từ giống cái bắt đầu bằng nguyên âm → dùng article défini L'."
+        },
+        {
+          "num": "2",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le chat est ___ la table.",
+          "options": [
+            {
+              "key": "A",
+              "text": "devant"
+            },
+            {
+              "key": "B",
+              "text": "entre"
+            },
+            {
+              "key": "C",
+              "text": "derrière"
+            },
+            {
+              "key": "D",
+              "text": "sous"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "\"Sous la table\" = dưới cái bàn → préposition de lieu."
+        },
+        {
+          "num": "3",
+          "type": "Chọn câu trả lời đúng",
+          "question": "C’est une femme ___.",
+          "options": [
+            {
+              "key": "A",
+              "text": "beau"
+            },
+            {
+              "key": "B",
+              "text": "intelligente"
+            },
+            {
+              "key": "C",
+              "text": "italien"
+            },
+            {
+              "key": "D",
+              "text": "rouge"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Tính từ chỉ tính chất đứng sau danh từ."
+        },
+        {
+          "num": "4",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ élèves sont absents aujourd’hui.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Chaque"
+            },
+            {
+              "key": "B",
+              "text": "Toute"
+            },
+            {
+              "key": "C",
+              "text": "Plusieurs"
+            },
+            {
+              "key": "D",
+              "text": "Certains"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "\"Certains\" = một số → dùng cho danh từ số nhiều."
+        },
+        {
+          "num": "5",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel est l’indicateur de temps pour le futur ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Hier"
+            },
+            {
+              "key": "B",
+              "text": "Demain"
+            },
+            {
+              "key": "C",
+              "text": "Toujours"
+            },
+            {
+              "key": "D",
+              "text": "Maintenant"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "\"Demain\" = ngày mai → thời tương lai."
+        },
+        {
+          "num": "6",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quelle phrase est correcte ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Je vais pas à l’école."
+            },
+            {
+              "key": "B",
+              "text": "Je ne vais pas à l’école."
+            },
+            {
+              "key": "C",
+              "text": "Je ne pas vais à l’école."
+            },
+            {
+              "key": "D",
+              "text": "Je vais ne pas à l’école."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Négation: ne___ pas bao quanh động từ chia."
+        },
+        {
+          "num": "7",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel verbe est au passé composé ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Je mangeais"
+            },
+            {
+              "key": "B",
+              "text": "Il chantait"
+            },
+            {
+              "key": "C",
+              "text": "Nous avons vu"
+            },
+            {
+              "key": "D",
+              "text": "Vous étiez"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "\"Avoir + participe passé\" = passé composé."
+        },
+        {
+          "num": "8",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel verbe est à l’imparfait ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "J’ai fini"
+            },
+            {
+              "key": "B",
+              "text": "Tu es allé"
+            },
+            {
+              "key": "C",
+              "text": "Il parlait"
+            },
+            {
+              "key": "D",
+              "text": "Nous avons vu"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "\"Parlait\" là imparfait (3e pers. sing.)."
+        },
+        {
+          "num": "9",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quand il est arrivé, je ___.",
+          "options": [
+            {
+              "key": "A",
+              "text": "a dormi"
+            },
+            {
+              "key": "B",
+              "text": "dors"
+            },
+            {
+              "key": "C",
+              "text": "dormais"
+            },
+            {
+              "key": "D",
+              "text": "avais dormi"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Dùng thì imparfait chỉ hành động đang diễn ra khi một hành động khác cắt ngang."
+        },
+        {
+          "num": "10",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Usage correct du pronom 'on' ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "On est contents."
+            },
+            {
+              "key": "B",
+              "text": "On es allé."
+            },
+            {
+              "key": "C",
+              "text": "On sont parti."
+            },
+            {
+              "key": "D",
+              "text": "On avez faim."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "\"On\" chia như il/elle → số ít."
+        },
+        {
+          "num": "11",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu regardes le film ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Je la regarde."
+            },
+            {
+              "key": "B",
+              "text": "Je le regarde."
+            },
+            {
+              "key": "C",
+              "text": "Je l’y regarde."
+            },
+            {
+              "key": "D",
+              "text": "Je lui regarde."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "\"Le film\" là COD giống đực → dùng le."
+        },
+        {
+          "num": "12",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Elle parle à son frère. → avec COI ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Elle le parle."
+            },
+            {
+              "key": "B",
+              "text": "Elle leur parle."
+            },
+            {
+              "key": "C",
+              "text": "Elle y parle."
+            },
+            {
+              "key": "D",
+              "text": "Elle lui parle."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "\"À son frère\" là COI → dùng lui."
+        },
+        {
+          "num": "13",
+          "type": "Chọn câu trả lời đúng",
+          "question": "C’est ___ pomme délicieuse.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Des"
+            },
+            {
+              "key": "B",
+              "text": "Le"
+            },
+            {
+              "key": "C",
+              "text": "Un"
+            },
+            {
+              "key": "D",
+              "text": "Une"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "\"Pomme\" là danh từ giống cái → article indéfini là une."
+        },
+        {
+          "num": "14",
+          "type": "Chọn câu trả lời đúng",
+          "question": "La lampe est ___ le canapé et la table.",
+          "options": [
+            {
+              "key": "A",
+              "text": "derrière"
+            },
+            {
+              "key": "B",
+              "text": "entre"
+            },
+            {
+              "key": "C",
+              "text": "dans"
+            },
+            {
+              "key": "D",
+              "text": "sous"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "\"Entre A et B\" = giữa A và B → préposition de lieu."
+        },
+        {
+          "num": "15",
+          "type": "Chọn câu trả lời đúng",
+          "question": "J’ai acheté un ___ manteau.",
+          "options": [
+            {
+              "key": "A",
+              "text": "ancien"
+            },
+            {
+              "key": "B",
+              "text": "chaud"
+            },
+            {
+              "key": "C",
+              "text": "bleu"
+            },
+            {
+              "key": "D",
+              "text": "beau"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "\"Beau\" là tính từ thường đứng trước danh từ."
+        },
+        {
+          "num": "16",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ personne ne l’a vu.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Toutes"
+            },
+            {
+              "key": "B",
+              "text": "Aucune"
+            },
+            {
+              "key": "C",
+              "text": "Certains"
+            },
+            {
+              "key": "D",
+              "text": "Chaque"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "\"Aucune\" + nom → mang nghĩa không ai/cái gì cả."
+        },
+        {
+          "num": "17",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel indicateur de temps correspond au passé ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Demain"
+            },
+            {
+              "key": "B",
+              "text": "Bientôt"
+            },
+            {
+              "key": "C",
+              "text": "Hier"
+            },
+            {
+              "key": "D",
+              "text": "Ce soir"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "\"Hier\" = hôm qua → chỉ thời quá khứ."
+        },
+        {
+          "num": "18",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ___ vient jamais en avance.",
+          "options": [
+            {
+              "key": "A",
+              "text": "ne"
+            },
+            {
+              "key": "B",
+              "text": "pas"
+            },
+            {
+              "key": "C",
+              "text": "rien"
+            },
+            {
+              "key": "D",
+              "text": "aucun"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Cấu trúc phủ định: ne___ jamais."
+        },
+        {
+          "num": "19",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Choisis l’article défini : ___ soleil brille aujourd’hui.",
+          "options": [
+            {
+              "key": "A",
+              "text": "La"
+            },
+            {
+              "key": "B",
+              "text": "Des"
+            },
+            {
+              "key": "C",
+              "text": "Un"
+            },
+            {
+              "key": "D",
+              "text": "Le"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "\"Soleil\" là danh từ giống đực số ít → dùng article défini Le."
+        },
+        {
+          "num": "20",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le livre est ___ mon sac.",
+          "options": [
+            {
+              "key": "A",
+              "text": "chez"
+            },
+            {
+              "key": "B",
+              "text": "devant"
+            },
+            {
+              "key": "C",
+              "text": "dans"
+            },
+            {
+              "key": "D",
+              "text": "sur"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "\"Dans mon sac\" = trong cặp → préposition de lieu dans."
+        },
+        {
+          "num": "21",
+          "type": "Chọn câu trả lời đúng",
+          "question": "C’est un ___ homme.",
+          "options": [
+            {
+              "key": "A",
+              "text": "bleu"
+            },
+            {
+              "key": "B",
+              "text": "petit"
+            },
+            {
+              "key": "C",
+              "text": "française"
+            },
+            {
+              "key": "D",
+              "text": "intelligent"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Petit” là tính từ thường đứng trước danh từ."
+        },
+        {
+          "num": "22",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ étudiants sont déjà arrivés.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Chaque"
+            },
+            {
+              "key": "B",
+              "text": "Aucun"
+            },
+            {
+              "key": "C",
+              "text": "Toute"
+            },
+            {
+              "key": "D",
+              "text": "Plusieurs"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“Plusieurs étudiants” = nhiều sinh viên."
+        },
+        {
+          "num": "23",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel indicateur exprime une action en cours ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Demain"
+            },
+            {
+              "key": "B",
+              "text": "Avant"
+            },
+            {
+              "key": "C",
+              "text": "Maintenant"
+            },
+            {
+              "key": "D",
+              "text": "Hier"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Maintenant” = hành động đang diễn ra."
+        },
+        {
+          "num": "24",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ lune est belle ce soir.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Une"
+            },
+            {
+              "key": "B",
+              "text": "Le"
+            },
+            {
+              "key": "C",
+              "text": "Des"
+            },
+            {
+              "key": "D",
+              "text": "La"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“La lune” (mặt trăng xác định)."
+        },
+        {
+          "num": "25",
+          "type": "Chọn câu trả lời đúng",
+          "question": "La voiture est ___ le garage.",
+          "options": [
+            {
+              "key": "A",
+              "text": "sur"
+            },
+            {
+              "key": "B",
+              "text": "chez"
+            },
+            {
+              "key": "C",
+              "text": "dans"
+            },
+            {
+              "key": "D",
+              "text": "devant"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“dans le garage” = trong gara."
+        },
+        {
+          "num": "26",
+          "type": "Chọn câu trả lời đúng",
+          "question": "C’est une ___ maison.",
+          "options": [
+            {
+              "key": "A",
+              "text": "rouge"
+            },
+            {
+              "key": "B",
+              "text": "sympa"
+            },
+            {
+              "key": "C",
+              "text": "ancienne"
+            },
+            {
+              "key": "D",
+              "text": "intéressant"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Une ancienne maison” → tính từ đứng trước danh từ, đúng ngữ pháp."
+        },
+        {
+          "num": "27",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il a rencontré ___ gens intéressants.",
+          "options": [
+            {
+              "key": "A",
+              "text": "chaque"
+            },
+            {
+              "key": "B",
+              "text": "aucune"
+            },
+            {
+              "key": "C",
+              "text": "plusieurs"
+            },
+            {
+              "key": "D",
+              "text": "tout"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“plusieurs” = nhiều."
+        },
+        {
+          "num": "28",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel indicateur exprime une fréquence ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Demain"
+            },
+            {
+              "key": "B",
+              "text": "Souvent"
+            },
+            {
+              "key": "C",
+              "text": "Hier"
+            },
+            {
+              "key": "D",
+              "text": "Bientôt"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Souvent” = thường xuyên."
+        },
+        {
+          "num": "29",
+          "type": "Chọn câu trả lời đúng",
+          "question": "C’est ___ orange délicieuse.",
+          "options": [
+            {
+              "key": "A",
+              "text": "des"
+            },
+            {
+              "key": "B",
+              "text": "un"
+            },
+            {
+              "key": "C",
+              "text": "une"
+            },
+            {
+              "key": "D",
+              "text": "le"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“orange” giống cái → une."
+        },
+        {
+          "num": "30",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Le chien dort ___ le canapé.",
+          "options": [
+            {
+              "key": "A",
+              "text": "chez"
+            },
+            {
+              "key": "B",
+              "text": "dans"
+            },
+            {
+              "key": "C",
+              "text": "devant"
+            },
+            {
+              "key": "D",
+              "text": "sur"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "D",
+          "explanation": "“sur le canapé” = trên ghế sofa."
+        },
+        {
+          "num": "31",
+          "type": "Chọn câu trả lời đúng",
+          "question": "C’est un ___ appartement.",
+          "options": [
+            {
+              "key": "A",
+              "text": "bleu"
+            },
+            {
+              "key": "B",
+              "text": "ancien"
+            },
+            {
+              "key": "C",
+              "text": "petit"
+            },
+            {
+              "key": "D",
+              "text": "vieux"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "un petit appartement → adj. trước danh từ."
+        },
+        {
+          "num": "32",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ enfants aiment les bonbons.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Tous les"
+            },
+            {
+              "key": "B",
+              "text": "Chaque"
+            },
+            {
+              "key": "C",
+              "text": "Certain"
+            },
+            {
+              "key": "D",
+              "text": "Aucun"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "“Tous les enfants” = tất cả trẻ em."
+        },
+        {
+          "num": "33",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel indicateur exprime une action passée ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Demain"
+            },
+            {
+              "key": "B",
+              "text": "Hier"
+            },
+            {
+              "key": "C",
+              "text": "Maintenant"
+            },
+            {
+              "key": "D",
+              "text": "Aujourd’hui"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "“Hier” = hôm qua."
+        },
+        {
+          "num": "34",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il ___ va pas au cinéma.",
+          "options": [
+            {
+              "key": "A",
+              "text": "ne"
+            },
+            {
+              "key": "B",
+              "text": "non"
+            },
+            {
+              "key": "C",
+              "text": "pas"
+            },
+            {
+              "key": "D",
+              "text": "aucun"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "Cấu trúc phủ định: Il ne … pas …."
+        },
+        {
+          "num": "35",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel verbe est au passé composé ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "nous étions"
+            },
+            {
+              "key": "B",
+              "text": "il dormait"
+            },
+            {
+              "key": "C",
+              "text": "je suis allé"
+            },
+            {
+              "key": "D",
+              "text": "tu parlais"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Passé composé: je suis allé."
+        },
+        {
+          "num": "36",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Quel verbe est à l’imparfait ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "tu es venu"
+            },
+            {
+              "key": "B",
+              "text": "j’ai vu"
+            },
+            {
+              "key": "C",
+              "text": "elle chantait"
+            },
+            {
+              "key": "D",
+              "text": "ils ont mangé"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "Imparfait: chantait."
+        },
+        {
+          "num": "37",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Nous ___ un film hier soir.",
+          "options": [
+            {
+              "key": "A",
+              "text": "regardons"
+            },
+            {
+              "key": "B",
+              "text": "avons regardé"
+            },
+            {
+              "key": "C",
+              "text": "regardions"
+            },
+            {
+              "key": "D",
+              "text": "allez regarder"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "B",
+          "explanation": "Passé composé với “hier soir”."
+        },
+        {
+          "num": "38",
+          "type": "Chọn câu trả lời đúng",
+          "question": "___ est ton prénom ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Où"
+            },
+            {
+              "key": "B",
+              "text": "Comment"
+            },
+            {
+              "key": "C",
+              "text": "Quel"
+            },
+            {
+              "key": "D",
+              "text": "Qui"
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "C",
+          "explanation": "“Quel est ton prénom ?” = hỏi tên."
+        },
+        {
+          "num": "39",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Tu lis le livre ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, je le lis."
+            },
+            {
+              "key": "B",
+              "text": "Oui, je lui lis."
+            },
+            {
+              "key": "C",
+              "text": "Oui, je les lis."
+            },
+            {
+              "key": "D",
+              "text": "Oui, je la lis."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "COD masc. sing. → le."
+        },
+        {
+          "num": "40",
+          "type": "Chọn câu trả lời đúng",
+          "question": "Il parle à Marie ?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Oui, il lui parle."
+            },
+            {
+              "key": "B",
+              "text": "Oui, il le parle."
+            },
+            {
+              "key": "C",
+              "text": "Oui, il la parle."
+            },
+            {
+              "key": "D",
+              "text": "Oui, il les parle."
+            }
+          ],
+          "is_speaking": false,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "A",
+          "explanation": "COI → lui."
+        },
+        {
+          "num": "41",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        },
+        {
+          "num": "42",
+          "type": "Chọn câu trả lời đúng",
+          "question": "",
+          "options": [],
+          "is_speaking": true,
+          "speaking_word": "",
+          "audio_data": "",
+          "image_data": "",
+          "correct_ans": "",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+};
 })();
